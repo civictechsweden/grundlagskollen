@@ -83,5 +83,45 @@
       "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/angaende-vilande-forslag-till-grundlagsandringar_g001ku1/html/",
       "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-protokoll-19767723-onsdagen-den-10_g00923/html/"
     ]
+  },
+  {
+    "id": "test-g-1990-2017-candidate-audit",
+    "title": "1990–2017 historical pending-decision candidate audit",
+    "expectedCases": {
+      "GE01KU20": {
+        "stage": "first",
+        "firstPendingDecision": true,
+        "finalDocumentId": "GF01KU2",
+        "finalDecisionDate": "1991-11-06",
+        "status": "adopted",
+        "sfs": ["1991:1501"]
+      },
+      "GE01KU21": {
+        "stage": "first",
+        "firstPendingDecision": true,
+        "finalDocumentId": "GF01KU1",
+        "finalDecisionDate": "1991-11-06",
+        "status": "adopted",
+        "sfs": ["1991:1470", "1991:1471"]
+      },
+      "GR01KU9": {"stage": "candidate", "firstPendingDecision": false},
+      "GS01KU27": {"stage": "candidate", "firstPendingDecision": false},
+      "GS01KU29": {"stage": "candidate", "firstPendingDecision": false},
+      "GT01KU18": {"stage": "candidate", "firstPendingDecision": false},
+      "H401KU30": {"stage": "candidate", "firstPendingDecision": false}
+    },
+    "sourceUrls": [
+      "https://data.riksdagen.se/dokument/GE01KU20",
+      "https://data.riksdagen.se/dokument/GE01KU21",
+      "https://data.riksdagen.se/dokument/GR01KU9",
+      "https://data.riksdagen.se/dokument/GS01KU27",
+      "https://data.riksdagen.se/dokument/GS01KU29",
+      "https://data.riksdagen.se/dokument/GT01KU18",
+      "https://data.riksdagen.se/dokument/H401KU30",
+      "https://data.riksdagen.se/dokument/GF01KU1",
+      "https://data.riksdagen.se/dokument/GF01KU2",
+      "https://ferenda.lagen.nu/1974:152",
+      "https://ferenda.lagen.nu/openapi.json"
+    ]
   }
 ]

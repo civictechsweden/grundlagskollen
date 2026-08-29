@@ -58,7 +58,16 @@ DISCOVERY_QUERIES = (
 # even though the modern discovery window starts in 1975.
 REGRESSION_DOCUMENT_IDS = {
     "GF01KU13",  # 1991 final rejection
+    "GF01KU1",   # 1991 final adoption for GE01KU21
+    "GF01KU2",   # 1991 final adoption for GE01KU20
     "GE01KU22",  # 1991 first decision
+    "GE01KU20",  # genuine first decision without a proposition
+    "GE01KU21",  # genuine first decision for YGL/TF/RF
+    "GR01KU9",   # historical/procedural false positive
+    "GS01KU27",  # rejected constitutional motions
+    "GS01KU29",  # reservation false positive
+    "GT01KU18",  # reservation false positive
+    "H401KU30",  # historical-reference false positive
     "FZ01KU1",   # motion wording falsely resembling a pending decision
     "FZ01KU48",  # genuine first pending decision, TF 2 kap.
     "G001KU1",   # post-election committee report for the 1976 cases
@@ -438,6 +447,24 @@ def committee_decision_text(text: str) -> str:
     ``Utskottet`` heading and put reservations after a standalone
     ``Reservationer`` heading.
     """
+    # Modern reports expose the operative list as a heading. This section is
+    # followed by the report/background or the committee's reasoning; taking
+    # the whole document here would admit motion and reservation language.
+    proposal_matches = list(re.finditer(r"(?im)^\s*Utskottets förslag till riksdagsbeslut\s*$", text))
+    if proposal_matches:
+        committee = proposal_matches[-1]
+        end_matches = [
+            match for pattern in (
+                r"(?im)^\s*Redogörelse för ärendet\s*$",
+                r"(?im)^\s*Utskottets överväganden\s*$",
+                r"(?im)^\s*Reservation(?:er)?\s*$",
+                r"(?im)^\s*Bilaga\b.*$",
+            )
+            if (match := re.search(pattern, text[committee.end():]))
+        ]
+        end = committee.end() + min((match.start() for match in end_matches), default=len(text) - committee.end())
+        return text[committee.start():end]
+
     committee_matches = list(re.finditer(r"(?im)^\s*(?:Konstitutions)?utskottet\s*$", text))
     if not committee_matches:
         return text
@@ -482,7 +509,11 @@ def classify(title: str, text: str) -> dict:
     rejected = list(dict.fromkeys(rejected))
     final_context = bool(re.search(r"för slutligt beslut|slutligt beslut|slutbehandling|slutlig prövning", corpus, re.I))
     title_vilande = bool(re.search(r"vilande|hvilande", title, re.I))
-    final_procedure = bool(re.search(r"(?:anmäl|anmäler|anmäld)[\s\S]{0,90}(?:för|till)\s+slutligt beslut[\s\S]{0,90}(?:vilande|hvilande)", corpus, re.I))
+    final_procedure = bool(
+        re.search(r"(?:anmäl|anmäler|anmäld|anmäla)[\s\S]{0,120}(?:för|till)\s+slutligt\s+beslut[\s\S]{0,120}(?:vilande|hvilande)", committee_text, re.I)
+        or re.search(r"(?:vilande|hvilande)[\s\S]{0,160}(?:anmäl|anmäler|anmäld|anmäla)[\s\S]{0,120}(?:för|till)\s+slutligt\s+beslut", committee_text, re.I)
+        or re.search(r"(?:det|de)\s+vilande\s+beslut(?:et|en)\s+anmäl(?:s|es)[\s\S]{0,100}(?:för|till)\s+slutligt\s+beslut", corpus, re.I)
+    )
     legacy_chamber_vote = bool(protocol_adopted or protocol_rejected or re.search(r"(?:omröstningen visade|kammaren förkastat|kammaren alltså fattat beslut enligt ja-propositionens)", corpus, re.I))
     # A first-decision report may describe the future second vote. Require an
     # explicit final-procedure context before interpreting the same words as a
@@ -553,10 +584,86 @@ def proposition_keys(document: dict) -> set[str]:
     return set()
 
 
-def work_keys(works: list[str]) -> set[str]:
+FERENDA_WORK_TYPES = (
+    ("proposition", "prop", re.compile(r"^prop(?:osition)?\.?\s+(.+)$", re.I)),
+    ("betänkande", "bet", re.compile(r"^bet(?:änkande)?\.?\s+(.+)$", re.I)),
+    ("riksdagsskrivelse", "rskr", re.compile(r"^rskr\.?\s+(.+)$", re.I)),
+    ("skrivelse", "skr", re.compile(r"^skr(?:ivelse)?\.?\s+(.+)$", re.I)),
+)
+
+
+def ferenda_work_uri(work: str) -> tuple[str, str] | None:
+    value = re.sub(r"\s+", " ", str(work)).strip()
+    for kind, path, pattern in FERENDA_WORK_TYPES:
+        match = pattern.match(value)
+        if not match:
+            continue
+        citation = re.sub(r"\s+", "", match.group(1))
+        if not re.fullmatch(r"\d{4}/\d{2}:[A-Za-z0-9]+", citation):
+            return None
+        return kind, f"https://lagen.nu/{path}/{citation}"
+    return None
+
+
+def riksdag_document_id_from_source_url(source_url: str | None) -> str | None:
+    if not source_url:
+        return None
+    match = re.search(r"data\.riksdagen\.se/dokument/([A-Za-z0-9]+)", str(source_url), re.I)
+    return match.group(1).upper() if match else None
+
+
+def resolve_ferenda_work(work: str, cache: dict[str, dict]) -> dict:
+    """Resolve a Ferenda preparatory-work citation through the JSON API.
+
+    The SFS artifact stores the printed citation, while the canonical Ferenda
+    document record exposes the source Riksdag URL. No webpage scraping is
+    involved: both values come from documented JSON endpoints.
+    """
+    value = re.sub(r"\s+", " ", str(work)).strip()
+    if value in cache:
+        return cache[value]
+    parsed = ferenda_work_uri(value)
+    result = {"citation": value, "ferendaUri": None, "sourceUrl": None, "riksdagDocumentId": None}
+    if not parsed:
+        cache[value] = result
+        return result
+    kind, uri = parsed
+    result["ferendaUri"] = uri
+    try:
+        document = fetch_json(f"{FERENDA}/document?{urlencode({'uri': uri})}")
+        source_url = document.get("source_url") or document.get("artifact", {}).get("source_url")
+        result["sourceUrl"] = source_url
+        result["riksdagDocumentId"] = riksdag_document_id_from_source_url(source_url)
+        result["kind"] = kind
+    except Exception as error:  # Keep an unresolved source visible in the snapshot.
+        result["resolutionError"] = f"{type(error).__name__}: {error}"
+    cache[value] = result
+    return result
+
+
+def resolve_ferenda_works(works: list[str], cache: dict[str, dict]) -> list[dict]:
+    resolved = []
+    seen = set()
+    for work in works:
+        item = resolve_ferenda_work(work, cache)
+        key = item["citation"]
+        if key in seen:
+            continue
+        seen.add(key)
+        resolved.append(item)
+    return resolved
+
+
+def work_keys(works: list[object]) -> set[str]:
     values: set[str] = set()
     for work in works:
-        normalized = normalize_citation(work)
+        if isinstance(work, dict):
+            citation = work.get("citation") or work.get("label") or ""
+            document_id = work.get("riksdagDocumentId")
+            if document_id:
+                values.add(f"document:{normalize_id(str(document_id))}")
+            work = str(citation)
+        normalized = normalize_citation(str(work))
         for prefix, kind in (("prop", "proposition"), ("bet", "betänkande"), ("rskr", "riksdagsskrivelse"), ("skr", "skrivelse")):
             if normalized.startswith(prefix):
                 values.add(f"citation:{kind}:{normalized[len(prefix):]}")
@@ -640,15 +747,36 @@ def load_known_pending() -> list[dict]:
     return value if isinstance(value, list) else []
 
 
-def pair_decisions(documents: list[dict], known_pending: list[dict]) -> list[dict]:
+def pair_decisions(documents: list[dict], known_pending: list[dict], changes: list[dict] | None = None) -> list[dict]:
     firsts = [doc for doc in documents if doc["classification"]["stage"] == "first"]
     finals = [doc for doc in documents if doc["classification"]["stage"] == "final"]
     records: list[dict] = []
     used_first_ids = set()
 
+    def sfs_ids_for_document(document: dict) -> set[str]:
+        if not changes:
+            return set()
+        keys = {
+            f"document:{normalize_id(ref.get('ref_dok_id'))}"
+            for ref in document.get("structuredReferences", [])
+            if ref.get("ref_dok_id")
+        }
+        if not keys:
+            keys = {
+                f"citation:{item['kind']}:{item['normalized']}"
+                for item in document.get("citations", [])
+                if item.get("kind") and item.get("normalized")
+            }
+        return {
+            change["sfs"]
+            for change in changes
+            if keys & work_keys(change.get("preparatoryWorkReferences") or change.get("preparatoryWorks", []))
+        }
+
     for first in firsts:
         first_date = first.get("decisionDate") or first.get("publishedDate") or "9999-99-99"
         first_keys = ref_keys(first)
+        first_sfs_ids = sfs_ids_for_document(first)
         scored: list[tuple[int, dict]] = []
         for final in finals:
             final_date = final.get("decisionDate") or final.get("publishedDate") or "0000-00-00"
@@ -658,9 +786,13 @@ def pair_decisions(documents: list[dict], known_pending: list[dict]) -> list[dic
             shared_proposition = len(proposition_keys(first) & proposition_keys(final))
             shared_bet = len({key for key in shared if "betänkande" in key})
             shared_document = len({key for key in shared if key.startswith("document:")})
+            shared_sfs = first_sfs_ids & sfs_ids_for_document(final)
             # Constitution overlap alone is never evidence of a pair: a KU
             # report routinely cites many unrelated constitutional matters.
-            score = shared_proposition * 50 + shared_bet * 12 + shared_document * 20
+            # A shared Ferenda amendment is an independent secondary-source
+            # signal, especially important for initiative cases without a
+            # proposition (for example GE01KU20).
+            score = shared_proposition * 50 + shared_bet * 12 + shared_document * 20 + len(shared_sfs) * 35
             if score:
                 scored.append((score, final))
         scored.sort(key=lambda pair: (pair[0], pair[1].get("decisionDate") or ""), reverse=True)
@@ -802,6 +934,7 @@ def proposal_record(first: dict, final: dict | None, score: int, committee: dict
 def fetch_ferenda_changes() -> tuple[list[dict], dict[str, dict]]:
     changes: list[dict] = []
     catalogs: dict[str, dict] = {}
+    preparatory_work_cache: dict[str, dict] = {}
     for law in CONSTITUTIONS:
         document = fetch_json(f"{FERENDA}/document?{urlencode({'uri': law['uri']})}")
         versions_response = fetch_json(f"{FERENDA}/document/versions?{urlencode({'uri': law['uri']})}")
@@ -815,6 +948,7 @@ def fetch_ferenda_changes() -> tuple[list[dict], dict[str, dict]]:
             version = versions.get(sfs, {})
             properties = amendment.get("properties", {})
             works = list(dict.fromkeys(amendment.get("forarbeten", []) + version.get("forarbeten", [])))
+            work_references = resolve_ferenda_works(works, preparatory_work_cache)
             changes.append({
                 "id": f"{law['id']}-{sfs}",
                 "constitutionId": law["id"],
@@ -825,6 +959,7 @@ def fetch_ferenda_changes() -> tuple[list[dict], dict[str, dict]]:
                 "title": properties.get("rpubl:andrar") or "Ändring registrerad i konsolideringen",
                 "description": properties.get("rpubl:andrar") or "Ändring registrerad i konsolideringen",
                 "preparatoryWorks": works,
+                "preparatoryWorkReferences": work_references,
                 "lawUrl": f"https://lagen.nu/{sfs}",
                 "versionUrl": version.get("uri") or f"https://lagen.nu/{law['sfs']}/konsolidering/{sfs}",
                 "sfsMetadataUrl": uri,
@@ -839,20 +974,63 @@ def attach_sfs(proposals: list[dict], changes: list[dict]) -> dict:
     orphan_sfs: list[str] = []
     rejected_with_sfs: list[str] = []
     chronology_errors: list[str] = []
+
+    def decision_keys(decision: dict | None) -> set[str]:
+        if not decision:
+            return set()
+        # Structured Riksdag IDs are the reliable bridge to Ferenda. Text
+        # citations contain historical/background references as well, which
+        # would otherwise attach unrelated SFS amendments to one case.
+        values = {
+            f"document:{normalize_id(value)}"
+            for value in decision.get("riksdagReferences", [])
+            if value
+        }
+        if not values:
+            values = {
+                f"citation:{item['kind']}:{item['normalized']}"
+                for field in ("propositionReferences", "riksdagCitationReferences")
+                for item in decision.get(field, [])
+                if item.get("kind") and item.get("normalized")
+            }
+        return values
+
     for proposal in proposals:
-        if proposal["status"] != "adopted":
-            continue
-        decision = proposal.get("finalDecision") or proposal.get("firstDecision") or {}
-        refs = {f"citation:{item['kind']}:{item['normalized']}" for item in decision.get("propositionReferences", [])}
-        refs |= {f"citation:{item['kind']}:{item['normalized']}" for item in decision.get("riksdagCitationReferences", [])}
-        refs |= {f"document:{normalize_id(value)}" for value in decision.get("riksdagReferences", []) if value}
-        matches = []
+        first_keys = decision_keys(proposal.get("firstDecision"))
+        final_keys = decision_keys(proposal.get("finalDecision"))
+        first_matches = []
+        final_matches = []
+        evidence = []
         for change in changes:
-            works = work_keys(change.get("preparatoryWorks", []))
-            if refs & works:
-                matches.append(change["sfs"])
-        proposal["sfsIds"] = list(dict.fromkeys(matches))
-        if not matches:
+            works = work_keys(change.get("preparatoryWorkReferences") or change.get("preparatoryWorks", []))
+            first_overlap = first_keys & works
+            final_overlap = final_keys & works
+            if first_overlap or final_overlap:
+                if first_overlap:
+                    first_matches.append(change["sfs"])
+                if final_overlap:
+                    final_matches.append(change["sfs"])
+                evidence.append({
+                    "sfs": change["sfs"],
+                    "match": "first" if first_overlap and not final_overlap else "final" if final_overlap and not first_overlap else "first_and_final",
+                    "matchedKeys": sorted(first_overlap | final_overlap),
+                    "preparatoryWorks": change.get("preparatoryWorkReferences", []),
+                    "sourceUrl": change.get("sfsMetadataUrl"),
+                })
+        # Prefer the SFS amendments cited by the first decision. A final KU
+        # report can settle several independent first decisions in one
+        # riksdagsskrivelse, so using its references alone is too broad.
+        matches = list(dict.fromkeys(first_matches or final_matches))
+        proposal["sfsIds"] = matches
+        proposal["sfsValidation"] = {
+            "source": "Ferenda SFS amendment metadata via documented JSON API",
+            "firstDecisionConfirmed": bool(first_matches),
+            "finalDecisionConfirmed": bool(final_matches),
+            "firstDecisionSfsIds": list(dict.fromkeys(first_matches)),
+            "finalDecisionSfsIds": list(dict.fromkeys(final_matches)),
+            "evidence": evidence,
+        }
+        if proposal["status"] == "adopted" and not matches:
             adopted_without_sfs.append(proposal["proposalId"])
     for proposal in proposals:
         first_date = proposal.get("firstDecision", {}).get("date")
@@ -877,6 +1055,7 @@ def attach_sfs(proposals: list[dict], changes: list[dict]) -> dict:
         "unknownSfsOperations": unknown_operations,
         "twoWayValidation": {
             "riksdagToSfs": {"adopted": sum(1 for item in proposals if item.get("status") == "adopted"), "matched": sum(1 for item in proposals if item.get("status") == "adopted" and item.get("sfsIds")), "withoutMatch": len(adopted_without_sfs)},
+            "firstDecisionSfsConfirmation": sum(1 for item in proposals if item.get("sfsValidation", {}).get("firstDecisionConfirmed")),
             "sfsToRiksdag": {"changes": len(changes), "matched": len(changes) - len(orphan_sfs), "orphan": len(orphan_sfs)},
         },
     }
@@ -921,9 +1100,9 @@ def main() -> None:
         )
     ]
 
-    graph = graph_for(documents)
-    proposals = pair_decisions(documents, load_known_pending())
     changes, catalogs = fetch_ferenda_changes()
+    graph = graph_for(documents)
+    proposals = pair_decisions(documents, load_known_pending(), changes)
     match_report = attach_sfs(proposals, changes)
     generated_at = now()
     output = {

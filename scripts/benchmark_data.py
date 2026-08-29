@@ -114,6 +114,21 @@ def check_case(case: dict, proposals: list[dict], documents: dict[str, dict], ch
         check("final committee document", final_decision.get("committeeDocumentId") == case["expectedCommitteeDocumentId"], final_decision.get("committeeDocumentId"), case["expectedCommitteeDocumentId"])
         check("final date", final_decision.get("date") == case["expectedFinalDecisionDate"], final_decision.get("date"), case["expectedFinalDecisionDate"])
         check("final bet", case["expectedFinalBet"].replace(" ", "").lower() in {value.replace(" ", "").lower() for value in final_bets}, sorted(final_bets), case["expectedFinalBet"])
+    elif case_id == "test-g-1990-2017-candidate-audit":
+        expected_cases = case["expectedCases"]
+        for document_id, expected in expected_cases.items():
+            document = documents.get(document_id, {})
+            classification = document.get("classification", {})
+            proposal = next((item for item in proposals if item.get("firstDecision", {}).get("documentId") == document_id), None)
+            check(f"{document_id} present", bool(document), document_id)
+            check(f"{document_id} stage", classification.get("stage") == expected["stage"], classification.get("stage"), expected["stage"])
+            check(f"{document_id} first-pending flag", classification.get("firstPendingDecision") == expected["firstPendingDecision"], classification.get("firstPendingDecision"), expected["firstPendingDecision"])
+            if "status" in expected:
+                check(f"{document_id} status", proposal and proposal.get("status") == expected["status"], proposal and proposal.get("status"), expected["status"])
+                final = proposal.get("finalDecision") if proposal else None
+                check(f"{document_id} final document", final and final.get("documentId") == expected["finalDocumentId"], final and final.get("documentId"), expected["finalDocumentId"])
+                check(f"{document_id} final date", final and final.get("date") == expected["finalDecisionDate"], final and final.get("date"), expected["finalDecisionDate"])
+                check(f"{document_id} SFS confirmation", proposal and set(proposal.get("sfsIds", [])) == set(expected["sfs"]), proposal and proposal.get("sfsIds"), expected["sfs"])
     else:
         check("known regression case", False, case_id, "known case")
     return {"id": case_id, "title": case.get("title"), "passed": all(item["passed"] for item in checks), "checks": checks, "sourceUrls": case.get("sourceUrls", [])}

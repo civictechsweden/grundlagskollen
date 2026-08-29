@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-29T19:36:15.381753+00:00",
+  "generatedAt": "2026-08-29T20:13:11.072951+00:00",
   "metrics": {
-    "total_pending_proposals": 14,
-    "finally_adopted": 60,
+    "total_pending_proposals": 7,
+    "finally_adopted": 58,
     "finally_rejected": 1,
-    "unresolved": 7,
-    "matched_to_sfs": 77,
-    "adopted_without_sfs_match": 2,
-    "orphan_sfs": 44,
+    "unresolved": 0,
+    "matched_to_sfs": 73,
+    "adopted_without_sfs_match": 0,
+    "orphan_sfs": 48,
     "rejected_with_sfs": 0,
     "chronology_errors": 0,
     "unknown_sfs_operations": 28,
-    "regression_cases": 6,
-    "regression_passed": 6,
+    "regression_cases": 7,
+    "regression_passed": 7,
     "secondary_cases": 8,
     "secondary_passed": 8
   },
@@ -435,6 +435,210 @@
         "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/angaende-vilande-forslag-till-grundlagsandringar_g001ku1/html/",
         "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-protokoll-19767723-onsdagen-den-10_g00923/html/"
       ]
+    },
+    {
+      "id": "test-g-1990-2017-candidate-audit",
+      "title": "1990–2017 historical pending-decision candidate audit",
+      "passed": true,
+      "checks": [
+        {
+          "name": "GE01KU20 present",
+          "passed": true,
+          "actual": "GE01KU20",
+          "expected": null
+        },
+        {
+          "name": "GE01KU20 stage",
+          "passed": true,
+          "actual": "first",
+          "expected": "first"
+        },
+        {
+          "name": "GE01KU20 first-pending flag",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "GE01KU20 status",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "GE01KU20 final document",
+          "passed": true,
+          "actual": "GF01KU2",
+          "expected": "GF01KU2"
+        },
+        {
+          "name": "GE01KU20 final date",
+          "passed": true,
+          "actual": "1991-11-06",
+          "expected": "1991-11-06"
+        },
+        {
+          "name": "GE01KU20 SFS confirmation",
+          "passed": true,
+          "actual": [
+            "1991:1501"
+          ],
+          "expected": [
+            "1991:1501"
+          ]
+        },
+        {
+          "name": "GE01KU21 present",
+          "passed": true,
+          "actual": "GE01KU21",
+          "expected": null
+        },
+        {
+          "name": "GE01KU21 stage",
+          "passed": true,
+          "actual": "first",
+          "expected": "first"
+        },
+        {
+          "name": "GE01KU21 first-pending flag",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "GE01KU21 status",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "GE01KU21 final document",
+          "passed": true,
+          "actual": "GF01KU1",
+          "expected": "GF01KU1"
+        },
+        {
+          "name": "GE01KU21 final date",
+          "passed": true,
+          "actual": "1991-11-06",
+          "expected": "1991-11-06"
+        },
+        {
+          "name": "GE01KU21 SFS confirmation",
+          "passed": true,
+          "actual": [
+            "1991:1471",
+            "1991:1470"
+          ],
+          "expected": [
+            "1991:1470",
+            "1991:1471"
+          ]
+        },
+        {
+          "name": "GR01KU9 present",
+          "passed": true,
+          "actual": "GR01KU9",
+          "expected": null
+        },
+        {
+          "name": "GR01KU9 stage",
+          "passed": true,
+          "actual": "candidate",
+          "expected": "candidate"
+        },
+        {
+          "name": "GR01KU9 first-pending flag",
+          "passed": true,
+          "actual": false,
+          "expected": false
+        },
+        {
+          "name": "GS01KU27 present",
+          "passed": true,
+          "actual": "GS01KU27",
+          "expected": null
+        },
+        {
+          "name": "GS01KU27 stage",
+          "passed": true,
+          "actual": "candidate",
+          "expected": "candidate"
+        },
+        {
+          "name": "GS01KU27 first-pending flag",
+          "passed": true,
+          "actual": false,
+          "expected": false
+        },
+        {
+          "name": "GS01KU29 present",
+          "passed": true,
+          "actual": "GS01KU29",
+          "expected": null
+        },
+        {
+          "name": "GS01KU29 stage",
+          "passed": true,
+          "actual": "candidate",
+          "expected": "candidate"
+        },
+        {
+          "name": "GS01KU29 first-pending flag",
+          "passed": true,
+          "actual": false,
+          "expected": false
+        },
+        {
+          "name": "GT01KU18 present",
+          "passed": true,
+          "actual": "GT01KU18",
+          "expected": null
+        },
+        {
+          "name": "GT01KU18 stage",
+          "passed": true,
+          "actual": "candidate",
+          "expected": "candidate"
+        },
+        {
+          "name": "GT01KU18 first-pending flag",
+          "passed": true,
+          "actual": false,
+          "expected": false
+        },
+        {
+          "name": "H401KU30 present",
+          "passed": true,
+          "actual": "H401KU30",
+          "expected": null
+        },
+        {
+          "name": "H401KU30 stage",
+          "passed": true,
+          "actual": "candidate",
+          "expected": "candidate"
+        },
+        {
+          "name": "H401KU30 first-pending flag",
+          "passed": true,
+          "actual": false,
+          "expected": false
+        }
+      ],
+      "sourceUrls": [
+        "https://data.riksdagen.se/dokument/GE01KU20",
+        "https://data.riksdagen.se/dokument/GE01KU21",
+        "https://data.riksdagen.se/dokument/GR01KU9",
+        "https://data.riksdagen.se/dokument/GS01KU27",
+        "https://data.riksdagen.se/dokument/GS01KU29",
+        "https://data.riksdagen.se/dokument/GT01KU18",
+        "https://data.riksdagen.se/dokument/H401KU30",
+        "https://data.riksdagen.se/dokument/GF01KU1",
+        "https://data.riksdagen.se/dokument/GF01KU2",
+        "https://ferenda.lagen.nu/1974:152",
+        "https://ferenda.lagen.nu/openapi.json"
+      ]
     }
   ],
   "secondaryBenchmarks": [
@@ -661,14 +865,15 @@
     ],
     "twoWayValidation": {
       "riksdagToSfs": {
-        "adopted": 60,
+        "adopted": 58,
         "matched": 58,
-        "withoutMatch": 2
+        "withoutMatch": 0
       },
+      "firstDecisionSfsConfirmation": 50,
       "sfsToRiksdag": {
         "changes": 121,
-        "matched": 77,
-        "orphan": 44
+        "matched": 73,
+        "orphan": 48
       }
     }
   },

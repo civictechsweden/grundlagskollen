@@ -1,23 +1,23 @@
 # Dataset benchmark
 
-Generated: `2026-08-29T19:36:15.381753+00:00`
+Generated: `2026-08-29T20:13:11.072951+00:00`
 
 ## Coverage
 
 | Metric | Value |
 | --- | ---: |
-| `total_pending_proposals` | 14 |
-| `finally_adopted` | 60 |
+| `total_pending_proposals` | 7 |
+| `finally_adopted` | 58 |
 | `finally_rejected` | 1 |
-| `unresolved` | 7 |
-| `matched_to_sfs` | 77 |
-| `adopted_without_sfs_match` | 2 |
-| `orphan_sfs` | 44 |
+| `unresolved` | 0 |
+| `matched_to_sfs` | 73 |
+| `adopted_without_sfs_match` | 0 |
+| `orphan_sfs` | 48 |
 | `rejected_with_sfs` | 0 |
 | `chronology_errors` | 0 |
 | `unknown_sfs_operations` | 28 |
-| `regression_cases` | 6 |
-| `regression_passed` | 6 |
+| `regression_cases` | 7 |
+| `regression_passed` | 7 |
 | `secondary_cases` | 8 |
 | `secondary_passed` | 8 |
 
@@ -31,6 +31,7 @@ Generated: `2026-08-29T19:36:15.381753+00:00`
 | test-d-1885-1888-rf-6 | PASS (6/6) |
 | test-e-1975-motion-not-first | PASS (5/5) |
 | test-f-1975-1976-tf-final-adoption | PASS (12/12) |
+| test-g-1990-2017-candidate-audit | PASS (29/29) |
 
 ## Secondary-source fixtures
 
