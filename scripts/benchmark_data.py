@@ -184,7 +184,11 @@ def main() -> None:
     for result in secondary_results:
         lines.append(f"| {result['id']} | {'PASS' if result['passed'] else 'FAIL'} ({sum(1 for item in result['checks'] if item['passed'])}/{len(result['checks'])}) |")
     lines.extend(["", "## Ferenda snapshots", "", f"Checked: `{report['ferenda_snapshots']['checked']}`; exact: `{report['ferenda_snapshots']['exact']}`; normalized: `{report['ferenda_snapshots']['normalized']}`; mismatches: `{report['ferenda_snapshots']['mismatches']}`.", "", "A regression failure is retained as data and should be investigated before a snapshot is described as complete."])
-    (ROOT / "DATA_BENCHMARK.md").write_text("\n".join(lines) + "\n")
+    benchmark_markdown = "\n".join(lines) + "\n"
+    (ROOT / "DATA_BENCHMARK.md").write_text(benchmark_markdown)
+    frontend_public = ROOT / "frontend/public"
+    if frontend_public.exists():
+        (frontend_public / "DATA_BENCHMARK.md").write_text(benchmark_markdown)
     print(f"Regression cases: {report['metrics']['regression_passed']}/{report['metrics']['regression_cases']} passed.")
     print(f"Pending/unresolved: {report['metrics']['total_pending_proposals']}; adopted: {report['metrics']['finally_adopted']}; rejected: {report['metrics']['finally_rejected']}; SFS matched: {report['metrics']['matched_to_sfs']}.")
 

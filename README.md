@@ -9,11 +9,12 @@ uv sync
 uv run --locked scripts/update_data.py
 uv run --locked scripts/generate_versions.py --git
 uv run --locked scripts/benchmark_data.py
+cd frontend
 npm install
 npm run dev
 ```
 
-`npm run build` skapar `dist/`, inklusive de genererade versionstexterna och patcharna i `public/versions/`.
+`npm run build` från `frontend/` skapar `frontend/dist/`, inklusive de genererade versionstexterna och patcharna i `frontend/public/versions/`.
 
 ## Dataflöde
 

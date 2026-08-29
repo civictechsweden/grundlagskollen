@@ -1,9 +1,9 @@
-import data from '../data/changes.json';
-import graph from '../data/document-graph.json';
-import riksdagData from '../data/riksdag-index.json';
-import benchmark from '../data/benchmark-report.json';
-import patchData from '../data/version-patches.json';
-import versionReport from '../data/version-report.json';
+import data from '../../data/changes.json';
+import graph from '../../data/document-graph.json';
+import riksdagData from '../../data/riksdag-index.json';
+import benchmark from '../../data/benchmark-report.json';
+import patchData from '../../data/version-patches.json';
+import versionReport from '../../data/version-report.json';
 import './style.css';
 
 const app = document.querySelector('#app');

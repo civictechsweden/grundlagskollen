@@ -119,7 +119,7 @@ def load_catalog(snapshot: dict, law: dict) -> list[dict]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--output", default=str(ROOT / "public/versions"), help="Directory for generated public artifacts")
+    parser.add_argument("--output", default=str(ROOT / "frontend/public/versions"), help="Directory for generated public artifacts")
     parser.add_argument("--git", action="store_true", help="Commit the generated output to a separate bare git repository")
     parser.add_argument("--git-dir", default=str(ROOT / ".versions-git"), help="Bare repository used with --git")
     args = parser.parse_args()
@@ -308,8 +308,9 @@ def main() -> None:
     lines += ["", "## Interpretation", "", "Ferenda-reference batches are dates for which a fetched Ferenda consolidated text exists. They are benchmark references, not generated snapshots. Metadata-only batches still have SFS event metadata but no deterministic full-text snapshot in this run.", "", "## Full-text comparison", "", f"Full-text application: `{report['summary']['fullTextApplication']}`. Comparable snapshots: `{report['summary']['notComparable']}`; exact: `{report['summary']['exactMatches']}`; normalized: `{report['summary']['normalizedMatches']}`; mismatches: `{report['summary']['mismatches']}`.", "", "## Limitations", "", *[f"- {item}" for item in report["limitations"]], ""]
     version_report_markdown = "\n".join(lines)
     (ROOT / "VERSIONING_REPORT.md").write_text(version_report_markdown)
-    (ROOT / "public").mkdir(parents=True, exist_ok=True)
-    (ROOT / "public/VERSIONING_REPORT.md").write_text(version_report_markdown)
+    frontend_public = ROOT / "frontend/public"
+    frontend_public.mkdir(parents=True, exist_ok=True)
+    (frontend_public / "VERSIONING_REPORT.md").write_text(version_report_markdown)
 
     if args.git:
         git_dir = Path(args.git_dir).resolve()

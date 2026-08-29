@@ -2,6 +2,7 @@ node_modules/
 dist/
 .DS_Store
 .playwright-mcp/
+.vite/
 scripts/__pycache__/
 .cache/
 data/.cache/

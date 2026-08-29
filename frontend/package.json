@@ -7,9 +7,9 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "update-data": "uv run --locked scripts/update_data.py",
-    "benchmark-data": "uv run --locked scripts/benchmark_data.py",
-    "generate-versions": "uv run --locked scripts/generate_versions.py --git"
+    "update-data": "uv run --locked ../scripts/update_data.py",
+    "benchmark-data": "uv run --locked ../scripts/benchmark_data.py",
+    "generate-versions": "uv run --locked ../scripts/generate_versions.py --git"
   },
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.12",
