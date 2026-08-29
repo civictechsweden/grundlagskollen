@@ -800,6 +800,22 @@ def main() -> None:
     (DATA / "changes.json").write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n")
     (DATA / "document-graph.json").write_text(json.dumps(graph, ensure_ascii=False, indent=2) + "\n")
     (DATA / "riksdag-documents.json").write_text(json.dumps({"generatedAt": generated_at, "documents": documents, "errors": errors}, ensure_ascii=False, indent=2) + "\n")
+    riksdag_index = [
+        {
+            "documentId": document["documentId"],
+            "title": document["title"],
+            "documentUrl": document["documentUrl"],
+            "constitutionIds": document.get("constitutionIds", []),
+            "evidence": document.get("evidence", []),
+            "structuredReferences": [
+                {key: ref.get(key) for key in ("ref_dok_typ", "ref_dok_rm", "ref_dok_bet", "ref_dok_id")}
+                for ref in document.get("structuredReferences", [])
+                if str(ref.get("ref_dok_typ", "")).lower() in {"rskr", "skr", "prot"}
+            ],
+        }
+        for document in documents
+    ]
+    (DATA / "riksdag-index.json").write_text(json.dumps({"generatedAt": generated_at, "documents": riksdag_index}, ensure_ascii=False, indent=2) + "\n")
     print(f"Fetched {len(documents)}/{len(discovered)} Riksdag candidate documents; built {len(proposals)} proposal records and {len(changes)} SFS changes.")
     print(f"First decisions: {sum(1 for proposal in proposals if proposal.get('firstDecision'))}; final decisions: {sum(1 for proposal in proposals if proposal.get('finalDecision'))}; rejected: {sum(1 for proposal in proposals if proposal['status'] == 'rejected')}; unresolved/pending: {sum(1 for proposal in proposals if proposal['status'] in {'pending', 'unresolved'})}.")
 
