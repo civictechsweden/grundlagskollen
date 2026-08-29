@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T18:27:43.219029+00:00",
+  "generatedAt": "2026-08-29T18:41:50.782510+00:00",
   "documents": [
     {
       "documentId": "CL10KU1",
@@ -34,7 +34,6 @@
         "tf"
       ],
       "evidence": [
-        "t till stånd. Men förslaget i öfrigt är ju sådant, att man knappast kan säga något emot det. Het blef utan diskussion antaget såsom hvilande, och jag hai icke hört någon invändning mot detsamma, om jag undantager den lilla anmärkning, som af den förste talaren framstäldes beträffande straffbestämmelsen. Men straffbestämmelsen är ju den gamla, utan ändrin",
         "gande ja för den förra propositionen. Votering blef emellertid begärd och företogs enligt följande nu uppsatta och af kammaren godkända voteringsproposition: Den, som vill, att det från 1896 års riksdag hvilande förslaget om ändring i 2 § 4:o tryckfrihetsförordningen i fråga om meddelande af utdrag af det i riket inrättade straffregister skall antagas, röst…",
         "igt följande nu uppsatta och af kammaren godkända voteringsproposition: Den, som vill, att det från 1896 års riksdag hvilande förslaget om ändring i 2 § 4:o tryckfrihetsförordningen i fråga om meddelande af utdrag af det i riket inrättade straffregister skall antagas, röstar Ja; Den, det ej vill, röstar Nej; Vinner nej, har kammaren förkastat nämnda förslag…"
       ],
@@ -209,7 +208,7 @@
       ],
       "evidence": [
         "de 2 kap. 10 § RF (skydd mot retroaktiv skattelagstiftning) med avslag på motionen 1978/79:2641 såvitt nu är i fråga som vilande antar propositionens förslag i denna del, 5. beträffande 2 kap. 12 § RF (särskilt lagstiftningsförfarande för lag som angår begränsande av vissa fri- och rättigheter) med avslag på motionen 1978/79:2641 såvitt nu är i fråg",
-        "a regel, om utskottet beslutar härom med fem sjättedels majoritet. Vidare föreslås att förslag till grundlag, som har antagits som vilande av riksdagen, skall underställas folkomröstning, om minst en tredjedel av riksdagens ledamöter begär det. Folkomröstningen skall i så fall äga rum samtidigt med det riksdagsval, efter vilket det avgörande riksdagsbes",
+        "tionens förslag i dessa delar, 13. beträffande propositionens förslag till lag om ändring i regeringsformen i övrigt antar detta som vilande, 14. beträffande förslaget till lag om ändring i riksdagsordningen a) med avslag på motionen 1978/79:2641 såvitt nu är i fråga antar förslaget som vilande såvitt avser huvudbestämmelserna och ikraftträdandebestämmel",
         "kap. 10 § RF (skydd mot retroaktiv skattelagstiftning) med avslag på motionen 1978/79:2641 såvitt nu är i fråga som vilande antar propositionens förslag i denna del, 5. beträffande 2 kap. 12 § RF (särskilt lagstiftningsförfarande för lag som angår begränsande av vissa fri- och rättigheter) med avslag på motionen 1978/79:2641 såvitt nu är i fråg",
         "eslutar härom med fem sjättedels majoritet. Vidare föreslås att förslag till grundlag, som har antagits som vilande av riksdagen, skall underställas folkomröstning, om minst en tredjedel av riksdagens ledamöter begär det. Folkomröstningen skall i så fall äga rum samtidigt med det riksdagsval, efter vilket det avgörande riksdagsbeslutet skall fattas. Förslag…"
       ],
@@ -244,51 +243,6 @@
           "ref_dok_rm": "1979/80",
           "ref_dok_bet": "2",
           "ref_dok_id": "G30K2"
-        }
-      ]
-    },
-    {
-      "documentId": "G301KU34",
-      "title": "med anledning av motion om folkomröstningsinstitutet",
-      "documentUrl": "https://data.riksdagen.se/dokument/G301KU34",
-      "constitutionIds": [],
-      "evidence": [
-        "slag till ändring av grundlag skall bli föremål för folkomröstning om yrkande härom framställs av minst en tiondel av riksdagens ledamöter och minst en tredjedel av ledamöterna röstar för bifall till yrkandet. Folkomröstning skall hållas samtidigt med riksdagsval. Förslaget är förkastat, om de flesta som deltar i omröstningen röstar mot förslaget och de til…"
-      ],
-      "structuredReferences": []
-    },
-    {
-      "documentId": "G401KU3",
-      "title": "om vissa grundlagsfrågor m.m.",
-      "documentUrl": "https://data.riksdagen.se/dokument/G401KU3",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "ro"
-      ],
-      "evidence": [
-        "slag till ändring av grundlag skall bli föremål för folkomröstning om yrkande härom framställs av minst en tiondel av riksdagens ledamöter och minst en tredjedel av ledamöterna röstar för bifall till yrkandet. Folkomröstning skall hållas samtidigt med riksdagsval. Förslaget är förkastat, om de flesta som deltar i omröstningen röstar mot förslaget och de til…"
-      ],
-      "structuredReferences": []
-    },
-    {
-      "documentId": "G501KU10",
-      "title": "om vissa grundlagsfrågor m.m.",
-      "documentUrl": "https://data.riksdagen.se/dokument/G501KU10",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "ro"
-      ],
-      "evidence": [
-        "slag till ändring av grundlag skall bli föremål för folkomröstning om yrkande härom framställs av minst en tiondel av riksdagens ledamöter och minst en tredjedel av ledmöterna röstar för bifall till yrkandet. Folkomröstning skall hållas samtidigt med riksdagsval. Förslaget är förkastat, om de flesta som deltar i omröstningen röstar mot förslaget och de till…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "1981/82",
-          "ref_dok_bet": "25",
-          "ref_dok_id": "G50K25"
         }
       ]
     },
@@ -354,27 +308,6 @@
       ]
     },
     {
-      "documentId": "G501KU35",
-      "title": "med anledning av granskning av statsrådens tjänsteutövning och regeringsärendenas handläggning",
-      "documentUrl": "https://data.riksdagen.se/dokument/G501KU35",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ro"
-      ],
-      "evidence": [
-        "lof Palme, Gösta Bohman och Lars Werner. Sedan talmannen erinrat om att förslag till ny statsminister skulle prövas av riksdagen genom omröstning upplästes och godkändes följande voterings­proposition: Den som godkänner förslaget att till statsminister utses Thorbjörn Fälldin röstar ja, den det ej vill röstar nej. Röstar mer än hälften av riksdagens ledamöt…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "1981/82",
-          "ref_dok_bet": "292",
-          "ref_dok_id": "G50K292"
-        }
-      ]
-    },
-    {
       "documentId": "G501KU36",
       "title": "om formerna för den kyrkliga lagstiftningen m.m. (prop. 1981/82:77)",
       "documentUrl": "https://data.riksdagen.se/dokument/G501KU36",
@@ -423,8 +356,6 @@
         "ro"
       ],
       "evidence": [
-        "vid senare tidpunkt. 1 Riksdagen 1982/83. 4 sami. Nr 1 KU 1982/83:1 2 Utskottet Under 1981 och 1982 har riksdagen som vilande antagit vissa ändringar i grundlag i enlighet med vad som angetts i det föregående. Med hänvisning till vad som från utskottets sida i dessa delar anförts vid ärendenas första riksdagsbehandling (KU 1981/82:36, KU 1981/82:16",
-        "senare tidpunkt. 1 Riksdagen 1982/83. 4 sami. Nr 1 KU 1982/83:1 2 Utskottet Under 1981 och 1982 har riksdagen som vilande antagit vissa ändringar i grundlag i enlighet med vad som angetts i det föregående. Med hänvisning till vad som från utskottets sida i dessa delar anförts vid ärendenas första riksdagsbehandling (KU 1981/82:36, KU 1981/82:16",
         "denas första riksdagsbehandling (KU 1981/82:36, KU 1981/82:16, KU 1981/82:24, KU 1981/82:21) tillstyrker utskottet att riksdagen slutligt antar de vilande förslagen. Utskottet hemställer 1. beträffande formerna för den kyrkliga lagstiftningen m. m. att riksdagen slutligt antar de vilande förslagen till a) lag om ändring i regeringsformen (bilaga 1 a), b)"
       ],
       "structuredReferences": [
@@ -433,27 +364,6 @@
           "ref_dok_rm": "1982/83",
           "ref_dok_bet": "1",
           "ref_dok_id": "G60K1"
-        }
-      ]
-    },
-    {
-      "documentId": "G601KU30",
-      "title": "med anledning av granskning av statsrådens tjänsteutövning och regeringsärendenas handläggning",
-      "documentUrl": "https://data.riksdagen.se/dokument/G601KU30",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ro"
-      ],
-      "evidence": [
-        "sson, Jörgen Ullenhag och Lars Werner. Sedan talmannen erinrat om att förslag till ny statsminister skulle prövas av riksdagen genom omröstning och meddelat att denna komme att ske genom rösträkning, upplästes och godkändes följande voteringsproposition: Den som godkänner förslaget att till ny statsminister utses Olof Palme röstar ja, den det ej vill röstar…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "1982/83",
-          "ref_dok_bet": "353",
-          "ref_dok_id": "G60K353"
         }
       ]
     },
@@ -655,8 +565,8 @@
         "ro"
       ],
       "evidence": [
-        "för ledamot. Genom förslagen sker en uppföljning av förslagen till grundlagsändringar i proposition 1984/85:36, vilka som vilande antagits av riksdagen (KU 1984/85:16, rskr. 54). Lagändringarna föreslås träda i kraft den 1 juli 1986. Förslagen i proposition 1984/85:169 innebär i huvudsak följande. Vissa åtgärder vidtas för att förenkla valen till kyrko",
-        "ledamot. Genom förslagen sker en uppföljning av förslagen till grundlagsändringar i proposition 1984/85:36, vilka som vilande antagits av riksdagen (KU 1984/85:16, rskr. 54). Lagändringarna föreslås träda i kraft den 1 juli 1986. Förslagen i proposition 1984/85:169 innebär i huvudsak följande. Vissa åtgärder vidtas för att förenkla valen till kyrko"
+        "t anförda motion 938. Utskottet hemställer 1. att riksdagen med bifall till proposition 1984/85:165 i nu aktuell del som vilande antar det i propositionen framlagda förslaget till lag om ändring i lagen (1982:942) om svenska kyrkan (bilaga till betänkandet), 2. beträffande frågan om föreskrifter om kyrkans ämbete att riksdagen avslår motion 1984/85",
+        "förda motion 938. Utskottet hemställer 1. att riksdagen med bifall till proposition 1984/85:165 i nu aktuell del som vilande antar det i propositionen framlagda förslaget till lag om ändring i lagen (1982:942) om svenska kyrkan (bilaga till betänkandet), 2. beträffande frågan om föreskrifter om kyrkans ämbete att riksdagen avslår motion 1984/85"
       ],
       "structuredReferences": [
         {
@@ -709,8 +619,6 @@
         "ro"
       ],
       "evidence": [
-        "a betänkande anmäls de vilande förslagen för riksdagens slutliga beslut. Utskottet Under 1984 och 1985 har riksdagen som vilande antagit vissa ändringar i grundlag, i riksdagsordning och i lagen (1982:942) om svenska kyrkan i enlighet med vad som angetts i det föregående. Med hänvisning till vad som från utskottets sida i dessa delar anförts vid ären",
-        "tänkande anmäls de vilande förslagen för riksdagens slutliga beslut. Utskottet Under 1984 och 1985 har riksdagen som vilande antagit vissa ändringar i grundlag, i riksdagsordning och i lagen (1982:942) om svenska kyrkan i enlighet med vad som angetts i det föregående. Med hänvisning till vad som från utskottets sida i dessa delar anförts vid ären",
         "ta behandling (KU 1984/85:20, 1984/85:18,1984/85:16, 1984/ 85:32, 1984/85:21 och 1984/85:34) tillstyrker utskottet att riksdagen slutligt antar de vilande förslagen. Utskottet hemställer 1. beträffande förhandsgranskning av videogram att riksdagen slutligt antar det vilande förslaget till lag om ändring i regeringsformen (bilaga 1), 2. beträffande kommunal"
       ],
       "structuredReferences": [
@@ -719,26 +627,6 @@
           "ref_dok_rm": "1985/86",
           "ref_dok_bet": "1",
           "ref_dok_id": "G90K1"
-        }
-      ]
-    },
-    {
-      "documentId": "G901KU10",
-      "title": "om ändring i riksdagsordningens tilläggsbestämmelser m.m. (del av prop. 1984/85:83)",
-      "documentUrl": "https://data.riksdagen.se/dokument/G901KU10",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "evidence": [
-        "ramhöll utskottet att övriga i propositionen framlagda förslag till lagändringar borde antas hösten 1985 efter det att riksdagen slutligt antagit grundlagsändringen och ändringen i RO. Utskottet ansåg vidare att i det sammanhanget borde tas upp frågorna om ändring av ersättningsstadgan för riksdagens ledamöter samt om ett bemyndigande för riksdagens förvalt…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "1985/86",
-          "ref_dok_bet": "83",
-          "ref_dok_id": "G90K83"
         }
       ]
     },
@@ -1010,8 +898,8 @@
         "ro"
       ],
       "evidence": [
-        "ill förslagen i proposition 1986/87:151 (ärende 8 ovan). Utskottet Vilande förslag Under 1987 och 1988 har riksdagen som vilande antagit vissa ändringar i grundlag, i riksdagsordning och i lagen (1982:942) om svenska kyrkan i enlighet med vad som angetts i det föregående. Med hänvisning till vad som från utskottets sida i dessa delar anförts vid ärend",
-        "förslagen i proposition 1986/87:151 (ärende 8 ovan). Utskottet Vilande förslag Under 1987 och 1988 har riksdagen som vilande antagit vissa ändringar i grundlag, i riksdagsordning och i lagen (1982:942) om svenska kyrkan i enlighet med vad som angetts i det föregående. Med hänvisning till vad som från utskottets sida i dessa delar anförts vid ärend",
+        "rna förenar sig, medgiver un- möterna förenar sig, medgiver undantag härifrån. dantag härifrån. Riksdagen får icke såsom vilande antaga ett förslag om stiftande av grundlag, som är oförenligt med annat vilande grundlagsförslag, utan att samtidigt förkasta det först antagna förslaget. Folkomröstning om vilande grundlagsförslag skall anordnas, om yrkan",
+        "förenar sig, medgiver un- möterna förenar sig, medgiver undantag härifrån. dantag härifrån. Riksdagen får icke såsom vilande antaga ett förslag om stiftande av grundlag, som är oförenligt med annat vilande grundlagsförslag, utan att samtidigt förkasta det först antagna förslaget. Folkomröstning om vilande grundlagsförslag skall anordnas, om yrkan",
         "987/88:1,1987/88:16,1987/88:19,1987/88:35,1987/88:30,1987/ 88:32, 1987/88:36 och 1987/88:33) tillstyrker utskottet att riksdagen slutligt antar de föreliggande förslagen. Med anledning av att förslag till ändring av 5 kap. 2 § tryckfrihetsförordningen förts fram såväl i betänkande KU 1987/ 88:36 (ärende 8 ovan) som i betänkande KU 1987/88:33 (ärende 9 ovan)…",
         "er som uppenbarligen saknar förmåga att genomföra en röstning på ett meningsfullt sätt. I reservationen föreslogs att riksdagen som vilande skulle anta ett framlagt förslag om ändring av 3 kap. 2 § regeringsformen. Enligt detta förslag skulle domstol i samband med att den förordnade om förvaltare för en person också pröva om denne skulle få behålla sin röst…"
       ],
@@ -1305,41 +1193,6 @@
       ]
     },
     {
-      "documentId": "GE01KU39",
-      "title": "Radio- och TV-frågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/GE01KU39",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ygl"
-      ],
-      "evidence": [
-        "en höjning med 84 kr. till 1 320 kr. per år fr.o.m. den 1 januari 1992. Yttrandefrihetsgrundlag Riksdagen har nyligen som vilande antagit förslag till yttrandefrihetsgrundlag (prop. 1990/91:64, KU21, prot. 109 §4). Grundlagsförslaget har betydelse för en del av de frågor som aktualiseras genom förevarande proposition, bl.a. avtalssystemet. Den nya yttrand",
-        "ndefrihetsgrundlagen konstaterat att det nuvarande avtalssystemet ges stöd i yttrandefrihetsgrundlagen. Den har nyligen antagits som vilande av riksdagen och föreslås träda i kraft den 1 januari 1992. För tiden fram till den dagen är därför regeringsformens bestämmelser om yttrandefriheten av intresse när det gäller avtalssystemets yttrandefrihetsbegränsande",
-        "öjning med 84 kr. till 1 320 kr. per år fr.o.m. den 1 januari 1992. Yttrandefrihetsgrundlag Riksdagen har nyligen som vilande antagit förslag till yttrandefrihetsgrundlag (prop. 1990/91:64, KU21, prot. 109 §4). Grundlagsförslaget har betydelse för en del av de frågor som aktualiseras genom förevarande proposition, bl.a. avtalssystemet. Den nya yttrand"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1990/91",
-          "ref_dok_bet": "129",
-          "ref_dok_id": "GE09129"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1990/91",
-          "ref_dok_bet": "129",
-          "ref_dok_id": "GE09129"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "1990/91",
-          "ref_dok_bet": "370",
-          "ref_dok_id": "GE0K370"
-        }
-      ]
-    },
-    {
       "documentId": "GE01KU40",
       "title": "Kollektivanslutning och organisationsanslutning",
       "documentUrl": "https://data.riksdagen.se/dokument/GE01KU40",
@@ -1389,41 +1242,6 @@
       ]
     },
     {
-      "documentId": "GF01KU1",
-      "title": "Yttrandefrihetsgrundlag m.m.",
-      "documentUrl": "https://data.riksdagen.se/dokument/GF01KU1",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ygl",
-        "ro"
-      ],
-      "evidence": [
-        "Utskottets yttrande Med hänvisning till vad utskottet anförde vid ärendets första behandling tillstyrker utskottet att riksdagen slutligt antar förslaget till yttrandefrihetsgrundlag, förslaget till lag om ändring i tryckfrihetsförordningen och förslaget till lag om ändring i regeringsformen. Hemställan Utskottet hemställer 1. beträffande yttrandefrihetsgrun",
-        "mokratin, måste garantera medborgarna fullständig yttrandefrihet. Eftersom yttrandefrihetsgrundlagen inte gör detta bör riksdagen förkasta förslaget till yttrandefrihetsgrundlag, förslaget till lag om ändring i tryckfrihetsförordningen och förslaget till lag om ändring i regeringsformen. dels att utskottets hemställan bort ha följande lydelse: 1. beträffand…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1991/92",
-          "ref_dok_bet": "19",
-          "ref_dok_id": "GF0919"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1991/92",
-          "ref_dok_bet": "19",
-          "ref_dok_id": "GF0919"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "1991/92",
-          "ref_dok_bet": "2",
-          "ref_dok_id": "GF0K2"
-        }
-      ]
-    },
-    {
       "documentId": "GF01KU13",
       "title": "Vilande beslut om grundlagsändring, 11 kap. 15 § regeringsformen",
       "documentUrl": "https://data.riksdagen.se/dokument/GF01KU13",
@@ -1467,8 +1285,6 @@
         "ro"
       ],
       "evidence": [
-        "rs val utgivna sammanställningen Vilande grundlagsförslag. Utskottet Vilande beslut Åren 1990 och 1991 har riksdagen som vilande antagit bl.a. de förslag till lagar om ändring i regeringsformen och dess övergångsbestämmelser samt i tryckfrihetsförordningen vilka redovisats under punkterna 1--5 i det föregående. Enligt utskottets mening bör frågan om slut",
-        "al utgivna sammanställningen Vilande grundlagsförslag. Utskottet Vilande beslut Åren 1990 och 1991 har riksdagen som vilande antagit bl.a. de förslag till lagar om ändring i regeringsformen och dess övergångsbestämmelser samt i tryckfrihetsförordningen vilka redovisats under punkterna 1--5 i det föregående. Enligt utskottets mening bör frågan om slut",
         "utligt beslut. Med hänvisning till vad utskottet anförde vid dessa ärendens första behandling tillstyrker utskottet att riksdagen slutligt antar förslagen. Följdändring Utskottet tar i detta sammanhang också upp frågan om en följdändring i lagen (1988:1385) om Sveriges riksbank. Det vilande beslutet under punkt 2 beträffande vissa normgivningsfrågor rörande…"
       ],
       "structuredReferences": [
@@ -1924,8 +1740,6 @@
         "ro"
       ],
       "evidence": [
-        "inför 1994 års val utgivna sammanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Riksdagen har som vilande antagit det ovan nämnda förslaget till lag om ändring i regeringsformen. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ärendets första beh",
-        "ör 1994 års val utgivna sammanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Riksdagen har som vilande antagit det ovan nämnda förslaget till lag om ändring i regeringsformen. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ärendets första beh",
         "lperioden, möjligheten till personröstning och sänkning av behörighetsåldern för statschefen. Utskottet tillstyrker att riksdagen slutligt antar förslaget. Bakgrund Stiftande av grundlag Grundlag stiftas, ändras och upphävs genom två likalydande riksdagsbeslut. Det andra beslutet får inte fattas, förrän det efter det första beslutet har hållits val till rik…"
       ],
       "structuredReferences": [
@@ -1992,8 +1806,6 @@
         "ro"
       ],
       "evidence": [
-        "ingen Vilande grundlagsförslag. Utskottets anmälan och yttrande Vilande beslut Under riksmötet 1993/94 har riksdagen som vilande antagit de förslag till lagar om ändring i regeringsformen och riksdagsordningen vilka redovisats i det föregående. Genom detta betänkande anmäls nu de vilande besluten till kammaren för slutligt beslut. Med hänvisning till vad",
-        "n Vilande grundlagsförslag. Utskottets anmälan och yttrande Vilande beslut Under riksmötet 1993/94 har riksdagen som vilande antagit de förslag till lagar om ändring i regeringsformen och riksdagsordningen vilka redovisats i det föregående. Genom detta betänkande anmäls nu de vilande besluten till kammaren för slutligt beslut. Med hänvisning till vad",
         "ammanfattning Utskottet Hemställan Bilaga 1 1994/95 KU2 Sammanfattning I detta betänkande föreslår utskottet att riksdagen slutligt antar de ändringar i regeringsformen och riksdagsordningens huvudbestämmelser som föranleds av Riksdagsutredningens förslag Reformera riksdagsarbetet. Utskottet föreslår samtidigt att de ändringar i tilläggsbestämmelser till"
       ],
       "structuredReferences": [
@@ -2038,8 +1850,6 @@
         "ro"
       ],
       "evidence": [
-        "val utgivna sammanställningen Vilande grundlagsförslag. Anmälan om och yttrande över vilande lagförslag Riksdagen har som vilande antagit ovan nämnda förslag till lag om ändring i regeringsformen. Genom detta betänkande anmäls nu det vilande förslaget till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ärendets första behandli",
-        "utgivna sammanställningen Vilande grundlagsförslag. Anmälan om och yttrande över vilande lagförslag Riksdagen har som vilande antagit ovan nämnda förslag till lag om ändring i regeringsformen. Genom detta betänkande anmäls nu det vilande förslaget till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ärendets första behandli",
         "kap. 11 § regeringsformen. Vidare behandlas ett förslag till följdändring i sekretesslagen. Utskottet tillstyrker att riksdagen slutligt antar förslaget till ändring i regeringsformen. Utskottet tillstyrker vidare förslaget till följdändring. Reservation har avgivits av v-ledamoten. Bakgrund Stiftande av grundlag Grundlag stiftas, ändras och upphävs genom",
         "Med hänvisning\" och slutar med \"antar förslaget.\" bort ha följande lydelse: Såsom framhållits i en meningsyttring till utskottets betänkande 1993/94:KU19 bör en arbetsgivarorganisation på det statliga området inte få en mer fristående ställning från regering och riksdag än vad Statens arbetsgivarverk haft. Förslaget till ändring i regeringsformen bör därför…"
       ],
@@ -2152,8 +1962,6 @@
         "ro"
       ],
       "evidence": [
-        "a sammanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Under föregående riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som angetts i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ären",
-        "mmanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Under föregående riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som angetts i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ären",
         "för slutligt beslut ett vilande beslut rörande förslag till lag om ändring i regeringsformen. Utskottet tillstyrker att riksdagen slutligt antar förslaget. Bakgrund Grundlag stiftas enligt 8 kap. 15 § regeringsformen genom två likalydande riksdagsbeslut. Det andra beslutet får enligt paragrafen inte fattas förrän det efter det första beslutet har hållits va…",
         "förstärkning av egendomsskyddet saknar samband med Europakonventionen och ärendet i övrigt. När ärendet nu anmäls till kammaren för slutligt beslut borde det ha varit möjligt att lägga fram en reservation med ett yrkande att riksdagen förkastar förslaget i denna del. Utskottsmajoriteten har emellertid inte tillåtit detta. Enligt majoriteten måste lagförslag…",
         "uropakonventionens konstitutionella ställning å den andra sidan. När ärendet i dessa båda delar nu anmäls till kammaren för slutligt beslut borde det ha varit möjligt för Vänsterpartiet att fullfölja sin inställning med yrkande att riksdagen förkastar förslaget i de delar som var föremål för avslagsyrkande i meningsyttringen. Utskottsmajoriteten har emeller…"
@@ -2190,8 +1998,6 @@
         "ro"
       ],
       "evidence": [
-        "a sammanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Under föregående riksmöte har riksdagen som vilande antagit bl.a. de förslag till lagar om ändring i tryckfrihetsförordningen och i yttrandefrihetsgrundlagen som angetts i det föregående. Genom detta betänkande anmäls nu de vilande beslut som avser lagändringar med ikraftträdand",
-        "mmanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Under föregående riksmöte har riksdagen som vilande antagit bl.a. de förslag till lagar om ändring i tryckfrihetsförordningen och i yttrandefrihetsgrundlagen som angetts i det föregående. Genom detta betänkande anmäls nu de vilande beslut som avser lagändringar med ikraftträdand",
         "rande förslag till lagar om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Utskottet tillstyrker att riksdagen slutligt antar förslagen. Med begagnande sig av sin initiativrätt lägger utskottet vidare fram förslag till följdlagstiftning. Bakgrund Grundlag stiftas enligt 8 kap. 15 § regeringsformen genom två likalydande riksdagsbeslut. Det…"
       ],
       "structuredReferences": [
@@ -2224,8 +2030,6 @@
         "ro"
       ],
       "evidence": [
-        "a sammanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Under föregående riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som angetts i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ären",
-        "mmanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Under föregående riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som angetts i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ären",
         "för slutligt beslut ett vilande beslut rörande förslag till lag om ändring i regeringsformen. Utskottet tillstyrker att riksdagen slutligt antar förslaget. Bakgrund Grundlag stiftas enligt 8 kap. 15 § regeringsformen genom två likalydande riksdagsbeslut. Det andra beslutet får enligt paragrafen inte fattas förrän det efter det första beslutet har hållits va…"
       ],
       "structuredReferences": [
@@ -2252,8 +2056,6 @@
         "ro"
       ],
       "evidence": [
-        "inför 1994 års val utgivna sammanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Riksdagen har som vilande antagit det ovan nämnda förslaget till lag om ändring i regeringsformen. Genom detta betänkande anmäls nu det vilande förslaget till kammaren för slutligt beslut. Som utskottet framhöll vid den tidigare behandlingen av ärendet",
-        "ör 1994 års val utgivna sammanställningen Vilande grundlagsförslag. Utskottets anmälan och yttrande Riksdagen har som vilande antagit det ovan nämnda förslaget till lag om ändring i regeringsformen. Genom detta betänkande anmäls nu det vilande förslaget till kammaren för slutligt beslut. Som utskottet framhöll vid den tidigare behandlingen av ärendet",
         "enska medborgare som har varit, men inte längre är, bosatta här. Med hänsyn till det anförda tillstyrker utskottet att riksdagen slutligt antar det vilande förslaget till ändring i regeringsformen. Följdändringar i vallagen Vid den tidigare behandlingen av ärendet uttalade utskottet att det vid slutligt bifall till förslaget avsåg att ta initiativ till följ…",
         "kalydande riksdagsbeslut. Det andra beslutet får inte fattas, förrän det efter det första beslutet har hållits val till riksdagen i hela riket och den nyvalda riksdagen har samlats (8 kap. 15 och 17 §§ regeringsformen). Det andra beslutet skall innebära antingen att förslaget antas slutligt eller att det förkastas. Konstitutionsutskottet skall till kammaren…"
       ],
@@ -2282,8 +2084,6 @@
         "ro"
       ],
       "evidence": [
-        "ör att uppfylla en EG-rättslig förpliktelse. Utskottets anmälan och yttrande Under 1993/94 års riksmöte har riksdagen som vilande antagit de förslag till lagar om ändring i regeringsformen och tryckfrihetsförordningen som redovisats i det föregående. Genom detta betänkande anmäls nu de vilande besluten till kammaren för slutligt beslut. Med hänvisning til",
-        "tt uppfylla en EG-rättslig förpliktelse. Utskottets anmälan och yttrande Under 1993/94 års riksmöte har riksdagen som vilande antagit de förslag till lagar om ändring i regeringsformen och tryckfrihetsförordningen som redovisats i det föregående. Genom detta betänkande anmäls nu de vilande besluten till kammaren för slutligt beslut. Med hänvisning til",
         "Europeiska unionen. Med hänvisning bl.a. till utgången av folkomröstningen den 13 november 1994 föreslår utskottet att riksdagen slutligt antar förslagen till grundlagsändringar. Till betänkandet har fogats två särskilda yttranden från Vänsterpartiet resp. Miljöpartiet de gröna. Bakgrund Grundlag stiftas enligt 8 kap. 15 § regeringsformen genom två likalyda…"
       ],
       "structuredReferences": [
@@ -2499,32 +2299,6 @@
       ]
     },
     {
-      "documentId": "GL01KU26",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/GL01KU26",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "evidence": [
-        "r och minst en tredjedel röstar för bifall till yrkandet. Beslutande folkomröstning skall hållas samtidigt med val till riksdagen. Vid omröstningen får de röstande förklara huruvida de godtar ett av riksdagen antaget vilande grundlagsförslag eller ej. Förslaget är förkastat, om de flesta av dem som deltar i omröstningen röstar mot förslaget och de till anta…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1997/98",
-          "ref_dok_bet": "94",
-          "ref_dok_id": "GL0994"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1997/98",
-          "ref_dok_bet": "94",
-          "ref_dok_id": "GL0994"
-        }
-      ]
-    },
-    {
       "documentId": "GM01KU2",
       "title": "Riksbankens ställning (vilande grundlagsförslag och följdlagstiftning)",
       "documentUrl": "https://data.riksdagen.se/dokument/GM01KU2",
@@ -2533,8 +2307,6 @@
         "ro"
       ],
       "evidence": [
-        "Bestämmelser om val av fullmäktige och om Riksbankens ledning och verksamhet skall meddelas i lag. Riksdagen har också som vilande antagit följdändringar i 3 kap. 8 §, 8 kap. 6 § och 9 kap. 8 § riksdagsordningen. Ändringarna i regeringsformen och riksdagsordningen föreslås träda i kraft den 1 januari 1999. De är intagna i bilaga 1 till betänkandet. Utskot",
-        "tämmelser om val av fullmäktige och om Riksbankens ledning och verksamhet skall meddelas i lag. Riksdagen har också som vilande antagit följdändringar i 3 kap. 8 §, 8 kap. 6 § och 9 kap. 8 § riksdagsordningen. Ändringarna i regeringsformen och riksdagsordningen föreslås träda i kraft den 1 januari 1999. De är intagna i bilaga 1 till betänkandet. Utskot",
         "ll vad utskottet anförde vid detta ärendes första behandling (se 1997/98:KU15 s. 8 och 11-14) tillstyrker utskottet att riksdagen slutligt antar förslaget. Följdlagstiftningen Valutalagen I propositionen föreslås en ny lag om valutapolitik. Enligt förslaget skall regeringen besluta om växelkurssystem, dvs. välja mellan fast och flytande växelkurs och, i det…"
       ],
       "structuredReferences": [
@@ -2590,8 +2362,6 @@
         "rf"
       ],
       "evidence": [
-        "gen föreslås träda i kraft den 1 januari 1999. Utskottets anmälan och yttrande Under föregående riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som angetts i det föregående. Genom detta betänkande anmäls nu det vilande förslaget till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid det",
-        "föreslås träda i kraft den 1 januari 1999. Utskottets anmälan och yttrande Under föregående riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som angetts i det föregående. Genom detta betänkande anmäls nu det vilande förslaget till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid det",
         "ill vad utskottet anförde vid detta ärendes första behandling (se bet. 1997/98:KU18 s. 41 f.) tillstyrker utskottet att riksdagen slutligt antar förslaget. Följdändring i personuppgiftslagen Förslagets innebörd i korthet Den nya personuppgiftslagen innehåller bemyndiganden för regeringen eller den myndighet som regeringen bestämmer att meddela föreskrifter…"
       ],
       "structuredReferences": [
@@ -2625,7 +2395,6 @@
         "ygl"
       ],
       "evidence": [
-        "örn von der Esch (kd) anför: Kristdemokraterna har under lång tid och med kontinuitet arbetat för den huvudlinje som nu antagits som vilande av riksdagen angående barnpornografibrott. Under föregående mandatperiod hade Kristdemokraterna inte ordinarie utskottsplats i konstitutionsutskottet och kunde därmed inte där påverka lagstiftningens utformning vad gäll",
         "på tryckfrihetsförordningens och yttrandefrihetsgrundlagens områden samt ett antal motioner. Utskottet tillstyrker att riksdagen slutligt antar grundlagsförslagen. När det gäller följdändringar föreslår utskottet, med bifall till några motioner, att ett försvarlighetsrekvisit införs i 16 kap. 10 a § brottsbalken. I övrigt föreslår utskottet att riksdagen, m…"
       ],
       "structuredReferences": [
@@ -2660,8 +2429,6 @@
         "ro"
       ],
       "evidence": [
-        "ledighet för förtroendevalda och egendomsfrågor. Utskottets anmälan och yttrande Under riksmötet 1997/98 har riksdagen som vilande antagit de ovan redovisade förslagen till lagar om ändring i regeringsformen och tryckfrihetsförordningen. Riksdagen har samtidigt som vilande antagit lag om trossamfund samt lag om Svenska kyrkan och lag om införande av denna",
-        "ghet för förtroendevalda och egendomsfrågor. Utskottets anmälan och yttrande Under riksmötet 1997/98 har riksdagen som vilande antagit de ovan redovisade förslagen till lagar om ändring i regeringsformen och tryckfrihetsförordningen. Riksdagen har samtidigt som vilande antagit lag om trossamfund samt lag om Svenska kyrkan och lag om införande av denna",
         "ör slutligt beslut. Med hänvisning till vad utskottet anförde vid ärendenas första behandling tillstyrker utskottet att riksdagen slutligt antar de ovan angivna lagförslagen. Hemställan Utskottet hemställer 1. beträffande regeringsformen att riksdagen slutligt antar det i bilaga 1 intagna förslaget till lag om ändring i regeringsformen, 2. beträffande tryck…"
       ],
       "structuredReferences": [
@@ -2688,60 +2455,6 @@
           "ref_dok_rm": "1998/99",
           "ref_dok_bet": "4",
           "ref_dok_id": "GM0K4"
-        }
-      ]
-    },
-    {
-      "documentId": "GN01KU2",
-      "title": "Frågor om styrelseskick och demokrati",
-      "documentUrl": "https://data.riksdagen.se/dokument/GN01KU2",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "ro"
-      ],
-      "evidence": [
-        "terna röstar för bifall till yrkandet. Folkomröstning skall enligt RF 8:15 fjärde stycket hållas samtidigt med val till riksdagen. Vid omröstningen får de som har rösträtt vid valet förklara huruvida de godtar det vilande grundlagsförslaget eller ej. Förslaget är förkastat om de flesta av dem som deltar i omröstningen röstar mot förslaget och de till antale…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1999/2000",
-          "ref_dok_bet": "16",
-          "ref_dok_id": "GN0916"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1999/2000",
-          "ref_dok_bet": "12",
-          "ref_dok_id": "GN0912"
-        }
-      ]
-    },
-    {
-      "documentId": "GN01KU20",
-      "title": "Granskning av statsrådens tjänsteutövning och regeringsärendenas handläggning",
-      "documentUrl": "https://data.riksdagen.se/dokument/GN01KU20",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ro"
-      ],
-      "evidence": [
-        "an regeringsskiftet hösten 1978 har talmännen också lämnat uppgift om den tilltänkta regeringens parti- sammansättning. Riksdagen skall inom fyra dagar, utan beredning i utskott, pröva talmannens förslag genom omröstning. Röstar mer än hälften av riks- dagens ledamöter mot förslaget, är det förkastat. I annat fall är det godkänt. Om riksdagen fyra gånger fö…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1999/2000",
-          "ref_dok_bet": "124",
-          "ref_dok_id": "GN09124"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "1999/2000",
-          "ref_dok_bet": "124",
-          "ref_dok_id": "GN09124"
         }
       ]
     },
@@ -3016,56 +2729,6 @@
       ]
     },
     {
-      "documentId": "GQ01KU15",
-      "title": "Moderniserad riksdagsordning",
-      "documentUrl": "https://data.riksdagen.se/dokument/GQ01KU15",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "evidence": [
-        "essutom beslut. Om det finns ett yrkande att förslaget yrkande enligt 2 kap. 12 skall förkastas, skall § tredje stycket riksdagen pröva sistnämnda regeringsformen att ett yrkande innan förslaget lagförslag skall vila i ställes under omröstning minst tolv månader och om omedelbart antagande. dessutom ett yrkande att förslaget skall förkastas, skall riksdagen…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2002/03",
-          "ref_dok_bet": "83",
-          "ref_dok_id": "GQ0983"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2002/03",
-          "ref_dok_bet": "83",
-          "ref_dok_id": "GQ0983"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2002/03",
-          "ref_dok_bet": "129",
-          "ref_dok_id": "GQ0K129"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2002/03",
-          "ref_dok_bet": "130",
-          "ref_dok_id": "GQ0K130"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2002/03",
-          "ref_dok_bet": "131",
-          "ref_dok_id": "GQ0K131"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2002/03",
-          "ref_dok_bet": "132",
-          "ref_dok_id": "GQ0K132"
-        }
-      ]
-    },
-    {
       "documentId": "GQ01KU2",
       "title": "Vissa  tobaksfrågor  (vilande grundlagsförslag ochföljdlagstiftning)",
       "documentUrl": "https://data.riksdagen.se/dokument/GQ01KU2",
@@ -3152,8 +2815,6 @@
         "ro"
       ],
       "evidence": [
-        "F föreslås träda i kraft den 1 januari 2003. Utskottets anmälan och yttrande Under 2001/02 års riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som angetts i det föregående. Genom detta betänkande anmäls nu det vilande förslaget till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid äre",
-        "reslås träda i kraft den 1 januari 2003. Utskottets anmälan och yttrande Under 2001/02 års riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som angetts i det föregående. Genom detta betänkande anmäls nu det vilande förslaget till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid äre",
         "gt antar det vilande grundlagsförslaget. Utskottets förslag till riksdagsbeslut Ändring i 8 kap. 14 § regeringsformen Riksdagen antar slutligt det i bilaga 2 intagna förslaget till lag om ändring i regeringsformen. Stockholm den 24 oktober 2002 På konstitutionsutskottets vägnar Per Unckel Följande ledamöter har deltagit i beslutet: Per Unckel (m), Göran Ma",
         "ektivt betalningsväsende. Enligt förslaget skall ändringen träda i kraft den 1 januari 2003. Utskottet tillstyrker att riksdagen slutligt antar det vilande grundlagsförslaget. Utskottets förslag till riksdagsbeslut Ändring i 8 kap. 14 § regeringsformen Riksdagen antar slutligt det i bilaga 2 intagna förslaget till lag om ändring i regeringsformen. Stockholm"
       ],
@@ -3227,8 +2888,6 @@
         "ro"
       ],
       "evidence": [
-        "delas som hittills i riksdagsordningen (RO). Utskottets anmälan och yttrande Under 2001/02 års riksmöte har riksdagen som vilande antagit det förslag till lagar om ändring i regeringsformen och i riksdagsordningen som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till v",
-        "s som hittills i riksdagsordningen (RO). Utskottets anmälan och yttrande Under 2001/02 års riksmöte har riksdagen som vilande antagit det förslag till lagar om ändring i regeringsformen och i riksdagsordningen som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till v",
         "tre särskilda yttranden. Utskottets förslag till riksdagsbeslut 1. Ändringar i regeringsformen och riksdagsordningen Riksdagen antar slutligt det i bilaga 2 intagna förslaget till dels lag om ändring i regeringsformen, dels lag om ändring i riksdagsordningen. Reservation (v, mp) 2. Ändringar i lagen (1988:950) om kulturminnen m.m. Riksdagen antar regeringe",
         "ringarna i regeringsformen och i riksdagsordningen föreslås träda i kraft den 1 januari 2003. Utskottet tillstyrker att riksdagen slutligt antar vilande förslag till lagar om ändring i regeringsformen och i riksdagsordningen. I betänkandet behandlar utskottet vidare regeringens förslag i proposition 2001/02:72 till lag om ändring i lagen (1988:950) om kultu…"
       ],
@@ -3268,7 +2927,6 @@
         "tf"
       ],
       "evidence": [
-        "e framkommer inte något som tyder på att så är fallet. Vi ifrågasätter därför effektiviteten i den grundlagsändring som antagits som vilande och förslaget till ändring i brottsbalken. 2. Tryckfrihetsförordningen (punkt 1) av Ingvar Svensson (kd). Förslag till riksdagsbeslut Jag anser att utskottets förslag under punkt 1 borde ha följande lydelse: Riksda",
         "r (m) och (kd) samt ett särskilt yttrande (fp, mp). Utskottets förslag till riksdagsbeslut 1. Tryckfrihetsförordningen Riksdagen antar slutligt det i bilaga 1 intagna förslaget till lag om ändring i tryckfrihetsförordningen. Reservation 1 (m) Reservation 2 (kd) 2. Brottsbalken Riksdagen antar utskottets i bilaga 3 intagna förslag till lag om ändring i brott…",
         "regeringens förslag till lag om ändring i brottsbalken såvitt avser 16 kap. 8 § samt en motion. Utskottet föreslår att riksdagen slutligt antar det vilande förslaget till lag om ändring i tryckfrihetsförordningen samt utskottets förslag till lag om ändring i brottsbalken. Utskottet avstyrker motionen. Till betänkandet har fogats fyra reservationer (m) och (…"
       ],
@@ -3361,69 +3019,6 @@
       ]
     },
     {
-      "documentId": "GR01KU13",
-      "title": "Val och regeringsbildning",
-      "documentUrl": "https://data.riksdagen.se/dokument/GR01KU13",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "evidence": [
-        "sministern skall utses. Av dessa framgår att det är talmannens uppgift att lägga fram förslag till ny statsminister för riksdagen. Dessförinnan måste talmannen ha samrått med företrädare för varje partigrupp och överlagt med vice talmännen. Röstar mer än hälften av riksdagens ledamöter mot förslaget är det förkastat. I annat fall är det godkänt. Förkastas f…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2003/04",
-          "ref_dok_bet": "105",
-          "ref_dok_id": "GR09105"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2003/04",
-          "ref_dok_bet": "105",
-          "ref_dok_id": "GR09105"
-        }
-      ]
-    },
-    {
-      "documentId": "GR01KU19",
-      "title": "Demokratifrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/GR01KU19",
-      "constitutionIds": [
-        "rf"
-      ],
-      "evidence": [
-        "edjedel av ledamöterna röstar för bifall till yrkandet. Sådant yrkande skall framställas inom femton dagar från det att riksdagen antog grundlagsförslaget som vilande. Yrkandet skall inte beredas i utskott. Folkomröstningen skall hållas samtidigt med det riksdagsval då grundlagsförslaget är vilande. Vid omröstningen får de som har rösträtt vid valet förklar…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "skr",
-          "ref_dok_rm": "2003/04",
-          "ref_dok_bet": "110",
-          "ref_dok_id": "GR03110"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2003/04",
-          "ref_dok_bet": "130",
-          "ref_dok_id": "GR09130"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2003/04",
-          "ref_dok_bet": "130",
-          "ref_dok_id": "GR09130"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2003/04",
-          "ref_dok_bet": "277",
-          "ref_dok_id": "GR0K277"
-        }
-      ]
-    },
-    {
       "documentId": "GR01KU9",
       "title": "Författningsfrågor",
       "documentUrl": "https://data.riksdagen.se/dokument/GR01KU9",
@@ -3434,7 +3029,7 @@
         "ro"
       ],
       "evidence": [
-        "ndlagsomröstningar som får den formen att folket endast har att säga ja eller nej till ett förslag som dessförinnan har antagits som vilande av riksdagen. Mot bakgrund av det anförda förordade föredragande statsrådet, i likhet med kommittén, att grundlagsstiftningsförfarandet kompletterades med ett folkomröstningsinstitut som innebär att beslutande folkomrös",
+        "era delfrågor. Grundlagsärendet delas i sådant fall upp på punktvisa beslut (delbeslut). Den enhet som riksdagen därvid antar som vilande är grundlagsförslaget sådant det föreligger efter delbesluten. Mot bakgrund av kravet på att de två riksdagsbesluten om ändring av grundlag skall vara likalydande, tar också det slutliga beslutet sikte på enheten och av",
         "skall inte beredas i utskott. I fjärde stycket föreskrivs att folkomröstningen skall hållas samtidigt med det val till riksdagen som avses i första stycket. Vid omröstningen får de som har rösträtt vid valet förklara huruvida de godtar det vilande grundlagsförslaget eller ej. Förslaget är förkastat, om de flesta av dem som deltar i omröstningen röstar mot f…",
         "lagen innehållit ett krav på att de två riksdagsbesluten om ändring av grundlag skall vara likalydande. Någon ändring i det vilande förslaget får alltså inte göras, utan det skall antingen antas eller förkastas i sin helhet. Utgångspunkten i praxis kring beslutsordningen är, som redovisats ovan, att det vilande grundlagsförslaget utgörs av en enhet, som i s…",
         "RO (tidigare 4 kap. 8 § fjärde stycket RO). Även om konstitutionsutskottets uppgift att anmäla vilande grundlagsförslag för slutligt beslut uppfattades som en expeditionsåtgärd enligt den äldre, oreglerade ordningen, betraktades ingalunda det slutliga beslutet som en ren formalitet. Det förekom vid flera tillfällen att vilande grundlagsförslag förkastades v…"
@@ -3457,31 +3052,6 @@
           "ref_dok_rm": "2003/04",
           "ref_dok_bet": "148",
           "ref_dok_id": "GR0K148"
-        }
-      ]
-    },
-    {
-      "documentId": "GS01KU27",
-      "title": "Fri- och rättighetsskyddsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/GS01KU27",
-      "constitutionIds": [
-        "rf"
-      ],
-      "evidence": [
-        "rslag till riksdagsbeslut Vi anser att förslaget till riksdagsbeslut under punkt 5 borde ha följande lydelse: Riksdagen antar som vilande det förslag till lag om ändring i regeringsformen som finns i bilaga 2. Därmed bifaller riksdagen motionerna 2004/05:K272 yrkande 1, 2004/05:K336 yrkande 1, 2004/05:L295 yrkande 12 och 2004/05:U257 yrkande 6. Ställnings"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2004/05",
-          "ref_dok_bet": "92",
-          "ref_dok_id": "GS0992"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2004/05",
-          "ref_dok_bet": "91",
-          "ref_dok_id": "GS0991"
         }
       ]
     },
@@ -3515,32 +3085,6 @@
           "ref_dok_rm": "2004/05",
           "ref_dok_bet": "177",
           "ref_dok_id": "GS0K177"
-        }
-      ]
-    },
-    {
-      "documentId": "GT01KU18",
-      "title": "Trossamfund m.m.",
-      "documentUrl": "https://data.riksdagen.se/dokument/GT01KU18",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "evidence": [
-        "g till riksdagsbeslut Vi anser att förslaget till riksdagsbeslut under punkt 2 borde ha följande lydelse: Riksdagen antar som vilande följande nedan framlagda förslag till lag om ändring i regeringsformen. Därmed bifaller riksdagen motion 2005/06:K348 och avslår motion 2005/06:K310. Förslag till lag om ändring i regeringsformen Härigenom föreskrivs"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2005/06",
-          "ref_dok_bet": "87",
-          "ref_dok_id": "GT0987"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2005/06",
-          "ref_dok_bet": "84",
-          "ref_dok_id": "GT0984"
         }
       ]
     },
@@ -3587,32 +3131,6 @@
       ]
     },
     {
-      "documentId": "GU01KU14",
-      "title": "EU-frågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/GU01KU14",
-      "constitutionIds": [
-        "rf",
-        "tf"
-      ],
-      "evidence": [
-        "en tredjedel av ledamöterna röstar för bifall till yrkandet. Sådant yrkande ska framställas inom 15 dagar från det att riksdagen antog grundlagsförslaget som vilande. Yrkandet ska inte beredas i utskott. Folkomröstningen ska hållas samtidigt med det riksdagsval då grundlagsförslaget är vilande. Vid omröstningen får de som har rösträtt vid valet förklara hur…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2006/07",
-          "ref_dok_bet": "65",
-          "ref_dok_id": "GU0965"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2006/07",
-          "ref_dok_bet": "65",
-          "ref_dok_id": "GU0965"
-        }
-      ]
-    },
-    {
       "documentId": "GU01KU3",
       "title": "Riksdagen i en ny tid (vilande lagförslag)",
       "documentUrl": "https://data.riksdagen.se/dokument/GU01KU3",
@@ -3621,8 +3139,6 @@
         "ro"
       ],
       "evidence": [
-        "10 kap. 3 § andra meningen och 10 kap. 7 §). Utskottets anmälan och yttrande Under 2005/06 års riksmöte har riksdagen som vilande antagit det förslag till lag om ändring av riksdagsordningen som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vi",
-        "ap. 3 § andra meningen och 10 kap. 7 §). Utskottets anmälan och yttrande Under 2005/06 års riksmöte har riksdagen som vilande antagit det förslag till lag om ändring av riksdagsordningen som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vi",
         "yrkas att det vilande lagförslaget förkastas. Utskottets förslag till riksdagsbeslut Riksdagens arbete med EU-frågor Riksdagen antar slutligt bifogat förslag till lag om ändring riksdagsordningen. Reservation (s) Stockholm den 21 november 2006 På konstitutionsutskottets vägnar Berit Andnor Följande ledamöter har deltagit i beslutet: Berit Andnor (s), Pe",
         "äller riksdagens arbete med EU-frågor. Ändringarna föreslås träda i kraft den 1 januari 2007. Utskottet tillstyrker att riksdagen slutligt antar förslaget. I en reservation (s) yrkas att det vilande lagförslaget förkastas. Utskottets förslag till riksdagsbeslut Riksdagens arbete med EU-frågor Riksdagen antar slutligt bifogat förslag till lag om ändring riks…",
         "attning I betänkandet anmäls för slutligt beslut ett vilande beslut om ändring i riksdagsordningen. Ändringarna gäller riksdagens arbete med EU-frågor. Ändringarna föreslås träda i kraft den 1 januari 2007. Utskottet tillstyrker att riksdagen slutligt antar förslaget. I en reservation (s) yrkas att det vilande lagförslaget förkastas. Utskottets förslag till…"
@@ -3645,35 +3161,6 @@
           "ref_dok_rm": "2006/07",
           "ref_dok_bet": "2526",
           "ref_dok_id": "GU0K2526"
-        }
-      ]
-    },
-    {
-      "documentId": "GU01KU4",
-      "title": "Riksdagens arbetsformer",
-      "documentUrl": "https://data.riksdagen.se/dokument/GU01KU4",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "evidence": [
-        "/07:KU3 anmäler utskottet det vilande förslaget för slutligt beslut. Utskottets majoritet tillstyrker i betänkandet att riksdagen slutligt antar förslaget medan vi i en reservation yrkar att förslaget förkastas. I reservationen anför vi bl.a. att beslut och voteringar i kammaren ska förbehållas reella beslut, inte opinionsyttringar och remissvar. Voteringar…",
-        "(s), Morgan Johansson (s), Yilmaz Kerimo (s), Helene Petersson (s), Billy Gustafsson (s) och Phia Andersson (s) anför: Riksdagen antog våren 2006 som vilande ett förslag till lag om ändring i riksdagsordningen, vilket gäller riksdagens arbete med EU-frågorna. I betänkande 2006/07:KU3 anmäler utskottet det vilande förslaget för slutligt beslut. Utskottets ma…",
-        "ndring i riksdagsordningen, vilket gäller riksdagens arbete med EU-frågorna. I betänkande 2006/07:KU3 anmäler utskottet det vilande förslaget för slutligt beslut. Utskottets majoritet tillstyrker i betänkandet att riksdagen slutligt antar förslaget medan vi i en reservation yrkar att förslaget förkastas. I reservationen anför vi bl.a. att beslut och voterin…",
-        "ngen, vilket gäller riksdagens arbete med EU-frågorna. I betänkande 2006/07:KU3 anmäler utskottet det vilande förslaget för slutligt beslut. Utskottets majoritet tillstyrker i betänkandet att riksdagen slutligt antar förslaget medan vi i en reservation yrkar att förslaget förkastas. I reservationen anför vi bl.a. att beslut och voteringar i kammaren ska för…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2006/07",
-          "ref_dok_bet": "35",
-          "ref_dok_id": "GU0935"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2006/07",
-          "ref_dok_bet": "35",
-          "ref_dok_id": "GU0935"
         }
       ]
     },
@@ -3861,53 +3348,6 @@
       ]
     },
     {
-      "documentId": "GY01KU2",
-      "title": "Uppföljning av riksrevisionsreformen",
-      "documentUrl": "https://data.riksdagen.se/dokument/GY01KU2",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "evidence": [
-        "sbudgeten (9 kap. 4 § riksdagsordningen). Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i riksdagsordningen såvitt avser huvudbestämmelserna som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisni",
-        "geten (9 kap. 4 § riksdagsordningen). Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i riksdagsordningen såvitt avser huvudbestämmelserna som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisni",
-        "rskilt revisionsutskott avstyrks. Utskottets förslag till riksdagsbeslut 1. Riksdagsordningens huvudbestämmelser Riksdagen antar slutligt förslaget i bilaga 2 till lag om ändring i riksdagsordningen såvitt avser huvudbestämmelserna. 2. Följdlagstiftning m.m. Riksdagen antar förslaget i bilaga 2 till a) lag om ändring i riksdagsordningen, såvitt avs",
-        "a och organisatoriska frågor. Enligt förslaget ska ändringen träda i kraft den 1 januari 2011. Utskottet föreslår att riksdagen slutligt antar det vilande förslaget. Vidare behandlas i betänkandet dels riksdagsstyrelsens förslag till lag om ändring i riksdagsordningen såvitt avser tilläggsbestämmelser, lag om ändring i lagen (1989:185) om arvoden m.m. för u…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2010/11",
-          "ref_dok_bet": "20",
-          "ref_dok_id": "GY0920"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2010/11",
-          "ref_dok_bet": "20",
-          "ref_dok_id": "GY0920"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2010/11",
-          "ref_dok_bet": "23",
-          "ref_dok_id": "GY0K23"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2010/11",
-          "ref_dok_bet": "24",
-          "ref_dok_id": "GY0K24"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2010/11",
-          "ref_dok_bet": "25",
-          "ref_dok_id": "GY0K25"
-        }
-      ]
-    },
-    {
       "documentId": "GY01KU3",
       "title": "Grundlagsskydd för digital bio och andra yttrandefrihetsrättsliga frågor (vilande grundlagsbeslut)",
       "documentUrl": "https://data.riksdagen.se/dokument/GY01KU3",
@@ -3918,8 +3358,6 @@
         "ro"
       ],
       "evidence": [
-        "a föreslås träda i kraft den 1 januari 2011. Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit de förslag till lagar om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hä",
-        "reslås träda i kraft den 1 januari 2011. Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit de förslag till lagar om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hä",
         "1 januari 2011. Utskottets förslag till riksdagsbeslut 1. Tryckfrihetsförordningen och yttrandefrihetsgrundlagen Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i tryckfrihetsförordningen och lag om ändring i yttrandefrihetsgrundlagen. 2. Följdlagstiftning Riksdagen antar a) regeringens förslag i bilaga 3 till lag om ä",
         "asreglerna i yttrandefrihetsgrundlagen. Ändringarna föreslås träda i kraft den 1 januari 2011. Utskottet föreslår att riksdagen slutligt antar det vilande förslaget till lagar om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. I betänkandet behandlas vidare regeringens förslag i proposition 2009/10:81 Grundlagsskydd för digital bio och and…"
       ],
@@ -3955,8 +3393,6 @@
         "ro"
       ],
       "evidence": [
-        "r föreslås träda i kraft den 1 januari 2011. Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit det förslag till lagar om ändring i regeringsformen, tryckfrihetsförordningen och yttrandefrihetsgrundlagen samt riksdagsordningen såvitt avser huvudbestämmelserna som redovisats i det föregående. Genom detta betänkande",
-        "reslås träda i kraft den 1 januari 2011. Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit det förslag till lagar om ändring i regeringsformen, tryckfrihetsförordningen och yttrandefrihetsgrundlagen samt riksdagsordningen såvitt avser huvudbestämmelserna som redovisats i det föregående. Genom detta betänkande",
         "tt förslag till lag om ändring i riksdagsordningen. Utskottets förslag till riksdagsbeslut 1. Vilande lagförslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 och bilaga 3 delvis till lag om ändring i regeringsformen, lag om ändring i tryckfrihetsförordningen och lag om ändring i yttrandefrihetsgrundlagen samt lag om ändring i riksdagsordninge",
         "ngarna i regeringsformen. Samtliga dessa lagar föreslås också träda i kraft den 1 januari 2011. Utskottet föreslår att riksdagen slutligt antar det vilande förslaget till lagar om ändringar i regeringsformen, tryckfrihetsförordningen och yttrandefrihetsgrundlagen samt riksdagsordningen såvitt avser huvudbestämmelserna. Utskottet tillstyrker vidare att riksd…",
         "örslag till riksdagsbeslut och ställningstaganden har föranlett följande reservationer. I rubriken anges vilken punkt i utskottets förslag till riksdagsbeslut som behandlas i avsnittet. 1. Vilande lagförslag, punkt 1 (SD) av Jonas Åkerlund (SD). Förslag till riksdagsbeslut Jag anser att förslaget till riksdagsbeslut under punkt 1 borde ha följande lydelse:…",
@@ -4000,8 +3436,6 @@
         "ro"
       ],
       "evidence": [
-        "a föreslås träda i kraft den 1 januari 2011. Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit de förslag till lagar om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hä",
-        "reslås träda i kraft den 1 januari 2011. Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit de förslag till lagar om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen som redovisats i det föregående. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hä",
         "i brottsbalken. Utskottets förslag till riksdagsbeslut 1. Tryckfrihetsförordningen och yttrandefrihetsgrundlagen Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i tryckfrihetsförordningen och lag om ändring i yttrandefrihetsgrundlagen. 2. Följdlagstiftning Riksdagen antar regeringens förslag i bilaga 3 till lag om ändri",
         "yckfrihetsförordningen och yttrandefrihetsgrundlagen föreslås träda i kraft den 1 januari 2011. Utskottet föreslår att riksdagen slutligt antar det vilande förslaget till lagar om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Vidare behandlas regeringens förslag i proposition 2009/10:70 Barnpornografibrottet till lag om ändring i brottsb…"
       ],
@@ -4037,8 +3471,6 @@
         "ro"
       ],
       "evidence": [
-        "ska undantas från begreppet allmän handling. Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit det nämnda förslaget till lag om ändring i tryckfrihetsförordningen. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ärendets första",
-        "undantas från begreppet allmän handling. Utskottets anmälan och yttrande Under 2009/10 års riksmöte har riksdagen som vilande antagit det nämnda förslaget till lag om ändring i tryckfrihetsförordningen. Genom detta betänkande anmäls nu det vilande beslutet till kammaren för slutligt beslut. Med hänvisning till vad utskottet anförde vid ärendets första",
         "(MP och V) och två särskilda yttranden (MP och V). Utskottets förslag till riksdagsbeslut 1. Vilande lagförslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i tryckfrihetsförordningen. 2. Ändringar i offentlighets- och sekretesslagen Riksdagen antar regeringens förslag till lag om ändring i offentlighets- och sekret",
         "nna handlingar. Ändringen i tryckfrihetsförordningen föreslås träda i kraft den 1 januari 2011. Utskottet föreslår att riksdagen slutligt antar det vilande förslaget till lag om ändring i tryckfrihetsförordningen. I betänkandet behandlas också regeringens förslag i proposition 2009/10:58 till lag om ändring i offentlighets- och sekretesslagen (2009:400), fö…"
       ],
@@ -4060,33 +3492,6 @@
           "ref_dok_rm": "2010/11",
           "ref_dok_bet": "28",
           "ref_dok_id": "GY0K28"
-        }
-      ]
-    },
-    {
-      "documentId": "GZ01KU15",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/GZ01KU15",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "ro"
-      ],
-      "evidence": [
-        "hon samråda med statsministern. När en statsminister ska utses, kallar talmannen företrädare för varje partigrupp inom riksdagen till samråd (6 kap. 4 § första stycket regeringsformen). Talmannen överlägger med vice talmännen och lämnar sedan förslag till riksdagen. Enligt 6 kap. 4 § andra stycket regeringsformen ska riksdagen inom fyra dagar, utan berednin…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2011/12",
-          "ref_dok_bet": "95",
-          "ref_dok_id": "GZ0995"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2011/12",
-          "ref_dok_bet": "95",
-          "ref_dok_id": "GZ0995"
         }
       ]
     },
@@ -4231,9 +3636,6 @@
         "ro"
       ],
       "evidence": [
-        "ången vid ordinarie val till riksdagen 2018. Utskottets anmälan och yttrande Under 2013/14 års riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som redovisats i det föregående. Genom detta betänkande anmäler utskottet nu det vilande beslutet till kammaren för 6 UTSKOTTETS ÖVERVÄGANDEN 2014/15:KU2 slutligt b",
-        "på grund av bestämmelserna om återföring av fasta valkretsmandat. En annan ändring i regeringsformen som riksdagen har antagit som vilande handlar om vilka partier som får delta i fördelningen av mandat i riksdagen. Mandaten fördelas mellan de partier som i förväg har anmält sitt deltagande i valet; någon sådan anmälan har inte krävts hittills. Vidare tas",
-        "n vid ordinarie val till riksdagen 2018. Utskottets anmälan och yttrande Under 2013/14 års riksmöte har riksdagen som vilande antagit det förslag till lag om ändring i regeringsformen som redovisats i det föregående. Genom detta betänkande anmäler utskottet nu det vilande beslutet till kammaren för 6 UTSKOTTETS ÖVERVÄGANDEN 2014/15:KU2 slutligt b",
         "................................... 17 3 2014/15:KU2 Utskottets förslag till riksdagsbeslut 1.Vilande lagförslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i regeringsformen. 2.Tidpunkt för ny valkretsindelning i Västra Götalands län Riksdagen antar punkt 1 i ikraftträdande- och övergångsbestämmelserna i förslaget till",
         "ge 2018. Dessutom behandlas i betänkandet en motion som väckts med anledning av propositionen. Utskottet föreslår att riksdagen slutligt antar det vilande förslaget till lag om ändring i regeringsformen. Utskottet föreslår vidare att riksdagen antar förslaget till lag om ändring i vallagen och avslår den motion som väckts med anledning av propositionen. 2 20"
       ],
@@ -4243,33 +3645,6 @@
           "ref_dok_rm": "2014/15",
           "ref_dok_bet": "19",
           "ref_dok_id": "H20K19"
-        }
-      ]
-    },
-    {
-      "documentId": "H201KU20",
-      "title": "Granskningsbetänkande",
-      "documentUrl": "https://data.riksdagen.se/dokument/H201KU20",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ro"
-      ],
-      "evidence": [
-        "gleras i 6 kap. regeringsformen. När en statsminister ska utses, kallar talmannen företrädare för varje partigrupp inom riksdagen till samråd. Talmannen överlägger med vice talmännen och lämnar sedan förslag till riksdagen. Riksdagen ska inom fyra dagar, utan beredning i utskott, pröva förslaget genom omröstning. Om mer än hälften av riksdagens ledamöter rö…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2014/15",
-          "ref_dok_bet": "117",
-          "ref_dok_id": "H209117"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2014/15",
-          "ref_dok_bet": "253",
-          "ref_dok_id": "H20K253"
         }
       ]
     },
@@ -4315,39 +3690,6 @@
           "ref_dok_rm": "2014/15",
           "ref_dok_bet": "7",
           "ref_dok_id": "H20K7"
-        }
-      ]
-    },
-    {
-      "documentId": "H301KU16",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/H301KU16",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "ro"
-      ],
-      "evidence": [
-        "hon samråda med statsministern. När en statsminister ska utses kallar talmannen företrädare för varje partigrupp inom riksdagen till samråd (6 kap. 4 § första stycket RF). Talmannen överlägger med vice talmännen och lämnar sedan förslag till riksdagen. Enligt 6 kap. 4 § andra stycket RF ska riksdagen inom fyra dagar, utan beredning i utskott, pröva förslage…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2015/16",
-          "ref_dok_bet": "96",
-          "ref_dok_id": "H30996"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2015/16",
-          "ref_dok_bet": "95",
-          "ref_dok_id": "H30995"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2015/16",
-          "ref_dok_bet": "206",
-          "ref_dok_id": "H30K206"
         }
       ]
     },
@@ -4497,133 +3839,6 @@
       ]
     },
     {
-      "documentId": "H501KU31",
-      "title": "Massmediefrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/H501KU31",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ygl"
-      ],
-      "evidence": [
-        "en 1 januari 2018. Riksdagen har behandlat regeringens förslag i bet. 2017/18:KU13 och rskr. 2017/18:36. Riksdagen har antagit regeringens förslag till ändringar i tryckfrihetsförordningen som vilande. Vidare har riksdagen beslutat att skjuta upp behandlingen av regeringens förslag till ändring i brottsbalken avseende olaga hot och förolämpning till riksmöt…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "68",
-          "ref_dok_id": "H50968"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "68",
-          "ref_dok_id": "H50968"
-        }
-      ]
-    },
-    {
-      "documentId": "H501KU34",
-      "title": "Fri- och rättigheter, m.m.",
-      "documentUrl": "https://data.riksdagen.se/dokument/H501KU34",
-      "constitutionIds": [
-        "rf",
-        "tf"
-      ],
-      "evidence": [
-        "till riksdagsbeslut Vi anser att förslaget till riksdagsbeslut under punkt 7 borde ha följande lydelse: a) Riksdagen antar som vilande reservanternas förslag i bilaga 2 till lag om ändring i regeringsformen. b) Riksdagen ställer sig bakom det som anförs i reservationen om medborgarskap eller uppehållstillstånd på falska grunder och tillkännager dett"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "108",
-          "ref_dok_id": "H509108"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "107",
-          "ref_dok_id": "H509107"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "270",
-          "ref_dok_id": "H50K270"
-        }
-      ]
-    },
-    {
-      "documentId": "H501KU36",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/H501KU36",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "tf",
-        "ygl",
-        "ro"
-      ],
-      "evidence": [
-        "hon samråda med statsministern. När en statsminister ska utses kallar talmannen företrädare för varje partigrupp inom riksdagen till samråd (6 kap. 4 § första stycket RF). Talmannen överlägger med de vice talmännen och lämnar sedan förslag till riksdagen. Enligt 6 kap. 4 § andra stycket RF ska riksdagen inom fyra dagar, utan beredning i utskott, pröva försl…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "100",
-          "ref_dok_id": "H509100"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "100",
-          "ref_dok_id": "H509100"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "228",
-          "ref_dok_id": "H50K228"
-        }
-      ]
-    },
-    {
-      "documentId": "H501KU38",
-      "title": "Offentlighet, sekretess och integritet",
-      "documentUrl": "https://data.riksdagen.se/dokument/H501KU38",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ygl"
-      ],
-      "evidence": [
-        "en 1 januari 2018. Riksdagen har behandlat regeringens förslag i bet. 2017/18:KU13 och rskr. 2017/18:36. Riksdagen har antagit regeringens förslag till ändringar i tryckfrihetsförordningen som vilande. Vidare har riksdagen beslutat att skjuta upp behandlingen av regeringens förslag till ändring i brottsbalken avseende olaga hot och förolämpning till riksmöt…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "64",
-          "ref_dok_id": "H50964"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "64",
-          "ref_dok_id": "H50964"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2017/18",
-          "ref_dok_bet": "148",
-          "ref_dok_id": "H50K148"
-        }
-      ]
-    },
-    {
       "documentId": "H601KU14",
       "title": "Översyn av Riksrevisionen - vissa frågor om riksdagen och Riksrevisionen, m.m.",
       "documentUrl": "https://data.riksdagen.se/dokument/H601KU14",
@@ -4676,7 +3891,6 @@
         "ygl"
       ],
       "evidence": [
-        "en lagteknisk samordning av förslagen upphävde utskottet det förslag som hade lagts fram i betänkande 2017/18:KU13 och antagits av riksdagen som vilande, nämligen förslag till lag om ändring i tryckfrihetsförordningen, och lade fram ett förslag till ny lydelse i förhållande till förslagen i proposition 2017/18:49 av 7 kap. 2, 4 och 6 §§ TF i betänkande 2017…",
         "7 Justitieutskottets yttrande 2017/18:JuU5y Utskottets förslag till riksdagsbeslut 1. Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i tryckfrihetsförordningen och till lag om ändring i yttrandefrihetsgrundlagen. 2. Ändringar i tillämpningslagen Riksdagen antar regeringens förslag till lag om än",
         "lingen av vissa lagförslag som har ett sådant samband med grundlagsändringarna att de bör antas först i samband med att riksdagen slutligt antar grundlagsändringarna. I betänkandet behandlar utskottet därför regeringens förslag i proposition 2017/18:49 till lag om ändring i lagen (1991:1559) med föreskrifter på tryckfrihetsförordningens och yttrande­frihets…",
         "d för transpersoner genom ändringar i tryckfrihetsförordningens bestämmelse om hets mot folkgrupp borde ha avslagits. Det vilande förslaget till lag om ändring i tryckfrihetsförordningen kan dock endast antas eller förkastas i sin helhet. Vi är inte beredda att förkasta hela det vilande förslaget och avstår därför från att reservera oss. 2. Vilande förslag,…"
@@ -4693,73 +3907,6 @@
           "ref_dok_rm": "2018/19",
           "ref_dok_bet": "16",
           "ref_dok_id": "H60K16"
-        }
-      ]
-    },
-    {
-      "documentId": "H601KU3",
-      "title": "Följdändringar till ändrade mediegrundlagar",
-      "documentUrl": "https://data.riksdagen.se/dokument/H601KU3",
-      "constitutionIds": [
-        "tf",
-        "ygl"
-      ],
-      "evidence": [
-        "behandlar utskottet det vilande grund­lagsförslaget i betänkande 2017/18:KU2. Utskottet föreslår i det betänkandet att riksdagen slutligt antar det vilande förslaget till lag om ändring i tryck­frihetsförordningen och lag om ändring i yttrandefrihetsgrundlagen. I proposition 2017/18:260 Följdändringar till ändrade mediegrundlagar föreslår regeringen vissa f…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2018/19",
-          "ref_dok_bet": "16",
-          "ref_dok_id": "H60916"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2018/19",
-          "ref_dok_bet": "17",
-          "ref_dok_id": "H60K17"
-        }
-      ]
-    },
-    {
-      "documentId": "H601KU30",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/H601KU30",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "tf",
-        "ygl",
-        "ro"
-      ],
-      "evidence": [
-        "hon samråda med statsministern. När en statsminister ska utses kallar talmannen företrädare för varje partigrupp inom riksdagen till samråd (6 kap. 4 § första stycket RF). Talmannen överlägger med de vice talmännen och lämnar sedan förslag till riksdagen. Enligt 6 kap. 4 § andra stycket RF ska riksdagen inom fyra dagar, utan beredning i utskott, pröva försl…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2018/19",
-          "ref_dok_bet": "93",
-          "ref_dok_id": "H60993"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2018/19",
-          "ref_dok_bet": "93",
-          "ref_dok_id": "H60993"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2018/19",
-          "ref_dok_bet": "215",
-          "ref_dok_id": "H60K215"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2018/19",
-          "ref_dok_bet": "216",
-          "ref_dok_id": "H60K216"
         }
       ]
     },
@@ -4805,32 +3952,6 @@
           "ref_dok_rm": "2018/19",
           "ref_dok_bet": "21",
           "ref_dok_id": "H60K21"
-        }
-      ]
-    },
-    {
-      "documentId": "H601KU6",
-      "title": "Riksrevisionens ledningsstruktur",
-      "documentUrl": "https://data.riksdagen.se/dokument/H601KU6",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "evidence": [
-        "geringsformen till riksdags­ordningen för att antalet riksrevisorer lättare ska kunna ändras i framtiden. Riksdagen har antagit förslaget som vilande (bet. 2017/18:KU15, rskr. 2017/18:211–212). 2017 års riksrevisionsutredning har haft i uppdrag bl.a. att analysera hur ordningen med tre riksrevisorer fungerat samt för- och nackdelar med den nuvarande ordning…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2018/19",
-          "ref_dok_bet": "13",
-          "ref_dok_id": "H60913"
-        },
-        {
-          "ref_dok_typ": "rskr",
-          "ref_dok_rm": "2018/19",
-          "ref_dok_bet": "7",
-          "ref_dok_id": "H60K7"
         }
       ]
     },
@@ -4946,35 +4067,6 @@
           "ref_dok_rm": "2019/20",
           "ref_dok_bet": "162",
           "ref_dok_id": "H70K162"
-        }
-      ]
-    },
-    {
-      "documentId": "H801KU24",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/H801KU24",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "tf",
-        "ygl",
-        "ro"
-      ],
-      "evidence": [
-        "estämmelser om regeringsbildning. När en statsminister ska utses kallar talmannen företrädare för varje partigrupp inom riksdagen till samråd (6 kap. 4 § regeringsformen). Talmannen över­lägger med vice talmännen och lämnar sedan förslag till riksdagen. Därefter ska riksdagen inom fyra dagar, utan beredning i utskott, pröva förslaget genom omröstning. Om me…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2020/21",
-          "ref_dok_bet": "115",
-          "ref_dok_id": "H809115"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2020/21",
-          "ref_dok_bet": "112",
-          "ref_dok_id": "H809112"
         }
       ]
     },
@@ -5191,35 +4283,6 @@
       ]
     },
     {
-      "documentId": "H901KU30",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/H901KU30",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "tf",
-        "ygl",
-        "ro"
-      ],
-      "evidence": [
-        "estämmelser om regeringsbildning. När en statsminister ska utses kallar talmannen företrädare för varje partigrupp inom riksdagen till samråd (6 kap. 4 § regeringsformen). Talmannen över­lägger med vice talmännen och lämnar sedan förslag till riksdagen. Därefter ska riksdagen inom fyra dagar, utan beredning i utskott, pröva förslaget genom omröstning. Om me…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2021/22",
-          "ref_dok_bet": "77",
-          "ref_dok_id": "H90977"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2021/22",
-          "ref_dok_bet": "77",
-          "ref_dok_id": "H90977"
-        }
-      ]
-    },
-    {
       "documentId": "HA01KU2",
       "title": "En ny beteckning för kommuner på regional nivå och vissa frågor om regionindelning (vilande grundlagsförslag)",
       "documentUrl": "https://data.riksdagen.se/dokument/HA01KU2",
@@ -5276,35 +4339,6 @@
           "ref_dok_rm": "2022/23",
           "ref_dok_bet": "8",
           "ref_dok_id": "HA0K8"
-        }
-      ]
-    },
-    {
-      "documentId": "HA01KU30",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/HA01KU30",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "tf",
-        "ygl",
-        "ro"
-      ],
-      "evidence": [
-        "estämmelser om regeringsbildning. När en statsminister ska utses kallar talmannen företrädare för varje partigrupp inom riksdagen till samråd (6 kap. 4 § regeringsformen). Talmannen över­lägger med vice talmännen och lämnar sedan förslag till riksdagen. Därefter ska riksdagen inom fyra dagar, utan beredning i utskott, pröva förslaget genom omröstning. Om me…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2022/23",
-          "ref_dok_bet": "98",
-          "ref_dok_id": "HA0998"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2022/23",
-          "ref_dok_bet": "98",
-          "ref_dok_id": "HA0998"
         }
       ]
     },
@@ -5592,45 +4626,6 @@
           "ref_dok_rm": "2025/26",
           "ref_dok_bet": "3",
           "ref_dok_id": "HD0K3"
-        }
-      ]
-    },
-    {
-      "documentId": "HD01KU30",
-      "title": "Författningsfrågor",
-      "documentUrl": "https://data.riksdagen.se/dokument/HD01KU30",
-      "constitutionIds": [
-        "rf",
-        "so",
-        "tf",
-        "ygl",
-        "ro"
-      ],
-      "evidence": [
-        "dagar från det att riksdagen antog grundlags­förslaget som vilande. Yrkandet ska inte beredas i utskott. Riksdagen har som vilande antagit ändringar i regeringsformen och riksdagsordningen när det bl.a. gäller formerna för grundlagsändringar (prop. 2024/25:165, bet. 2025/26:KU2, se vidare nedan). Ändringarna, som föreslås träda i kraft den 1 april 2027, in",
-        "år av högst tio ledamöter, har till uppgift att utöva insyn i verksamheten och ge generaldirektören råd. Riksdagen har antagit en ändring av regeringsformen som vilande. Ändringen innebär bl.a. att den myndighet som ansvarar för administrationen av domstolarna ska ledas av en styrelse där en majoritet av ledamöterna är domare (prop. 2024/25:165, bet. 2025/2…",
-        "r från det att riksdagen antog grundlags­förslaget som vilande. Yrkandet ska inte beredas i utskott. Riksdagen har som vilande antagit ändringar i regeringsformen och riksdagsordningen när det bl.a. gäller formerna för grundlagsändringar (prop. 2024/25:165, bet. 2025/26:KU2, se vidare nedan). Ändringarna, som föreslås träda i kraft den 1 april 2027, in",
-        "tern. När en statsminister ska utses samråder talmannen enligt 6 kap. 4 § RF med företrädare för varje partigrupp inom riksdagen. Talmannen överlägger också med de vice talmännen och lämnar sedan ett förslag på statsminister till riksdagen. Riksdagen prövar förslaget genom omröstning. Om mer än hälften av riksdagens ledamöter röstar mot förslaget är det för…",
-        "riksdagens två beslut om grundlagsändringen. De som har rösträtt i riksdagsvalet har rösträtt också i folkomröstningen. Det vilande förslaget är förkastat om de som röstat mot det är fler än dem som röstat för det, och de som röstat mot dessutom är fler än hälften av dem som har avgett godkända röster vid riksdagsvalet. I annat fall tar riksdagen upp försla…"
-      ],
-      "structuredReferences": [
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2025/26",
-          "ref_dok_bet": "102",
-          "ref_dok_id": "HD09102"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2025/26",
-          "ref_dok_bet": "102",
-          "ref_dok_id": "HD09102"
-        },
-        {
-          "ref_dok_typ": "prot",
-          "ref_dok_rm": "2025/26",
-          "ref_dok_bet": "102",
-          "ref_dok_id": "HD09102"
         }
       ]
     },

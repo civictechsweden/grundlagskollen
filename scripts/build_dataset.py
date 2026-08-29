@@ -73,9 +73,13 @@ CONSTITUTION_PATTERNS = (
 )
 
 FIRST_PATTERNS = (
-    r"(?:som|såsom)\s+(?:vilande|hvilande)\s+(?:antar|antagit|antaget|antaga)",
-    r"(?:antar|antagit|antaget|antaga)[^.]{0,220}?(?:som|såsom)\s+(?:vilande|hvilande)",
-    r"(?:vilande|hvilande)\s+(?:antar|antagit|antaget|antaga)",
+    # Present-tense/infinitive wording is used for the operative proposal.
+    # Past-tense "har antagit ... som vilande" generally recounts an earlier
+    # decision in a later report and must not create a second first-decision
+    # record.
+    r"(?:som|såsom)\s+(?:vilande|hvilande)\s+(?:antar|antaga)",
+    r"(?:antar|antaga)[^.]{0,220}?(?:som|såsom)\s+(?:vilande|hvilande)",
+    r"(?:vilande|hvilande)\s+(?:antar|antaga)",
 )
 FINAL_ADOPT_PATTERNS = (
     r"riksdagen\s+(?:antar|antog|har\s+antagit)\s+slutligt",
@@ -397,10 +401,27 @@ def decision_date(doc: dict, activity_list: list[dict]) -> str | None:
 def classify(title: str, text: str) -> dict:
     corpus = f"{title}\n{text}"
     first = snippets(corpus, FIRST_PATTERNS)
+    # A reservation may contain an alternative "Riksdagen antar som vilande"
+    # formulation.  It is not the committee's operative recommendation.  The
+    # local evidence is retained for inspection, but such a reservation-only
+    # hit is not promoted to a first decision.
+    first = [
+        item for item in first
+        if not (
+            re.search(r"\bvi\s+anser\b|reservanternas", item, re.I)
+            and not re.search(r"utskottet\s+(?:föreslår|hemställer|tillstyrker)", item, re.I)
+        )
+    ]
     adopted = snippets(corpus, FINAL_ADOPT_PATTERNS)
     rejected = snippets(corpus, FINAL_REJECT_PATTERNS)
     final_context = bool(re.search(r"för slutligt beslut|slutligt beslut|slutbehandling|slutlig prövning", corpus, re.I))
-    is_final = bool(adopted or rejected or (final_context and re.search(r"vilande", title, re.I)))
+    title_vilande = bool(re.search(r"vilande|hvilande", title, re.I))
+    final_procedure = bool(re.search(r"(?:anmäl|anmäler|anmäld)[\s\S]{0,90}(?:för|till)\s+slutligt beslut[\s\S]{0,90}(?:vilande|hvilande)", corpus, re.I))
+    legacy_chamber_vote = bool(re.search(r"(?:omröstningen visade|kammaren förkastat|kammaren alltså fattat beslut enligt ja-propositionens)", corpus, re.I))
+    # A first-decision report may describe the future second vote. Require an
+    # explicit final-procedure context before interpreting the same words as a
+    # final decision.
+    is_final = bool((adopted or rejected) and (title_vilande or final_procedure or legacy_chamber_vote) or (final_context and title_vilande))
     is_first = bool(first) and not is_final
     if is_final and rejected:
         # The operative proposal wins over rejection language in a reservation
@@ -440,6 +461,24 @@ def ref_keys(document: dict) -> set[str]:
         if ref.get("ref_dok_id"):
             values.add(f"document:{normalize_id(ref['ref_dok_id'])}")
     return values
+
+
+def proposition_keys(document: dict) -> set[str]:
+    """Return primary proposition references, preferring structured metadata."""
+    structured = {
+        f"citation:proposition:{normalize_citation(str(ref.get('ref_dok_rm')) + ':' + str(ref.get('ref_dok_bet')))}"
+        for ref in document.get("structuredReferences", [])
+        if str(ref.get("ref_dok_typ", "")).lower() == "prop" and ref.get("ref_dok_rm") and ref.get("ref_dok_bet")
+    }
+    if structured:
+        return structured
+    # Text citations include a long tail of historical background references.
+    # In the absence of the API's structured proposition metadata, the first
+    # proposition citation is the conservative primary-reference fallback.
+    for item in document.get("citations", []):
+        if item.get("kind") == "proposition":
+            return {f"citation:proposition:{item['normalized']}"}
+    return set()
 
 
 def work_keys(works: list[str]) -> set[str]:
@@ -544,11 +583,12 @@ def pair_decisions(documents: list[dict], known_pending: list[dict]) -> list[dic
             if final_date <= first_date:
                 continue
             shared = first_keys & ref_keys(final)
-            shared_proposition = len({key for key in shared if "proposition" in key})
+            shared_proposition = len(proposition_keys(first) & proposition_keys(final))
             shared_bet = len({key for key in shared if "betänkande" in key})
             shared_document = len({key for key in shared if key.startswith("document:")})
-            constitution_overlap = len(set(first.get("constitutionIds", [])) & set(final.get("constitutionIds", [])))
-            score = shared_proposition * 30 + shared_bet * 12 + shared_document * 20 + constitution_overlap * 2
+            # Constitution overlap alone is never evidence of a pair: a KU
+            # report routinely cites many unrelated constitutional matters.
+            score = shared_proposition * 50 + shared_bet * 12 + shared_document * 20
             if score:
                 scored.append((score, final))
         scored.sort(key=lambda pair: (pair[0], pair[1].get("decisionDate") or ""), reverse=True)
@@ -626,6 +666,7 @@ def proposal_record(first: dict, final: dict | None, score: int) -> dict:
             "date": first.get("decisionDate") or first.get("publishedDate"),
             "documentUrl": first["documentUrl"],
             "propositionReferences": [item for item in first.get("citations", []) if item["kind"] == "proposition"],
+            "riksdagCitationReferences": [item for item in first.get("citations", []) if item["kind"] != "proposition"],
             "riksdagReferences": first_refs,
             "evidence": first.get("evidence", []),
         },
@@ -635,6 +676,7 @@ def proposal_record(first: dict, final: dict | None, score: int) -> dict:
             "date": final.get("decisionDate") or final.get("publishedDate"),
             "documentUrl": final["documentUrl"],
             "propositionReferences": [item for item in final.get("citations", []) if item["kind"] == "proposition"],
+            "riksdagCitationReferences": [item for item in final.get("citations", []) if item["kind"] != "proposition"],
             "riksdagReferences": final_refs,
             "evidence": final.get("evidence", []),
         } if final else None,
@@ -693,6 +735,7 @@ def attach_sfs(proposals: list[dict], changes: list[dict]) -> dict:
             continue
         decision = proposal.get("finalDecision") or proposal.get("firstDecision") or {}
         refs = {f"citation:{item['kind']}:{item['normalized']}" for item in decision.get("propositionReferences", [])}
+        refs |= {f"citation:{item['kind']}:{item['normalized']}" for item in decision.get("riksdagCitationReferences", [])}
         refs |= {f"document:{normalize_id(value)}" for value in decision.get("riksdagReferences", []) if value}
         matches = []
         for change in changes:
