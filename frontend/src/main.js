@@ -29,7 +29,7 @@ const records = (data.proposals || [])
 const yearValues = records.map((record) => Number(record.firstDate.slice(0, 4))).filter(Boolean);
 const minYear = Math.min(1975, ...yearValues);
 const maxYear = Math.max(new Date().getFullYear(), ...yearValues);
-const state = { law: 'all', year: maxYear, open: null };
+const state = { law: 'all', status: 'all', year: maxYear, open: null };
 
 function escapeHTML(value = '') {
   return String(value)
@@ -62,6 +62,10 @@ function statusClass(status) {
   if (status === 'adopted') return 'is-adopted';
   if (status === 'rejected') return 'is-rejected';
   return 'is-pending';
+}
+
+function statusGroup(status) {
+  return status === 'adopted' ? 'adopted' : status === 'rejected' ? 'rejected' : 'pending';
 }
 
 function lawLabel(id) {
@@ -98,9 +102,9 @@ function sourceLink(document, label) {
 }
 
 function matches(record) {
-  const yearMatches = yearOf(record.firstDate) <= state.year;
   const lawMatches = state.law === 'all' || record.lawIds.includes(state.law);
-  return yearMatches && lawMatches;
+  const statusMatches = state.status === 'all' || statusGroup(record.status) === state.status;
+  return lawMatches && statusMatches;
 }
 
 function filteredRecords() {
@@ -116,7 +120,7 @@ function renderShell() {
       </a>
     </header>
     <main id="top">
-      <section class="filter-panel" aria-label="Filtrera grundlagsändringar">
+      <section class="filter-panel" aria-label="Filtrera och navigera bland grundlagsändringar">
         <div class="filter-row">
           <label class="law-filter" for="law-filter">
             <span>Grundlag</span>
@@ -125,12 +129,21 @@ function renderShell() {
               ${lawOptions.map((law) => `<option value="${escapeHTML(law.id)}">${escapeHTML(law.short)} · ${escapeHTML(law.title)}</option>`).join('')}
             </select>
           </label>
+          <label class="status-filter" for="status-filter">
+            <span>Status</span>
+            <select id="status-filter">
+              <option value="all">Alla statusar</option>
+              <option value="pending">Vilande</option>
+              <option value="adopted">Antagen</option>
+              <option value="rejected">Förkastad</option>
+            </select>
+          </label>
           <div class="year-filter">
             <div class="year-filter-heading">
-              <label for="year-filter">Beslut till och med</label>
+              <label for="year-filter">Tidslinje</label>
               <output id="year-output" for="year-filter">${maxYear}</output>
             </div>
-            <input id="year-filter" type="range" min="${minYear}" max="${maxYear}" value="${maxYear}" step="1" aria-label="Välj sista år för listan" />
+            <input id="year-filter" type="range" min="${minYear}" max="${maxYear}" value="${maxYear}" step="1" aria-label="Scrolla listan till år" />
             <div class="range-ends" aria-hidden="true"><span>${minYear}</span><span>${maxYear}</span></div>
           </div>
         </div>
@@ -152,10 +165,16 @@ function renderShell() {
     renderList();
   });
 
-  document.querySelector('#year-filter').addEventListener('input', (event) => {
-    state.year = Number(event.target.value);
+  document.querySelector('#status-filter').addEventListener('change', (event) => {
+    state.status = event.target.value;
     state.open = null;
     renderList();
+  });
+
+  document.querySelector('#year-filter').addEventListener('input', (event) => {
+    state.year = Number(event.target.value);
+    updateYearOutput();
+    scrollListToYear();
   });
 }
 
@@ -166,7 +185,7 @@ function renderCard(record) {
   const laws = record.lawIds.map((lawId) => `<span title="${escapeHTML(lawTitle(lawId))}">${escapeHTML(lawLabel(lawId))}</span>`).join('');
   const sfs = record.sfsIds.length ? `<p class="detail-meta"><strong>SFS</strong> ${escapeHTML(record.sfsIds.join(' · '))}</p>` : '';
 
-  return `<article class="change-card${isOpen ? ' is-open' : ''}">
+  return `<article class="change-card${isOpen ? ' is-open' : ''}" data-card-year="${yearOf(record.firstDate)}">
     <button class="change-card-button" type="button" data-record-id="${escapeHTML(record.id)}" aria-expanded="${isOpen}" aria-controls="detail-${id}">
       <time class="change-date" datetime="${escapeHTML(record.firstDate)}">${escapeHTML(formatDate(record.firstDate))}</time>
       <span class="change-main">
@@ -201,8 +220,7 @@ function renderList() {
   const output = document.querySelector('#year-output');
   if (!list || !count || !output) return;
 
-  output.value = String(state.year);
-  output.textContent = String(state.year);
+  updateYearOutput();
   count.textContent = `${visible.length} av ${records.length}`;
   list.innerHTML = visible.length
     ? visible.map(renderCard).join('')
@@ -214,6 +232,32 @@ function renderList() {
       renderList();
     });
   });
+}
+
+function updateYearOutput() {
+  const output = document.querySelector('#year-output');
+  if (!output) return;
+  output.value = String(state.year);
+  output.textContent = String(state.year);
+}
+
+function scrollListToYear() {
+  const cards = [...document.querySelectorAll('.change-card')];
+  if (!cards.length) return;
+  const target = cards.reduce((best, card) => {
+    const cardYear = Number(card.dataset.cardYear);
+    const distance = cardYear <= state.year
+      ? state.year - cardYear
+      : 10000 + cardYear - state.year;
+    if (!best || distance < best.distance) return { card, distance };
+    return best;
+  }, null)?.card;
+  if (!target) return;
+
+  const headerHeight = document.querySelector('.site-header')?.offsetHeight || 0;
+  const filterHeight = document.querySelector('.filter-panel')?.offsetHeight || 0;
+  const top = target.getBoundingClientRect().top + window.scrollY - headerHeight - filterHeight - 10;
+  window.scrollTo({ top: Math.max(0, top), behavior: 'smooth' });
 }
 
 renderShell();

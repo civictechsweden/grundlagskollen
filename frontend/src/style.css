@@ -78,14 +78,14 @@ main {
 
 .filter-row {
   display: grid;
-  grid-template-columns: minmax(210px, 280px) 1fr;
+  grid-template-columns: minmax(190px, 250px) minmax(150px, 190px) 1fr;
   gap: 28px;
   align-items: end;
 }
 
-.law-filter, .year-filter { display: grid; gap: 7px; }
+.law-filter, .status-filter, .year-filter { display: grid; gap: 7px; }
 
-.law-filter > span, .year-filter-heading label {
+.law-filter > span, .status-filter > span, .year-filter-heading label {
   color: var(--muted);
   font-size: 12px;
   font-weight: 650;
@@ -184,6 +184,8 @@ h1 {
   font-variant-numeric: tabular-nums;
   font-size: 14px;
 }
+
+.change-card.is-open { background: #fbfbf8; }
 
 .change-main { min-width: 0; display: grid; gap: 3px; }
 
