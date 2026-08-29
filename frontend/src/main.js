@@ -11,23 +11,59 @@ const elections = [
   '2010-09-19', '2014-09-14', '2018-09-09', '2022-09-11', '2026-09-13',
 ];
 
-const records = (data.proposals || [])
+const proposalRecords = (data.proposals || [])
   .filter((proposal) => proposal.firstDecision?.date)
   .map((proposal) => ({
     id: proposal.proposalId,
+    kind: 'proposal',
     title: proposal.title || 'Grundlagsändring',
     status: proposal.status,
     firstDate: proposal.firstDecision.date,
+    year: yearOf(proposal.firstDecision.date),
     finalDate: proposal.finalDecision?.date || null,
     firstDocument: proposal.firstDecision,
     finalDocument: proposal.finalDecision,
     lawIds: proposal.constitutionIds || [],
     sfsIds: proposal.sfsIds || [],
-  }))
-  .sort((a, b) => b.firstDate.localeCompare(a.firstDate) || a.title.localeCompare(b.title, 'sv'));
+  }));
 
-const yearValues = records.map((record) => Number(record.firstDate.slice(0, 4))).filter(Boolean);
-const minYear = Math.min(1975, ...yearValues);
+const proposalSfsIds = new Set(proposalRecords.flatMap((record) => record.sfsIds));
+
+const baselineRecords = lawOptions.map((law) => ({
+  id: `${law.id}-${law.sfs}-original`,
+  kind: 'baseline',
+  title: `Ursprunglig lydelse av ${law.title}`,
+  status: 'baseline',
+  firstDate: null,
+  year: yearOf(law.sfs),
+  lawIds: [law.id],
+  sfsIds: [law.sfs],
+  lawUrl: law.uri,
+  versionUrl: law.uri,
+}));
+
+const sfsRecords = (data.changes || [])
+  .filter((change) => change.sfs && !proposalSfsIds.has(change.sfs))
+  .map((change) => ({
+    id: change.id,
+    kind: 'sfs',
+    title: change.title || 'Ändring registrerad i konsolideringen',
+    status: 'confirmed',
+    firstDate: change.date || null,
+    year: yearOf(change.date || change.sfs),
+    lawIds: [change.constitutionId],
+    sfsIds: [change.sfs],
+    lawUrl: change.lawUrl,
+    versionUrl: change.versionUrl,
+    preparatoryWorks: change.preparatoryWorks || [],
+  }));
+
+const records = [...baselineRecords, ...sfsRecords, ...proposalRecords]
+  .filter((record) => record.year)
+  .sort((a, b) => b.year - a.year || (b.firstDate || '').localeCompare(a.firstDate || '') || a.title.localeCompare(b.title, 'sv'));
+
+const yearValues = records.map((record) => record.year).filter(Boolean);
+const minYear = Math.min(...yearValues);
 const maxYear = Math.max(new Date().getFullYear(), ...yearValues);
 const state = { law: 'all', status: 'all', year: maxYear, open: null };
 
@@ -48,6 +84,10 @@ function formatDate(value, fallback = 'Datum saknas') {
     : new Intl.DateTimeFormat('sv-SE', { day: 'numeric', month: 'short', year: 'numeric' }).format(date);
 }
 
+function formatRecordDate(record) {
+  return record.firstDate ? formatDate(record.firstDate) : String(record.year);
+}
+
 function yearOf(value) {
   return Number(String(value || '').slice(0, 4));
 }
@@ -55,17 +95,23 @@ function yearOf(value) {
 function statusLabel(status) {
   if (status === 'adopted') return 'antagen';
   if (status === 'rejected') return 'förkastad';
+  if (status === 'confirmed') return 'SFS-verifierad';
+  if (status === 'baseline') return 'ursprunglig';
   return 'vilande';
 }
 
 function statusClass(status) {
   if (status === 'adopted') return 'is-adopted';
   if (status === 'rejected') return 'is-rejected';
+  if (status === 'confirmed' || status === 'baseline') return 'is-confirmed';
   return 'is-pending';
 }
 
 function statusGroup(status) {
-  return status === 'adopted' ? 'adopted' : status === 'rejected' ? 'rejected' : 'pending';
+  if (status === 'adopted') return 'adopted';
+  if (status === 'rejected') return 'rejected';
+  if (status === 'confirmed' || status === 'baseline') return 'confirmed';
+  return 'pending';
 }
 
 function lawLabel(id) {
@@ -81,6 +127,7 @@ function safeId(value) {
 }
 
 function electionBetween(record) {
+  if (record.kind !== 'proposal') return null;
   const candidates = elections.filter((date) => date > record.firstDate);
   if (record.finalDate) {
     return candidates.find((date) => date < record.finalDate) || null;
@@ -96,9 +143,10 @@ function timelineEvent(label, date, missing = false) {
   </div>`;
 }
 
-function sourceLink(document, label) {
-  if (!document?.documentUrl) return '';
-  return `<a href="${escapeHTML(document.documentUrl)}" target="_blank" rel="noreferrer">${escapeHTML(label)} ↗</a>`;
+function sourceLink(source, label) {
+  const url = source?.documentUrl || source?.lawUrl || source?.url;
+  if (!url) return '';
+  return `<a href="${escapeHTML(url)}" target="_blank" rel="noreferrer">${escapeHTML(label)} ↗</a>`;
 }
 
 function matches(record) {
@@ -136,6 +184,7 @@ function renderShell() {
               <option value="pending">Vilande</option>
               <option value="adopted">Antagen</option>
               <option value="rejected">Förkastad</option>
+              <option value="confirmed">SFS-historik</option>
             </select>
           </label>
           <div class="year-filter">
@@ -151,7 +200,7 @@ function renderShell() {
 
       <section class="changes-section" aria-labelledby="changes-heading">
         <div class="list-heading">
-          <h1 id="changes-heading">Grundlagsändringar</h1>
+          <h1 id="changes-heading">Grundlagarnas historik</h1>
           <p id="results-count" class="results-count"></p>
         </div>
         <div id="changes-list" class="changes-list"></div>
@@ -181,13 +230,12 @@ function renderShell() {
 function renderCard(record) {
   const id = safeId(record.id);
   const isOpen = state.open === record.id;
-  const election = electionBetween(record);
   const laws = record.lawIds.map((lawId) => `<span title="${escapeHTML(lawTitle(lawId))}">${escapeHTML(lawLabel(lawId))}</span>`).join('');
   const sfs = record.sfsIds.length ? `<p class="detail-meta"><strong>SFS</strong> ${escapeHTML(record.sfsIds.join(' · '))}</p>` : '';
 
-  return `<article class="change-card${isOpen ? ' is-open' : ''}" data-card-year="${yearOf(record.firstDate)}">
+  return `<article class="change-card${isOpen ? ' is-open' : ''}" data-card-year="${record.year}">
     <button class="change-card-button" type="button" data-record-id="${escapeHTML(record.id)}" aria-expanded="${isOpen}" aria-controls="detail-${id}">
-      <time class="change-date" datetime="${escapeHTML(record.firstDate)}">${escapeHTML(formatDate(record.firstDate))}</time>
+      <time class="change-date"${record.firstDate ? ` datetime="${escapeHTML(record.firstDate)}"` : ''}>${escapeHTML(formatRecordDate(record))}</time>
       <span class="change-main">
         <span class="change-title">${escapeHTML(record.title)}</span>
         <span class="change-laws">${laws || '<span>Grundlag saknas</span>'}</span>
@@ -195,22 +243,52 @@ function renderCard(record) {
       <span class="status ${statusClass(record.status)}">${statusLabel(record.status)}</span>
       <span class="expand-mark" aria-hidden="true">${isOpen ? '−' : '+'}</span>
     </button>
-    <div id="detail-${id}" class="change-detail" ${isOpen ? '' : 'hidden'}>
-      <div class="detail-topline">
-        <span>Beslutsförlopp</span>
-        <span>${escapeHTML(statusLabel(record.status))}</span>
-      </div>
-      <div class="decision-timeline" aria-label="Tidslinje för beslutet">
-        ${timelineEvent('Första beslutet', formatDate(record.firstDate))}
-        ${timelineEvent('Val däremellan', election ? formatDate(election) : null, !election)}
-        ${timelineEvent('Andra beslutet', record.finalDate ? formatDate(record.finalDate) : null, !record.finalDate)}
-      </div>
-      <div class="detail-footer">
-        <div>${sfs}<p class="detail-meta"><strong>Första beslut</strong> ${sourceLink(record.firstDocument, record.firstDocument?.documentId || 'Riksdagsdokument')}</p>${record.finalDocument ? `<p class="detail-meta"><strong>Andra beslut</strong> ${sourceLink(record.finalDocument, record.finalDocument.documentId || 'Riksdagsdokument')}</p>` : ''}</div>
-        <span class="detail-note">${record.finalDate ? 'Slutligt beslut finns i underlaget.' : 'Slutligt beslut är inte identifierat i underlaget.'}</span>
-      </div>
-    </div>
+    ${record.kind === 'proposal' ? renderProposalDetail(record, sfs) : renderSfsDetail(record, sfs)}
   </article>`;
+}
+
+function renderProposalDetail(record, sfs) {
+  const election = electionBetween(record);
+  return `<div id="detail-${safeId(record.id)}" class="change-detail" ${state.open === record.id ? '' : 'hidden'}>
+    <div class="detail-topline">
+      <span>Beslutsförlopp</span>
+      <span>${escapeHTML(statusLabel(record.status))}</span>
+    </div>
+    <div class="decision-timeline" aria-label="Tidslinje för beslutet">
+      ${timelineEvent('Första beslutet', formatDate(record.firstDate))}
+      ${timelineEvent('Val däremellan', election ? formatDate(election) : null, !election)}
+      ${timelineEvent('Andra beslutet', record.finalDate ? formatDate(record.finalDate) : null, !record.finalDate)}
+    </div>
+    <div class="detail-footer">
+      <div>${sfs}<p class="detail-meta"><strong>Första beslut</strong> ${sourceLink(record.firstDocument, record.firstDocument?.documentId || 'Riksdagsdokument')}</p>${record.finalDocument ? `<p class="detail-meta"><strong>Andra beslut</strong> ${sourceLink(record.finalDocument, record.finalDocument.documentId || 'Riksdagsdokument')}</p>` : ''}</div>
+      <span class="detail-note">${record.finalDate ? 'Slutligt beslut finns i underlaget.' : 'Slutligt beslut är inte identifierat i underlaget.'}</span>
+    </div>
+  </div>`;
+}
+
+function renderSfsDetail(record, sfs) {
+  const isBaseline = record.kind === 'baseline';
+  const version = record.versionUrl && record.versionUrl !== record.lawUrl
+    ? `<p class="detail-meta"><strong>Lydelse</strong> <a href="${escapeHTML(record.versionUrl)}" target="_blank" rel="noreferrer">Visa konsoliderad lydelse ↗</a></p>`
+    : '';
+  const preparatoryWorks = record.preparatoryWorks?.length
+    ? `<p class="detail-meta"><strong>Förarbeten</strong> ${escapeHTML(record.preparatoryWorks.join(' · '))}</p>`
+    : '';
+  const note = isBaseline
+    ? 'Startpunkt i Ferendas SFS-historik för denna grundlag.'
+    : record.firstDate
+      ? 'Datumet är ikraftträdandet enligt Ferendas SFS-underlag.'
+      : 'Ferendas SFS-underlag anger inget ikraftträdandedatum; året kommer från SFS-numret.';
+  return `<div id="detail-${safeId(record.id)}" class="change-detail" ${state.open === record.id ? '' : 'hidden'}>
+    <div class="detail-topline">
+      <span>${isBaseline ? 'Ursprunglig lydelse' : 'SFS-historik'}</span>
+      <span>${escapeHTML(statusLabel(record.status))}</span>
+    </div>
+    <div class="detail-footer detail-footer-sfs">
+      <div>${sfs}<p class="detail-meta"><strong>Källa</strong> ${sourceLink(record, `SFS ${record.sfsIds[0]}`)}</p>${version}${preparatoryWorks}</div>
+      <span class="detail-note">${escapeHTML(note)}</span>
+    </div>
+  </div>`;
 }
 
 function renderList() {
