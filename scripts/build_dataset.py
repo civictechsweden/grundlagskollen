@@ -59,6 +59,10 @@ DISCOVERY_QUERIES = (
 REGRESSION_DOCUMENT_IDS = {
     "GF01KU13",  # 1991 final rejection
     "GE01KU22",  # 1991 first decision
+    "FZ01KU1",   # motion wording falsely resembling a pending decision
+    "FZ01KU48",  # genuine first pending decision, TF 2 kap.
+    "G001KU1",   # post-election committee report for the 1976 cases
+    "G00923",     # chamber protocol with the final 1976-11-10 vote
     "CL10KU1",   # 1888 KU memorial
     "CL9O10",    # 1888 Second Chamber protocol
     "CU9O15",    # 1897 protocol
@@ -90,6 +94,9 @@ FINAL_REJECT_PATTERNS = (
     r"(?:riksdagen|utskottet|kammaren)[\s\S]{0,260}?(?:det\s+)?(?:vilande\s+)?förslaget[\s\S]{0,220}?förkast(?:as|ar|ade|at)",
     r"(?:det\s+)?vilande\s+förslaget[\s\S]{0,220}?förkast(?:as|ar|ade|at)",
     r"för\s+slutligt\s+beslut[\s\S]{0,220}?förkast(?:as|ar|ade|at)",
+)
+REJECTED_BEFORE_FIRST_PATTERNS = (
+    r"(?:utskottet|utskottets)[\s\S]{0,1200}(?:avstyrk(?:er|te|s)|avslår|föreslår\s+avslag|avvisar)[\s\S]{0,1000}(?:motion|yrkande)",
 )
 
 
@@ -263,20 +270,44 @@ def constitution_ids(text: str) -> list[str]:
 
 def citations(text: str) -> list[dict]:
     patterns = (
-        ("proposition", r"\bprop(?:osition)?\.?\s+(\d{4}(?:/\d{2})?:\d+)"),
-        ("betänkande", r"\bbet(?:änkande)?\.?\s+(\d{4}/\d{2}:[A-Za-z]{1,10}\d+)"),
-        ("protokoll", r"\bprot(?:okoll)?\.?\s+(\d{4}/\d{2}:\d+)"),
-        ("riksdagsskrivelse", r"\brskr\.?\s+(\d{4}/\d{2}:\d+)"),
-        ("skrivelse", r"\bskr(?:ivelse)?\.?\s+(\d{4}/\d{2}:\d+)"),
+        ("proposition", r"\bprop(?:osition)?\.?(?:en)?\s+(\d{4}(?:/\d{2})?:\d+)", ""),
+        ("betänkande", r"\bbet(?:änkande)?\.?\s+(\d{4}/\d{2}:[A-Za-z]{1,10}\d+)", ""),
+        ("betänkande", r"\bbet(?:änkande)?\.?\s+(\d{4}/\d{2}:\d+)", "contextual-KU"),
+        # Older parliamentary prose writes the committee designation as
+        # `KU 1976/77:1`, while the document model uses `1976/77:KU1`.
+        ("betänkande", r"\bKU\s+(\d{4}/\d{2}:\d+)", "KU"),
+        ("protokoll", r"\bprot(?:okoll)?\.?\s+(\d{4}/\d{2}:\d+)", ""),
+        ("riksdagsskrivelse", r"\brskr\.?\s+(\d{4}/\d{2}:\d+)", ""),
+        ("skrivelse", r"\bskr(?:ivelse)?\.?\s+(\d{4}/\d{2}:\d+)", ""),
     )
     found: list[dict] = []
-    for kind, pattern in patterns:
+    for kind, pattern, designation_prefix in patterns:
         for match in re.finditer(pattern, text, re.I):
-            found.append({"kind": kind, "value": match.group(1), "normalized": normalize_citation(match.group(1))})
+            value = match.group(1)
+            prefix = designation_prefix
+            if prefix == "contextual-KU":
+                before = text[max(0, match.start() - 100):match.start()]
+                prefix = "KU" if re.search(r"konsti[lt]utionsutskot|\bKU\b", before, re.I) else ""
+            if prefix:
+                meeting, number = value.split(":", 1)
+                value = f"{meeting}:{prefix}{number}"
+            found.append({"kind": kind, "value": value, "normalized": normalize_citation(value)})
     unique: dict[tuple[str, str], dict] = {}
     for item in found:
         unique[(item["kind"], item["normalized"])] = item
-    return list(unique.values())
+    values = list(unique.values())
+    betänkande_values = {item["normalized"] for item in values if item["kind"] == "betänkande"}
+    # OCR sometimes emits both `betänkande 1976/77:1` and `KU 1976/77:1`.
+    # Keep the canonical committee designation when both refer to the same
+    # document in one source.
+    return [
+        item for item in values
+        if not (
+            item["kind"] == "betänkande"
+            and re.fullmatch(r"\d{4}/\d{2}:\d+", item["normalized"])
+            and f"{item['normalized'].split(':', 1)[0]}:ku{item['normalized'].split(':', 1)[1]}" in betänkande_values
+        )
+    ]
 
 
 def legal_target_hints(text: str) -> list[str]:
@@ -398,31 +429,68 @@ def decision_date(doc: dict, activity_list: list[dict]) -> str | None:
     return iso_date(doc.get("datum"))
 
 
+def committee_decision_text(text: str) -> str:
+    """Return the committee's main decision section, excluding reservations.
+
+    A full-text hit is not enough evidence of a first pending decision. The
+    same wording commonly appears in motions and in reservations. Riksdag
+    committee reports normally mark the operative section with a standalone
+    ``Utskottet`` heading and put reservations after a standalone
+    ``Reservationer`` heading.
+    """
+    committee_matches = list(re.finditer(r"(?im)^\s*(?:Konstitutions)?utskottet\s*$", text))
+    if not committee_matches:
+        return text
+    # The table of contents often contains an early standalone “Utskottet”.
+    # The last such heading is the report's actual committee section.
+    committee = committee_matches[-1]
+    reservation = re.search(r"(?im)^\s*Reservation(?:er)?\s*$", text[committee.start():])
+    end = committee.start() + reservation.start() if reservation else len(text)
+    return text[committee.start():end]
+
+
+def protocol_decision_signals(title: str, corpus: str) -> tuple[list[str], list[str]]:
+    """Extract the chamber result from a protocol's vilande-proposal item."""
+    if not re.search(r"protokoll", title, re.I):
+        return [], []
+    marker = re.search(r"vilande\s+förslag\s+till\s+grundlagsändringar", corpus, re.I)
+    if not marker:
+        return [], []
+    section = corpus[marker.start():]
+    next_item = re.search(r"\n\s*§\s*6\b", section, re.I)
+    if next_item:
+        section = section[:next_item.start()]
+    adopted = snippets(section, (
+        r"förklarades\s+den\s+förra\s+propositionen\s+vara\s+med\s+över(?:\s|\xad)*vägande\s+ja\s+besvarad",
+    ))
+    rejected = snippets(section, (
+        r"vinner\s+nej\s+har\s+kammaren\s+förkastat\s+förslaget",
+    ))
+    return adopted, rejected
+
+
 def classify(title: str, text: str) -> dict:
     corpus = f"{title}\n{text}"
-    first = snippets(corpus, FIRST_PATTERNS)
-    # A reservation may contain an alternative "Riksdagen antar som vilande"
-    # formulation.  It is not the committee's operative recommendation.  The
-    # local evidence is retained for inspection, but such a reservation-only
-    # hit is not promoted to a first decision.
-    first = [
-        item for item in first
-        if not (
-            re.search(r"\bvi\s+anser\b|reservanternas", item, re.I)
-            and not re.search(r"utskottet\s+(?:föreslår|hemställer|tillstyrker)", item, re.I)
-        )
-    ]
+    committee_text = committee_decision_text(text)
+    first = snippets(committee_text, FIRST_PATTERNS)
     adopted = snippets(corpus, FINAL_ADOPT_PATTERNS)
     rejected = snippets(corpus, FINAL_REJECT_PATTERNS)
+    protocol_adopted, protocol_rejected = protocol_decision_signals(title, corpus)
+    adopted.extend(protocol_adopted)
+    rejected.extend(protocol_rejected)
+    adopted = list(dict.fromkeys(adopted))
+    rejected = list(dict.fromkeys(rejected))
     final_context = bool(re.search(r"för slutligt beslut|slutligt beslut|slutbehandling|slutlig prövning", corpus, re.I))
     title_vilande = bool(re.search(r"vilande|hvilande", title, re.I))
     final_procedure = bool(re.search(r"(?:anmäl|anmäler|anmäld)[\s\S]{0,90}(?:för|till)\s+slutligt beslut[\s\S]{0,90}(?:vilande|hvilande)", corpus, re.I))
-    legacy_chamber_vote = bool(re.search(r"(?:omröstningen visade|kammaren förkastat|kammaren alltså fattat beslut enligt ja-propositionens)", corpus, re.I))
+    legacy_chamber_vote = bool(protocol_adopted or protocol_rejected or re.search(r"(?:omröstningen visade|kammaren förkastat|kammaren alltså fattat beslut enligt ja-propositionens)", corpus, re.I))
     # A first-decision report may describe the future second vote. Require an
     # explicit final-procedure context before interpreting the same words as a
     # final decision.
     is_final = bool((adopted or rejected) and (title_vilande or final_procedure or legacy_chamber_vote) or (final_context and title_vilande))
     is_first = bool(first) and not is_final
+    rejected_before_first_signals = snippets(committee_text, REJECTED_BEFORE_FIRST_PATTERNS) if not first else []
+    rejected_before_first = bool(rejected_before_first_signals)
     if is_final and rejected:
         # The operative proposal wins over rejection language in a reservation
         # or an opposition motion.  A final report can contain both.
@@ -431,14 +499,18 @@ def classify(title: str, text: str) -> dict:
         outcome = "adopted"
     elif is_final:
         outcome = "unresolved"
+    elif rejected_before_first:
+        outcome = "rejected_before_first_constitutional_decision"
     else:
         outcome = None
     stage = "final" if is_final else "first" if is_first else "candidate"
     return {
         "stage": stage,
+        "firstPendingDecision": is_first,
         "firstSignals": first,
         "finalAdoptSignals": adopted,
         "finalRejectSignals": rejected,
+        "rejectedBeforeFirstSignals": rejected_before_first_signals,
         "outcome": outcome,
     }
 
@@ -523,7 +595,7 @@ def extract_document(document_id: str, discovery: list[str]) -> dict:
         "textLength": len(text),
         "textSha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
         "classification": classification,
-        "evidence": classification["firstSignals"] + classification["finalAdoptSignals"] + classification["finalRejectSignals"],
+        "evidence": classification["firstSignals"] + classification["finalAdoptSignals"] + classification["finalRejectSignals"] + classification["rejectedBeforeFirstSignals"],
     }
 
 
@@ -595,7 +667,25 @@ def pair_decisions(documents: list[dict], known_pending: list[dict]) -> list[dic
         final = scored[0][1] if scored and scored[0][0] >= 12 else None
         if final:
             used_first_ids.add(first["documentId"])
-        records.append(proposal_record(first, final, scored[0][0] if final and scored else 0))
+        committee = None
+        if final and final.get("kind") != "bet":
+            committee_candidates: list[tuple[int, dict]] = []
+            for candidate in finals:
+                if candidate["documentId"] == final["documentId"] or candidate.get("kind") != "bet":
+                    continue
+                candidate_date = candidate.get("decisionDate") or candidate.get("publishedDate") or "0000-00-00"
+                final_date = final.get("decisionDate") or final.get("publishedDate") or "9999-99-99"
+                if not (first_date < candidate_date <= final_date):
+                    continue
+                shared = ref_keys(candidate) & ref_keys(final)
+                shared_proposition = len(proposition_keys(first) & proposition_keys(candidate))
+                shared_bet = len({key for key in shared if "betänkande" in key})
+                if shared_proposition or shared_bet:
+                    committee_candidates.append((shared_proposition * 50 + shared_bet * 12, candidate))
+            if committee_candidates:
+                committee_candidates.sort(key=lambda pair: (pair[0], pair[1].get("decisionDate") or ""), reverse=True)
+                committee = committee_candidates[0][1]
+        records.append(proposal_record(first, final, scored[0][0] if final and scored else 0, committee))
 
     known_ids = {str(item.get("riksdagDocumentId") or "").upper() for item in known_pending}
     for item in known_pending:
@@ -642,7 +732,7 @@ def pair_decisions(documents: list[dict], known_pending: list[dict]) -> list[dic
     return records
 
 
-def proposal_record(first: dict, final: dict | None, score: int) -> dict:
+def proposal_record(first: dict, final: dict | None, score: int, committee: dict | None = None) -> dict:
     if final is None:
         status = "unresolved"
         temporal = "past" if (first.get("decisionDate") or "9999") < datetime.now().strftime("%Y-%m-%d") else "future"
@@ -654,6 +744,33 @@ def proposal_record(first: dict, final: dict | None, score: int) -> dict:
         status, temporal = "unresolved", "past"
     first_refs = [ref.get("ref_dok_id") for ref in first.get("structuredReferences", []) if ref.get("ref_dok_id")]
     final_refs = [ref.get("ref_dok_id") for ref in final.get("structuredReferences", []) if ref.get("ref_dok_id")] if final else []
+    committee_refs = []
+    if committee and committee.get("riksmote") and committee.get("designation"):
+        committee_value = f"{committee['riksmote']}:{committee['designation']}"
+        committee_refs = [{
+            "kind": "betänkande",
+            "value": committee_value,
+            "normalized": normalize_citation(committee_value),
+        }]
+    final_decision = None
+    if final:
+        final_decision = {
+            "status": final["classification"]["outcome"],
+            "documentId": final["documentId"],
+            "date": final.get("decisionDate") or final.get("publishedDate"),
+            "documentUrl": final["documentUrl"],
+            "propositionReferences": [item for item in final.get("citations", []) if item["kind"] == "proposition"],
+            "riksdagCitationReferences": [item for item in final.get("citations", []) if item["kind"] != "proposition"],
+            "riksdagReferences": final_refs,
+            "evidence": final.get("evidence", []),
+        }
+        if committee:
+            final_decision.update({
+                "committeeDocumentId": committee["documentId"],
+                "committeeDocumentUrl": committee["documentUrl"],
+                "committeeDecisionDate": committee.get("decisionDate") or committee.get("publishedDate"),
+                "committeeReferences": committee_refs,
+            })
     return {
         "proposalId": f"riksdag:{normalize_id(first['documentId'])}",
         "title": first["title"],
@@ -670,21 +787,13 @@ def proposal_record(first: dict, final: dict | None, score: int) -> dict:
             "riksdagReferences": first_refs,
             "evidence": first.get("evidence", []),
         },
-        "finalDecision": {
-            "status": final["classification"]["outcome"],
-            "documentId": final["documentId"],
-            "date": final.get("decisionDate") or final.get("publishedDate"),
-            "documentUrl": final["documentUrl"],
-            "propositionReferences": [item for item in final.get("citations", []) if item["kind"] == "proposition"],
-            "riksdagCitationReferences": [item for item in final.get("citations", []) if item["kind"] != "proposition"],
-            "riksdagReferences": final_refs,
-            "evidence": final.get("evidence", []),
-        } if final else None,
+        "finalDecision": final_decision,
         "sfsIds": [],
         "match": {"method": "shared_document_references", "confidence": min(1.0, score / 30), "score": score} if final else {"method": "no_final_match", "confidence": 0.0, "score": 0},
-        "documentIds": list(dict.fromkeys([first["documentId"], *( [final["documentId"]] if final else [])])),
+        "documentIds": list(dict.fromkeys([first["documentId"], *([committee["documentId"]] if committee else []), *([final["documentId"]] if final else [])])),
         "provenance": [
             {"field": "firstDecision", "sourceUrl": first["documentUrl"], "sourceDocumentId": first["documentId"], "method": "riksdag_status_and_text"},
+            *([{ "field": "finalDecision.committeeDocumentId", "sourceUrl": committee["documentUrl"], "sourceDocumentId": committee["documentId"], "method": "shared_document_references_and_text" }] if committee else []),
             *([{ "field": "finalDecision", "sourceUrl": final["documentUrl"], "sourceDocumentId": final["documentId"], "method": "shared_document_references_and_text" }] if final else []),
         ],
     }

@@ -55,5 +55,33 @@
       "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/konstitutions-utskottets-memorial-no-1_cl10ku1/html/",
       "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/1888-andra-kammaren-no-10_cl9o10/html/"
     ]
+  },
+  {
+    "id": "test-e-1975-motion-not-first",
+    "title": "Motion med yrkande om republik",
+    "expectedDocumentId": "FZ01KU1",
+    "expectedStage": "candidate",
+    "expectedOutcome": "rejected_before_first_constitutional_decision",
+    "sourceUrls": [
+      "https://data.riksdagen.se/dokument/FZ01KU1"
+    ]
+  },
+  {
+    "id": "test-f-1975-1976-tf-final-adoption",
+    "title": "Allmänna handlingars offentlighet",
+    "expectedFirstDocumentId": "FZ01KU48",
+    "expectedFirstDecisionDate": "1976-05-06",
+    "expectedCommitteeDocumentId": "G001KU1",
+    "expectedFinalDocumentId": "G00923",
+    "expectedFinalDecisionDate": "1976-11-10",
+    "expectedFinalBet": "1976/77:KU1",
+    "expectedStatus": "adopted",
+    "expectedProposition": "1975/76:160",
+    "expectedConstitution": "tf",
+    "sourceUrls": [
+      "https://data.riksdagen.se/dokument/FZ01KU48",
+      "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/angaende-vilande-forslag-till-grundlagsandringar_g001ku1/html/",
+      "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-protokoll-19767723-onsdagen-den-10_g00923/html/"
+    ]
   }
 ]

@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-29T18:47:45.690370+00:00",
+  "generatedAt": "2026-08-29T19:36:15.381753+00:00",
   "metrics": {
-    "total_pending_proposals": 48,
-    "finally_adopted": 50,
+    "total_pending_proposals": 14,
+    "finally_adopted": 60,
     "finally_rejected": 1,
-    "unresolved": 41,
-    "matched_to_sfs": 74,
+    "unresolved": 7,
+    "matched_to_sfs": 77,
     "adopted_without_sfs_match": 2,
-    "orphan_sfs": 47,
+    "orphan_sfs": 44,
     "rejected_with_sfs": 0,
     "chronology_errors": 0,
     "unknown_sfs_operations": 28,
-    "regression_cases": 4,
-    "regression_passed": 4,
+    "regression_cases": 6,
+    "regression_passed": 6,
     "secondary_cases": 8,
     "secondary_passed": 8
   },
@@ -293,6 +293,148 @@
         "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/konstitutions-utskottets-memorial-no-1_cl10ku1/html/",
         "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/1888-andra-kammaren-no-10_cl9o10/html/"
       ]
+    },
+    {
+      "id": "test-e-1975-motion-not-first",
+      "title": "Motion med yrkande om republik",
+      "passed": true,
+      "checks": [
+        {
+          "name": "document present",
+          "passed": true,
+          "actual": "FZ01KU1",
+          "expected": null
+        },
+        {
+          "name": "not a first pending decision",
+          "passed": true,
+          "actual": false,
+          "expected": false
+        },
+        {
+          "name": "stage",
+          "passed": true,
+          "actual": "candidate",
+          "expected": "candidate"
+        },
+        {
+          "name": "outcome",
+          "passed": true,
+          "actual": "rejected_before_first_constitutional_decision",
+          "expected": "rejected_before_first_constitutional_decision"
+        },
+        {
+          "name": "no proposal record",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        }
+      ],
+      "sourceUrls": [
+        "https://data.riksdagen.se/dokument/FZ01KU1"
+      ]
+    },
+    {
+      "id": "test-f-1975-1976-tf-final-adoption",
+      "title": "Allmänna handlingars offentlighet",
+      "passed": true,
+      "checks": [
+        {
+          "name": "first document present",
+          "passed": true,
+          "actual": "FZ01KU48",
+          "expected": null
+        },
+        {
+          "name": "post-election committee document present",
+          "passed": true,
+          "actual": "G001KU1",
+          "expected": null
+        },
+        {
+          "name": "final protocol present",
+          "passed": true,
+          "actual": "G00923",
+          "expected": null
+        },
+        {
+          "name": "proposal pair found",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "first date",
+          "passed": true,
+          "actual": "1976-05-06",
+          "expected": "1976-05-06"
+        },
+        {
+          "name": "status",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "constitutional law",
+          "passed": true,
+          "actual": [
+            "rf",
+            "tf",
+            "ro"
+          ],
+          "expected": "tf"
+        },
+        {
+          "name": "proposition",
+          "passed": true,
+          "actual": [
+            "1973:33",
+            "1975/76:160"
+          ],
+          "expected": "1975/76:160"
+        },
+        {
+          "name": "final protocol",
+          "passed": true,
+          "actual": "G00923",
+          "expected": "G00923"
+        },
+        {
+          "name": "final committee document",
+          "passed": true,
+          "actual": "G001KU1",
+          "expected": "G001KU1"
+        },
+        {
+          "name": "final date",
+          "passed": true,
+          "actual": "1976-11-10",
+          "expected": "1976-11-10"
+        },
+        {
+          "name": "final bet",
+          "passed": true,
+          "actual": [
+            "1975/76:ku48",
+            "1975/76:ku51",
+            "1975/76:ku54",
+            "1975/76:ku56",
+            "1976/77:4",
+            "1976/77:5",
+            "1976/77:7",
+            "1976/77:ku1",
+            "1976/77:ku2",
+            "1976/77:ku3"
+          ],
+          "expected": "1976/77:KU1"
+        }
+      ],
+      "sourceUrls": [
+        "https://data.riksdagen.se/dokument/FZ01KU48",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/angaende-vilande-forslag-till-grundlagsandringar_g001ku1/html/",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-protokoll-19767723-onsdagen-den-10_g00923/html/"
+      ]
     }
   ],
   "secondaryBenchmarks": [
@@ -519,14 +661,14 @@
     ],
     "twoWayValidation": {
       "riksdagToSfs": {
-        "adopted": 50,
-        "matched": 48,
+        "adopted": 60,
+        "matched": 58,
         "withoutMatch": 2
       },
       "sfsToRiksdag": {
         "changes": 121,
-        "matched": 74,
-        "orphan": 47
+        "matched": 77,
+        "orphan": 44
       }
     }
   },

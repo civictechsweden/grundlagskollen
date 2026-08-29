@@ -22,7 +22,7 @@ npm run dev
 2. `scripts/update_data.py` hämtar Ferendas SFS-register, amendments och versionskatalog för RF, TF, YGL och SO. Det hämtar också Riksdagens dokumentlista, ärendestatus och dokumenttext för att hitta första och slutliga beslut, deras referenser och beslutsgrafen.
 3. Resultatet skrivs till `data/changes.json`, `data/riksdag-documents.json` och `data/document-graph.json`. `changes.json` är frontendens juridiska snapshot; dokumentgrafen behåller källproveniens.
 4. `scripts/generate_versions.py` tolkar SFS-metadata till deklarativa operationer, bygger metadata-snapshots för varje känt ikraftdatum och hämtar Ferendas konsoliderade HTML som separat benchmark. `--git` sparar manifest, texter och normaliserade diffar i det separata bare-repot `.versions-git/`.
-5. `scripts/benchmark_data.py` kör de fyra regressionsfallen i `data/regression-cases.json` och den statiska sekundärkällistan i `data/benchmark-cases.json`. Den skriver `DATA_BENCHMARK.md` samt `data/benchmark-report.json`.
+5. `scripts/benchmark_data.py` kör regressionsfallen i `data/regression-cases.json` och den statiska sekundärkällistan i `data/benchmark-cases.json`. Den skriver `DATA_BENCHMARK.md` samt `data/benchmark-report.json`.
 
 ## Vad som visas
 
@@ -37,4 +37,4 @@ npm run dev
 
 Ferendas `/document/versions` är en katalog över exponerade konsoliderade versioner, inte en komplett fulltextversion per SFS-amendment. SFS-metadata ger stabil identitet, ikraftträdande, ersatta paragrafer och införda paragrafer, men räcker inte alltid för att applicera varje textändring deterministiskt. Därför markeras operationer med låg säkerhet och fulltext-applicering är uttryckligen `not_attempted` i versionsexperimentets rapport.
 
-Riksdagen har ingen ensam `pending`-flagga. Kön bygger på dokumentlistans KU-träffar och förslagstexten `antar som vilande`. Ett senare beslut som ännu inte hittats är inte bevis på att ett förslag har fallit. Se [VERSIONING_REPORT.md](VERSIONING_REPORT.md) och [DATA_BENCHMARK.md](DATA_BENCHMARK.md) för körningsresultat.
+Riksdagen har ingen ensam `pending`-flagga. Ett första vilandebeslut kräver därför signal i utskottets operativa beslutsdel; formuleringar i motioner, historik och reservationer räknas inte som beslut. Ett senare beslut som ännu inte hittats är inte bevis på att ett förslag har fallit. Se [VERSIONING_REPORT.md](VERSIONING_REPORT.md) och [DATA_BENCHMARK.md](DATA_BENCHMARK.md) för körningsresultat.

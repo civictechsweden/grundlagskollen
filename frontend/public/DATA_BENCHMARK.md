@@ -1,23 +1,23 @@
 # Dataset benchmark
 
-Generated: `2026-08-29T18:47:45.690370+00:00`
+Generated: `2026-08-29T19:36:15.381753+00:00`
 
 ## Coverage
 
 | Metric | Value |
 | --- | ---: |
-| `total_pending_proposals` | 48 |
-| `finally_adopted` | 50 |
+| `total_pending_proposals` | 14 |
+| `finally_adopted` | 60 |
 | `finally_rejected` | 1 |
-| `unresolved` | 41 |
-| `matched_to_sfs` | 74 |
+| `unresolved` | 7 |
+| `matched_to_sfs` | 77 |
 | `adopted_without_sfs_match` | 2 |
-| `orphan_sfs` | 47 |
+| `orphan_sfs` | 44 |
 | `rejected_with_sfs` | 0 |
 | `chronology_errors` | 0 |
 | `unknown_sfs_operations` | 28 |
-| `regression_cases` | 4 |
-| `regression_passed` | 4 |
+| `regression_cases` | 6 |
+| `regression_passed` | 6 |
 | `secondary_cases` | 8 |
 | `secondary_passed` | 8 |
 
@@ -29,6 +29,8 @@ Generated: `2026-08-29T18:47:45.690370+00:00`
 | test-b-sfs-2022-1600 | PASS (8/8) |
 | test-c-1896-1897-tf | PASS (5/5) |
 | test-d-1885-1888-rf-6 | PASS (6/6) |
+| test-e-1975-motion-not-first | PASS (5/5) |
+| test-f-1975-1976-tf-final-adoption | PASS (12/12) |
 
 ## Secondary-source fixtures
 

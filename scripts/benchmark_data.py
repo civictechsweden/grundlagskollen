@@ -85,6 +85,35 @@ def check_case(case: dict, proposals: list[dict], documents: dict[str, dict], ch
         check("second chamber vote", (case["expectedSecondChamberYes"], case["expectedSecondChamberNo"]) in votes, sorted(votes), (case["expectedSecondChamberYes"], case["expectedSecondChamberNo"]))
         check("aggregate status is rejected", case["expectedStatus"] == "rejected", case["expectedStatus"], "rejected")
         check("two-chamber result retained as fixture", case["expectedFirstChamberFinal"] == "rejected" and case["expectedSecondChamberFinal"] == "adopted", {"first": case["expectedFirstChamberFinal"], "second": case["expectedSecondChamberFinal"]}, "distinct chamber outcomes")
+    elif case_id == "test-e-1975-motion-not-first":
+        document = documents.get(case["expectedDocumentId"], {})
+        proposal = next((item for item in proposals if item.get("firstDecision", {}).get("documentId") == case["expectedDocumentId"]), None)
+        classification = document.get("classification", {})
+        check("document present", bool(document), case["expectedDocumentId"])
+        check("not a first pending decision", classification.get("firstPendingDecision") is False, classification.get("firstPendingDecision"), False)
+        check("stage", classification.get("stage") == case["expectedStage"], classification.get("stage"), case["expectedStage"])
+        check("outcome", classification.get("outcome") == case["expectedOutcome"], classification.get("outcome"), case["expectedOutcome"])
+        check("no proposal record", proposal is None, proposal and proposal.get("proposalId"), None)
+    elif case_id == "test-f-1975-1976-tf-final-adoption":
+        proposal = next((item for item in proposals if item.get("firstDecision", {}).get("documentId") == case["expectedFirstDocumentId"]), None)
+        first_doc = documents.get(case["expectedFirstDocumentId"], {})
+        committee_doc = documents.get(case["expectedCommitteeDocumentId"], {})
+        final_doc = documents.get(case["expectedFinalDocumentId"], {})
+        final_decision = proposal.get("finalDecision", {}) if proposal else {}
+        first_props = {item.get("normalized") for item in (proposal or {}).get("firstDecision", {}).get("propositionReferences", [])}
+        final_bets = {item.get("normalized") for item in final_decision.get("riksdagCitationReferences", []) if item.get("kind") == "betänkande"}
+        check("first document present", bool(first_doc), case["expectedFirstDocumentId"])
+        check("post-election committee document present", bool(committee_doc), case["expectedCommitteeDocumentId"])
+        check("final protocol present", bool(final_doc), case["expectedFinalDocumentId"])
+        check("proposal pair found", proposal is not None)
+        check("first date", proposal and proposal.get("firstDecision", {}).get("date") == case["expectedFirstDecisionDate"], proposal and proposal.get("firstDecision", {}).get("date"), case["expectedFirstDecisionDate"])
+        check("status", proposal and proposal.get("status") == case["expectedStatus"], proposal and proposal.get("status"), case["expectedStatus"])
+        check("constitutional law", case["expectedConstitution"] in (proposal or {}).get("constitutionIds", []), (proposal or {}).get("constitutionIds"), case["expectedConstitution"])
+        check("proposition", case["expectedProposition"] in first_props, sorted(first_props), case["expectedProposition"])
+        check("final protocol", final_decision.get("documentId") == case["expectedFinalDocumentId"], final_decision.get("documentId"), case["expectedFinalDocumentId"])
+        check("final committee document", final_decision.get("committeeDocumentId") == case["expectedCommitteeDocumentId"], final_decision.get("committeeDocumentId"), case["expectedCommitteeDocumentId"])
+        check("final date", final_decision.get("date") == case["expectedFinalDecisionDate"], final_decision.get("date"), case["expectedFinalDecisionDate"])
+        check("final bet", case["expectedFinalBet"].replace(" ", "").lower() in {value.replace(" ", "").lower() for value in final_bets}, sorted(final_bets), case["expectedFinalBet"])
     else:
         check("known regression case", False, case_id, "known case")
     return {"id": case_id, "title": case.get("title"), "passed": all(item["passed"] for item in checks), "checks": checks, "sourceUrls": case.get("sourceUrls", [])}
