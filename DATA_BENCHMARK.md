@@ -1,24 +1,50 @@
-# Data benchmark
+# Dataset benchmark
 
-Generated: `2026-08-29T15:46:49.549452+00:00`
+Generated: `2026-08-29T18:25:17.207576+00:00`
 
-Evidence recall: **17/17 (100.0%)**.
+## Coverage
 
-This is a regression benchmark over the static cases in `data/benchmark-cases.json`; it is not a claim of complete constitutional history.
+| Metric | Value |
+| --- | ---: |
+| `total_pending_proposals` | 12 |
+| `finally_adopted` | 36 |
+| `finally_rejected` | 36 |
+| `unresolved` | 5 |
+| `matched_to_sfs` | 60 |
+| `adopted_without_sfs_match` | 2 |
+| `orphan_sfs` | 61 |
+| `rejected_with_sfs` | 0 |
+| `chronology_errors` | 0 |
+| `unknown_sfs_operations` | 28 |
+| `regression_cases` | 4 |
+| `regression_passed` | 4 |
+| `secondary_cases` | 8 |
+| `secondary_passed` | 8 |
 
-| Case | Expected | Result | Missing |
-|---|---|---|---|
-| benchmark-2026-current-queue | pending-first-vote | matched | — |
-| benchmark-2025-ku2 | pending-first-vote | matched | — |
-| benchmark-2025-ku8 | pending-first-vote | matched | — |
-| benchmark-2022-utlandsspioneri | confirmed | matched | — |
-| benchmark-2022-riksbanken | confirmed | matched | — |
-| benchmark-2018-mediegrundlagar | confirmed | matched | — |
-| benchmark-2010-reformerad-grundlag | confirmed | matched | — |
-| benchmark-1960-forkastad | aborted | matched | — |
+## Regression cases
 
-## Limitations
+| Case | Result |
+| --- | --- |
+| test-a-1991-rejection | PASS (7/7) |
+| test-b-sfs-2022-1600 | PASS (8/8) |
+| test-c-1896-1897-tf | PASS (5/5) |
+| test-d-1885-1888-rf-6 | PASS (6/6) |
 
-- The fixtures are a regression set, not an exhaustive catalogue of every historical proposal.
-- A Ferenda search hit without a matching SFS is reported as an unresolved signal, not as an aborted proposal.
-- Confirmed-case recall is measured only for the SFS identifiers named in the fixtures.
+## Secondary-source fixtures
+
+| Case | Result |
+| --- | --- |
+| benchmark-2026-current-queue | PASS (1/1) |
+| benchmark-2025-ku2 | PASS (1/1) |
+| benchmark-2025-ku8 | PASS (1/1) |
+| benchmark-2022-utlandsspioneri | PASS (1/1) |
+| benchmark-2022-riksbanken | PASS (1/1) |
+| benchmark-2018-mediegrundlagar | PASS (1/1) |
+| benchmark-2010-reformerad-grundlag | PASS (1/1) |
+| benchmark-1960-forkastad | PASS (1/1) |
+
+## Ferenda snapshots
+
+Checked: `15`; exact: `0`; normalized: `0`; mismatches: `0`.
+
+A regression failure is retained as data and should be investigated before a snapshot is described as complete.

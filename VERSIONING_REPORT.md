@@ -1,19 +1,24 @@
 # Version experiment
 
-Generated: `2026-08-29T15:44:31.532580+00:00`
+Generated: `2026-08-29T18:11:09.103041+00:00`
 
 The experiment uses SFS metadata and Ferenda's consolidated HTML. It does not parse amendment PDFs.
+SFS operations are parsed into a reviewable ledger. Full-text application is intentionally reported as `not_attempted` until replacement text and a verified base snapshot are available.
 
-| Law | Ferenda versions | Fetched | Dated batches | Canonical batches | Metadata-only batches | Missing dates |
-|---|---:|---:|---:|---:|---:|---:|
-| RF | 6 | 6 | 13 | 5 | 8 | 8 |
-| SO | 0 | 0 | 0 | 0 | 0 | 10 |
-| TF | 4 | 4 | 12 | 4 | 8 | 26 |
-| YGL | 5 | 5 | 7 | 4 | 3 | 2 |
+| Law | Ferenda versions | Fetched | Dated batches | Ferenda references | Metadata-only batches | SFS patches | Needs review | Missing dates |
+|---|---:|---:|---:|---:|---:|---:|---:|---:|
+| RF | 6 | 6 | 13 | 5 | 8 | 47 | 8 | 8 |
+| SO | 0 | 0 | 0 | 0 | 0 | 10 | 10 | 10 |
+| TF | 4 | 4 | 12 | 4 | 8 | 52 | 8 | 26 |
+| YGL | 5 | 5 | 7 | 4 | 3 | 12 | 2 | 2 |
 
 ## Interpretation
 
-Canonical batches are the dates for which a fetched Ferenda consolidated text exists. Metadata-only batches still have SFS event metadata but no deterministic full-text snapshot in this run.
+Ferenda-reference batches are dates for which a fetched Ferenda consolidated text exists. They are benchmark references, not generated snapshots. Metadata-only batches still have SFS event metadata but no deterministic full-text snapshot in this run.
+
+## Full-text comparison
+
+Full-text application: `not_attempted`. Comparable snapshots: `15`; exact: `0`; normalized: `0`; mismatches: `0`.
 
 ## Limitations
 

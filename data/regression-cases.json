@@ -1,0 +1,59 @@
+[
+  {
+    "id": "test-a-1991-rejection",
+    "title": "EES-related RF 11 kap. 15 §",
+    "expectedStatus": "rejected",
+    "expectedFirstDocumentId": "GE01KU22",
+    "expectedFirstDecisionDate": "1991-04-10",
+    "expectedFinalDocumentId": "GF01KU13",
+    "expectedFinalDecisionDate": "1991-12-12",
+    "expectedFinalRiksdagsskrivelse": "1991/92:66",
+    "expectedSfs": [],
+    "expectedTarget": "11 kap. 15",
+    "sourceUrls": [
+      "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/vilande-beslut-om-grundlagsandring-11-kap-15-s_gf01ku13/html/"
+    ]
+  },
+  {
+    "id": "test-b-sfs-2022-1600",
+    "title": "Ändring i RF 7 kap. 7 §",
+    "expectedStatus": "adopted",
+    "expectedSfs": ["2022:1600"],
+    "expectedConstitution": "rf",
+    "expectedOperation": "amend_section",
+    "expectedTarget": "7:7",
+    "expectedFinalBet": "2022/23:KU9",
+    "expectedFinalRskr": "2022/23:25",
+    "expectedEffective": "2023-01-01",
+    "sourceUrls": ["https://lagen.nu/2022:1600"]
+  },
+  {
+    "id": "test-c-1896-1897-tf",
+    "title": "TF 2 § 4:o om straffregisterutdrag",
+    "expectedStatus": "rejected",
+    "expectedDocumentId": "CU9O15",
+    "expectedFinalDecisionDate": "1897-03-17",
+    "expectedSecondChamberYes": 77,
+    "expectedSecondChamberNo": 134,
+    "expectedTarget": "2 § 4:o",
+    "sourceUrls": [
+      "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-protokoll_cu9o15/html/"
+    ]
+  },
+  {
+    "id": "test-d-1885-1888-rf-6",
+    "title": "RF § 6 om nytt statsdepartement",
+    "expectedStatus": "rejected",
+    "expectedDocuments": ["CL10KU1", "CL9O10"],
+    "expectedFirstPendingYear": 1885,
+    "expectedTarget": "RF § 6",
+    "expectedFirstChamberFinal": "rejected",
+    "expectedSecondChamberFinal": "adopted",
+    "expectedSecondChamberYes": 133,
+    "expectedSecondChamberNo": 62,
+    "sourceUrls": [
+      "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/konstitutions-utskottets-memorial-no-1_cl10ku1/html/",
+      "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/1888-andra-kammaren-no-10_cl9o10/html/"
+    ]
+  }
+]

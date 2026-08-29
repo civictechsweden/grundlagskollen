@@ -4,7 +4,316 @@
   "source": "SFS metadata + Ferenda consolidated HTML",
   "versions": [],
   "patches": [],
+  "sfsPatches": [
+    {
+      "sfs": "1921:21",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1921:21",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [
+          "https://lagen.nu/1810:0926#P6",
+          "https://lagen.nu/1810:0926#P7"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1921:21"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "ändr. 6, 7 §§",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1937:40",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1937:40",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [
+          "https://lagen.nu/1810:0926#P5"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1937:40"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "ändr. 5 §",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1937:728",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1937:728",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1937:728"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "omtryck",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1949:110",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1949:110",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [
+          "https://lagen.nu/1810:0926#P2"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1949:110"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "ändr. 2 §",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1949:579",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1949:579",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1949:579"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "omtryck",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1965:45",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1965:45",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [
+          "https://lagen.nu/1810:0926#P2"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1965:45"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "ändr. 2 §",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1965:817",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1965:817",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1965:817"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "omtryck",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1974:154",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1974:154",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1974:154"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "upph. 9 §",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [
+        "Prop. 1973:90"
+      ],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1974:307",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1974:307",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1974:307"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "omtryck",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "1979:935",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/1979:935",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [
+          "https://lagen.nu/1810:0926#P1",
+          "https://lagen.nu/1810:0926#P2",
+          "https://lagen.nu/1810:0926#P4",
+          "https://lagen.nu/1810:0926#P5",
+          "https://lagen.nu/1810:0926#P8"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1979:935"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "upph. 3, 6 §§; ändr. 1, 2, 4, 5, 8 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [
+        "Prop. 1977/78:71",
+        "Rskr 1977/78:233",
+        "Rskr 1979/80:2"
+      ],
+      "status": "needs-review"
+    }
+  ],
   "snapshots": [],
+  "generation": {
+    "baseVersion": "1810:0926",
+    "method": "SFS metadata operation ledger",
+    "fullTextApplication": "not_attempted",
+    "reason": "The metadata identifies targets and effective dates, but many amendments do not expose replacement text in metadata."
+  },
   "summary": {
     "catalogVersions": 0,
     "fetchedVersions": 0,
@@ -13,6 +322,8 @@
     "canonicalChangeBatches": 0,
     "metadataOnlyChangeBatches": 0,
     "amendmentsMissingEffectiveDate": 10,
-    "effectiveDateCoverage": null
+    "effectiveDateCoverage": null,
+    "sfsPatches": 10,
+    "sfsPatchesNeedingReview": 10
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T15:44:31.532580+00:00",
+  "generatedAt": "2026-08-29T18:11:09.103041+00:00",
   "laws": {
     "rf": {
       "catalogVersions": 6,
@@ -9,7 +9,9 @@
       "canonicalChangeBatches": 5,
       "metadataOnlyChangeBatches": 8,
       "amendmentsMissingEffectiveDate": 8,
-      "effectiveDateCoverage": 0.3846
+      "effectiveDateCoverage": 0.3846,
+      "sfsPatches": 47,
+      "sfsPatchesNeedingReview": 8
     },
     "so": {
       "catalogVersions": 0,
@@ -19,7 +21,9 @@
       "canonicalChangeBatches": 0,
       "metadataOnlyChangeBatches": 0,
       "amendmentsMissingEffectiveDate": 10,
-      "effectiveDateCoverage": null
+      "effectiveDateCoverage": null,
+      "sfsPatches": 10,
+      "sfsPatchesNeedingReview": 10
     },
     "tf": {
       "catalogVersions": 4,
@@ -29,7 +33,9 @@
       "canonicalChangeBatches": 4,
       "metadataOnlyChangeBatches": 8,
       "amendmentsMissingEffectiveDate": 26,
-      "effectiveDateCoverage": 0.3333
+      "effectiveDateCoverage": 0.3333,
+      "sfsPatches": 52,
+      "sfsPatchesNeedingReview": 8
     },
     "ygl": {
       "catalogVersions": 5,
@@ -39,10 +45,20 @@
       "canonicalChangeBatches": 4,
       "metadataOnlyChangeBatches": 3,
       "amendmentsMissingEffectiveDate": 2,
-      "effectiveDateCoverage": 0.5714
+      "effectiveDateCoverage": 0.5714,
+      "sfsPatches": 12,
+      "sfsPatchesNeedingReview": 2
     }
   },
   "patches": 12,
+  "summary": {
+    "fetchedVersions": 15,
+    "exactMatches": 0,
+    "normalizedMatches": 0,
+    "mismatches": 0,
+    "notComparable": 15,
+    "fullTextApplication": "not_attempted"
+  },
   "limitations": [
     "Ferenda exposes a finite list of consolidated versions; it is not the same thing as one full text snapshot per SFS amendment.",
     "SFS metadata identifies effective dates, replaced provisions and inserted provisions, but does not by itself contain enough structure to apply every textual amendment deterministically.",

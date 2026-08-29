@@ -1,141 +1,540 @@
 {
-  "generatedAt": "2026-08-29T15:46:49.549452+00:00",
-  "snapshotGeneratedAt": "2026-08-29T15:44:24.666490+00:00",
-  "fixtureCount": 8,
-  "caseResults": [
+  "generatedAt": "2026-08-29T18:25:17.207576+00:00",
+  "metrics": {
+    "total_pending_proposals": 12,
+    "finally_adopted": 36,
+    "finally_rejected": 36,
+    "unresolved": 5,
+    "matched_to_sfs": 60,
+    "adopted_without_sfs_match": 2,
+    "orphan_sfs": 61,
+    "rejected_with_sfs": 0,
+    "chronology_errors": 0,
+    "unknown_sfs_operations": 28,
+    "regression_cases": 4,
+    "regression_passed": 4,
+    "secondary_cases": 8,
+    "secondary_passed": 8
+  },
+  "regressions": [
     {
-      "id": "benchmark-2026-current-queue",
-      "expectedStatus": "pending-first-vote",
-      "status": "matched",
-      "expected": 7,
-      "matched": 7,
-      "missing": [],
+      "id": "test-a-1991-rejection",
+      "title": "EES-related RF 11 kap. 15 §",
+      "passed": true,
+      "checks": [
+        {
+          "name": "proposal pair found",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "status",
+          "passed": true,
+          "actual": "rejected",
+          "expected": "rejected"
+        },
+        {
+          "name": "first date",
+          "passed": true,
+          "actual": "1991-04-10",
+          "expected": "1991-04-10"
+        },
+        {
+          "name": "final date",
+          "passed": true,
+          "actual": "1991-12-12",
+          "expected": "1991-12-12"
+        },
+        {
+          "name": "final rskr",
+          "passed": true,
+          "actual": [
+            "1991/92:66"
+          ],
+          "expected": "1991/92:66"
+        },
+        {
+          "name": "no SFS",
+          "passed": true,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "name": "target",
+          "passed": true,
+          "actual": [
+            "regeringsformen, en ny 11 kap. 15§",
+            "regeringsformen, en ny 11 kap. 15 §",
+            "15§ regeringsformen",
+            "15 § regeringsformen"
+          ],
+          "expected": "11 kap. 15"
+        }
+      ],
       "sourceUrls": [
-        "https://www.riksdagen.se/sv/utskick-aktuellt/2026/juni/16/aktuellt-vilande-grundlagsandringar/"
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/vilande-beslut-om-grundlagsandring-11-kap-15-s_gf01ku13/html/"
       ]
     },
     {
-      "id": "benchmark-2025-ku2",
-      "expectedStatus": "pending-first-vote",
-      "status": "matched",
-      "expectedId": "HD01KU2",
+      "id": "test-b-sfs-2022-1600",
+      "title": "Ändring i RF 7 kap. 7 §",
+      "passed": true,
+      "checks": [
+        {
+          "name": "SFS present",
+          "passed": true,
+          "actual": [
+            "1921:21",
+            "1937:40",
+            "1937:728"
+          ],
+          "expected": "2022:1600"
+        },
+        {
+          "name": "constitution",
+          "passed": true,
+          "actual": "rf",
+          "expected": "rf"
+        },
+        {
+          "name": "operation",
+          "passed": true,
+          "actual": "amend_section",
+          "expected": "amend_section"
+        },
+        {
+          "name": "target",
+          "passed": true,
+          "actual": "7:7",
+          "expected": "7:7"
+        },
+        {
+          "name": "final bet",
+          "passed": true,
+          "actual": [
+            "Bet. 2021/22:KU12",
+            "Bet. 2022/23:KU9",
+            "Prop. 2021/22:40",
+            "Rskr. 2021/22:220",
+            "Rskr. 2022/23:25"
+          ],
+          "expected": "2022/23:KU9"
+        },
+        {
+          "name": "final rskr",
+          "passed": true,
+          "actual": [
+            "Bet. 2021/22:KU12",
+            "Bet. 2022/23:KU9",
+            "Prop. 2021/22:40",
+            "Rskr. 2021/22:220",
+            "Rskr. 2022/23:25"
+          ],
+          "expected": "2022/23:25"
+        },
+        {
+          "name": "effective date",
+          "passed": true,
+          "actual": "2023-01-01",
+          "expected": "2023-01-01"
+        },
+        {
+          "name": "not whole-law replacement",
+          "passed": true,
+          "actual": [
+            {
+              "sequence": 1,
+              "operationType": "amend_section",
+              "chapter": "7",
+              "section": "7",
+              "oldDesignation": "#K7P7",
+              "newDesignation": null,
+              "instructionText": "ändr. 7 kap. 7 §; omtryck",
+              "newText": null,
+              "parserConfidence": 0.82,
+              "manuallyVerified": false,
+              "sourceMetadata": "https://lagen.nu/1974:152#K7P7"
+            }
+          ],
+          "expected": "section-level operation"
+        }
+      ],
       "sourceUrls": [
-        "https://www.gp.se/debatt/regeringens-forslag-pa-andringar-i-grundlagen-far-inte-motas-av-tystnad.fa4fa791-41b6-4e10-8550-58b60b0288b0",
-        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-skydd-for-demokratin-och-domstolarnas_hd01ku2/"
+        "https://lagen.nu/2022:1600"
       ]
     },
     {
-      "id": "benchmark-2025-ku8",
-      "expectedStatus": "pending-first-vote",
-      "status": "matched",
-      "expectedId": "HD01KU8",
+      "id": "test-c-1896-1897-tf",
+      "title": "TF 2 § 4:o om straffregisterutdrag",
+      "passed": true,
+      "checks": [
+        {
+          "name": "document present",
+          "passed": true,
+          "actual": "CU9O15",
+          "expected": null
+        },
+        {
+          "name": "status",
+          "passed": true,
+          "actual": "rejected",
+          "expected": "rejected"
+        },
+        {
+          "name": "vote",
+          "passed": true,
+          "actual": [
+            [
+              77,
+              134
+            ]
+          ],
+          "expected": [
+            77,
+            134
+          ]
+        },
+        {
+          "name": "target",
+          "passed": true,
+          "actual": [
+            "87 § regeringsformen",
+            "89 § regeringsformen",
+            "2 § 4:o tryckfrihetsförordningen",
+            "§ 87 i regeringsformen",
+            "§ 4:o tryckfrihetsförordningen"
+          ],
+          "expected": "2 § 4:o"
+        },
+        {
+          "name": "date evidence",
+          "passed": true,
+          "actual": [
+            "1897-03-17",
+            "1897-12-19",
+            "1897-06-03",
+            "1897-05-04",
+            "1897-05-17",
+            "1897-05-02",
+            "1897-02-04"
+          ],
+          "expected": "1897-03-17"
+        }
+      ],
       "sourceUrls": [
-        "https://www.gp.se/debatt/regeringens-forslag-pa-andringar-i-grundlagen-far-inte-motas-av-tystnad.fa4fa791-41b6-4e10-8550-58b60b0288b0",
-        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-konstitutionell-beredskap_hd01ku8/"
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/riksdagens-protokoll_cu9o15/html/"
       ]
     },
     {
-      "id": "benchmark-2022-utlandsspioneri",
-      "expectedStatus": "confirmed",
-      "status": "matched",
-      "expectedSfs": [
-        "2022:1517",
-        "2022:1518"
+      "id": "test-d-1885-1888-rf-6",
+      "title": "RF § 6 om nytt statsdepartement",
+      "passed": true,
+      "checks": [
+        {
+          "name": "memorial present",
+          "passed": true,
+          "actual": "CL10KU1",
+          "expected": null
+        },
+        {
+          "name": "second chamber protocol present",
+          "passed": true,
+          "actual": "CL9O10",
+          "expected": null
+        },
+        {
+          "name": "target",
+          "passed": true,
+          "actual": {
+            "memorial": [
+              "§ 6 regeringsformen"
+            ],
+            "chamber": [
+              "6 § regeringsformen",
+              "4 § regeringsformen",
+              "7 § regeringsformen",
+              "§ 6 regeringsformen"
+            ]
+          },
+          "expected": "RF § 6"
+        },
+        {
+          "name": "second chamber vote",
+          "passed": true,
+          "actual": [
+            [
+              133,
+              62
+            ]
+          ],
+          "expected": [
+            133,
+            62
+          ]
+        },
+        {
+          "name": "aggregate status is rejected",
+          "passed": true,
+          "actual": "rejected",
+          "expected": "rejected"
+        },
+        {
+          "name": "two-chamber result retained as fixture",
+          "passed": true,
+          "actual": {
+            "first": "rejected",
+            "second": "adopted"
+          },
+          "expected": "distinct chamber outcomes"
+        }
       ],
-      "matchedSfs": [
-        "2022:1517",
-        "2022:1518"
-      ],
-      "missingSfs": [],
       "sourceUrls": [
-        "https://www.sverigesradio.se/avsnitt/spionerilag-stoppar-svt-publicering-intern-kritik-infor-oppen-rida-pa-ug-och-pms-nilssons-di-comeback",
-        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/utlandsspioneri-vilande-grundlagsforslag-m-m-_ha01ku7/"
-      ]
-    },
-    {
-      "id": "benchmark-2022-riksbanken",
-      "expectedStatus": "confirmed",
-      "status": "matched",
-      "expectedSfs": [
-        "2022:1566"
-      ],
-      "matchedSfs": [
-        "2022:1566"
-      ],
-      "missingSfs": [],
-      "sourceUrls": [
-        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/en-ny-riksbankslag-vilande-grundlagsforslag-m-m-_ha01ku8/"
-      ]
-    },
-    {
-      "id": "benchmark-2018-mediegrundlagar",
-      "expectedStatus": "confirmed",
-      "status": "matched",
-      "expectedSfs": [
-        "2018:1801",
-        "2018:1802"
-      ],
-      "matchedSfs": [
-        "2018:1801",
-        "2018:1802"
-      ],
-      "missingSfs": [],
-      "sourceUrls": [
-        "https://lagen.nu/bet/2018/19:KU2",
-        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/andrade-mediegrundlagar-vilande-grundlagsbeslut_h601ku2/"
-      ]
-    },
-    {
-      "id": "benchmark-2010-reformerad-grundlag",
-      "expectedStatus": "confirmed",
-      "status": "matched",
-      "expectedSfs": [
-        "2010:1408",
-        "2010:1349"
-      ],
-      "matchedSfs": [
-        "2010:1408",
-        "2010:1349"
-      ],
-      "missingSfs": [],
-      "sourceUrls": [
-        "https://lagen.nu/bet/2010/11:KU4",
-        "https://lagen.nu/bet/2010/11:KU3"
-      ]
-    },
-    {
-      "id": "benchmark-1960-forkastad",
-      "expectedStatus": "aborted",
-      "status": "matched",
-      "expectedId": "1954-1960-folkomrostningsinstitutet",
-      "sourceUrls": [
-        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/tisdagen-den-22-mars-sid_el9c9/html/"
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/konstitutions-utskottets-memorial-no-1_cl10ku1/html/",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/1888-andra-kammaren-no-10_cl9o10/html/"
       ]
     }
   ],
-  "metrics": {
-    "evidenceRecall": {
-      "matched": 17,
-      "expected": 17,
-      "rate": 1.0
+  "secondaryBenchmarks": [
+    {
+      "id": "benchmark-2026-current-queue",
+      "title": "Vilande grundlagsändringar inför valet 2026",
+      "passed": true,
+      "checks": [
+        {
+          "name": "Riksdag case discovered",
+          "passed": true,
+          "actual": [
+            "HA01KU32",
+            "HB01KU22",
+            "HD01KU2",
+            "HD01KU8",
+            "HD01KU32",
+            "HD01KU33",
+            "HD01KU34"
+          ],
+          "expected": [
+            "HA01KU32",
+            "HB01KU22",
+            "HD01KU2",
+            "HD01KU8",
+            "HD01KU32",
+            "HD01KU33",
+            "HD01KU34"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://www.riksdagen.se/sv/utskick-aktuellt/2026/juni/16/aktuellt-vilande-grundlagsandringar/"
+      ],
+      "note": "Riksdagens samlade översikt är kontrollkälla för den aktuella kön, inte för historiska SFS-versioner."
     },
-    "currentPendingRecall": {
-      "matched": 7,
-      "expected": 7,
-      "rate": 1.0
+    {
+      "id": "benchmark-2025-ku2",
+      "title": "Stärkt skydd för demokratin och domstolarnas oberoende",
+      "passed": true,
+      "checks": [
+        {
+          "name": "Riksdag case discovered",
+          "passed": true,
+          "actual": [
+            "HD01KU2"
+          ],
+          "expected": [
+            "HD01KU2"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://www.gp.se/debatt/regeringens-forslag-pa-andringar-i-grundlagen-far-inte-motas-av-tystnad.fa4fa791-41b6-4e10-8550-58b60b0288b0",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-skydd-for-demokratin-och-domstolarnas_hd01ku2/"
+      ],
+      "note": "Sekundär källa kompletterad med Riksdagens ärendesida."
     },
-    "currentPendingPrecisionAgainstFixture": {
-      "matched": 7,
-      "generated": 7,
-      "unexpected": [],
-      "rate": 1.0
+    {
+      "id": "benchmark-2025-ku8",
+      "title": "Stärkt konstitutionell beredskap",
+      "passed": true,
+      "checks": [
+        {
+          "name": "Riksdag case discovered",
+          "passed": true,
+          "actual": [
+            "HD01KU8"
+          ],
+          "expected": [
+            "HD01KU8"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://www.gp.se/debatt/regeringens-forslag-pa-andringar-i-grundlagen-far-inte-motas-av-tystnad.fa4fa791-41b6-4e10-8550-58b60b0288b0",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-konstitutionell-beredskap_hd01ku8/"
+      ],
+      "note": "Sekundär källa kompletterad med Riksdagens ärendesida."
     },
-    "confirmedSfsInSnapshot": 121,
-    "abortedCasesInSnapshot": 1
+    {
+      "id": "benchmark-2022-utlandsspioneri",
+      "title": "Utlandsspioneri",
+      "passed": true,
+      "checks": [
+        {
+          "name": "SFS identifiers present",
+          "passed": true,
+          "actual": [
+            "2022:1517",
+            "2022:1518"
+          ],
+          "expected": [
+            "2022:1517",
+            "2022:1518"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://www.sverigesradio.se/avsnitt/spionerilag-stoppar-svt-publicering-intern-kritik-infor-oppen-rida-pa-ug-och-pms-nilssons-di-comeback",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/utlandsspioneri-vilande-grundlagsforslag-m-m-_ha01ku7/"
+      ],
+      "note": "Korsar en sekundär mediebevakning mot Riksdagens ärende och Ferendas SFS-register."
+    },
+    {
+      "id": "benchmark-2022-riksbanken",
+      "title": "En ny riksbankslag",
+      "passed": true,
+      "checks": [
+        {
+          "name": "SFS identifiers present",
+          "passed": true,
+          "actual": [
+            "2022:1566"
+          ],
+          "expected": [
+            "2022:1566"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/en-ny-riksbankslag-vilande-grundlagsforslag-m-m-_ha01ku8/"
+      ],
+      "note": "Historiskt kontrollfall där första och andra beslutet uttryckligen beskrivs."
+    },
+    {
+      "id": "benchmark-2018-mediegrundlagar",
+      "title": "Ändrade mediegrundlagar",
+      "passed": true,
+      "checks": [
+        {
+          "name": "SFS identifiers present",
+          "passed": true,
+          "actual": [
+            "2018:1801",
+            "2018:1802"
+          ],
+          "expected": [
+            "2018:1801",
+            "2018:1802"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://lagen.nu/bet/2018/19:KU2",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/andrade-mediegrundlagar-vilande-grundlagsbeslut_h601ku2/"
+      ],
+      "note": "Ferenda-matchning av ett historiskt vilande beslut."
+    },
+    {
+      "id": "benchmark-2010-reformerad-grundlag",
+      "title": "En reformerad grundlag",
+      "passed": true,
+      "checks": [
+        {
+          "name": "SFS identifiers present",
+          "passed": true,
+          "actual": [
+            "2010:1408",
+            "2010:1349"
+          ],
+          "expected": [
+            "2010:1408",
+            "2010:1349"
+          ]
+        }
+      ],
+      "sourceUrls": [
+        "https://lagen.nu/bet/2010/11:KU4",
+        "https://lagen.nu/bet/2010/11:KU3"
+      ],
+      "note": "Historiskt kontrollfall med flera samtidiga ändringsinstrument."
+    },
+    {
+      "id": "benchmark-1960-forkastad",
+      "title": "Folkomröstningsinstitutet",
+      "passed": true,
+      "checks": [
+        {
+          "name": "outside modern automatic scope",
+          "passed": true,
+          "actual": "not discovered",
+          "expected": "scope-only fixture"
+        }
+      ],
+      "sourceUrls": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/tisdagen-den-22-mars-sid_el9c9/html/"
+      ],
+      "note": "Uttryckligen förkastad vid andra beslutet; används som negativ kontroll."
+    }
+  ],
+  "qa": {
+    "rejectedWithSfs": [],
+    "chronologyErrors": [],
+    "unknownSfsOperations": [
+      "1982:937",
+      "1985:862",
+      "1985:864",
+      "1988:1441",
+      "1991:1503",
+      "1994:1481",
+      "2003:593",
+      "2011:109",
+      "1921:21",
+      "1937:40",
+      "1937:728",
+      "1949:110",
+      "1949:579",
+      "1965:45",
+      "1965:817",
+      "1974:154",
+      "1974:307",
+      "1979:935",
+      "1953:654",
+      "1957:500",
+      "1961:466",
+      "1965:818",
+      "1971:273",
+      "1974:308",
+      "2011:509",
+      "2015:151",
+      "2011:508",
+      "2015:150"
+    ],
+    "twoWayValidation": {
+      "riksdagToSfs": {
+        "adopted": 36,
+        "matched": 34,
+        "withoutMatch": 2
+      },
+      "sfsToRiksdag": {
+        "changes": 121,
+        "matched": 60,
+        "orphan": 61
+      }
+    }
   },
-  "limitations": [
-    "The fixtures are a regression set, not an exhaustive catalogue of every historical proposal.",
-    "A Ferenda search hit without a matching SFS is reported as an unresolved signal, not as an aborted proposal.",
-    "Confirmed-case recall is measured only for the SFS identifiers named in the fixtures."
-  ]
+  "ferenda_snapshots": {
+    "checked": 15,
+    "exact": 0,
+    "normalized": 0,
+    "mismatches": 0,
+    "note": "Version-report values describe the current Ferenda comparison experiment; they are not proof that every SFS patch is deterministic."
+  }
 }

@@ -117,14 +117,2071 @@
       "characters": 3490
     }
   ],
+  "sfsPatches": [
+    {
+      "sfs": "1994:1477",
+      "effectiveDate": "1995-01-01",
+      "sourceUrl": "https://lagen.nu/1994:1477",
+      "metadata": {
+        "ikraft": "1995-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K3P10",
+          "https://lagen.nu/1991:1469#K4P6",
+          "https://lagen.nu/1991:1469#K5P6",
+          "https://lagen.nu/1991:1469#K7",
+          "https://lagen.nu/1991:1469#K7P2",
+          "https://lagen.nu/1991:1469#K7P3"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1477"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "amend_section",
+          "chapter": "3",
+          "section": "10",
+          "oldDesignation": "#K3P10",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P10"
+        },
+        {
+          "sequence": 2,
+          "operationType": "amend_section",
+          "chapter": "4",
+          "section": "6",
+          "oldDesignation": "#K4P6",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4P6"
+        },
+        {
+          "sequence": 3,
+          "operationType": "amend_section",
+          "chapter": "5",
+          "section": "6",
+          "oldDesignation": "#K5P6",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P6"
+        },
+        {
+          "sequence": 4,
+          "operationType": "amend_section",
+          "chapter": "7",
+          "section": null,
+          "oldDesignation": "#K7",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7"
+        },
+        {
+          "sequence": 5,
+          "operationType": "amend_section",
+          "chapter": "7",
+          "section": "2",
+          "oldDesignation": "#K7P2",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P2"
+        },
+        {
+          "sequence": 6,
+          "operationType": "amend_section",
+          "chapter": "7",
+          "section": "3",
+          "oldDesignation": "#K7P3",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P3"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 1993/94:KU25",
+        "Prop. 1993/94:118",
+        "Rskr. 1993/94:162"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "1998:1439",
+      "effectiveDate": "1999-01-01",
+      "sourceUrl": "https://lagen.nu/1998:1439",
+      "metadata": {
+        "ikraft": "1999-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K1",
+          "https://lagen.nu/1991:1469#K10",
+          "https://lagen.nu/1991:1469#K10P1",
+          "https://lagen.nu/1991:1469#K10P2",
+          "https://lagen.nu/1991:1469#K1P1",
+          "https://lagen.nu/1991:1469#K1P10",
+          "https://lagen.nu/1991:1469#K1P11",
+          "https://lagen.nu/1991:1469#K1P12",
+          "https://lagen.nu/1991:1469#K1P2",
+          "https://lagen.nu/1991:1469#K1P3",
+          "https://lagen.nu/1991:1469#K1P4",
+          "https://lagen.nu/1991:1469#K1P9",
+          "https://lagen.nu/1991:1469#K2",
+          "https://lagen.nu/1991:1469#K2P1",
+          "https://lagen.nu/1991:1469#K2P2",
+          "https://lagen.nu/1991:1469#K2P3",
+          "https://lagen.nu/1991:1469#K2P4",
+          "https://lagen.nu/1991:1469#K2P5",
+          "https://lagen.nu/1991:1469#K3",
+          "https://lagen.nu/1991:1469#K3P10",
+          "https://lagen.nu/1991:1469#K3P11",
+          "https://lagen.nu/1991:1469#K3P12",
+          "https://lagen.nu/1991:1469#K3P13",
+          "https://lagen.nu/1991:1469#K3P14",
+          "https://lagen.nu/1991:1469#K3P8",
+          "https://lagen.nu/1991:1469#K3P9",
+          "https://lagen.nu/1991:1469#K4",
+          "https://lagen.nu/1991:1469#K4P1",
+          "https://lagen.nu/1991:1469#K4P4",
+          "https://lagen.nu/1991:1469#K5",
+          "https://lagen.nu/1991:1469#K5P1",
+          "https://lagen.nu/1991:1469#K5P3",
+          "https://lagen.nu/1991:1469#K5P6",
+          "https://lagen.nu/1991:1469#K6",
+          "https://lagen.nu/1991:1469#K6P1",
+          "https://lagen.nu/1991:1469#K6P2",
+          "https://lagen.nu/1991:1469#K7",
+          "https://lagen.nu/1991:1469#K7P1",
+          "https://lagen.nu/1991:1469#K7P2",
+          "https://lagen.nu/1991:1469#K7P3",
+          "https://lagen.nu/1991:1469#K7P5",
+          "https://lagen.nu/1991:1469#K8",
+          "https://lagen.nu/1991:1469#K8P1",
+          "https://lagen.nu/1991:1469#K8P2",
+          "https://lagen.nu/1991:1469#K8P3",
+          "https://lagen.nu/1991:1469#K8P4",
+          "https://lagen.nu/1991:1469#K9P1"
+        ],
+        "inforsI": [
+          "https://lagen.nu/1991:1469#K1P13"
+        ],
+        "sfsIdentifier": "SFS 1998:1439"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": null,
+          "oldDesignation": "#K1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1"
+        },
+        {
+          "sequence": 2,
+          "operationType": "replace_multiple_sections",
+          "chapter": "10",
+          "section": null,
+          "oldDesignation": "#K10",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K10"
+        },
+        {
+          "sequence": 3,
+          "operationType": "replace_multiple_sections",
+          "chapter": "10",
+          "section": "1",
+          "oldDesignation": "#K10P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K10P1"
+        },
+        {
+          "sequence": 4,
+          "operationType": "replace_multiple_sections",
+          "chapter": "10",
+          "section": "2",
+          "oldDesignation": "#K10P2",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K10P2"
+        },
+        {
+          "sequence": 5,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "1",
+          "oldDesignation": "#K1P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P1"
+        },
+        {
+          "sequence": 6,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "10",
+          "oldDesignation": "#K1P10",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P10"
+        },
+        {
+          "sequence": 7,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "11",
+          "oldDesignation": "#K1P11",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P11"
+        },
+        {
+          "sequence": 8,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "12",
+          "oldDesignation": "#K1P12",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P12"
+        },
+        {
+          "sequence": 9,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "2",
+          "oldDesignation": "#K1P2",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P2"
+        },
+        {
+          "sequence": 10,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "3",
+          "oldDesignation": "#K1P3",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P3"
+        },
+        {
+          "sequence": 11,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "4",
+          "oldDesignation": "#K1P4",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P4"
+        },
+        {
+          "sequence": 12,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "9",
+          "oldDesignation": "#K1P9",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P9"
+        },
+        {
+          "sequence": 13,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": null,
+          "oldDesignation": "#K2",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2"
+        },
+        {
+          "sequence": 14,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "1",
+          "oldDesignation": "#K2P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P1"
+        },
+        {
+          "sequence": 15,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "2",
+          "oldDesignation": "#K2P2",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P2"
+        },
+        {
+          "sequence": 16,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "3",
+          "oldDesignation": "#K2P3",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P3"
+        },
+        {
+          "sequence": 17,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "4",
+          "oldDesignation": "#K2P4",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P4"
+        },
+        {
+          "sequence": 18,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "5",
+          "oldDesignation": "#K2P5",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P5"
+        },
+        {
+          "sequence": 19,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": null,
+          "oldDesignation": "#K3",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3"
+        },
+        {
+          "sequence": 20,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "10",
+          "oldDesignation": "#K3P10",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P10"
+        },
+        {
+          "sequence": 21,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "11",
+          "oldDesignation": "#K3P11",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P11"
+        },
+        {
+          "sequence": 22,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "12",
+          "oldDesignation": "#K3P12",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P12"
+        },
+        {
+          "sequence": 23,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "13",
+          "oldDesignation": "#K3P13",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P13"
+        },
+        {
+          "sequence": 24,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "14",
+          "oldDesignation": "#K3P14",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P14"
+        },
+        {
+          "sequence": 25,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "8",
+          "oldDesignation": "#K3P8",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P8"
+        },
+        {
+          "sequence": 26,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "9",
+          "oldDesignation": "#K3P9",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P9"
+        },
+        {
+          "sequence": 27,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": null,
+          "oldDesignation": "#K4",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4"
+        },
+        {
+          "sequence": 28,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": "1",
+          "oldDesignation": "#K4P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4P1"
+        },
+        {
+          "sequence": 29,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": "4",
+          "oldDesignation": "#K4P4",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4P4"
+        },
+        {
+          "sequence": 30,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": null,
+          "oldDesignation": "#K5",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5"
+        },
+        {
+          "sequence": 31,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": "1",
+          "oldDesignation": "#K5P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P1"
+        },
+        {
+          "sequence": 32,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": "3",
+          "oldDesignation": "#K5P3",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P3"
+        },
+        {
+          "sequence": 33,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": "6",
+          "oldDesignation": "#K5P6",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P6"
+        },
+        {
+          "sequence": 34,
+          "operationType": "replace_multiple_sections",
+          "chapter": "6",
+          "section": null,
+          "oldDesignation": "#K6",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K6"
+        },
+        {
+          "sequence": 35,
+          "operationType": "replace_multiple_sections",
+          "chapter": "6",
+          "section": "1",
+          "oldDesignation": "#K6P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K6P1"
+        },
+        {
+          "sequence": 36,
+          "operationType": "replace_multiple_sections",
+          "chapter": "6",
+          "section": "2",
+          "oldDesignation": "#K6P2",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K6P2"
+        },
+        {
+          "sequence": 37,
+          "operationType": "replace_multiple_sections",
+          "chapter": "7",
+          "section": null,
+          "oldDesignation": "#K7",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7"
+        },
+        {
+          "sequence": 38,
+          "operationType": "replace_multiple_sections",
+          "chapter": "7",
+          "section": "1",
+          "oldDesignation": "#K7P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P1"
+        },
+        {
+          "sequence": 39,
+          "operationType": "replace_multiple_sections",
+          "chapter": "7",
+          "section": "2",
+          "oldDesignation": "#K7P2",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P2"
+        },
+        {
+          "sequence": 40,
+          "operationType": "replace_multiple_sections",
+          "chapter": "7",
+          "section": "3",
+          "oldDesignation": "#K7P3",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P3"
+        },
+        {
+          "sequence": 41,
+          "operationType": "replace_multiple_sections",
+          "chapter": "7",
+          "section": "5",
+          "oldDesignation": "#K7P5",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P5"
+        },
+        {
+          "sequence": 42,
+          "operationType": "replace_multiple_sections",
+          "chapter": "8",
+          "section": null,
+          "oldDesignation": "#K8",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K8"
+        },
+        {
+          "sequence": 43,
+          "operationType": "replace_multiple_sections",
+          "chapter": "8",
+          "section": "1",
+          "oldDesignation": "#K8P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K8P1"
+        },
+        {
+          "sequence": 44,
+          "operationType": "replace_multiple_sections",
+          "chapter": "8",
+          "section": "2",
+          "oldDesignation": "#K8P2",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K8P2"
+        },
+        {
+          "sequence": 45,
+          "operationType": "replace_multiple_sections",
+          "chapter": "8",
+          "section": "3",
+          "oldDesignation": "#K8P3",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K8P3"
+        },
+        {
+          "sequence": 46,
+          "operationType": "replace_multiple_sections",
+          "chapter": "8",
+          "section": "4",
+          "oldDesignation": "#K8P4",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K8P4"
+        },
+        {
+          "sequence": 47,
+          "operationType": "replace_multiple_sections",
+          "chapter": "9",
+          "section": "1",
+          "oldDesignation": "#K9P1",
+          "newDesignation": null,
+          "instructionText": "upph. 4 kap 7 §, 6 kap 3, 4, 5 §§, rubr. närmast före 4 kap 1, 7 §§, 6 kap 1, 3, 6 §§; nuvarande 6 kap 6, 7 §§ betecknas 6 kap 3, 4 §§; ändr. 1 kap 1, 2, 3, 4, 9, 10, 11, 12 §§, 2 kap 1, 2, 3, 4, 5 §§, 3 kap 8, 9, 10, 11, 12, 13, 14 §§, 4 kap 1, 4 §§, 5 kap 1, 3, 6 §§, 6 kap 1, 2 §§, 7 kap 1, 2, 3, 5 §§, 8 kap 1, 2, 3, 4 §§, 9 kap 1 §, 10 kap 1, 2 §§, rubr. närmast före 3 kap 8 §, rubr. till 10 kap; ny 1 kap 13 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K9P1"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 1997/98:KU19",
+        "Prop. 1997/98:43",
+        "Rskr. 1997/98:214"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2002:909",
+      "effectiveDate": "2003-01-01",
+      "sourceUrl": "https://lagen.nu/2002:909",
+      "metadata": {
+        "ikraft": "2003-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K1",
+          "https://lagen.nu/1991:1469#K11P1",
+          "https://lagen.nu/1991:1469#K1P1",
+          "https://lagen.nu/1991:1469#K1P10",
+          "https://lagen.nu/1991:1469#K1P6",
+          "https://lagen.nu/1991:1469#K1P7",
+          "https://lagen.nu/1991:1469#K1P9",
+          "https://lagen.nu/1991:1469#K3",
+          "https://lagen.nu/1991:1469#K3P1",
+          "https://lagen.nu/1991:1469#K3P6",
+          "https://lagen.nu/1991:1469#K4",
+          "https://lagen.nu/1991:1469#K7",
+          "https://lagen.nu/1991:1469#K7P1",
+          "https://lagen.nu/1991:1469#K7P3"
+        ],
+        "inforsI": [
+          "https://lagen.nu/1991:1469#K3P15"
+        ],
+        "sfsIdentifier": "SFS 2002:909"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": null,
+          "oldDesignation": "#K1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1"
+        },
+        {
+          "sequence": 2,
+          "operationType": "replace_multiple_sections",
+          "chapter": "11",
+          "section": "1",
+          "oldDesignation": "#K11P1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K11P1"
+        },
+        {
+          "sequence": 3,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "1",
+          "oldDesignation": "#K1P1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P1"
+        },
+        {
+          "sequence": 4,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "10",
+          "oldDesignation": "#K1P10",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P10"
+        },
+        {
+          "sequence": 5,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "6",
+          "oldDesignation": "#K1P6",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P6"
+        },
+        {
+          "sequence": 6,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "7",
+          "oldDesignation": "#K1P7",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P7"
+        },
+        {
+          "sequence": 7,
+          "operationType": "replace_multiple_sections",
+          "chapter": "1",
+          "section": "9",
+          "oldDesignation": "#K1P9",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P9"
+        },
+        {
+          "sequence": 8,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": null,
+          "oldDesignation": "#K3",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3"
+        },
+        {
+          "sequence": 9,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "1",
+          "oldDesignation": "#K3P1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P1"
+        },
+        {
+          "sequence": 10,
+          "operationType": "replace_multiple_sections",
+          "chapter": "3",
+          "section": "6",
+          "oldDesignation": "#K3P6",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P6"
+        },
+        {
+          "sequence": 11,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": null,
+          "oldDesignation": "#K4",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4"
+        },
+        {
+          "sequence": 12,
+          "operationType": "replace_multiple_sections",
+          "chapter": "7",
+          "section": null,
+          "oldDesignation": "#K7",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7"
+        },
+        {
+          "sequence": 13,
+          "operationType": "replace_multiple_sections",
+          "chapter": "7",
+          "section": "1",
+          "oldDesignation": "#K7P1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P1"
+        },
+        {
+          "sequence": 14,
+          "operationType": "replace_multiple_sections",
+          "chapter": "7",
+          "section": "3",
+          "oldDesignation": "#K7P3",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap 1, 6, 7, 9, 10 §§, 3 kap 1, 6 §§, 4 kap 4, §, 7 kap 1, 3 §§, 11 kap 1 §; ny 3 kap 15 §, rubr.närmast före 3 kap 15 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P3"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 2001/02:KU21",
+        "Prop. 2001/02:74",
+        "Rskr. 2001/02:233"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2010:1349",
+      "effectiveDate": "2011-01-01",
+      "sourceUrl": "https://lagen.nu/2010:1349",
+      "metadata": {
+        "ikraft": "2011-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K1",
+          "https://lagen.nu/1991:1469#K1P1",
+          "https://lagen.nu/1991:1469#K1P3",
+          "https://lagen.nu/1991:1469#K1P6",
+          "https://lagen.nu/1991:1469#K1P9",
+          "https://lagen.nu/1991:1469#K2",
+          "https://lagen.nu/1991:1469#K2P4",
+          "https://lagen.nu/1991:1469#K2P5",
+          "https://lagen.nu/1991:1469#K3",
+          "https://lagen.nu/1991:1469#K3P1",
+          "https://lagen.nu/1991:1469#K3P12",
+          "https://lagen.nu/1991:1469#K7P1"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2010:1349"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": null,
+          "oldDesignation": "#K1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1"
+        },
+        {
+          "sequence": 2,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "1",
+          "oldDesignation": "#K1P1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P1"
+        },
+        {
+          "sequence": 3,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "3",
+          "oldDesignation": "#K1P3",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P3"
+        },
+        {
+          "sequence": 4,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "6",
+          "oldDesignation": "#K1P6",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P6"
+        },
+        {
+          "sequence": 5,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "9",
+          "oldDesignation": "#K1P9",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P9"
+        },
+        {
+          "sequence": 6,
+          "operationType": "amend_section",
+          "chapter": "2",
+          "section": null,
+          "oldDesignation": "#K2",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2"
+        },
+        {
+          "sequence": 7,
+          "operationType": "amend_section",
+          "chapter": "2",
+          "section": "4",
+          "oldDesignation": "#K2P4",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P4"
+        },
+        {
+          "sequence": 8,
+          "operationType": "amend_section",
+          "chapter": "2",
+          "section": "5",
+          "oldDesignation": "#K2P5",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P5"
+        },
+        {
+          "sequence": 9,
+          "operationType": "amend_section",
+          "chapter": "3",
+          "section": null,
+          "oldDesignation": "#K3",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3"
+        },
+        {
+          "sequence": 10,
+          "operationType": "amend_section",
+          "chapter": "3",
+          "section": "1",
+          "oldDesignation": "#K3P1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P1"
+        },
+        {
+          "sequence": 11,
+          "operationType": "amend_section",
+          "chapter": "3",
+          "section": "12",
+          "oldDesignation": "#K3P12",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P12"
+        },
+        {
+          "sequence": 12,
+          "operationType": "amend_section",
+          "chapter": "7",
+          "section": "1",
+          "oldDesignation": "#K7P1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 1, 3, 6, 9 §§, 2 kap. 4, 5 §§, 3 kap. 1, 12 §§, 7 kap. 1 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P1"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 2009/10:KU18",
+        "Bet. 2010/11:KU3",
+        "Prop. 2009/10:81",
+        "Rskr. 2009/10:303",
+        "Rskr. 2010/11:26"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2010:1356",
+      "effectiveDate": "2011-01-01",
+      "sourceUrl": "https://lagen.nu/2010:1356",
+      "metadata": {
+        "ikraft": "2011-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K1P13"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2010:1356"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "13",
+          "oldDesignation": "#K1P13",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 13 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P13"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 2009/10:KU34",
+        "Bet. 2010/11:KU5",
+        "Prop. 2009/10:70",
+        "Rskr. 2009/10:274",
+        "Rskr. 2010/11:27"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2010:1410",
+      "effectiveDate": "2011-01-01",
+      "sourceUrl": "https://lagen.nu/2010:1410",
+      "metadata": {
+        "ikraft": "2011-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K3P3",
+          "https://lagen.nu/1991:1469#K5P3",
+          "https://lagen.nu/1991:1469#K7P6"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2010:1410"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "amend_section",
+          "chapter": "3",
+          "section": "3",
+          "oldDesignation": "#K3P3",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap. 3 §, 5 kap. 3 §, 7 kap. 6 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P3"
+        },
+        {
+          "sequence": 2,
+          "operationType": "amend_section",
+          "chapter": "5",
+          "section": "3",
+          "oldDesignation": "#K5P3",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap. 3 §, 5 kap. 3 §, 7 kap. 6 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P3"
+        },
+        {
+          "sequence": 3,
+          "operationType": "amend_section",
+          "chapter": "7",
+          "section": "6",
+          "oldDesignation": "#K7P6",
+          "newDesignation": null,
+          "instructionText": "ändr. 3 kap. 3 §, 5 kap. 3 §, 7 kap. 6 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P6"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 2009/10:KU19",
+        "Bet. 2010/11:KU4",
+        "Prop. 2009/10:80",
+        "Rskr. 2009/10:304",
+        "Rskr. 2010/09:21"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2014:1359",
+      "effectiveDate": "2015-01-01",
+      "sourceUrl": "https://lagen.nu/2014:1359",
+      "metadata": {
+        "ikraft": "2015-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K10P2",
+          "https://lagen.nu/1991:1469#K1P10"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2014:1359"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "amend_section",
+          "chapter": "10",
+          "section": "2",
+          "oldDesignation": "#K10P2",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 10 §, 10 kap. 2 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K10P2"
+        },
+        {
+          "sequence": 2,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "10",
+          "oldDesignation": "#K1P10",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 10 §, 10 kap. 2 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P10"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 2013/14:KU17",
+        "Bet. 2014/15:KU3",
+        "Prop. 2013/14:47",
+        "Rskr. 2013/14:211",
+        "Rskr. 2014/15:6"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2018:1802",
+      "effectiveDate": "2019-01-01",
+      "sourceUrl": "https://lagen.nu/2018:1802",
+      "metadata": {
+        "ikraft": "2019-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K10P1",
+          "https://lagen.nu/1991:1469#K11P2",
+          "https://lagen.nu/1991:1469#K12",
+          "https://lagen.nu/1991:1469#K12P1",
+          "https://lagen.nu/1991:1469#K2",
+          "https://lagen.nu/1991:1469#K2P1",
+          "https://lagen.nu/1991:1469#K2P2",
+          "https://lagen.nu/1991:1469#K2P3",
+          "https://lagen.nu/1991:1469#K2P5",
+          "https://lagen.nu/1991:1469#K2P7",
+          "https://lagen.nu/1991:1469#K4",
+          "https://lagen.nu/1991:1469#K4P1",
+          "https://lagen.nu/1991:1469#K4P2",
+          "https://lagen.nu/1991:1469#K4P3",
+          "https://lagen.nu/1991:1469#K4P6",
+          "https://lagen.nu/1991:1469#K4P7",
+          "https://lagen.nu/1991:1469#K5",
+          "https://lagen.nu/1991:1469#K5P1",
+          "https://lagen.nu/1991:1469#K5P3",
+          "https://lagen.nu/1991:1469#K5P4",
+          "https://lagen.nu/1991:1469#K5P8",
+          "https://lagen.nu/1991:1469#K6",
+          "https://lagen.nu/1991:1469#K6P1",
+          "https://lagen.nu/1991:1469#K6P8",
+          "https://lagen.nu/1991:1469#K6P9",
+          "https://lagen.nu/1991:1469#K9",
+          "https://lagen.nu/1991:1469#K9P1",
+          "https://lagen.nu/1991:1469#K9P2",
+          "https://lagen.nu/1991:1469#K9P4",
+          "https://lagen.nu/1991:1469#K9P5"
+        ],
+        "inforsI": [
+          "https://lagen.nu/1991:1469#K11",
+          "https://lagen.nu/1991:1469#K11P1",
+          "https://lagen.nu/1991:1469#K11P2",
+          "https://lagen.nu/1991:1469#K11P3",
+          "https://lagen.nu/1991:1469#K11P4",
+          "https://lagen.nu/1991:1469#K11P5",
+          "https://lagen.nu/1991:1469#K11P6",
+          "https://lagen.nu/1991:1469#K11P7",
+          "https://lagen.nu/1991:1469#K12",
+          "https://lagen.nu/1991:1469#K12P2",
+          "https://lagen.nu/1991:1469#K12P3",
+          "https://lagen.nu/1991:1469#K12P4",
+          "https://lagen.nu/1991:1469#K2",
+          "https://lagen.nu/1991:1469#K2P3",
+          "https://lagen.nu/1991:1469#K2P4",
+          "https://lagen.nu/1991:1469#K2P5",
+          "https://lagen.nu/1991:1469#K2P6",
+          "https://lagen.nu/1991:1469#K2P7",
+          "https://lagen.nu/1991:1469#K4",
+          "https://lagen.nu/1991:1469#K4P1",
+          "https://lagen.nu/1991:1469#K4P4",
+          "https://lagen.nu/1991:1469#K4P5",
+          "https://lagen.nu/1991:1469#K4P6",
+          "https://lagen.nu/1991:1469#K4P7",
+          "https://lagen.nu/1991:1469#K5",
+          "https://lagen.nu/1991:1469#K5P1",
+          "https://lagen.nu/1991:1469#K5P2",
+          "https://lagen.nu/1991:1469#K5P4",
+          "https://lagen.nu/1991:1469#K5P5",
+          "https://lagen.nu/1991:1469#K5P6",
+          "https://lagen.nu/1991:1469#K5P7",
+          "https://lagen.nu/1991:1469#K5P8",
+          "https://lagen.nu/1991:1469#K6",
+          "https://lagen.nu/1991:1469#K6P1",
+          "https://lagen.nu/1991:1469#K6P2",
+          "https://lagen.nu/1991:1469#K6P3",
+          "https://lagen.nu/1991:1469#K6P4",
+          "https://lagen.nu/1991:1469#K6P5",
+          "https://lagen.nu/1991:1469#K6P6",
+          "https://lagen.nu/1991:1469#K6P7",
+          "https://lagen.nu/1991:1469#K6P8",
+          "https://lagen.nu/1991:1469#K6P9",
+          "https://lagen.nu/1991:1469#K8",
+          "https://lagen.nu/1991:1469#K8P1",
+          "https://lagen.nu/1991:1469#K8P2",
+          "https://lagen.nu/1991:1469#K8P3",
+          "https://lagen.nu/1991:1469#K8P4",
+          "https://lagen.nu/1991:1469#K8P5",
+          "https://lagen.nu/1991:1469#K8P6",
+          "https://lagen.nu/1991:1469#K9",
+          "https://lagen.nu/1991:1469#K9P1",
+          "https://lagen.nu/1991:1469#K9P2",
+          "https://lagen.nu/1991:1469#K9P7",
+          "https://lagen.nu/1991:1469#P7"
+        ],
+        "sfsIdentifier": "SFS 2018:1802"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "replace_multiple_sections",
+          "chapter": "10",
+          "section": "1",
+          "oldDesignation": "#K10P1",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K10P1"
+        },
+        {
+          "sequence": 2,
+          "operationType": "replace_multiple_sections",
+          "chapter": "11",
+          "section": "2",
+          "oldDesignation": "#K11P2",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K11P2"
+        },
+        {
+          "sequence": 3,
+          "operationType": "replace_multiple_sections",
+          "chapter": "12",
+          "section": null,
+          "oldDesignation": "#K12",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K12"
+        },
+        {
+          "sequence": 4,
+          "operationType": "replace_multiple_sections",
+          "chapter": "12",
+          "section": "1",
+          "oldDesignation": "#K12P1",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K12P1"
+        },
+        {
+          "sequence": 5,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": null,
+          "oldDesignation": "#K2",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2"
+        },
+        {
+          "sequence": 6,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "1",
+          "oldDesignation": "#K2P1",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P1"
+        },
+        {
+          "sequence": 7,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "2",
+          "oldDesignation": "#K2P2",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P2"
+        },
+        {
+          "sequence": 8,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "3",
+          "oldDesignation": "#K2P3",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P3"
+        },
+        {
+          "sequence": 9,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "5",
+          "oldDesignation": "#K2P5",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P5"
+        },
+        {
+          "sequence": 10,
+          "operationType": "replace_multiple_sections",
+          "chapter": "2",
+          "section": "7",
+          "oldDesignation": "#K2P7",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K2P7"
+        },
+        {
+          "sequence": 11,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": null,
+          "oldDesignation": "#K4",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4"
+        },
+        {
+          "sequence": 12,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": "1",
+          "oldDesignation": "#K4P1",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4P1"
+        },
+        {
+          "sequence": 13,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": "2",
+          "oldDesignation": "#K4P2",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4P2"
+        },
+        {
+          "sequence": 14,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": "3",
+          "oldDesignation": "#K4P3",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4P3"
+        },
+        {
+          "sequence": 15,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": "6",
+          "oldDesignation": "#K4P6",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4P6"
+        },
+        {
+          "sequence": 16,
+          "operationType": "replace_multiple_sections",
+          "chapter": "4",
+          "section": "7",
+          "oldDesignation": "#K4P7",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K4P7"
+        },
+        {
+          "sequence": 17,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": null,
+          "oldDesignation": "#K5",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5"
+        },
+        {
+          "sequence": 18,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": "1",
+          "oldDesignation": "#K5P1",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P1"
+        },
+        {
+          "sequence": 19,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": "3",
+          "oldDesignation": "#K5P3",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P3"
+        },
+        {
+          "sequence": 20,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": "4",
+          "oldDesignation": "#K5P4",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P4"
+        },
+        {
+          "sequence": 21,
+          "operationType": "replace_multiple_sections",
+          "chapter": "5",
+          "section": "8",
+          "oldDesignation": "#K5P8",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P8"
+        },
+        {
+          "sequence": 22,
+          "operationType": "replace_multiple_sections",
+          "chapter": "6",
+          "section": null,
+          "oldDesignation": "#K6",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K6"
+        },
+        {
+          "sequence": 23,
+          "operationType": "replace_multiple_sections",
+          "chapter": "6",
+          "section": "1",
+          "oldDesignation": "#K6P1",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K6P1"
+        },
+        {
+          "sequence": 24,
+          "operationType": "replace_multiple_sections",
+          "chapter": "6",
+          "section": "8",
+          "oldDesignation": "#K6P8",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K6P8"
+        },
+        {
+          "sequence": 25,
+          "operationType": "replace_multiple_sections",
+          "chapter": "6",
+          "section": "9",
+          "oldDesignation": "#K6P9",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K6P9"
+        },
+        {
+          "sequence": 26,
+          "operationType": "replace_multiple_sections",
+          "chapter": "9",
+          "section": null,
+          "oldDesignation": "#K9",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K9"
+        },
+        {
+          "sequence": 27,
+          "operationType": "replace_multiple_sections",
+          "chapter": "9",
+          "section": "1",
+          "oldDesignation": "#K9P1",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K9P1"
+        },
+        {
+          "sequence": 28,
+          "operationType": "replace_multiple_sections",
+          "chapter": "9",
+          "section": "2",
+          "oldDesignation": "#K9P2",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K9P2"
+        },
+        {
+          "sequence": 29,
+          "operationType": "replace_multiple_sections",
+          "chapter": "9",
+          "section": "4",
+          "oldDesignation": "#K9P4",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K9P4"
+        },
+        {
+          "sequence": 30,
+          "operationType": "replace_multiple_sections",
+          "chapter": "9",
+          "section": "5",
+          "oldDesignation": "#K9P5",
+          "newDesignation": null,
+          "instructionText": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K9P5"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 2017/18:KU16",
+        "Bet. 2018/19:KU2",
+        "Prop. 2017/18:49",
+        "Rskr. 2017/18:336",
+        "Rskr. 2018/19:16"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2022:1518",
+      "effectiveDate": "2023-01-01",
+      "sourceUrl": "https://lagen.nu/2022:1518",
+      "metadata": {
+        "ikraft": "2023-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K5P4"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2022:1518"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "amend_section",
+          "chapter": "5",
+          "section": "4",
+          "oldDesignation": "#K5P4",
+          "newDesignation": null,
+          "instructionText": "ändr. 5 kap. 4 §",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K5P4"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 2021/22:KU16",
+        "Bet. 2022/23:KU7",
+        "Prop. 2021/22:55",
+        "Rskr. 2021/22:222",
+        "Rskr. 2022/23:11"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2022:1525",
+      "effectiveDate": "2023-01-01",
+      "sourceUrl": "https://lagen.nu/2022:1525",
+      "metadata": {
+        "ikraft": "2023-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K1",
+          "https://lagen.nu/1991:1469#K1P18",
+          "https://lagen.nu/1991:1469#K1P20",
+          "https://lagen.nu/1991:1469#K1P3",
+          "https://lagen.nu/1991:1469#K1P4",
+          "https://lagen.nu/1991:1469#K3P2",
+          "https://lagen.nu/1991:1469#K7P5"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2022:1525"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": null,
+          "oldDesignation": "#K1",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 3, 4, 18, 20 §§, 3 kap. 2 §, 7 kap. 5 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1"
+        },
+        {
+          "sequence": 2,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "18",
+          "oldDesignation": "#K1P18",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 3, 4, 18, 20 §§, 3 kap. 2 §, 7 kap. 5 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P18"
+        },
+        {
+          "sequence": 3,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "20",
+          "oldDesignation": "#K1P20",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 3, 4, 18, 20 §§, 3 kap. 2 §, 7 kap. 5 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P20"
+        },
+        {
+          "sequence": 4,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "3",
+          "oldDesignation": "#K1P3",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 3, 4, 18, 20 §§, 3 kap. 2 §, 7 kap. 5 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P3"
+        },
+        {
+          "sequence": 5,
+          "operationType": "amend_section",
+          "chapter": "1",
+          "section": "4",
+          "oldDesignation": "#K1P4",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 3, 4, 18, 20 §§, 3 kap. 2 §, 7 kap. 5 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K1P4"
+        },
+        {
+          "sequence": 6,
+          "operationType": "amend_section",
+          "chapter": "3",
+          "section": "2",
+          "oldDesignation": "#K3P2",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 3, 4, 18, 20 §§, 3 kap. 2 §, 7 kap. 5 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K3P2"
+        },
+        {
+          "sequence": 7,
+          "operationType": "amend_section",
+          "chapter": "7",
+          "section": "5",
+          "oldDesignation": "#K7P5",
+          "newDesignation": null,
+          "instructionText": "ändr. 1 kap. 3, 4, 18, 20 §§, 3 kap. 2 §, 7 kap. 5 §; omtryck",
+          "newText": null,
+          "parserConfidence": 0.82,
+          "manuallyVerified": false,
+          "sourceMetadata": "https://lagen.nu/1991:1469#K7P5"
+        }
+      ],
+      "preparatoryWorks": [
+        "Bet. 2021/22:KU14",
+        "Bet. 2022/23:KU6",
+        "Prop. 2021/22:59",
+        "Rskr. 2021/22:283",
+        "Rskr. 2022/23:10"
+      ],
+      "status": "parsed-metadata"
+    },
+    {
+      "sfs": "2011:508",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/2011:508",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2011:508"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "omtryck",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    },
+    {
+      "sfs": "2015:150",
+      "effectiveDate": null,
+      "sourceUrl": "https://lagen.nu/2015:150",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2015:150"
+      },
+      "operations": [
+        {
+          "sequence": 1,
+          "operationType": "unknown_instruction",
+          "chapter": null,
+          "section": null,
+          "oldDesignation": null,
+          "newDesignation": null,
+          "instructionText": "omtryck",
+          "newText": null,
+          "parserConfidence": 0.2,
+          "manuallyVerified": false,
+          "sourceMetadata": null
+        }
+      ],
+      "preparatoryWorks": [],
+      "status": "needs-review"
+    }
+  ],
   "snapshots": [
     {
       "effectiveDate": "1995-01-01",
       "events": [
         "1994:1477"
       ],
+      "triggeringSfs": [
+        "1994:1477"
+      ],
       "status": "metadata-only",
       "canonicalVersions": [],
+      "generatedText": null,
       "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
     },
     {
@@ -132,8 +2189,12 @@
       "events": [
         "1998:1439"
       ],
+      "triggeringSfs": [
+        "1998:1439"
+      ],
       "status": "metadata-only",
       "canonicalVersions": [],
+      "generatedText": null,
       "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
     },
     {
@@ -141,8 +2202,12 @@
       "events": [
         "2002:909"
       ],
+      "triggeringSfs": [
+        "2002:909"
+      ],
       "status": "metadata-only",
       "canonicalVersions": [],
+      "generatedText": null,
       "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
     },
     {
@@ -152,33 +2217,47 @@
         "2010:1356",
         "2010:1349"
       ],
-      "status": "canonical",
+      "triggeringSfs": [
+        "2010:1410",
+        "2010:1356",
+        "2010:1349"
+      ],
+      "status": "ferenda-reference",
       "canonicalVersions": [
         "2010:1410"
       ],
-      "note": null
+      "generatedText": null,
+      "note": "Ferenda-texten är en benchmarkreferens; den är inte producerad genom att applicera SFS-operationer."
     },
     {
       "effectiveDate": "2015-01-01",
       "events": [
         "2014:1359"
       ],
-      "status": "canonical",
+      "triggeringSfs": [
+        "2014:1359"
+      ],
+      "status": "ferenda-reference",
       "canonicalVersions": [
         "2014:1359"
       ],
-      "note": null
+      "generatedText": null,
+      "note": "Ferenda-texten är en benchmarkreferens; den är inte producerad genom att applicera SFS-operationer."
     },
     {
       "effectiveDate": "2019-01-01",
       "events": [
         "2018:1802"
       ],
-      "status": "canonical",
+      "triggeringSfs": [
+        "2018:1802"
+      ],
+      "status": "ferenda-reference",
       "canonicalVersions": [
         "2018:1802"
       ],
-      "note": null
+      "generatedText": null,
+      "note": "Ferenda-texten är en benchmarkreferens; den är inte producerad genom att applicera SFS-operationer."
     },
     {
       "effectiveDate": "2023-01-01",
@@ -186,13 +2265,24 @@
         "2022:1525",
         "2022:1518"
       ],
-      "status": "canonical",
+      "triggeringSfs": [
+        "2022:1525",
+        "2022:1518"
+      ],
+      "status": "ferenda-reference",
       "canonicalVersions": [
         "2022:1525"
       ],
-      "note": null
+      "generatedText": null,
+      "note": "Ferenda-texten är en benchmarkreferens; den är inte producerad genom att applicera SFS-operationer."
     }
   ],
+  "generation": {
+    "baseVersion": "1991:1469",
+    "method": "SFS metadata operation ledger",
+    "fullTextApplication": "not_attempted",
+    "reason": "The metadata identifies targets and effective dates, but many amendments do not expose replacement text in metadata."
+  },
   "summary": {
     "catalogVersions": 5,
     "fetchedVersions": 5,
@@ -201,6 +2291,8 @@
     "canonicalChangeBatches": 4,
     "metadataOnlyChangeBatches": 3,
     "amendmentsMissingEffectiveDate": 2,
-    "effectiveDateCoverage": 0.5714
+    "effectiveDateCoverage": 0.5714,
+    "sfsPatches": 12,
+    "sfsPatchesNeedingReview": 2
   }
 }

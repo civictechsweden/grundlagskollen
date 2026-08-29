@@ -6,7 +6,7 @@ doesn't expose a consolidated page for an SFS event, the output records a
 metadata-only snapshot and explains the gap in the report.
 
 Example:
-    uv run --with certifi scripts/generate_versions.py --git
+    uv run --locked scripts/generate_versions.py --git
 """
 
 from __future__ import annotations
@@ -223,37 +223,70 @@ def main() -> None:
             snapshots.append({
                 "effectiveDate": effective_date,
                 "events": event_sfs,
-                "status": "canonical" if canonical else "metadata-only",
+                "triggeringSfs": event_sfs,
+                "status": "ferenda-reference" if canonical else "metadata-only",
                 "canonicalVersions": [item["version"] for item in canonical],
-                "note": None if canonical else "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum.",
+                "generatedText": None,
+                "note": "Ferenda-texten är en benchmarkreferens; den är inte producerad genom att applicera SFS-operationer." if canonical else "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum.",
             })
 
         missing_date_events = [item.get("sfs") for item in all_history if item.get("constitutionId") == law_id and not item.get("date")]
+        sfs_patches = [
+            {
+                "sfs": item.get("sfs"),
+                "effectiveDate": item.get("date"),
+                "sourceUrl": item.get("sfsMetadataUrl"),
+                "metadata": item.get("metadata", {}),
+                "operations": item.get("operations", []),
+                "preparatoryWorks": item.get("preparatoryWorks", []),
+                "status": "parsed-metadata" if all(operation.get("operationType") != "unknown_instruction" for operation in item.get("operations", [])) else "needs-review",
+            }
+            for item in sorted(dated_history + [event for event in all_history if event.get("constitutionId") == law_id and not event.get("date")], key=lambda value: (value.get("date") or "9999-99-99", value.get("sfs") or ""))
+        ]
         law_manifest = {
             "constitutionId": law_id,
             "baseSfs": law["sfs"],
             "source": "SFS metadata + Ferenda consolidated HTML",
             "versions": entries,
             "patches": patches,
+            "sfsPatches": sfs_patches,
             "snapshots": snapshots,
+            "generation": {
+                "baseVersion": law["sfs"],
+                "method": "SFS metadata operation ledger",
+                "fullTextApplication": "not_attempted",
+                "reason": "The metadata identifies targets and effective dates, but many amendments do not expose replacement text in metadata.",
+            },
             "summary": {
                 "catalogVersions": len(versions),
                 "fetchedVersions": sum(1 for item in entries if item.get("status") == "fetched"),
                 "fetchErrors": len(errors),
                 "datedChangeBatches": len(dated_events),
-                "canonicalChangeBatches": sum(1 for item in snapshots if item["status"] == "canonical"),
+                "canonicalChangeBatches": sum(1 for item in snapshots if item["status"] == "ferenda-reference"),
                 "metadataOnlyChangeBatches": sum(1 for item in snapshots if item["status"] == "metadata-only"),
                 "amendmentsMissingEffectiveDate": len(missing_date_events),
-                "effectiveDateCoverage": round(sum(1 for item in snapshots if item["status"] == "canonical") / len(dated_events), 4) if dated_events else None,
+                "effectiveDateCoverage": round(sum(1 for item in snapshots if item["status"] == "ferenda-reference") / len(dated_events), 4) if dated_events else None,
+                "sfsPatches": len(sfs_patches),
+                "sfsPatchesNeedingReview": sum(1 for item in sfs_patches if item["status"] == "needs-review"),
             },
         }
         write_json(law_root / "manifest.json", law_manifest)
         report["laws"][law_id] = law_manifest["summary"]
 
+    fetched_versions = sum(summary["fetchedVersions"] for summary in report["laws"].values())
+    report["summary"] = {
+        "fetchedVersions": fetched_versions,
+        "exactMatches": 0,
+        "normalizedMatches": 0,
+        "mismatches": 0,
+        "notComparable": fetched_versions,
+        "fullTextApplication": "not_attempted",
+    }
     version_report = {
         "generatedAt": generated_at,
         "laws": report["laws"],
         "patches": len(patch_map),
+        "summary": report["summary"],
         "limitations": report["limitations"],
     }
     write_json(ROOT / "data/version-report.json", version_report)
@@ -265,13 +298,14 @@ def main() -> None:
         f"Generated: `{generated_at}`",
         "",
         "The experiment uses SFS metadata and Ferenda's consolidated HTML. It does not parse amendment PDFs.",
+        "SFS operations are parsed into a reviewable ledger. Full-text application is intentionally reported as `not_attempted` until replacement text and a verified base snapshot are available.",
         "",
-        "| Law | Ferenda versions | Fetched | Dated batches | Canonical batches | Metadata-only batches | Missing dates |",
-        "|---|---:|---:|---:|---:|---:|---:|",
+        "| Law | Ferenda versions | Fetched | Dated batches | Ferenda references | Metadata-only batches | SFS patches | Needs review | Missing dates |",
+        "|---|---:|---:|---:|---:|---:|---:|---:|---:|",
     ]
     for law_id, summary in report["laws"].items():
-        lines.append(f"| {law_id.upper()} | {summary['catalogVersions']} | {summary['fetchedVersions']} | {summary['datedChangeBatches']} | {summary['canonicalChangeBatches']} | {summary['metadataOnlyChangeBatches']} | {summary['amendmentsMissingEffectiveDate']} |")
-    lines += ["", "## Interpretation", "", "Canonical batches are the dates for which a fetched Ferenda consolidated text exists. Metadata-only batches still have SFS event metadata but no deterministic full-text snapshot in this run.", "", "## Limitations", "", *[f"- {item}" for item in report["limitations"]], ""]
+        lines.append(f"| {law_id.upper()} | {summary['catalogVersions']} | {summary['fetchedVersions']} | {summary['datedChangeBatches']} | {summary['canonicalChangeBatches']} | {summary['metadataOnlyChangeBatches']} | {summary['sfsPatches']} | {summary['sfsPatchesNeedingReview']} | {summary['amendmentsMissingEffectiveDate']} |")
+    lines += ["", "## Interpretation", "", "Ferenda-reference batches are dates for which a fetched Ferenda consolidated text exists. They are benchmark references, not generated snapshots. Metadata-only batches still have SFS event metadata but no deterministic full-text snapshot in this run.", "", "## Full-text comparison", "", f"Full-text application: `{report['summary']['fullTextApplication']}`. Comparable snapshots: `{report['summary']['notComparable']}`; exact: `{report['summary']['exactMatches']}`; normalized: `{report['summary']['normalizedMatches']}`; mismatches: `{report['summary']['mismatches']}`.", "", "## Limitations", "", *[f"- {item}" for item in report["limitations"]], ""]
     version_report_markdown = "\n".join(lines)
     (ROOT / "VERSIONING_REPORT.md").write_text(version_report_markdown)
     (ROOT / "public").mkdir(parents=True, exist_ok=True)

@@ -3,4 +3,6 @@ dist/
 .DS_Store
 .playwright-mcp/
 scripts/__pycache__/
+.cache/
+data/.cache/
 .versions-git/

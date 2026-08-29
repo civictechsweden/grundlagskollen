@@ -1,0 +1,11 @@
+[project]
+name = "grundlagsmonitor"
+version = "0.2.0"
+description = "Reproducible data pipeline and static time machine for Swedish constitutional law"
+requires-python = ">=3.12"
+dependencies = [
+  "certifi>=2024.8.30",
+]
+
+[tool.uv]
+package = false
