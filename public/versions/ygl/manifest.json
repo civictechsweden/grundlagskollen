@@ -1,0 +1,206 @@
+{
+  "constitutionId": "ygl",
+  "baseSfs": "1991:1469",
+  "source": "SFS metadata + Ferenda consolidated HTML",
+  "versions": [
+    {
+      "version": "1991:1469",
+      "ikraft": "1992-01-01",
+      "forarbeten": [
+        "Prop. 1990/91:64",
+        "Rskr 1990/91:254",
+        "Rskr 1991/92:2"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1991:1469/konsolidering/1991:1469",
+      "html": "/versions/ygl/html/1991-1469.html",
+      "text": "/versions/ygl/text/1991-1469.txt",
+      "sha256": "82a6c21bfe4d93bec2cfcfaffd7d21df96beb9648ca1d8fc70ffcafa1aaaf125",
+      "characters": 38111,
+      "status": "fetched"
+    },
+    {
+      "version": "2010:1410",
+      "ikraft": "2011-01-01",
+      "forarbeten": [
+        "Bet. 2009/10:KU19",
+        "Bet. 2010/11:KU4",
+        "Prop. 2009/10:80",
+        "Rskr. 2009/10:304",
+        "Rskr. 2010/09:21"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1991:1469/konsolidering/2010:1410",
+      "html": "/versions/ygl/html/2010-1410.html",
+      "text": "/versions/ygl/text/2010-1410.txt",
+      "sha256": "b46a721667e03b73a2b7e452c4801646958f8136f3d0ac2f6cd39cadae0886c3",
+      "characters": 39514,
+      "status": "fetched"
+    },
+    {
+      "version": "2014:1359",
+      "ikraft": "2015-01-01",
+      "forarbeten": [
+        "Bet. 2013/14:KU17",
+        "Bet. 2014/15:KU3",
+        "Prop. 2013/14:47",
+        "Rskr. 2013/14:211",
+        "Rskr. 2014/15:6"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1991:1469/konsolidering/2014:1359",
+      "html": "/versions/ygl/html/2014-1359.html",
+      "text": "/versions/ygl/text/2014-1359.txt",
+      "sha256": "355246c8105fb03cbe8b67196eaf4151827eda6ad69fa378e4100f992db44fc0",
+      "characters": 39800,
+      "status": "fetched"
+    },
+    {
+      "version": "2018:1802",
+      "ikraft": "2019-01-01",
+      "forarbeten": [
+        "Bet. 2017/18:KU16",
+        "Bet. 2018/19:KU2",
+        "Prop. 2017/18:49",
+        "Rskr. 2017/18:336",
+        "Rskr. 2018/19:16"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1991:1469/konsolidering/2018:1802",
+      "html": "/versions/ygl/html/2018-1802.html",
+      "text": "/versions/ygl/text/2018-1802.txt",
+      "sha256": "5892abe66bee02f53ebbb7c5e56eb682885b1af2d2844ccca1eb44fcce05c29f",
+      "characters": 47834,
+      "status": "fetched"
+    },
+    {
+      "version": "2022:1525",
+      "ikraft": "2023-01-01",
+      "forarbeten": [
+        "Bet. 2021/22:KU14",
+        "Bet. 2022/23:KU6",
+        "Prop. 2021/22:59",
+        "Rskr. 2021/22:283",
+        "Rskr. 2022/23:10"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1991:1469/konsolidering/2022:1525",
+      "html": "/versions/ygl/html/2022-1525.html",
+      "text": "/versions/ygl/text/2022-1525.txt",
+      "sha256": "ac329cfea59e4bfcca53a36a9c2379e4cd3c26c84c0e8e360efe4226336386c7",
+      "characters": 49126,
+      "status": "fetched"
+    }
+  ],
+  "patches": [
+    {
+      "from": "1991:1469",
+      "to": "2010:1410",
+      "path": "/versions/patches/ygl-1991-1469-to-2010-1410.diff",
+      "changedLines": 136,
+      "characters": 32037
+    },
+    {
+      "from": "2010:1410",
+      "to": "2014:1359",
+      "path": "/versions/patches/ygl-2010-1410-to-2014-1359.diff",
+      "changedLines": 62,
+      "characters": 16794
+    },
+    {
+      "from": "2014:1359",
+      "to": "2018:1802",
+      "path": "/versions/patches/ygl-2014-1359-to-2018-1802.diff",
+      "changedLines": 1022,
+      "characters": 88526
+    },
+    {
+      "from": "2018:1802",
+      "to": "2022:1525",
+      "path": "/versions/patches/ygl-2018-1802-to-2022-1525.diff",
+      "changedLines": 28,
+      "characters": 3490
+    }
+  ],
+  "snapshots": [
+    {
+      "effectiveDate": "1995-01-01",
+      "events": [
+        "1994:1477"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1999-01-01",
+      "events": [
+        "1998:1439"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2003-01-01",
+      "events": [
+        "2002:909"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2011-01-01",
+      "events": [
+        "2010:1410",
+        "2010:1356",
+        "2010:1349"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2010:1410"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2015-01-01",
+      "events": [
+        "2014:1359"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2014:1359"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2019-01-01",
+      "events": [
+        "2018:1802"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2018:1802"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2023-01-01",
+      "events": [
+        "2022:1525",
+        "2022:1518"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2022:1525"
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "catalogVersions": 5,
+    "fetchedVersions": 5,
+    "fetchErrors": 0,
+    "datedChangeBatches": 7,
+    "canonicalChangeBatches": 4,
+    "metadataOnlyChangeBatches": 3,
+    "amendmentsMissingEffectiveDate": 2,
+    "effectiveDateCoverage": 0.5714
+  }
+}

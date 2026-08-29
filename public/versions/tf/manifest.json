@@ -1,0 +1,237 @@
+{
+  "constitutionId": "tf",
+  "baseSfs": "1949:105",
+  "source": "SFS metadata + Ferenda consolidated HTML",
+  "versions": [
+    {
+      "version": "2002:1049",
+      "ikraft": "2003-07-01",
+      "forarbeten": [
+        "Bet. 2002/03:KU9",
+        "Rskr. 2002/03:9"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1949:105/konsolidering/2002:1049",
+      "html": "/versions/tf/html/2002-1049.html",
+      "text": "/versions/tf/text/2002-1049.txt",
+      "sha256": "d545cc73031d261185c331370ee69344dde8379b73bf0ffd8b13f81d01f072ee",
+      "characters": 67823,
+      "status": "fetched"
+    },
+    {
+      "version": "2014:1370",
+      "ikraft": "2015-01-01",
+      "forarbeten": [
+        "Bet. 2013/14:KU29",
+        "Bet. 2014/15:KU4",
+        "Prop. 2013/14:51",
+        "Rskr. 2013/14:259",
+        "Rskr. 2014/15:7"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1949:105/konsolidering/2014:1370",
+      "html": "/versions/tf/html/2014-1370.html",
+      "text": "/versions/tf/text/2014-1370.txt",
+      "sha256": "f536748e745f29566c33e6f70c18861ff99d44292aaa1dd2b6d0b9132f2b9c57",
+      "characters": 68693,
+      "status": "fetched"
+    },
+    {
+      "version": "2018:1801",
+      "ikraft": "2019-01-01",
+      "forarbeten": [
+        "Bet. 2018/19:KU2",
+        "Prop. 2016/17:222",
+        "Prop. 2017/18:49",
+        "Prop. 2017/18:59",
+        "Rskr. 2017/18:336"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1949:105/konsolidering/2018:1801",
+      "html": "/versions/tf/html/2018-1801.html",
+      "text": "/versions/tf/text/2018-1801.txt",
+      "sha256": "31102772a7d3f47a01f3d9cb727dac63d464a26aed854cd0d23fa22cc5437350",
+      "characters": 80604,
+      "status": "fetched"
+    },
+    {
+      "version": "2022:1524",
+      "ikraft": "2023-01-01",
+      "forarbeten": [
+        "Bet. 2021/22:KU14",
+        "Bet. 2022/23:KU6",
+        "Prop. 2021/22:59",
+        "Rskr. 2021/22:283",
+        "Rskr. 2022/23:10"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1949:105/konsolidering/2022:1524",
+      "html": "/versions/tf/html/2022-1524.html",
+      "text": "/versions/tf/text/2022-1524.txt",
+      "sha256": "3c9114275fe61c752efc13ed2030d769649a40dc9bc6c1054cba0fda65210af8",
+      "characters": 85771,
+      "status": "fetched"
+    }
+  ],
+  "patches": [
+    {
+      "from": "2002:1049",
+      "to": "2014:1370",
+      "path": "/versions/patches/tf-2002-1049-to-2014-1370.diff",
+      "changedLines": 158,
+      "characters": 43750
+    },
+    {
+      "from": "2014:1370",
+      "to": "2018:1801",
+      "path": "/versions/patches/tf-2014-1370-to-2018-1801.diff",
+      "changedLines": 1652,
+      "characters": 150254
+    },
+    {
+      "from": "2018:1801",
+      "to": "2022:1524",
+      "path": "/versions/patches/tf-2018-1801-to-2022-1524.diff",
+      "changedLines": 92,
+      "characters": 10263
+    }
+  ],
+  "snapshots": [
+    {
+      "effectiveDate": "1989-01-01",
+      "events": [
+        "1988:1448",
+        "1988:1447"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1992-01-01",
+      "events": [
+        "1991:1500",
+        "1991:1470"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1994-12-01",
+      "events": [
+        "1994:1376"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1995-01-01",
+      "events": [
+        "1994:1476",
+        "1994:1475",
+        "1994:1474",
+        "1994:1382"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1999-01-01",
+      "events": [
+        "1998:1438"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2000-01-01",
+      "events": [
+        "1998:1701"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2003-01-01",
+      "events": [
+        "2002:908",
+        "2002:907",
+        "2002:810",
+        "2002:801"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2003-07-01",
+      "events": [
+        "2002:1049"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2002:1049"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2011-01-01",
+      "events": [
+        "2010:1409",
+        "2010:1355",
+        "2010:1347",
+        "2010:1342"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2015-01-01",
+      "events": [
+        "2014:1370",
+        "2014:1360"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2014:1370"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2019-01-01",
+      "events": [
+        "2018:1801"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2018:1801"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2023-01-01",
+      "events": [
+        "2022:1524",
+        "2022:1523",
+        "2022:1517"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2022:1524"
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "catalogVersions": 4,
+    "fetchedVersions": 4,
+    "fetchErrors": 0,
+    "datedChangeBatches": 12,
+    "canonicalChangeBatches": 4,
+    "metadataOnlyChangeBatches": 8,
+    "amendmentsMissingEffectiveDate": 26,
+    "effectiveDateCoverage": 0.3333
+  }
+}

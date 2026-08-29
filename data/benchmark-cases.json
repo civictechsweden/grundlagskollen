@@ -44,7 +44,7 @@
     "title": "Ändrade mediegrundlagar",
     "expectedStatus": "confirmed",
     "expectedSfs": ["2018:1801", "2018:1802"],
-    "sourceUrls": ["https://lagen.nu/bet/2018/19:KU2", "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/andrade-mediegrundlagar_gz01ku2/"],
+    "sourceUrls": ["https://lagen.nu/bet/2018/19:KU2", "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/andrade-mediegrundlagar-vilande-grundlagsbeslut_h601ku2/"],
     "note": "Ferenda-matchning av ett historiskt vilande beslut."
   },
   {

@@ -120,7 +120,8 @@ def load_catalog(snapshot: dict, law: dict) -> list[dict]:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output", default=str(ROOT / "public/versions"), help="Directory for generated public artifacts")
-    parser.add_argument("--git", action="store_true", help="Initialize and commit the output directory as its own git repository")
+    parser.add_argument("--git", action="store_true", help="Commit the generated output to a separate bare git repository")
+    parser.add_argument("--git-dir", default=str(ROOT / ".versions-git"), help="Bare repository used with --git")
     args = parser.parse_args()
 
     snapshot = json.loads(DATA.read_text())
@@ -271,16 +272,21 @@ def main() -> None:
     for law_id, summary in report["laws"].items():
         lines.append(f"| {law_id.upper()} | {summary['catalogVersions']} | {summary['fetchedVersions']} | {summary['datedChangeBatches']} | {summary['canonicalChangeBatches']} | {summary['metadataOnlyChangeBatches']} | {summary['amendmentsMissingEffectiveDate']} |")
     lines += ["", "## Interpretation", "", "Canonical batches are the dates for which a fetched Ferenda consolidated text exists. Metadata-only batches still have SFS event metadata but no deterministic full-text snapshot in this run.", "", "## Limitations", "", *[f"- {item}" for item in report["limitations"]], ""]
-    (ROOT / "VERSIONING_REPORT.md").write_text("\n".join(lines))
+    version_report_markdown = "\n".join(lines)
+    (ROOT / "VERSIONING_REPORT.md").write_text(version_report_markdown)
+    (ROOT / "public").mkdir(parents=True, exist_ok=True)
+    (ROOT / "public/VERSIONING_REPORT.md").write_text(version_report_markdown)
 
     if args.git:
-        git_dir = output / ".git"
-        if not git_dir.exists():
-            subprocess.run(["git", "init", "-q"], cwd=output, check=True)
-        subprocess.run(["git", "add", "."], cwd=output, check=True)
-        staged = subprocess.run(["git", "diff", "--cached", "--quiet"], cwd=output)
+        git_dir = Path(args.git_dir).resolve()
+        git_dir.parent.mkdir(parents=True, exist_ok=True)
+        if not (git_dir / "HEAD").exists():
+            subprocess.run(["git", "init", "--bare", "-q", str(git_dir)], check=True)
+        git_command = ["git", "--git-dir", str(git_dir), "--work-tree", str(output)]
+        subprocess.run(git_command + ["add", "--all"], cwd=output, check=True)
+        staged = subprocess.run(git_command + ["diff", "--cached", "--quiet"], cwd=output)
         if staged.returncode:
-            subprocess.run(["git", "commit", "-m", "snapshot: generate constitutional versions"], cwd=output, check=False)
+            subprocess.run(git_command + ["commit", "-m", "snapshot: generate constitutional versions"], cwd=output, check=False)
 
     fetched = sum(summary["fetchedVersions"] for summary in report["laws"].values())
     expected = sum(summary["catalogVersions"] for summary in report["laws"].values())

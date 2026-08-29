@@ -1,0 +1,310 @@
+{
+  "constitutionId": "rf",
+  "baseSfs": "1974:152",
+  "source": "SFS metadata + Ferenda consolidated HTML",
+  "versions": [
+    {
+      "version": "2002:905",
+      "ikraft": "2003-07-01",
+      "forarbeten": [
+        "Bet. 2001/02:KU25",
+        "Prop. 2001/02:73",
+        "Rskr. 2002/03:9"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1974:152/konsolidering/2002:905",
+      "html": "/versions/rf/html/2002-905.html",
+      "text": "/versions/rf/text/2002-905.txt",
+      "sha256": "ad4642ea3f0aae2bcbf7cf37cb01e236da5a4ef78739b8b35a03576b67bba11b",
+      "characters": 66138,
+      "status": "fetched"
+    },
+    {
+      "version": "2010:1408",
+      "ikraft": "2011-01-01",
+      "forarbeten": [
+        "Bet. 2009/10:KU19",
+        "Bet. 2010/11:KU4",
+        "Prop. 2009/10:80",
+        "Prop. 2009/10:81",
+        "Rskr. 2009/10:304",
+        "Rskr. 2010/11:21"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1974:152/konsolidering/2010:1408",
+      "html": "/versions/rf/html/2010-1408.html",
+      "text": "/versions/rf/text/2010-1408.txt",
+      "sha256": "6682272d929b8337a92e03f72eb9da5152df4cfad3a26fe492d35e4ec444df9b",
+      "characters": 72841,
+      "status": "fetched"
+    },
+    {
+      "version": "2014:1385",
+      "ikraft": "2015-01-01",
+      "forarbeten": [
+        "Bet. 2013/14:KU16",
+        "Bet. 2014/15:KU2",
+        "Prop. 2013/14:48",
+        "Rskr. 2013/14:178",
+        "Rskr. 2014/15:19"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1974:152/konsolidering/2014:1385",
+      "html": "/versions/rf/html/2014-1385.html",
+      "text": "/versions/rf/text/2014-1385.txt",
+      "sha256": "debf186ed22d17b879feca07c9e02e967656ab8ce111166a094557adc3081580",
+      "characters": 73102,
+      "status": "fetched"
+    },
+    {
+      "version": "2018:1903",
+      "ikraft": "2019-01-01",
+      "forarbeten": [
+        "Bet. 2017/18:KU15",
+        "Bet. 2018/19:KU4",
+        "Rskr 2018/19:18",
+        "Rskr. 2017/18:211"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1974:152/konsolidering/2018:1903",
+      "html": "/versions/rf/html/2018-1903.html",
+      "text": "/versions/rf/text/2018-1903.txt",
+      "sha256": "ab52d912b5e19be700ccb8ad3702bb71aa372a047266a38c42c27b4d29f94e03",
+      "characters": 74944,
+      "status": "fetched"
+    },
+    {
+      "version": "2022:1566",
+      "ikraft": "2023-01-01",
+      "forarbeten": [
+        "Bet. 2021/22:KU15",
+        "Bet. 2022/23:KU8",
+        "Prop. 2021/22:41",
+        "Rskr. 2021/22:341",
+        "Rskr. 2022/23:23"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1974:152/konsolidering/2022:1566",
+      "html": "/versions/rf/html/2022-1566.html",
+      "text": "/versions/rf/text/2022-1566.txt",
+      "sha256": "23b62c3c93736cb7d661158eb7dd0d1ebd4b506c7f968ae35e4d804b89d9b884",
+      "characters": 77667,
+      "status": "fetched"
+    },
+    {
+      "version": "2022:1600",
+      "ikraft": "2023-01-01",
+      "forarbeten": [
+        "Bet. 2021/22:KU12",
+        "Bet. 2022/23:KU9",
+        "Prop. 2021/22:40",
+        "Rskr. 2021/22:220",
+        "Rskr. 2022/23:25"
+      ],
+      "sourceUrl": "https://ferenda.lagen.nu/1974:152/konsolidering/2022:1600",
+      "html": "/versions/rf/html/2022-1600.html",
+      "text": "/versions/rf/text/2022-1600.txt",
+      "sha256": "5b25910aa1bf66ea985ebfc4e11941cc4fd3bfe38ff1716dbdd8ccdc36eea424",
+      "characters": 77704,
+      "status": "fetched"
+    }
+  ],
+  "patches": [
+    {
+      "from": "2002:905",
+      "to": "2010:1408",
+      "path": "/versions/patches/rf-2002-905-to-2010-1408.diff",
+      "changedLines": 1544,
+      "characters": 139179
+    },
+    {
+      "from": "2010:1408",
+      "to": "2014:1385",
+      "path": "/versions/patches/rf-2010-1408-to-2014-1385.diff",
+      "changedLines": 68,
+      "characters": 14951
+    },
+    {
+      "from": "2014:1385",
+      "to": "2018:1903",
+      "path": "/versions/patches/rf-2014-1385-to-2018-1903.diff",
+      "changedLines": 60,
+      "characters": 9804
+    },
+    {
+      "from": "2018:1903",
+      "to": "2022:1566",
+      "path": "/versions/patches/rf-2018-1903-to-2022-1566.diff",
+      "changedLines": 58,
+      "characters": 6327
+    },
+    {
+      "from": "2022:1566",
+      "to": "2022:1600",
+      "path": "/versions/patches/rf-2022-1566-to-2022-1600.diff",
+      "changedLines": 12,
+      "characters": 997
+    }
+  ],
+  "snapshots": [
+    {
+      "effectiveDate": "1986-01-01",
+      "events": [
+        "1985:866",
+        "1985:865",
+        "1985:864",
+        "1985:863",
+        "1985:862"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1989-01-01",
+      "events": [
+        "1988:1444",
+        "1988:1443",
+        "1988:1442",
+        "1988:1441",
+        "1988:1440",
+        "1988:1439",
+        "1988:1438",
+        "1988:1437"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1992-01-01",
+      "events": [
+        "1991:1503",
+        "1991:1502",
+        "1991:1501",
+        "1991:1471"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1994-12-01",
+      "events": [
+        "1994:1375"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1995-01-01",
+      "events": [
+        "1994:1483",
+        "1994:1481",
+        "1994:1480",
+        "1994:1470",
+        "1994:1469",
+        "1994:1468"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "1999-01-01",
+      "events": [
+        "1998:1437",
+        "1998:1435",
+        "1998:1402"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2000-01-01",
+      "events": [
+        "1998:1700"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2003-01-01",
+      "events": [
+        "2002:904",
+        "2002:903",
+        "2002:902"
+      ],
+      "status": "metadata-only",
+      "canonicalVersions": [],
+      "note": "Ingen Ferenda-konsolidering exponerad för detta ikraftträdandedatum."
+    },
+    {
+      "effectiveDate": "2003-07-01",
+      "events": [
+        "2002:905"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2002:905"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2011-01-01",
+      "events": [
+        "2010:1408"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2010:1408"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2015-01-01",
+      "events": [
+        "2014:1385"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2014:1385"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2019-01-01",
+      "events": [
+        "2018:1903"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2018:1903"
+      ],
+      "note": null
+    },
+    {
+      "effectiveDate": "2023-01-01",
+      "events": [
+        "2022:1600",
+        "2022:1566",
+        "2022:1565",
+        "2022:1529"
+      ],
+      "status": "canonical",
+      "canonicalVersions": [
+        "2022:1566",
+        "2022:1600"
+      ],
+      "note": null
+    }
+  ],
+  "summary": {
+    "catalogVersions": 6,
+    "fetchedVersions": 6,
+    "fetchErrors": 0,
+    "datedChangeBatches": 13,
+    "canonicalChangeBatches": 5,
+    "metadataOnlyChangeBatches": 8,
+    "amendmentsMissingEffectiveDate": 8,
+    "effectiveDateCoverage": 0.3846
+  }
+}

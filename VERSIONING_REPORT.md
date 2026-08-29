@@ -1,6 +1,6 @@
 # Version experiment
 
-Generated: `2026-08-29T15:28:43.589821+00:00`
+Generated: `2026-08-29T15:44:31.532580+00:00`
 
 The experiment uses SFS metadata and Ferenda's consolidated HTML. It does not parse amendment PDFs.
 

@@ -1,6 +1,6 @@
 # Data benchmark
 
-Generated: `2026-08-29T15:28:43.485211+00:00`
+Generated: `2026-08-29T15:46:49.549452+00:00`
 
 Evidence recall: **17/17 (100.0%)**.
 

@@ -146,4 +146,6 @@ markdown.extend([
     "",
 ])
 (ROOT / "DATA_BENCHMARK.md").write_text("\n".join(markdown))
+(ROOT / "public").mkdir(parents=True, exist_ok=True)
+(ROOT / "public/DATA_BENCHMARK.md").write_text("\n".join(markdown))
 print(f"Benchmark evidence recall: {matched_units}/{expected_units} ({rate:.1%})")

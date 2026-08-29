@@ -1,0 +1,18 @@
+{
+  "constitutionId": "so",
+  "baseSfs": "1810:0926",
+  "source": "SFS metadata + Ferenda consolidated HTML",
+  "versions": [],
+  "patches": [],
+  "snapshots": [],
+  "summary": {
+    "catalogVersions": 0,
+    "fetchedVersions": 0,
+    "fetchErrors": 0,
+    "datedChangeBatches": 0,
+    "canonicalChangeBatches": 0,
+    "metadataOnlyChangeBatches": 0,
+    "amendmentsMissingEffectiveDate": 10,
+    "effectiveDateCoverage": null
+  }
+}

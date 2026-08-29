@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T15:28:43.419634+00:00",
+  "generatedAt": "2026-08-29T15:44:24.666490+00:00",
   "election": {
     "lastDate": "2022-09-11",
     "nextDate": "2026-09-13",
@@ -44,58 +44,31 @@
   ],
   "changes": [
     {
-      "id": "rf-2022:1529",
+      "id": "rf-2022:1600",
       "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "2022:1529",
+      "sfs": "2022:1600",
       "date": "2023-01-01",
-      "title": "ändr. 8 kap. 21 §",
-      "description": "ändr. 8 kap. 21 §",
+      "title": "ändr. 7 kap. 7 §; omtryck",
+      "description": "ändr. 7 kap. 7 §; omtryck",
       "preparatoryWorks": [
-        "Bet. 2021/22:KU3",
-        "Bet. 2022/23:KU3",
-        "Rskr. 2021/22:44",
-        "Rskr. 2022/23:8"
+        "Bet. 2021/22:KU12",
+        "Bet. 2022/23:KU9",
+        "Prop. 2021/22:40",
+        "Rskr. 2021/22:220",
+        "Rskr. 2022/23:25"
       ],
-      "lawUrl": "https://lagen.nu/2022:1529",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1529",
-      "sfsMetadataUrl": "https://lagen.nu/2022:1529",
+      "lawUrl": "https://lagen.nu/2022:1600",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1600",
+      "sfsMetadataUrl": "https://lagen.nu/2022:1600",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "2023-01-01",
         "ersatter": [
-          "https://lagen.nu/1974:152#K8P21"
+          "https://lagen.nu/1974:152#K7P7"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2022:1529"
-      }
-    },
-    {
-      "id": "rf-2022:1565",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "2022:1565",
-      "date": "2023-01-01",
-      "title": "ändr. 2 kap. 24 §",
-      "description": "ändr. 2 kap. 24 §",
-      "preparatoryWorks": [
-        "Bet. 2021/22:KU13",
-        "Bet. 2022/23:KU4",
-        "Prop. 2021/22:42",
-        "Rskr. 2021/22:221",
-        "Rskr. 2022/23:9"
-      ],
-      "lawUrl": "https://lagen.nu/2022:1565",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1565",
-      "sfsMetadataUrl": "https://lagen.nu/2022:1565",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2023-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K2P24"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2022:1565"
+        "sfsIdentifier": "SFS 2022:1600"
       }
     },
     {
@@ -134,153 +107,58 @@
       }
     },
     {
-      "id": "rf-2022:1600",
+      "id": "rf-2022:1565",
       "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "2022:1600",
+      "sfs": "2022:1565",
       "date": "2023-01-01",
-      "title": "ändr. 7 kap. 7 §; omtryck",
-      "description": "ändr. 7 kap. 7 §; omtryck",
+      "title": "ändr. 2 kap. 24 §",
+      "description": "ändr. 2 kap. 24 §",
       "preparatoryWorks": [
-        "Bet. 2021/22:KU12",
-        "Bet. 2022/23:KU9",
-        "Prop. 2021/22:40",
-        "Rskr. 2021/22:220",
-        "Rskr. 2022/23:25"
+        "Bet. 2021/22:KU13",
+        "Bet. 2022/23:KU4",
+        "Prop. 2021/22:42",
+        "Rskr. 2021/22:221",
+        "Rskr. 2022/23:9"
       ],
-      "lawUrl": "https://lagen.nu/2022:1600",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1600",
-      "sfsMetadataUrl": "https://lagen.nu/2022:1600",
+      "lawUrl": "https://lagen.nu/2022:1565",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1565",
+      "sfsMetadataUrl": "https://lagen.nu/2022:1565",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "2023-01-01",
         "ersatter": [
-          "https://lagen.nu/1974:152#K7P7"
+          "https://lagen.nu/1974:152#K2P24"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2022:1600"
+        "sfsIdentifier": "SFS 2022:1565"
       }
     },
     {
-      "id": "tf-2022:1517",
-      "constitutionId": "tf",
+      "id": "rf-2022:1529",
+      "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "2022:1517",
+      "sfs": "2022:1529",
       "date": "2023-01-01",
-      "title": "ändr. 7 kap. 14, 15, 16, 22 §§; ny 7 kap. 14 a §, rubr. närmast före 7 kap. 14 a §",
-      "description": "ändr. 7 kap. 14, 15, 16, 22 §§; ny 7 kap. 14 a §, rubr. närmast före 7 kap. 14 a §",
+      "title": "ändr. 8 kap. 21 §",
+      "description": "ändr. 8 kap. 21 §",
       "preparatoryWorks": [
-        "Bet. 2021/22:KU16",
-        "Bet. 2022/23:KU7",
-        "Prop. 2021/22:55",
-        "Rskr. 2021/22:222",
-        "Rskr. 2022/23:11"
+        "Bet. 2021/22:KU3",
+        "Bet. 2022/23:KU3",
+        "Rskr. 2021/22:44",
+        "Rskr. 2022/23:8"
       ],
-      "lawUrl": "https://lagen.nu/2022:1517",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1517",
-      "sfsMetadataUrl": "https://lagen.nu/2022:1517",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "lawUrl": "https://lagen.nu/2022:1529",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1529",
+      "sfsMetadataUrl": "https://lagen.nu/2022:1529",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "2023-01-01",
         "ersatter": [
-          "https://lagen.nu/1949:105#K7",
-          "https://lagen.nu/1949:105#K7P14",
-          "https://lagen.nu/1949:105#K7P15",
-          "https://lagen.nu/1949:105#K7P16",
-          "https://lagen.nu/1949:105#K7P22"
-        ],
-        "inforsI": [
-          "https://lagen.nu/1949:105#K7P14a"
-        ],
-        "sfsIdentifier": "SFS 2022:1517"
-      }
-    },
-    {
-      "id": "tf-2022:1523",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2022:1523",
-      "date": "2023-01-01",
-      "title": "ändr. 12 kap. 9, 12 §§",
-      "description": "ändr. 12 kap. 9, 12 §§",
-      "preparatoryWorks": [
-        "Bet. 2019/20:KU3",
-        "Bet. 2022/23:KU2",
-        "Prop. 2018/19:162",
-        "Rskr. 2019/20:48",
-        "Rskr. 2022/23:22"
-      ],
-      "lawUrl": "https://lagen.nu/2022:1523",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1523",
-      "sfsMetadataUrl": "https://lagen.nu/2022:1523",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2023-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K12",
-          "https://lagen.nu/1949:105#K12P12",
-          "https://lagen.nu/1949:105#K12P9"
+          "https://lagen.nu/1974:152#K8P21"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2022:1523"
-      }
-    },
-    {
-      "id": "tf-2022:1524",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2022:1524",
-      "date": "2023-01-01",
-      "title": "ändr. 1 kap. 12, 13 §§; omtryck",
-      "description": "ändr. 1 kap. 12, 13 §§; omtryck",
-      "preparatoryWorks": [
-        "Bet. 2021/22:KU14",
-        "Bet. 2022/23:KU6",
-        "Prop. 2021/22:59",
-        "Rskr. 2021/22:283",
-        "Rskr. 2022/23:10"
-      ],
-      "lawUrl": "https://lagen.nu/2022:1524",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1524",
-      "sfsMetadataUrl": "https://lagen.nu/2022:1524",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2023-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K1",
-          "https://lagen.nu/1949:105#K1P12",
-          "https://lagen.nu/1949:105#K1P13"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2022:1524"
-      }
-    },
-    {
-      "id": "ygl-2022:1518",
-      "constitutionId": "ygl",
-      "status": "confirmed",
-      "sfs": "2022:1518",
-      "date": "2023-01-01",
-      "title": "ändr. 5 kap. 4 §",
-      "description": "ändr. 5 kap. 4 §",
-      "preparatoryWorks": [
-        "Bet. 2021/22:KU16",
-        "Bet. 2022/23:KU7",
-        "Prop. 2021/22:55",
-        "Rskr. 2021/22:222",
-        "Rskr. 2022/23:11"
-      ],
-      "lawUrl": "https://lagen.nu/2022:1518",
-      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2022:1518",
-      "sfsMetadataUrl": "https://lagen.nu/2022:1518",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2023-01-01",
-        "ersatter": [
-          "https://lagen.nu/1991:1469#K5P4"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2022:1518"
+        "sfsIdentifier": "SFS 2022:1529"
       }
     },
     {
@@ -318,6 +196,128 @@
       }
     },
     {
+      "id": "tf-2022:1524",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2022:1524",
+      "date": "2023-01-01",
+      "title": "ändr. 1 kap. 12, 13 §§; omtryck",
+      "description": "ändr. 1 kap. 12, 13 §§; omtryck",
+      "preparatoryWorks": [
+        "Bet. 2021/22:KU14",
+        "Bet. 2022/23:KU6",
+        "Prop. 2021/22:59",
+        "Rskr. 2021/22:283",
+        "Rskr. 2022/23:10"
+      ],
+      "lawUrl": "https://lagen.nu/2022:1524",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1524",
+      "sfsMetadataUrl": "https://lagen.nu/2022:1524",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2023-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K1",
+          "https://lagen.nu/1949:105#K1P12",
+          "https://lagen.nu/1949:105#K1P13"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2022:1524"
+      }
+    },
+    {
+      "id": "tf-2022:1523",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2022:1523",
+      "date": "2023-01-01",
+      "title": "ändr. 12 kap. 9, 12 §§",
+      "description": "ändr. 12 kap. 9, 12 §§",
+      "preparatoryWorks": [
+        "Bet. 2019/20:KU3",
+        "Bet. 2022/23:KU2",
+        "Prop. 2018/19:162",
+        "Rskr. 2019/20:48",
+        "Rskr. 2022/23:22"
+      ],
+      "lawUrl": "https://lagen.nu/2022:1523",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1523",
+      "sfsMetadataUrl": "https://lagen.nu/2022:1523",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2023-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K12",
+          "https://lagen.nu/1949:105#K12P12",
+          "https://lagen.nu/1949:105#K12P9"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2022:1523"
+      }
+    },
+    {
+      "id": "ygl-2022:1518",
+      "constitutionId": "ygl",
+      "status": "confirmed",
+      "sfs": "2022:1518",
+      "date": "2023-01-01",
+      "title": "ändr. 5 kap. 4 §",
+      "description": "ändr. 5 kap. 4 §",
+      "preparatoryWorks": [
+        "Bet. 2021/22:KU16",
+        "Bet. 2022/23:KU7",
+        "Prop. 2021/22:55",
+        "Rskr. 2021/22:222",
+        "Rskr. 2022/23:11"
+      ],
+      "lawUrl": "https://lagen.nu/2022:1518",
+      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2022:1518",
+      "sfsMetadataUrl": "https://lagen.nu/2022:1518",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2023-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K5P4"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2022:1518"
+      }
+    },
+    {
+      "id": "tf-2022:1517",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2022:1517",
+      "date": "2023-01-01",
+      "title": "ändr. 7 kap. 14, 15, 16, 22 §§; ny 7 kap. 14 a §, rubr. närmast före 7 kap. 14 a §",
+      "description": "ändr. 7 kap. 14, 15, 16, 22 §§; ny 7 kap. 14 a §, rubr. närmast före 7 kap. 14 a §",
+      "preparatoryWorks": [
+        "Bet. 2021/22:KU16",
+        "Bet. 2022/23:KU7",
+        "Prop. 2021/22:55",
+        "Rskr. 2021/22:222",
+        "Rskr. 2022/23:11"
+      ],
+      "lawUrl": "https://lagen.nu/2022:1517",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1517",
+      "sfsMetadataUrl": "https://lagen.nu/2022:1517",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2023-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K7",
+          "https://lagen.nu/1949:105#K7P14",
+          "https://lagen.nu/1949:105#K7P15",
+          "https://lagen.nu/1949:105#K7P16",
+          "https://lagen.nu/1949:105#K7P22"
+        ],
+        "inforsI": [
+          "https://lagen.nu/1949:105#K7P14a"
+        ],
+        "sfsIdentifier": "SFS 2022:1517"
+      }
+    },
+    {
       "id": "rf-2018:1903",
       "constitutionId": "rf",
       "status": "confirmed",
@@ -344,6 +344,118 @@
         ],
         "inforsI": [],
         "sfsIdentifier": "SFS 2018:1903"
+      }
+    },
+    {
+      "id": "ygl-2018:1802",
+      "constitutionId": "ygl",
+      "status": "confirmed",
+      "sfs": "2018:1802",
+      "date": "2019-01-01",
+      "title": "Omfattande ändring och omtryck",
+      "description": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
+      "preparatoryWorks": [
+        "Bet. 2017/18:KU16",
+        "Bet. 2018/19:KU2",
+        "Prop. 2017/18:49",
+        "Rskr. 2017/18:336",
+        "Rskr. 2018/19:16"
+      ],
+      "lawUrl": "https://lagen.nu/2018:1802",
+      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2018:1802",
+      "sfsMetadataUrl": "https://lagen.nu/2018:1802",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2019-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K10P1",
+          "https://lagen.nu/1991:1469#K11P2",
+          "https://lagen.nu/1991:1469#K12",
+          "https://lagen.nu/1991:1469#K12P1",
+          "https://lagen.nu/1991:1469#K2",
+          "https://lagen.nu/1991:1469#K2P1",
+          "https://lagen.nu/1991:1469#K2P2",
+          "https://lagen.nu/1991:1469#K2P3",
+          "https://lagen.nu/1991:1469#K2P5",
+          "https://lagen.nu/1991:1469#K2P7",
+          "https://lagen.nu/1991:1469#K4",
+          "https://lagen.nu/1991:1469#K4P1",
+          "https://lagen.nu/1991:1469#K4P2",
+          "https://lagen.nu/1991:1469#K4P3",
+          "https://lagen.nu/1991:1469#K4P6",
+          "https://lagen.nu/1991:1469#K4P7",
+          "https://lagen.nu/1991:1469#K5",
+          "https://lagen.nu/1991:1469#K5P1",
+          "https://lagen.nu/1991:1469#K5P3",
+          "https://lagen.nu/1991:1469#K5P4",
+          "https://lagen.nu/1991:1469#K5P8",
+          "https://lagen.nu/1991:1469#K6",
+          "https://lagen.nu/1991:1469#K6P1",
+          "https://lagen.nu/1991:1469#K6P8",
+          "https://lagen.nu/1991:1469#K6P9",
+          "https://lagen.nu/1991:1469#K9",
+          "https://lagen.nu/1991:1469#K9P1",
+          "https://lagen.nu/1991:1469#K9P2",
+          "https://lagen.nu/1991:1469#K9P4",
+          "https://lagen.nu/1991:1469#K9P5"
+        ],
+        "inforsI": [
+          "https://lagen.nu/1991:1469#K11",
+          "https://lagen.nu/1991:1469#K11P1",
+          "https://lagen.nu/1991:1469#K11P2",
+          "https://lagen.nu/1991:1469#K11P3",
+          "https://lagen.nu/1991:1469#K11P4",
+          "https://lagen.nu/1991:1469#K11P5",
+          "https://lagen.nu/1991:1469#K11P6",
+          "https://lagen.nu/1991:1469#K11P7",
+          "https://lagen.nu/1991:1469#K12",
+          "https://lagen.nu/1991:1469#K12P2",
+          "https://lagen.nu/1991:1469#K12P3",
+          "https://lagen.nu/1991:1469#K12P4",
+          "https://lagen.nu/1991:1469#K2",
+          "https://lagen.nu/1991:1469#K2P3",
+          "https://lagen.nu/1991:1469#K2P4",
+          "https://lagen.nu/1991:1469#K2P5",
+          "https://lagen.nu/1991:1469#K2P6",
+          "https://lagen.nu/1991:1469#K2P7",
+          "https://lagen.nu/1991:1469#K4",
+          "https://lagen.nu/1991:1469#K4P1",
+          "https://lagen.nu/1991:1469#K4P4",
+          "https://lagen.nu/1991:1469#K4P5",
+          "https://lagen.nu/1991:1469#K4P6",
+          "https://lagen.nu/1991:1469#K4P7",
+          "https://lagen.nu/1991:1469#K5",
+          "https://lagen.nu/1991:1469#K5P1",
+          "https://lagen.nu/1991:1469#K5P2",
+          "https://lagen.nu/1991:1469#K5P4",
+          "https://lagen.nu/1991:1469#K5P5",
+          "https://lagen.nu/1991:1469#K5P6",
+          "https://lagen.nu/1991:1469#K5P7",
+          "https://lagen.nu/1991:1469#K5P8",
+          "https://lagen.nu/1991:1469#K6",
+          "https://lagen.nu/1991:1469#K6P1",
+          "https://lagen.nu/1991:1469#K6P2",
+          "https://lagen.nu/1991:1469#K6P3",
+          "https://lagen.nu/1991:1469#K6P4",
+          "https://lagen.nu/1991:1469#K6P5",
+          "https://lagen.nu/1991:1469#K6P6",
+          "https://lagen.nu/1991:1469#K6P7",
+          "https://lagen.nu/1991:1469#K6P8",
+          "https://lagen.nu/1991:1469#K6P9",
+          "https://lagen.nu/1991:1469#K8",
+          "https://lagen.nu/1991:1469#K8P1",
+          "https://lagen.nu/1991:1469#K8P2",
+          "https://lagen.nu/1991:1469#K8P3",
+          "https://lagen.nu/1991:1469#K8P4",
+          "https://lagen.nu/1991:1469#K8P5",
+          "https://lagen.nu/1991:1469#K8P6",
+          "https://lagen.nu/1991:1469#K9",
+          "https://lagen.nu/1991:1469#K9P1",
+          "https://lagen.nu/1991:1469#K9P2",
+          "https://lagen.nu/1991:1469#K9P7",
+          "https://lagen.nu/1991:1469#P7"
+        ],
+        "sfsIdentifier": "SFS 2018:1802"
       }
     },
     {
@@ -561,158 +673,6 @@
       }
     },
     {
-      "id": "ygl-2018:1802",
-      "constitutionId": "ygl",
-      "status": "confirmed",
-      "sfs": "2018:1802",
-      "date": "2019-01-01",
-      "title": "Omfattande ändring och omtryck",
-      "description": "upph. 1, 3, 7 kap. samt 4 kap. 4 §, 5 kap. 4, 5 §§, 6 kap. 2 §, 10 kap. 2 §; nuvarande 2 kap. 4 § betecknas 2 kap. 5 §, nuvarande 2 kap. 5 § betecknas 2 kap. 7 §, nuvarande 4 kap. 5, 6 §§ betecknas 4 kap. 6, 7 §§, nuvarande 5 kap. 2, 3 §§ betecknas 5 kap. 3, 4 §§, nuvarande 5 kap. 6 § betecknas 5 kap. 8 §, nuvarande 6 kap. 3, 4 §§ betecknas 6 kap. 8, 9 §§, nuvarande 8 kap. 1, 2 §§b etecknas 9 kap. 1, 2 §§, nuvarande 8 kap. 3, 4 §§ betecknas 9 kap. 4, 5 §§, nuvarande 9 kap. 1 § betecknas 10 kap. 1 §, nuvarande 10 kap. 1 § betecknas 11 kap. 2 § , nuvarande 11 kap. 1 § betecknas 12 kap. 1 §; ändr. 2 kap. 1, 2, 3 §§, 4 kap. 1, 2, 3 §§, 5 kap. 1 §, 6 kap. 1 §, de nya 2 kap. 5 §, 2 kap. 7 §, 4 kap. 6, 7 §§, 5 kap. 3, 4, 8 §§, 6 kap. 8, 9 §§, 9 kap. 1, 2, 4, 5 §§, 10 kap. 1 §, 11 kap. 2 §, 12 kap. 1 §, rubr. till. 2, 4, 5, 6 och 8, 9, 10, 11, 12 kap.; nya kap. 1, 3, 7; nya 2 kap. 4, 6 §§, 4 kap. 4, 5 §§, 5 kap. 2, 5, 6, 7 §§, 6 kap. 2, 3, 4, 5, 6, 7 §§, 8 kap. 1, 2, 3, 4, 5, 6 §§, 9 kap. 3, 6,7 §§, 11 kap. 1, 3, 4, 5, 6, 7 §§, 12 kap. 2, 3, 4 §§, rubr. närmast före 2 kap. 3, 5, 6, 7 §§, 4 kap. 1, 4, 6, 7 §§, 5 kap. 1, 4, 6, 7, 8 §§, 6 kap. 1, 3, 4, 5, 6, 8, 9 §§, 8 kap. 1, 2, 6 §§, 9 kap. 1, 2, 7 §§, 11 kap. 1, 2, 3 §§, 12 kap. 2, 3, 4 §§; omtryck",
-      "preparatoryWorks": [
-        "Bet. 2017/18:KU16",
-        "Bet. 2018/19:KU2",
-        "Prop. 2017/18:49",
-        "Rskr. 2017/18:336",
-        "Rskr. 2018/19:16"
-      ],
-      "lawUrl": "https://lagen.nu/2018:1802",
-      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2018:1802",
-      "sfsMetadataUrl": "https://lagen.nu/2018:1802",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2019-01-01",
-        "ersatter": [
-          "https://lagen.nu/1991:1469#K10P1",
-          "https://lagen.nu/1991:1469#K11P2",
-          "https://lagen.nu/1991:1469#K12",
-          "https://lagen.nu/1991:1469#K12P1",
-          "https://lagen.nu/1991:1469#K2",
-          "https://lagen.nu/1991:1469#K2P1",
-          "https://lagen.nu/1991:1469#K2P2",
-          "https://lagen.nu/1991:1469#K2P3",
-          "https://lagen.nu/1991:1469#K2P5",
-          "https://lagen.nu/1991:1469#K2P7",
-          "https://lagen.nu/1991:1469#K4",
-          "https://lagen.nu/1991:1469#K4P1",
-          "https://lagen.nu/1991:1469#K4P2",
-          "https://lagen.nu/1991:1469#K4P3",
-          "https://lagen.nu/1991:1469#K4P6",
-          "https://lagen.nu/1991:1469#K4P7",
-          "https://lagen.nu/1991:1469#K5",
-          "https://lagen.nu/1991:1469#K5P1",
-          "https://lagen.nu/1991:1469#K5P3",
-          "https://lagen.nu/1991:1469#K5P4",
-          "https://lagen.nu/1991:1469#K5P8",
-          "https://lagen.nu/1991:1469#K6",
-          "https://lagen.nu/1991:1469#K6P1",
-          "https://lagen.nu/1991:1469#K6P8",
-          "https://lagen.nu/1991:1469#K6P9",
-          "https://lagen.nu/1991:1469#K9",
-          "https://lagen.nu/1991:1469#K9P1",
-          "https://lagen.nu/1991:1469#K9P2",
-          "https://lagen.nu/1991:1469#K9P4",
-          "https://lagen.nu/1991:1469#K9P5"
-        ],
-        "inforsI": [
-          "https://lagen.nu/1991:1469#K11",
-          "https://lagen.nu/1991:1469#K11P1",
-          "https://lagen.nu/1991:1469#K11P2",
-          "https://lagen.nu/1991:1469#K11P3",
-          "https://lagen.nu/1991:1469#K11P4",
-          "https://lagen.nu/1991:1469#K11P5",
-          "https://lagen.nu/1991:1469#K11P6",
-          "https://lagen.nu/1991:1469#K11P7",
-          "https://lagen.nu/1991:1469#K12",
-          "https://lagen.nu/1991:1469#K12P2",
-          "https://lagen.nu/1991:1469#K12P3",
-          "https://lagen.nu/1991:1469#K12P4",
-          "https://lagen.nu/1991:1469#K2",
-          "https://lagen.nu/1991:1469#K2P3",
-          "https://lagen.nu/1991:1469#K2P4",
-          "https://lagen.nu/1991:1469#K2P5",
-          "https://lagen.nu/1991:1469#K2P6",
-          "https://lagen.nu/1991:1469#K2P7",
-          "https://lagen.nu/1991:1469#K4",
-          "https://lagen.nu/1991:1469#K4P1",
-          "https://lagen.nu/1991:1469#K4P4",
-          "https://lagen.nu/1991:1469#K4P5",
-          "https://lagen.nu/1991:1469#K4P6",
-          "https://lagen.nu/1991:1469#K4P7",
-          "https://lagen.nu/1991:1469#K5",
-          "https://lagen.nu/1991:1469#K5P1",
-          "https://lagen.nu/1991:1469#K5P2",
-          "https://lagen.nu/1991:1469#K5P4",
-          "https://lagen.nu/1991:1469#K5P5",
-          "https://lagen.nu/1991:1469#K5P6",
-          "https://lagen.nu/1991:1469#K5P7",
-          "https://lagen.nu/1991:1469#K5P8",
-          "https://lagen.nu/1991:1469#K6",
-          "https://lagen.nu/1991:1469#K6P1",
-          "https://lagen.nu/1991:1469#K6P2",
-          "https://lagen.nu/1991:1469#K6P3",
-          "https://lagen.nu/1991:1469#K6P4",
-          "https://lagen.nu/1991:1469#K6P5",
-          "https://lagen.nu/1991:1469#K6P6",
-          "https://lagen.nu/1991:1469#K6P7",
-          "https://lagen.nu/1991:1469#K6P8",
-          "https://lagen.nu/1991:1469#K6P9",
-          "https://lagen.nu/1991:1469#K8",
-          "https://lagen.nu/1991:1469#K8P1",
-          "https://lagen.nu/1991:1469#K8P2",
-          "https://lagen.nu/1991:1469#K8P3",
-          "https://lagen.nu/1991:1469#K8P4",
-          "https://lagen.nu/1991:1469#K8P5",
-          "https://lagen.nu/1991:1469#K8P6",
-          "https://lagen.nu/1991:1469#K9",
-          "https://lagen.nu/1991:1469#K9P1",
-          "https://lagen.nu/1991:1469#K9P2",
-          "https://lagen.nu/1991:1469#K9P7",
-          "https://lagen.nu/1991:1469#P7"
-        ],
-        "sfsIdentifier": "SFS 2018:1802"
-      }
-    },
-    {
-      "id": "tf-2015:151",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2015:151",
-      "date": null,
-      "title": "omtryck",
-      "description": "omtryck",
-      "preparatoryWorks": [],
-      "lawUrl": "https://lagen.nu/2015:151",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2015:151",
-      "sfsMetadataUrl": "https://lagen.nu/2015:151",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": null,
-        "ersatter": [],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2015:151"
-      }
-    },
-    {
-      "id": "ygl-2015:150",
-      "constitutionId": "ygl",
-      "status": "confirmed",
-      "sfs": "2015:150",
-      "date": null,
-      "title": "omtryck",
-      "description": "omtryck",
-      "preparatoryWorks": [],
-      "lawUrl": "https://lagen.nu/2015:150",
-      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2015:150",
-      "sfsMetadataUrl": "https://lagen.nu/2015:150",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
-      "metadata": {
-        "ikraft": null,
-        "ersatter": [],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2015:150"
-      }
-    },
-    {
       "id": "rf-2014:1385",
       "constitutionId": "rf",
       "status": "confirmed",
@@ -742,6 +702,34 @@
         ],
         "inforsI": [],
         "sfsIdentifier": "SFS 2014:1385"
+      }
+    },
+    {
+      "id": "tf-2014:1370",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2014:1370",
+      "date": "2015-01-01",
+      "title": "ändr. 7 kap. 4 §",
+      "description": "ändr. 7 kap. 4 §",
+      "preparatoryWorks": [
+        "Bet. 2013/14:KU29",
+        "Bet. 2014/15:KU4",
+        "Prop. 2013/14:51",
+        "Rskr. 2013/14:259",
+        "Rskr. 2014/15:7"
+      ],
+      "lawUrl": "https://lagen.nu/2014:1370",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2014:1370",
+      "sfsMetadataUrl": "https://lagen.nu/2014:1370",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2015-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K7P4"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2014:1370"
       }
     },
     {
@@ -777,34 +765,6 @@
       }
     },
     {
-      "id": "tf-2014:1370",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2014:1370",
-      "date": "2015-01-01",
-      "title": "ändr. 7 kap. 4 §",
-      "description": "ändr. 7 kap. 4 §",
-      "preparatoryWorks": [
-        "Bet. 2013/14:KU29",
-        "Bet. 2014/15:KU4",
-        "Prop. 2013/14:51",
-        "Rskr. 2013/14:259",
-        "Rskr. 2014/15:7"
-      ],
-      "lawUrl": "https://lagen.nu/2014:1370",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2014:1370",
-      "sfsMetadataUrl": "https://lagen.nu/2014:1370",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2015-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K7P4"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2014:1370"
-      }
-    },
-    {
       "id": "ygl-2014:1359",
       "constitutionId": "ygl",
       "status": "confirmed",
@@ -834,63 +794,61 @@
       }
     },
     {
-      "id": "tf-2011:509",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2011:509",
-      "date": null,
-      "title": "omtryck",
-      "description": "omtryck",
-      "preparatoryWorks": [],
-      "lawUrl": "https://lagen.nu/2011:509",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2011:509",
-      "sfsMetadataUrl": "https://lagen.nu/2011:509",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": null,
-        "ersatter": [],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2011:509"
-      }
-    },
-    {
-      "id": "ygl-2011:508",
+      "id": "ygl-2010:1410",
       "constitutionId": "ygl",
       "status": "confirmed",
-      "sfs": "2011:508",
-      "date": null,
-      "title": "omtryck",
-      "description": "omtryck",
-      "preparatoryWorks": [],
-      "lawUrl": "https://lagen.nu/2011:508",
-      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2011:508",
-      "sfsMetadataUrl": "https://lagen.nu/2011:508",
+      "sfs": "2010:1410",
+      "date": "2011-01-01",
+      "title": "ändr. 3 kap. 3 §, 5 kap. 3 §, 7 kap. 6 §",
+      "description": "ändr. 3 kap. 3 §, 5 kap. 3 §, 7 kap. 6 §",
+      "preparatoryWorks": [
+        "Bet. 2009/10:KU19",
+        "Bet. 2010/11:KU4",
+        "Prop. 2009/10:80",
+        "Rskr. 2009/10:304",
+        "Rskr. 2010/09:21"
+      ],
+      "lawUrl": "https://lagen.nu/2010:1410",
+      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2010:1410",
+      "sfsMetadataUrl": "https://lagen.nu/2010:1410",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
       "metadata": {
-        "ikraft": null,
-        "ersatter": [],
+        "ikraft": "2011-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K3P3",
+          "https://lagen.nu/1991:1469#K5P3",
+          "https://lagen.nu/1991:1469#K7P6"
+        ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2011:508"
+        "sfsIdentifier": "SFS 2010:1410"
       }
     },
     {
-      "id": "rf-2011:109",
-      "constitutionId": "rf",
+      "id": "tf-2010:1409",
+      "constitutionId": "tf",
       "status": "confirmed",
-      "sfs": "2011:109",
-      "date": null,
-      "title": "omtryck",
-      "description": "omtryck",
-      "preparatoryWorks": [],
-      "lawUrl": "https://lagen.nu/2011:109",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2011:109",
-      "sfsMetadataUrl": "https://lagen.nu/2011:109",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "sfs": "2010:1409",
+      "date": "2011-01-01",
+      "title": "ändr. 7 kap. 3 §",
+      "description": "ändr. 7 kap. 3 §",
+      "preparatoryWorks": [
+        "Bet. 2009/10:KU19",
+        "Bet. 2010/11:KU4",
+        "Prop. 2009/10:80",
+        "Rskr. 2009/10:304",
+        "Rskr. 2010/11:21"
+      ],
+      "lawUrl": "https://lagen.nu/2010:1409",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1409",
+      "sfsMetadataUrl": "https://lagen.nu/2010:1409",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
       "metadata": {
-        "ikraft": null,
-        "ersatter": [],
+        "ikraft": "2011-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K7P3"
+        ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2011:109"
+        "sfsIdentifier": "SFS 2010:1409"
       }
     },
     {
@@ -1015,61 +973,31 @@
       }
     },
     {
-      "id": "tf-2010:1342",
-      "constitutionId": "tf",
+      "id": "ygl-2010:1356",
+      "constitutionId": "ygl",
       "status": "confirmed",
-      "sfs": "2010:1342",
+      "sfs": "2010:1356",
       "date": "2011-01-01",
-      "title": "ändr. 2 kap. 10 §",
-      "description": "ändr. 2 kap. 10 §",
+      "title": "ändr. 1 kap. 13 §",
+      "description": "ändr. 1 kap. 13 §",
       "preparatoryWorks": [
-        "Bet. 2009/10:KU23",
-        "Bet. 2010/11:KU6",
-        "Prop. 2009/10:58",
-        "Rskr. 2009/10:307",
-        "Rskr. 2010/11:28"
+        "Bet. 2009/10:KU34",
+        "Bet. 2010/11:KU5",
+        "Prop. 2009/10:70",
+        "Rskr. 2009/10:274",
+        "Rskr. 2010/11:27"
       ],
-      "lawUrl": "https://lagen.nu/2010:1342",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1342",
-      "sfsMetadataUrl": "https://lagen.nu/2010:1342",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "lawUrl": "https://lagen.nu/2010:1356",
+      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2010:1356",
+      "sfsMetadataUrl": "https://lagen.nu/2010:1356",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
       "metadata": {
         "ikraft": "2011-01-01",
         "ersatter": [
-          "https://lagen.nu/1949:105#K2P10"
+          "https://lagen.nu/1991:1469#K1P13"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2010:1342"
-      }
-    },
-    {
-      "id": "tf-2010:1347",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2010:1347",
-      "date": "2011-01-01",
-      "title": "ändr. 3 kap. 4, 5 §§",
-      "description": "ändr. 3 kap. 4, 5 §§",
-      "preparatoryWorks": [
-        "Bet. 2009/10:KU18",
-        "Bet. 2010/11:KU3",
-        "Prop. 2009/10:81",
-        "Rskr. 2009/10:303",
-        "Rskr. 2010/11:26"
-      ],
-      "lawUrl": "https://lagen.nu/2010:1347",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1347",
-      "sfsMetadataUrl": "https://lagen.nu/2010:1347",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2011-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K3",
-          "https://lagen.nu/1949:105#K3P4",
-          "https://lagen.nu/1949:105#K3P5"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2010:1347"
+        "sfsIdentifier": "SFS 2010:1356"
       }
     },
     {
@@ -1098,34 +1026,6 @@
         ],
         "inforsI": [],
         "sfsIdentifier": "SFS 2010:1355"
-      }
-    },
-    {
-      "id": "tf-2010:1409",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2010:1409",
-      "date": "2011-01-01",
-      "title": "ändr. 7 kap. 3 §",
-      "description": "ändr. 7 kap. 3 §",
-      "preparatoryWorks": [
-        "Bet. 2009/10:KU19",
-        "Bet. 2010/11:KU4",
-        "Prop. 2009/10:80",
-        "Rskr. 2009/10:304",
-        "Rskr. 2010/11:21"
-      ],
-      "lawUrl": "https://lagen.nu/2010:1409",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1409",
-      "sfsMetadataUrl": "https://lagen.nu/2010:1409",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2011-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K7P3"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2010:1409"
       }
     },
     {
@@ -1168,81 +1068,61 @@
       }
     },
     {
-      "id": "ygl-2010:1356",
-      "constitutionId": "ygl",
+      "id": "tf-2010:1347",
+      "constitutionId": "tf",
       "status": "confirmed",
-      "sfs": "2010:1356",
+      "sfs": "2010:1347",
       "date": "2011-01-01",
-      "title": "ändr. 1 kap. 13 §",
-      "description": "ändr. 1 kap. 13 §",
+      "title": "ändr. 3 kap. 4, 5 §§",
+      "description": "ändr. 3 kap. 4, 5 §§",
       "preparatoryWorks": [
-        "Bet. 2009/10:KU34",
-        "Bet. 2010/11:KU5",
-        "Prop. 2009/10:70",
-        "Rskr. 2009/10:274",
-        "Rskr. 2010/11:27"
+        "Bet. 2009/10:KU18",
+        "Bet. 2010/11:KU3",
+        "Prop. 2009/10:81",
+        "Rskr. 2009/10:303",
+        "Rskr. 2010/11:26"
       ],
-      "lawUrl": "https://lagen.nu/2010:1356",
-      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2010:1356",
-      "sfsMetadataUrl": "https://lagen.nu/2010:1356",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
+      "lawUrl": "https://lagen.nu/2010:1347",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1347",
+      "sfsMetadataUrl": "https://lagen.nu/2010:1347",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
       "metadata": {
         "ikraft": "2011-01-01",
         "ersatter": [
-          "https://lagen.nu/1991:1469#K1P13"
+          "https://lagen.nu/1949:105#K3",
+          "https://lagen.nu/1949:105#K3P4",
+          "https://lagen.nu/1949:105#K3P5"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2010:1356"
+        "sfsIdentifier": "SFS 2010:1347"
       }
     },
     {
-      "id": "ygl-2010:1410",
-      "constitutionId": "ygl",
+      "id": "tf-2010:1342",
+      "constitutionId": "tf",
       "status": "confirmed",
-      "sfs": "2010:1410",
+      "sfs": "2010:1342",
       "date": "2011-01-01",
-      "title": "ändr. 3 kap. 3 §, 5 kap. 3 §, 7 kap. 6 §",
-      "description": "ändr. 3 kap. 3 §, 5 kap. 3 §, 7 kap. 6 §",
+      "title": "ändr. 2 kap. 10 §",
+      "description": "ändr. 2 kap. 10 §",
       "preparatoryWorks": [
-        "Bet. 2009/10:KU19",
-        "Bet. 2010/11:KU4",
-        "Prop. 2009/10:80",
-        "Rskr. 2009/10:304",
-        "Rskr. 2010/09:21"
+        "Bet. 2009/10:KU23",
+        "Bet. 2010/11:KU6",
+        "Prop. 2009/10:58",
+        "Rskr. 2009/10:307",
+        "Rskr. 2010/11:28"
       ],
-      "lawUrl": "https://lagen.nu/2010:1410",
-      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2010:1410",
-      "sfsMetadataUrl": "https://lagen.nu/2010:1410",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
+      "lawUrl": "https://lagen.nu/2010:1342",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1342",
+      "sfsMetadataUrl": "https://lagen.nu/2010:1342",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
       "metadata": {
         "ikraft": "2011-01-01",
         "ersatter": [
-          "https://lagen.nu/1991:1469#K3P3",
-          "https://lagen.nu/1991:1469#K5P3",
-          "https://lagen.nu/1991:1469#K7P6"
+          "https://lagen.nu/1949:105#K2P10"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2010:1410"
-      }
-    },
-    {
-      "id": "rf-2003:593",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "2003:593",
-      "date": null,
-      "title": "omtryck",
-      "description": "omtryck",
-      "preparatoryWorks": [],
-      "lawUrl": "https://lagen.nu/2003:593",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2003:593",
-      "sfsMetadataUrl": "https://lagen.nu/2003:593",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": null,
-        "ersatter": [],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2003:593"
+        "sfsIdentifier": "SFS 2010:1342"
       }
     },
     {
@@ -1297,201 +1177,6 @@
       }
     },
     {
-      "id": "rf-2002:902",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "2002:902",
-      "date": "2003-01-01",
-      "title": "ändr. 8 kap 14 §",
-      "description": "ändr. 8 kap 14 §",
-      "preparatoryWorks": [
-        "Bet. 2001/02:KU13",
-        "Rskr. 2001/02:170"
-      ],
-      "lawUrl": "https://lagen.nu/2002:902",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:902",
-      "sfsMetadataUrl": "https://lagen.nu/2002:902",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2003-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K8P14"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2002:902"
-      }
-    },
-    {
-      "id": "rf-2002:903",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "2002:903",
-      "date": "2003-01-01",
-      "title": "ändr. 1 kap 2 §, 8 kap 7, 18 §§, 10 kap 2, 5, 6 §§, rubr. till 10 kap",
-      "description": "ändr. 1 kap 2 §, 8 kap 7, 18 §§, 10 kap 2, 5, 6 §§, rubr. till 10 kap",
-      "preparatoryWorks": [
-        "Bet. 2001/02:KU18",
-        "Prop. 2001/02:72",
-        "Rskr. 2002/03:15"
-      ],
-      "lawUrl": "https://lagen.nu/2002:903",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:903",
-      "sfsMetadataUrl": "https://lagen.nu/2002:903",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2003-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K10",
-          "https://lagen.nu/1974:152#K10P2",
-          "https://lagen.nu/1974:152#K10P5",
-          "https://lagen.nu/1974:152#K10P6",
-          "https://lagen.nu/1974:152#K1P2",
-          "https://lagen.nu/1974:152#K8",
-          "https://lagen.nu/1974:152#K8P18",
-          "https://lagen.nu/1974:152#K8P7"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2002:903"
-      }
-    },
-    {
-      "id": "rf-2002:904",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "2002:904",
-      "date": "2003-01-01",
-      "title": "nuvarande 9 kap 11, 12, 13 §§ betecknas 9 kap 12, 13, 14 §§; ny 9 kap 11 §; omtryck",
-      "description": "nuvarande 9 kap 11, 12, 13 §§ betecknas 9 kap 12, 13, 14 §§; ny 9 kap 11 §; omtryck",
-      "preparatoryWorks": [
-        "Bet. 2000/01:KU23",
-        "Rskr. 2002/03:3"
-      ],
-      "lawUrl": "https://lagen.nu/2002:904",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:904",
-      "sfsMetadataUrl": "https://lagen.nu/2002:904",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2003-01-01",
-        "ersatter": [],
-        "inforsI": [
-          "https://lagen.nu/1974:152#K9P11"
-        ],
-        "sfsIdentifier": "SFS 2002:904"
-      }
-    },
-    {
-      "id": "tf-2002:801",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2002:801",
-      "date": "2003-01-01",
-      "title": "ändr. 7 kap 4 §",
-      "description": "ändr. 7 kap 4 §",
-      "preparatoryWorks": [
-        "Bet. 2001/02:KU23",
-        "Prop. 2001/02:59",
-        "Rskr. 2001/02:234"
-      ],
-      "lawUrl": "https://lagen.nu/2002:801",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:801",
-      "sfsMetadataUrl": "https://lagen.nu/2002:801",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2003-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K7P4"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2002:801"
-      }
-    },
-    {
-      "id": "tf-2002:810",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2002:810",
-      "date": "2003-01-01",
-      "title": "ändr. 1 kap 9 §",
-      "description": "ändr. 1 kap 9 §",
-      "preparatoryWorks": [
-        "Bet. 2001/02:KU28",
-        "Prop. 2001/02:64",
-        "Rskr. 2002/03:2"
-      ],
-      "lawUrl": "https://lagen.nu/2002:810",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:810",
-      "sfsMetadataUrl": "https://lagen.nu/2002:810",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2003-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K1P9"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2002:810"
-      }
-    },
-    {
-      "id": "tf-2002:907",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2002:907",
-      "date": "2003-01-01",
-      "title": "ändr. 2 kap 3, 11, 13 §§; ny 2 kap 18 §",
-      "description": "ändr. 2 kap 3, 11, 13 §§; ny 2 kap 18 §",
-      "preparatoryWorks": [
-        "Bet. 2001/02:KU17",
-        "Prop. 2001/02:70",
-        "Rskr. 2002/03:7"
-      ],
-      "lawUrl": "https://lagen.nu/2002:907",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:907",
-      "sfsMetadataUrl": "https://lagen.nu/2002:907",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2003-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K2",
-          "https://lagen.nu/1949:105#K2P11",
-          "https://lagen.nu/1949:105#K2P13",
-          "https://lagen.nu/1949:105#K2P3"
-        ],
-        "inforsI": [
-          "https://lagen.nu/1949:105#K2P18"
-        ],
-        "sfsIdentifier": "SFS 2002:907"
-      }
-    },
-    {
-      "id": "tf-2002:908",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "2002:908",
-      "date": "2003-01-01",
-      "title": "ändr. 5 kap 6 §, 10 kap 3, 8 §§; omtryck",
-      "description": "ändr. 5 kap 6 §, 10 kap 3, 8 §§; omtryck",
-      "preparatoryWorks": [
-        "Bet. 2001/02:KU21",
-        "Prop. 2001/02:74",
-        "Rskr. 2001/02:233"
-      ],
-      "lawUrl": "https://lagen.nu/2002:908",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:908",
-      "sfsMetadataUrl": "https://lagen.nu/2002:908",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2003-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K10",
-          "https://lagen.nu/1949:105#K10P3",
-          "https://lagen.nu/1949:105#K10P8",
-          "https://lagen.nu/1949:105#K5P6"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 2002:908"
-      }
-    },
-    {
       "id": "ygl-2002:909",
       "constitutionId": "ygl",
       "status": "confirmed",
@@ -1533,57 +1218,198 @@
       }
     },
     {
-      "id": "tf-2002:906",
+      "id": "tf-2002:908",
       "constitutionId": "tf",
       "status": "confirmed",
-      "sfs": "2002:906",
-      "date": null,
-      "title": "ändr. 7 kap 4 § i 2002:801",
-      "description": "ändr. 7 kap 4 § i 2002:801",
+      "sfs": "2002:908",
+      "date": "2003-01-01",
+      "title": "ändr. 5 kap 6 §, 10 kap 3, 8 §§; omtryck",
+      "description": "ändr. 5 kap 6 §, 10 kap 3, 8 §§; omtryck",
       "preparatoryWorks": [
         "Bet. 2001/02:KU21",
         "Prop. 2001/02:74",
         "Rskr. 2001/02:233"
       ],
-      "lawUrl": "https://lagen.nu/2002:906",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:906",
-      "sfsMetadataUrl": "https://lagen.nu/2002:906",
+      "lawUrl": "https://lagen.nu/2002:908",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:908",
+      "sfsMetadataUrl": "https://lagen.nu/2002:908",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
       "metadata": {
-        "ikraft": null,
+        "ikraft": "2003-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K10",
+          "https://lagen.nu/1949:105#K10P3",
+          "https://lagen.nu/1949:105#K10P8",
+          "https://lagen.nu/1949:105#K5P6"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2002:908"
+      }
+    },
+    {
+      "id": "tf-2002:907",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2002:907",
+      "date": "2003-01-01",
+      "title": "ändr. 2 kap 3, 11, 13 §§; ny 2 kap 18 §",
+      "description": "ändr. 2 kap 3, 11, 13 §§; ny 2 kap 18 §",
+      "preparatoryWorks": [
+        "Bet. 2001/02:KU17",
+        "Prop. 2001/02:70",
+        "Rskr. 2002/03:7"
+      ],
+      "lawUrl": "https://lagen.nu/2002:907",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:907",
+      "sfsMetadataUrl": "https://lagen.nu/2002:907",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2003-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K2",
+          "https://lagen.nu/1949:105#K2P11",
+          "https://lagen.nu/1949:105#K2P13",
+          "https://lagen.nu/1949:105#K2P3"
+        ],
+        "inforsI": [
+          "https://lagen.nu/1949:105#K2P18"
+        ],
+        "sfsIdentifier": "SFS 2002:907"
+      }
+    },
+    {
+      "id": "rf-2002:904",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "2002:904",
+      "date": "2003-01-01",
+      "title": "nuvarande 9 kap 11, 12, 13 §§ betecknas 9 kap 12, 13, 14 §§; ny 9 kap 11 §; omtryck",
+      "description": "nuvarande 9 kap 11, 12, 13 §§ betecknas 9 kap 12, 13, 14 §§; ny 9 kap 11 §; omtryck",
+      "preparatoryWorks": [
+        "Bet. 2000/01:KU23",
+        "Rskr. 2002/03:3"
+      ],
+      "lawUrl": "https://lagen.nu/2002:904",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:904",
+      "sfsMetadataUrl": "https://lagen.nu/2002:904",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2003-01-01",
+        "ersatter": [],
+        "inforsI": [
+          "https://lagen.nu/1974:152#K9P11"
+        ],
+        "sfsIdentifier": "SFS 2002:904"
+      }
+    },
+    {
+      "id": "rf-2002:903",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "2002:903",
+      "date": "2003-01-01",
+      "title": "ändr. 1 kap 2 §, 8 kap 7, 18 §§, 10 kap 2, 5, 6 §§, rubr. till 10 kap",
+      "description": "ändr. 1 kap 2 §, 8 kap 7, 18 §§, 10 kap 2, 5, 6 §§, rubr. till 10 kap",
+      "preparatoryWorks": [
+        "Bet. 2001/02:KU18",
+        "Prop. 2001/02:72",
+        "Rskr. 2002/03:15"
+      ],
+      "lawUrl": "https://lagen.nu/2002:903",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:903",
+      "sfsMetadataUrl": "https://lagen.nu/2002:903",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2003-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K10",
+          "https://lagen.nu/1974:152#K10P2",
+          "https://lagen.nu/1974:152#K10P5",
+          "https://lagen.nu/1974:152#K10P6",
+          "https://lagen.nu/1974:152#K1P2",
+          "https://lagen.nu/1974:152#K8",
+          "https://lagen.nu/1974:152#K8P18",
+          "https://lagen.nu/1974:152#K8P7"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2002:903"
+      }
+    },
+    {
+      "id": "rf-2002:902",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "2002:902",
+      "date": "2003-01-01",
+      "title": "ändr. 8 kap 14 §",
+      "description": "ändr. 8 kap 14 §",
+      "preparatoryWorks": [
+        "Bet. 2001/02:KU13",
+        "Rskr. 2001/02:170"
+      ],
+      "lawUrl": "https://lagen.nu/2002:902",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:902",
+      "sfsMetadataUrl": "https://lagen.nu/2002:902",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2003-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K8P14"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2002:902"
+      }
+    },
+    {
+      "id": "tf-2002:810",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2002:810",
+      "date": "2003-01-01",
+      "title": "ändr. 1 kap 9 §",
+      "description": "ändr. 1 kap 9 §",
+      "preparatoryWorks": [
+        "Bet. 2001/02:KU28",
+        "Prop. 2001/02:64",
+        "Rskr. 2002/03:2"
+      ],
+      "lawUrl": "https://lagen.nu/2002:810",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:810",
+      "sfsMetadataUrl": "https://lagen.nu/2002:810",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2003-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K1P9"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2002:810"
+      }
+    },
+    {
+      "id": "tf-2002:801",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2002:801",
+      "date": "2003-01-01",
+      "title": "ändr. 7 kap 4 §",
+      "description": "ändr. 7 kap 4 §",
+      "preparatoryWorks": [
+        "Bet. 2001/02:KU23",
+        "Prop. 2001/02:59",
+        "Rskr. 2001/02:234"
+      ],
+      "lawUrl": "https://lagen.nu/2002:801",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:801",
+      "sfsMetadataUrl": "https://lagen.nu/2002:801",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "2003-01-01",
         "ersatter": [
           "https://lagen.nu/1949:105#K7P4"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 2002:906"
-      }
-    },
-    {
-      "id": "rf-1998:1700",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1998:1700",
-      "date": "2000-01-01",
-      "title": "Omfattande ändring och omtryck",
-      "description": "upph. 9-13 p övergångsbest., 3 p övergångsbest. till 1976:871, 2, 3 p övergångsbest. till 1982:937; ändr. 11 kap 6 §; ny 8 kap 6 §",
-      "preparatoryWorks": [
-        "Bet. 1997/98:KU20",
-        "Prop. 1997/98:49",
-        "Rskr. 1997/98:284"
-      ],
-      "lawUrl": "https://lagen.nu/1998:1700",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1700",
-      "sfsMetadataUrl": "https://lagen.nu/1998:1700",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "2000-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K11P6"
-        ],
-        "inforsI": [
-          "https://lagen.nu/1974:152#K8P6"
-        ],
-        "sfsIdentifier": "SFS 1998:1700"
+        "sfsIdentifier": "SFS 2002:801"
       }
     },
     {
@@ -1616,128 +1442,31 @@
       }
     },
     {
-      "id": "rf-1998:1402",
+      "id": "rf-1998:1700",
       "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "1998:1402",
-      "date": "1999-01-01",
-      "title": "ändr. 9 kap 12 §; ny 9 kap 11 §",
-      "description": "ändr. 9 kap 12 §; ny 9 kap 11 §",
-      "preparatoryWorks": [
-        "Bet. 1997/98:KU15",
-        "Prop. 1997/98:40",
-        "Rskr. 1997/98:147"
-      ],
-      "lawUrl": "https://lagen.nu/1998:1402",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1402",
-      "sfsMetadataUrl": "https://lagen.nu/1998:1402",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1999-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K9P12"
-        ],
-        "inforsI": [
-          "https://lagen.nu/1974:152#K9P11"
-        ],
-        "sfsIdentifier": "SFS 1998:1402"
-      }
-    },
-    {
-      "id": "rf-1998:1435",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1998:1435",
-      "date": "1999-01-01",
-      "title": "ändr. 8 kap 7 §",
-      "description": "ändr. 8 kap 7 §",
-      "preparatoryWorks": [
-        "Bet. 1997/98:KU18",
-        "Prop. 1997/98:44",
-        "Rskr. 1997/98:180"
-      ],
-      "lawUrl": "https://lagen.nu/1998:1435",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1435",
-      "sfsMetadataUrl": "https://lagen.nu/1998:1435",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1999-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K8P7"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1998:1435"
-      }
-    },
-    {
-      "id": "rf-1998:1437",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1998:1437",
-      "date": "1999-01-01",
-      "title": "ändr. 2 kap 1 §, 8 kap 18 §; omtryck",
-      "description": "ändr. 2 kap 1 §, 8 kap 18 §; omtryck",
-      "preparatoryWorks": [
-        "Bet. 1997/98:KU19",
-        "Prop. 1997/98:43",
-        "Rskr. 1997/98:214"
-      ],
-      "lawUrl": "https://lagen.nu/1998:1437",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1437",
-      "sfsMetadataUrl": "https://lagen.nu/1998:1437",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1999-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K2P1",
-          "https://lagen.nu/1974:152#K8P18"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1998:1437"
-      }
-    },
-    {
-      "id": "tf-1998:1438",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "1998:1438",
-      "date": "1999-01-01",
+      "sfs": "1998:1700",
+      "date": "2000-01-01",
       "title": "Omfattande ändring och omtryck",
-      "description": "ändr. 1 kap 6, 7 §§, 5 kap 5, 7 §§, 7 kap 4, 7 §§, 9 kap 5 §, 10 kap 1 §, 12 kap 4, 7, 14 §§, 13 kap 6 §, rubr, till 13 kap; ny 1 kap 10 §; omtryck",
+      "description": "upph. 9-13 p övergångsbest., 3 p övergångsbest. till 1976:871, 2, 3 p övergångsbest. till 1982:937; ändr. 11 kap 6 §; ny 8 kap 6 §",
       "preparatoryWorks": [
-        "Bet. 1997/98:KU19",
-        "Prop. 1997/98:43",
-        "Rskr. 1997/98:214"
+        "Bet. 1997/98:KU20",
+        "Prop. 1997/98:49",
+        "Rskr. 1997/98:284"
       ],
-      "lawUrl": "https://lagen.nu/1998:1438",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1998:1438",
-      "sfsMetadataUrl": "https://lagen.nu/1998:1438",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "lawUrl": "https://lagen.nu/1998:1700",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1700",
+      "sfsMetadataUrl": "https://lagen.nu/1998:1700",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
-        "ikraft": "1999-01-01",
+        "ikraft": "2000-01-01",
         "ersatter": [
-          "https://lagen.nu/1949:105#K1",
-          "https://lagen.nu/1949:105#K10P1",
-          "https://lagen.nu/1949:105#K12",
-          "https://lagen.nu/1949:105#K12P14",
-          "https://lagen.nu/1949:105#K12P4",
-          "https://lagen.nu/1949:105#K12P7",
-          "https://lagen.nu/1949:105#K13",
-          "https://lagen.nu/1949:105#K13P6",
-          "https://lagen.nu/1949:105#K1P6",
-          "https://lagen.nu/1949:105#K1P7",
-          "https://lagen.nu/1949:105#K5",
-          "https://lagen.nu/1949:105#K5P5",
-          "https://lagen.nu/1949:105#K5P7",
-          "https://lagen.nu/1949:105#K7",
-          "https://lagen.nu/1949:105#K7P4",
-          "https://lagen.nu/1949:105#K7P7",
-          "https://lagen.nu/1949:105#K9P5"
+          "https://lagen.nu/1974:152#K11P6"
         ],
         "inforsI": [
-          "https://lagen.nu/1949:105#K1P10"
+          "https://lagen.nu/1974:152#K8P6"
         ],
-        "sfsIdentifier": "SFS 1998:1438"
+        "sfsIdentifier": "SFS 1998:1700"
       }
     },
     {
@@ -1815,37 +1544,341 @@
       }
     },
     {
-      "id": "rf-1994:1468",
+      "id": "tf-1998:1438",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "1998:1438",
+      "date": "1999-01-01",
+      "title": "Omfattande ändring och omtryck",
+      "description": "ändr. 1 kap 6, 7 §§, 5 kap 5, 7 §§, 7 kap 4, 7 §§, 9 kap 5 §, 10 kap 1 §, 12 kap 4, 7, 14 §§, 13 kap 6 §, rubr, till 13 kap; ny 1 kap 10 §; omtryck",
+      "preparatoryWorks": [
+        "Bet. 1997/98:KU19",
+        "Prop. 1997/98:43",
+        "Rskr. 1997/98:214"
+      ],
+      "lawUrl": "https://lagen.nu/1998:1438",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1998:1438",
+      "sfsMetadataUrl": "https://lagen.nu/1998:1438",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1999-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K1",
+          "https://lagen.nu/1949:105#K10P1",
+          "https://lagen.nu/1949:105#K12",
+          "https://lagen.nu/1949:105#K12P14",
+          "https://lagen.nu/1949:105#K12P4",
+          "https://lagen.nu/1949:105#K12P7",
+          "https://lagen.nu/1949:105#K13",
+          "https://lagen.nu/1949:105#K13P6",
+          "https://lagen.nu/1949:105#K1P6",
+          "https://lagen.nu/1949:105#K1P7",
+          "https://lagen.nu/1949:105#K5",
+          "https://lagen.nu/1949:105#K5P5",
+          "https://lagen.nu/1949:105#K5P7",
+          "https://lagen.nu/1949:105#K7",
+          "https://lagen.nu/1949:105#K7P4",
+          "https://lagen.nu/1949:105#K7P7",
+          "https://lagen.nu/1949:105#K9P5"
+        ],
+        "inforsI": [
+          "https://lagen.nu/1949:105#K1P10"
+        ],
+        "sfsIdentifier": "SFS 1998:1438"
+      }
+    },
+    {
+      "id": "rf-1998:1437",
       "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "1994:1468",
-      "date": "1995-01-01",
-      "title": "nuvarande 2 kap 20 § betecknas 2 kap 22 §; ändr. 2 kap 18, 22 §§, 8 kap 18 §; nya 2 kap 20, 21, 23 §§",
-      "description": "nuvarande 2 kap 20 § betecknas 2 kap 22 §; ändr. 2 kap 18, 22 §§, 8 kap 18 §; nya 2 kap 20, 21, 23 §§",
+      "sfs": "1998:1437",
+      "date": "1999-01-01",
+      "title": "ändr. 2 kap 1 §, 8 kap 18 §; omtryck",
+      "description": "ändr. 2 kap 1 §, 8 kap 18 §; omtryck",
       "preparatoryWorks": [
-        "Bet. 1993/94:KU24",
-        "Prop. 1993/94:117",
-        "Rskr. 1993/94:246"
+        "Bet. 1997/98:KU19",
+        "Prop. 1997/98:43",
+        "Rskr. 1997/98:214"
       ],
-      "lawUrl": "https://lagen.nu/1994:1468",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1468",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1468",
+      "lawUrl": "https://lagen.nu/1998:1437",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1437",
+      "sfsMetadataUrl": "https://lagen.nu/1998:1437",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1999-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K2P1",
+          "https://lagen.nu/1974:152#K8P18"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1998:1437"
+      }
+    },
+    {
+      "id": "rf-1998:1435",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1998:1435",
+      "date": "1999-01-01",
+      "title": "ändr. 8 kap 7 §",
+      "description": "ändr. 8 kap 7 §",
+      "preparatoryWorks": [
+        "Bet. 1997/98:KU18",
+        "Prop. 1997/98:44",
+        "Rskr. 1997/98:180"
+      ],
+      "lawUrl": "https://lagen.nu/1998:1435",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1435",
+      "sfsMetadataUrl": "https://lagen.nu/1998:1435",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1999-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K8P7"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1998:1435"
+      }
+    },
+    {
+      "id": "rf-1998:1402",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1998:1402",
+      "date": "1999-01-01",
+      "title": "ändr. 9 kap 12 §; ny 9 kap 11 §",
+      "description": "ändr. 9 kap 12 §; ny 9 kap 11 §",
+      "preparatoryWorks": [
+        "Bet. 1997/98:KU15",
+        "Prop. 1997/98:40",
+        "Rskr. 1997/98:147"
+      ],
+      "lawUrl": "https://lagen.nu/1998:1402",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1402",
+      "sfsMetadataUrl": "https://lagen.nu/1998:1402",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1999-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K9P12"
+        ],
+        "inforsI": [
+          "https://lagen.nu/1974:152#K9P11"
+        ],
+        "sfsIdentifier": "SFS 1998:1402"
+      }
+    },
+    {
+      "id": "rf-1994:1483",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1994:1483",
+      "date": "1995-01-01",
+      "title": "ändr. 3 kap 2 §; omtryck",
+      "description": "ändr. 3 kap 2 §; omtryck",
+      "preparatoryWorks": [
+        "Rskr. 1992/93:31"
+      ],
+      "lawUrl": "https://lagen.nu/1994:1483",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1483",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1483",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "1995-01-01",
         "ersatter": [
-          "https://lagen.nu/1974:152#K2",
-          "https://lagen.nu/1974:152#K2P18",
-          "https://lagen.nu/1974:152#K2P22",
-          "https://lagen.nu/1974:152#K8P18"
+          "https://lagen.nu/1974:152#K3P2"
         ],
-        "inforsI": [
-          "https://lagen.nu/1974:152#K2",
-          "https://lagen.nu/1974:152#K2P20",
-          "https://lagen.nu/1974:152#K2P21",
-          "https://lagen.nu/1974:152#K2P23"
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1483"
+      }
+    },
+    {
+      "id": "rf-1994:1481",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1994:1481",
+      "date": "1995-01-01",
+      "title": "upph. 9 kap 11 §",
+      "description": "upph. 9 kap 11 §",
+      "preparatoryWorks": [
+        "Bet. 1993/94:KU19",
+        "Prop. 1993/94:77",
+        "Rskr. 1993/94:264"
+      ],
+      "lawUrl": "https://lagen.nu/1994:1481",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1481",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1481",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1995-01-01",
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1481"
+      }
+    },
+    {
+      "id": "rf-1994:1480",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1994:1480",
+      "date": "1995-01-01",
+      "title": "ändr. 8 kap 7 §, 11 kap 11 §",
+      "description": "ändr. 8 kap 7 §, 11 kap 11 §",
+      "preparatoryWorks": [
+        "Bet. 1993/94:KU36",
+        "Prop. 1993/94:116",
+        "Rskr. 1993/94:359"
+      ],
+      "lawUrl": "https://lagen.nu/1994:1480",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1480",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1480",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1995-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K11P11",
+          "https://lagen.nu/1974:152#K8P7"
         ],
-        "sfsIdentifier": "SFS 1994:1468"
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1480"
+      }
+    },
+    {
+      "id": "ygl-1994:1477",
+      "constitutionId": "ygl",
+      "status": "confirmed",
+      "sfs": "1994:1477",
+      "date": "1995-01-01",
+      "title": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
+      "description": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
+      "preparatoryWorks": [
+        "Bet. 1993/94:KU25",
+        "Prop. 1993/94:118",
+        "Rskr. 1993/94:162"
+      ],
+      "lawUrl": "https://lagen.nu/1994:1477",
+      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/1994:1477",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1477",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1995-01-01",
+        "ersatter": [
+          "https://lagen.nu/1991:1469#K3P10",
+          "https://lagen.nu/1991:1469#K4P6",
+          "https://lagen.nu/1991:1469#K5P6",
+          "https://lagen.nu/1991:1469#K7",
+          "https://lagen.nu/1991:1469#K7P2",
+          "https://lagen.nu/1991:1469#K7P3"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1477"
+      }
+    },
+    {
+      "id": "tf-1994:1476",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "1994:1476",
+      "date": "1995-01-01",
+      "title": "ändr. 7 kap 7 §, 9 kap 5 §, 10 kap 1 §, 12 kap 14 §; omtryck",
+      "description": "ändr. 7 kap 7 §, 9 kap 5 §, 10 kap 1 §, 12 kap 14 §; omtryck",
+      "preparatoryWorks": [
+        "Rskr. 1993/94:450"
+      ],
+      "lawUrl": "https://lagen.nu/1994:1476",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1476",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1476",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1995-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K10P1",
+          "https://lagen.nu/1949:105#K12P14",
+          "https://lagen.nu/1949:105#K7P7",
+          "https://lagen.nu/1949:105#K9P5"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1476"
+      }
+    },
+    {
+      "id": "tf-1994:1475",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "1994:1475",
+      "date": "1995-01-01",
+      "title": "ändr. 10 kap 14 §, 12 kap 3, 10 §§",
+      "description": "ändr. 10 kap 14 §, 12 kap 3, 10 §§",
+      "preparatoryWorks": [
+        "Bet. 1993/94:KU25",
+        "Prop. 1993/94:118",
+        "Rskr. 1993/94:162"
+      ],
+      "lawUrl": "https://lagen.nu/1994:1475",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1475",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1475",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1995-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K10P14",
+          "https://lagen.nu/1949:105#K12",
+          "https://lagen.nu/1949:105#K12P10",
+          "https://lagen.nu/1949:105#K12P3"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1475"
+      }
+    },
+    {
+      "id": "tf-1994:1474",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "1994:1474",
+      "date": "1995-01-01",
+      "title": "ändr. 6 kap 4 §",
+      "description": "ändr. 6 kap 4 §",
+      "preparatoryWorks": [
+        "Rskr. 1993/94:162"
+      ],
+      "lawUrl": "https://lagen.nu/1994:1474",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1474",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1474",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1995-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K6P4"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1474"
+      }
+    },
+    {
+      "id": "rf-1994:1470",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1994:1470",
+      "date": "1995-01-01",
+      "title": "upph. 8 kap 6 §; ändr. 4 kap 3 §, 9 kap 4 §, 12 kap 7 §, 13 kap 1 §",
+      "description": "upph. 8 kap 6 §; ändr. 4 kap 3 §, 9 kap 4 §, 12 kap 7 §, 13 kap 1 §",
+      "preparatoryWorks": [
+        "Rskr. 1993/94:424"
+      ],
+      "lawUrl": "https://lagen.nu/1994:1470",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1470",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1470",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1995-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K12P7",
+          "https://lagen.nu/1974:152#K13P1",
+          "https://lagen.nu/1974:152#K4P3",
+          "https://lagen.nu/1974:152#K9P4"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1470"
       }
     },
     {
@@ -1882,105 +1915,37 @@
       }
     },
     {
-      "id": "rf-1994:1470",
+      "id": "rf-1994:1468",
       "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "1994:1470",
+      "sfs": "1994:1468",
       "date": "1995-01-01",
-      "title": "upph. 8 kap 6 §; ändr. 4 kap 3 §, 9 kap 4 §, 12 kap 7 §, 13 kap 1 §",
-      "description": "upph. 8 kap 6 §; ändr. 4 kap 3 §, 9 kap 4 §, 12 kap 7 §, 13 kap 1 §",
+      "title": "nuvarande 2 kap 20 § betecknas 2 kap 22 §; ändr. 2 kap 18, 22 §§, 8 kap 18 §; nya 2 kap 20, 21, 23 §§",
+      "description": "nuvarande 2 kap 20 § betecknas 2 kap 22 §; ändr. 2 kap 18, 22 §§, 8 kap 18 §; nya 2 kap 20, 21, 23 §§",
       "preparatoryWorks": [
-        "Rskr. 1993/94:424"
+        "Bet. 1993/94:KU24",
+        "Prop. 1993/94:117",
+        "Rskr. 1993/94:246"
       ],
-      "lawUrl": "https://lagen.nu/1994:1470",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1470",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1470",
+      "lawUrl": "https://lagen.nu/1994:1468",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1468",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1468",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "1995-01-01",
         "ersatter": [
-          "https://lagen.nu/1974:152#K12P7",
-          "https://lagen.nu/1974:152#K13P1",
-          "https://lagen.nu/1974:152#K4P3",
-          "https://lagen.nu/1974:152#K9P4"
+          "https://lagen.nu/1974:152#K2",
+          "https://lagen.nu/1974:152#K2P18",
+          "https://lagen.nu/1974:152#K2P22",
+          "https://lagen.nu/1974:152#K8P18"
         ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1470"
-      }
-    },
-    {
-      "id": "rf-1994:1480",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1994:1480",
-      "date": "1995-01-01",
-      "title": "ändr. 8 kap 7 §, 11 kap 11 §",
-      "description": "ändr. 8 kap 7 §, 11 kap 11 §",
-      "preparatoryWorks": [
-        "Bet. 1993/94:KU36",
-        "Prop. 1993/94:116",
-        "Rskr. 1993/94:359"
-      ],
-      "lawUrl": "https://lagen.nu/1994:1480",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1480",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1480",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1995-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K11P11",
-          "https://lagen.nu/1974:152#K8P7"
+        "inforsI": [
+          "https://lagen.nu/1974:152#K2",
+          "https://lagen.nu/1974:152#K2P20",
+          "https://lagen.nu/1974:152#K2P21",
+          "https://lagen.nu/1974:152#K2P23"
         ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1480"
-      }
-    },
-    {
-      "id": "rf-1994:1481",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1994:1481",
-      "date": "1995-01-01",
-      "title": "upph. 9 kap 11 §",
-      "description": "upph. 9 kap 11 §",
-      "preparatoryWorks": [
-        "Bet. 1993/94:KU19",
-        "Prop. 1993/94:77",
-        "Rskr. 1993/94:264"
-      ],
-      "lawUrl": "https://lagen.nu/1994:1481",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1481",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1481",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1995-01-01",
-        "ersatter": [],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1481"
-      }
-    },
-    {
-      "id": "rf-1994:1483",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1994:1483",
-      "date": "1995-01-01",
-      "title": "ändr. 3 kap 2 §; omtryck",
-      "description": "ändr. 3 kap 2 §; omtryck",
-      "preparatoryWorks": [
-        "Rskr. 1992/93:31"
-      ],
-      "lawUrl": "https://lagen.nu/1994:1483",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1483",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1483",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1995-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K3P2"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1483"
+        "sfsIdentifier": "SFS 1994:1468"
       }
     },
     {
@@ -2007,144 +1972,6 @@
         ],
         "inforsI": [],
         "sfsIdentifier": "SFS 1994:1382"
-      }
-    },
-    {
-      "id": "tf-1994:1474",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "1994:1474",
-      "date": "1995-01-01",
-      "title": "ändr. 6 kap 4 §",
-      "description": "ändr. 6 kap 4 §",
-      "preparatoryWorks": [
-        "Rskr. 1993/94:162"
-      ],
-      "lawUrl": "https://lagen.nu/1994:1474",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1474",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1474",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1995-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K6P4"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1474"
-      }
-    },
-    {
-      "id": "tf-1994:1475",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "1994:1475",
-      "date": "1995-01-01",
-      "title": "ändr. 10 kap 14 §, 12 kap 3, 10 §§",
-      "description": "ändr. 10 kap 14 §, 12 kap 3, 10 §§",
-      "preparatoryWorks": [
-        "Bet. 1993/94:KU25",
-        "Prop. 1993/94:118",
-        "Rskr. 1993/94:162"
-      ],
-      "lawUrl": "https://lagen.nu/1994:1475",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1475",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1475",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1995-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K10P14",
-          "https://lagen.nu/1949:105#K12",
-          "https://lagen.nu/1949:105#K12P10",
-          "https://lagen.nu/1949:105#K12P3"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1475"
-      }
-    },
-    {
-      "id": "tf-1994:1476",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "1994:1476",
-      "date": "1995-01-01",
-      "title": "ändr. 7 kap 7 §, 9 kap 5 §, 10 kap 1 §, 12 kap 14 §; omtryck",
-      "description": "ändr. 7 kap 7 §, 9 kap 5 §, 10 kap 1 §, 12 kap 14 §; omtryck",
-      "preparatoryWorks": [
-        "Rskr. 1993/94:450"
-      ],
-      "lawUrl": "https://lagen.nu/1994:1476",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1476",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1476",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1995-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K10P1",
-          "https://lagen.nu/1949:105#K12P14",
-          "https://lagen.nu/1949:105#K7P7",
-          "https://lagen.nu/1949:105#K9P5"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1476"
-      }
-    },
-    {
-      "id": "ygl-1994:1477",
-      "constitutionId": "ygl",
-      "status": "confirmed",
-      "sfs": "1994:1477",
-      "date": "1995-01-01",
-      "title": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
-      "description": "ändr. 3 kap 10 §, 4 kap 6 §, 5 kap 6 §, 7 kap 2, 3 §§; omtryck",
-      "preparatoryWorks": [
-        "Bet. 1993/94:KU25",
-        "Prop. 1993/94:118",
-        "Rskr. 1993/94:162"
-      ],
-      "lawUrl": "https://lagen.nu/1994:1477",
-      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/1994:1477",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1477",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1995-01-01",
-        "ersatter": [
-          "https://lagen.nu/1991:1469#K3P10",
-          "https://lagen.nu/1991:1469#K4P6",
-          "https://lagen.nu/1991:1469#K5P6",
-          "https://lagen.nu/1991:1469#K7",
-          "https://lagen.nu/1991:1469#K7P2",
-          "https://lagen.nu/1991:1469#K7P3"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1477"
-      }
-    },
-    {
-      "id": "rf-1994:1375",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1994:1375",
-      "date": "1994-12-01",
-      "title": "ändr. 8 kap 4 §, 10 kap 5 §",
-      "description": "ändr. 8 kap 4 §, 10 kap 5 §",
-      "preparatoryWorks": [
-        "Bet. 1993/94:KU21",
-        "Prop. 1993/94:114",
-        "Rskr. 1993/94:275"
-      ],
-      "lawUrl": "https://lagen.nu/1994:1375",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1375",
-      "sfsMetadataUrl": "https://lagen.nu/1994:1375",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1994-12-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K10P5",
-          "https://lagen.nu/1974:152#K8P4"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1994:1375"
       }
     },
     {
@@ -2175,31 +2002,80 @@
       }
     },
     {
-      "id": "rf-1991:1471",
+      "id": "rf-1994:1375",
       "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "1991:1471",
-      "date": "1992-01-01",
-      "title": "ändr. 1 kap 3 §, 2 kap 1 §, 8 kap 18 §",
-      "description": "ändr. 1 kap 3 §, 2 kap 1 §, 8 kap 18 §",
+      "sfs": "1994:1375",
+      "date": "1994-12-01",
+      "title": "ändr. 8 kap 4 §, 10 kap 5 §",
+      "description": "ändr. 8 kap 4 §, 10 kap 5 §",
       "preparatoryWorks": [
-        "Prop. 1990/91:64",
-        "Rskr 1990/91:254",
-        "Rskr 1991/92:2"
+        "Bet. 1993/94:KU21",
+        "Prop. 1993/94:114",
+        "Rskr. 1993/94:275"
       ],
-      "lawUrl": "https://lagen.nu/1991:1471",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1471",
-      "sfsMetadataUrl": "https://lagen.nu/1991:1471",
+      "lawUrl": "https://lagen.nu/1994:1375",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1375",
+      "sfsMetadataUrl": "https://lagen.nu/1994:1375",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1994-12-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K10P5",
+          "https://lagen.nu/1974:152#K8P4"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1994:1375"
+      }
+    },
+    {
+      "id": "rf-1991:1503",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1991:1503",
+      "date": "1992-01-01",
+      "title": "ändr. 9, 10 p övergångsbest.; omtryck",
+      "description": "ändr. 9, 10 p övergångsbest.; omtryck",
+      "preparatoryWorks": [
+        "Prop. 1990/91:67",
+        "Rskr 1990/91:117",
+        "Rskr 1991/92:3"
+      ],
+      "lawUrl": "https://lagen.nu/1991:1503",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1503",
+      "sfsMetadataUrl": "https://lagen.nu/1991:1503",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1992-01-01",
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1991:1503"
+      }
+    },
+    {
+      "id": "rf-1991:1502",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1991:1502",
+      "date": "1992-01-01",
+      "title": "ändr. 11 kap 1 §",
+      "description": "ändr. 11 kap 1 §",
+      "preparatoryWorks": [
+        "Prop. 1990/91:66",
+        "Rskr 1990/91:178",
+        "Rskr 1991/92:3"
+      ],
+      "lawUrl": "https://lagen.nu/1991:1502",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1502",
+      "sfsMetadataUrl": "https://lagen.nu/1991:1502",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "1992-01-01",
         "ersatter": [
-          "https://lagen.nu/1974:152#K1P3",
-          "https://lagen.nu/1974:152#K2P1",
-          "https://lagen.nu/1974:152#K8P18"
+          "https://lagen.nu/1974:152#K11P1"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 1991:1471"
+        "sfsIdentifier": "SFS 1991:1502"
       }
     },
     {
@@ -2232,53 +2108,59 @@
       }
     },
     {
-      "id": "rf-1991:1502",
-      "constitutionId": "rf",
+      "id": "tf-1991:1500",
+      "constitutionId": "tf",
       "status": "confirmed",
-      "sfs": "1991:1502",
+      "sfs": "1991:1500",
       "date": "1992-01-01",
-      "title": "ändr. 11 kap 1 §",
-      "description": "ändr. 11 kap 1 §",
+      "title": "ändr. 2 kap 3, 11 §§; omtryck",
+      "description": "ändr. 2 kap 3, 11 §§; omtryck",
       "preparatoryWorks": [
-        "Prop. 1990/91:66",
-        "Rskr 1990/91:178",
+        "Prop. 1990/91:60",
+        "Rskr 1990/91:160",
         "Rskr 1991/92:3"
       ],
-      "lawUrl": "https://lagen.nu/1991:1502",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1502",
-      "sfsMetadataUrl": "https://lagen.nu/1991:1502",
+      "lawUrl": "https://lagen.nu/1991:1500",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1991:1500",
+      "sfsMetadataUrl": "https://lagen.nu/1991:1500",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1992-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K2",
+          "https://lagen.nu/1949:105#K2P11",
+          "https://lagen.nu/1949:105#K2P3"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1991:1500"
+      }
+    },
+    {
+      "id": "rf-1991:1471",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1991:1471",
+      "date": "1992-01-01",
+      "title": "ändr. 1 kap 3 §, 2 kap 1 §, 8 kap 18 §",
+      "description": "ändr. 1 kap 3 §, 2 kap 1 §, 8 kap 18 §",
+      "preparatoryWorks": [
+        "Prop. 1990/91:64",
+        "Rskr 1990/91:254",
+        "Rskr 1991/92:2"
+      ],
+      "lawUrl": "https://lagen.nu/1991:1471",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1471",
+      "sfsMetadataUrl": "https://lagen.nu/1991:1471",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "1992-01-01",
         "ersatter": [
-          "https://lagen.nu/1974:152#K11P1"
+          "https://lagen.nu/1974:152#K1P3",
+          "https://lagen.nu/1974:152#K2P1",
+          "https://lagen.nu/1974:152#K8P18"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 1991:1502"
-      }
-    },
-    {
-      "id": "rf-1991:1503",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1991:1503",
-      "date": "1992-01-01",
-      "title": "ändr. 9, 10 p övergångsbest.; omtryck",
-      "description": "ändr. 9, 10 p övergångsbest.; omtryck",
-      "preparatoryWorks": [
-        "Prop. 1990/91:67",
-        "Rskr 1990/91:117",
-        "Rskr 1991/92:3"
-      ],
-      "lawUrl": "https://lagen.nu/1991:1503",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1503",
-      "sfsMetadataUrl": "https://lagen.nu/1991:1503",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1992-01-01",
-        "ersatter": [],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1991:1503"
+        "sfsIdentifier": "SFS 1991:1471"
       }
     },
     {
@@ -2315,284 +2197,6 @@
           "https://lagen.nu/1949:105#K13P1"
         ],
         "sfsIdentifier": "SFS 1991:1470"
-      }
-    },
-    {
-      "id": "tf-1991:1500",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "1991:1500",
-      "date": "1992-01-01",
-      "title": "ändr. 2 kap 3, 11 §§; omtryck",
-      "description": "ändr. 2 kap 3, 11 §§; omtryck",
-      "preparatoryWorks": [
-        "Prop. 1990/91:60",
-        "Rskr 1990/91:160",
-        "Rskr 1991/92:3"
-      ],
-      "lawUrl": "https://lagen.nu/1991:1500",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1991:1500",
-      "sfsMetadataUrl": "https://lagen.nu/1991:1500",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1992-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K2",
-          "https://lagen.nu/1949:105#K2P11",
-          "https://lagen.nu/1949:105#K2P3"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1991:1500"
-      }
-    },
-    {
-      "id": "rf-1988:1437",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1988:1437",
-      "date": "1989-01-01",
-      "title": "ändr. 9 kap 11 §",
-      "description": "ändr. 9 kap 11 §",
-      "preparatoryWorks": [
-        "Rskr 1986/87:111",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1437",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1437",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1437",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K9P11"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1437"
-      }
-    },
-    {
-      "id": "rf-1988:1438",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1988:1438",
-      "date": "1989-01-01",
-      "title": "ändr. 13 kap 2, 3, 7, 8, 10, 11 §§",
-      "description": "ändr. 13 kap 2, 3, 7, 8, 10, 11 §§",
-      "preparatoryWorks": [
-        "Prop. 1987/88:6",
-        "Rskr 1987/88:113",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1438",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1438",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1438",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K13",
-          "https://lagen.nu/1974:152#K13P10",
-          "https://lagen.nu/1974:152#K13P11",
-          "https://lagen.nu/1974:152#K13P2",
-          "https://lagen.nu/1974:152#K13P3",
-          "https://lagen.nu/1974:152#K13P7",
-          "https://lagen.nu/1974:152#K13P8"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1438"
-      }
-    },
-    {
-      "id": "rf-1988:1439",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1988:1439",
-      "date": "1989-01-01",
-      "title": "ändr. 2 kap 3, 20 §§, 8 kap 18 §",
-      "description": "ändr. 2 kap 3, 20 §§, 8 kap 18 §",
-      "preparatoryWorks": [
-        "Prop. 1987/88:57",
-        "Rskr 1987/88:117",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1439",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1439",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1439",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K2",
-          "https://lagen.nu/1974:152#K2P20",
-          "https://lagen.nu/1974:152#K2P3",
-          "https://lagen.nu/1974:152#K8P18"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1439"
-      }
-    },
-    {
-      "id": "rf-1988:1440",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1988:1440",
-      "date": "1989-01-01",
-      "title": "ändr. 11 kap 11 §",
-      "description": "ändr. 11 kap 11 §",
-      "preparatoryWorks": [
-        "Prop. 1987/88:58",
-        "Rskr 1987/88:168",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1440",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1440",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1440",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K11P11"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1440"
-      }
-    },
-    {
-      "id": "rf-1988:1441",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1988:1441",
-      "date": "1989-01-01",
-      "title": "ändr. 9, 10, 12 p övergångsbest.",
-      "description": "ändr. 9, 10, 12 p övergångsbest.",
-      "preparatoryWorks": [
-        "Prop. 1987/88:31",
-        "Rskr 1987/88:181",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1441",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1441",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1441",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1441"
-      }
-    },
-    {
-      "id": "rf-1988:1442",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1988:1442",
-      "date": "1989-01-01",
-      "title": "ändr. 8 kap 15 §",
-      "description": "ändr. 8 kap 15 §",
-      "preparatoryWorks": [
-        "Prop. 1987/88:22",
-        "Rskr 1987/88:182",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1442",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1442",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1442",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K8P15"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1442"
-      }
-    },
-    {
-      "id": "rf-1988:1443",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1988:1443",
-      "date": "1989-01-01",
-      "title": "ändr. 2 kap 12, 14 §§, 3 kap 2, 10 §§",
-      "description": "ändr. 2 kap 12, 14 §§, 3 kap 2, 10 §§",
-      "preparatoryWorks": [
-        "Prop. 1986/87:151",
-        "Prop. 1987/88:32",
-        "Rskr 1987/88:290",
-        "Rskr 1987/88:314",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1443",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1443",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1443",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K2",
-          "https://lagen.nu/1974:152#K2P12",
-          "https://lagen.nu/1974:152#K2P14",
-          "https://lagen.nu/1974:152#K3",
-          "https://lagen.nu/1974:152#K3P10",
-          "https://lagen.nu/1974:152#K3P2"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1443"
-      }
-    },
-    {
-      "id": "rf-1988:1444",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1988:1444",
-      "date": "1989-01-01",
-      "title": "ändr. 9 kap 10, 12, 13 §§; omtryck",
-      "description": "ändr. 9 kap 10, 12, 13 §§; omtryck",
-      "preparatoryWorks": [
-        "Prop. 1986/87:143",
-        "Rskr 1987/88:4",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1444",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1444",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1444",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [
-          "https://lagen.nu/1974:152#K9",
-          "https://lagen.nu/1974:152#K9P10",
-          "https://lagen.nu/1974:152#K9P12",
-          "https://lagen.nu/1974:152#K9P13"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1444"
-      }
-    },
-    {
-      "id": "tf-1988:1447",
-      "constitutionId": "tf",
-      "status": "confirmed",
-      "sfs": "1988:1447",
-      "date": "1989-01-01",
-      "title": "ändr. 14 kap 1 §",
-      "description": "ändr. 14 kap 1 §",
-      "preparatoryWorks": [
-        "Prop. 1987/88:58",
-        "Rskr 1987/88:168",
-        "Rskr 1988/89:11"
-      ],
-      "lawUrl": "https://lagen.nu/1988:1447",
-      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1988:1447",
-      "sfsMetadataUrl": "https://lagen.nu/1988:1447",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1989-01-01",
-        "ersatter": [
-          "https://lagen.nu/1949:105#K14P1"
-        ],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1988:1447"
       }
     },
     {
@@ -2643,76 +2247,279 @@
       }
     },
     {
-      "id": "rf-1985:862",
-      "constitutionId": "rf",
+      "id": "tf-1988:1447",
+      "constitutionId": "tf",
       "status": "confirmed",
-      "sfs": "1985:862",
-      "date": "1986-01-01",
-      "title": "ändr. 4 p övergångsbest. till 1976:871",
-      "description": "ändr. 4 p övergångsbest. till 1976:871",
+      "sfs": "1988:1447",
+      "date": "1989-01-01",
+      "title": "ändr. 14 kap 1 §",
+      "description": "ändr. 14 kap 1 §",
       "preparatoryWorks": [
-        "Prop. 1984/85:83",
-        "Rskr 1984/85:117"
+        "Prop. 1987/88:58",
+        "Rskr 1987/88:168",
+        "Rskr 1988/89:11"
       ],
-      "lawUrl": "https://lagen.nu/1985:862",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:862",
-      "sfsMetadataUrl": "https://lagen.nu/1985:862",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "lawUrl": "https://lagen.nu/1988:1447",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/1988:1447",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1447",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
       "metadata": {
-        "ikraft": "1986-01-01",
-        "ersatter": [],
-        "inforsI": [],
-        "sfsIdentifier": "SFS 1985:862"
-      }
-    },
-    {
-      "id": "rf-1985:863",
-      "constitutionId": "rf",
-      "status": "confirmed",
-      "sfs": "1985:863",
-      "date": "1986-01-01",
-      "title": "ny 13 kap 13 §",
-      "description": "ny 13 kap 13 §",
-      "preparatoryWorks": [
-        "Prop. 1984/85:83",
-        "Rskr 1984/85:116",
-        "Rskr 1985/86:1"
-      ],
-      "lawUrl": "https://lagen.nu/1985:863",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:863",
-      "sfsMetadataUrl": "https://lagen.nu/1985:863",
-      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
-      "metadata": {
-        "ikraft": "1986-01-01",
-        "ersatter": [],
-        "inforsI": [
-          "https://lagen.nu/1974:152#K13P13"
+        "ikraft": "1989-01-01",
+        "ersatter": [
+          "https://lagen.nu/1949:105#K14P1"
         ],
-        "sfsIdentifier": "SFS 1985:863"
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1447"
       }
     },
     {
-      "id": "rf-1985:864",
+      "id": "rf-1988:1444",
       "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "1985:864",
-      "date": "1986-01-01",
-      "title": "ändr. 9 p övergångsbest., övergångsbest. till 1982:937; nya 10-14 p övergångsbest.",
-      "description": "ändr. 9 p övergångsbest., övergångsbest. till 1982:937; nya 10-14 p övergångsbest.",
+      "sfs": "1988:1444",
+      "date": "1989-01-01",
+      "title": "ändr. 9 kap 10, 12, 13 §§; omtryck",
+      "description": "ändr. 9 kap 10, 12, 13 §§; omtryck",
       "preparatoryWorks": [
-        "Prop. 1984/85:36",
-        "Rskr 1984/85:54",
+        "Prop. 1986/87:143",
+        "Rskr 1987/88:4",
+        "Rskr 1988/89:11"
+      ],
+      "lawUrl": "https://lagen.nu/1988:1444",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1444",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1444",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1989-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K9",
+          "https://lagen.nu/1974:152#K9P10",
+          "https://lagen.nu/1974:152#K9P12",
+          "https://lagen.nu/1974:152#K9P13"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1444"
+      }
+    },
+    {
+      "id": "rf-1988:1443",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1988:1443",
+      "date": "1989-01-01",
+      "title": "ändr. 2 kap 12, 14 §§, 3 kap 2, 10 §§",
+      "description": "ändr. 2 kap 12, 14 §§, 3 kap 2, 10 §§",
+      "preparatoryWorks": [
+        "Prop. 1986/87:151",
+        "Prop. 1987/88:32",
+        "Rskr 1987/88:290",
+        "Rskr 1987/88:314",
+        "Rskr 1988/89:11"
+      ],
+      "lawUrl": "https://lagen.nu/1988:1443",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1443",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1443",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1989-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K2",
+          "https://lagen.nu/1974:152#K2P12",
+          "https://lagen.nu/1974:152#K2P14",
+          "https://lagen.nu/1974:152#K3",
+          "https://lagen.nu/1974:152#K3P10",
+          "https://lagen.nu/1974:152#K3P2"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1443"
+      }
+    },
+    {
+      "id": "rf-1988:1442",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1988:1442",
+      "date": "1989-01-01",
+      "title": "ändr. 8 kap 15 §",
+      "description": "ändr. 8 kap 15 §",
+      "preparatoryWorks": [
+        "Prop. 1987/88:22",
+        "Rskr 1987/88:182",
+        "Rskr 1988/89:11"
+      ],
+      "lawUrl": "https://lagen.nu/1988:1442",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1442",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1442",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1989-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K8P15"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1442"
+      }
+    },
+    {
+      "id": "rf-1988:1441",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1988:1441",
+      "date": "1989-01-01",
+      "title": "ändr. 9, 10, 12 p övergångsbest.",
+      "description": "ändr. 9, 10, 12 p övergångsbest.",
+      "preparatoryWorks": [
+        "Prop. 1987/88:31",
+        "Rskr 1987/88:181",
+        "Rskr 1988/89:11"
+      ],
+      "lawUrl": "https://lagen.nu/1988:1441",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1441",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1441",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1989-01-01",
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1441"
+      }
+    },
+    {
+      "id": "rf-1988:1440",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1988:1440",
+      "date": "1989-01-01",
+      "title": "ändr. 11 kap 11 §",
+      "description": "ändr. 11 kap 11 §",
+      "preparatoryWorks": [
+        "Prop. 1987/88:58",
+        "Rskr 1987/88:168",
+        "Rskr 1988/89:11"
+      ],
+      "lawUrl": "https://lagen.nu/1988:1440",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1440",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1440",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1989-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K11P11"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1440"
+      }
+    },
+    {
+      "id": "rf-1988:1439",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1988:1439",
+      "date": "1989-01-01",
+      "title": "ändr. 2 kap 3, 20 §§, 8 kap 18 §",
+      "description": "ändr. 2 kap 3, 20 §§, 8 kap 18 §",
+      "preparatoryWorks": [
+        "Prop. 1987/88:57",
+        "Rskr 1987/88:117",
+        "Rskr 1988/89:11"
+      ],
+      "lawUrl": "https://lagen.nu/1988:1439",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1439",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1439",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1989-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K2",
+          "https://lagen.nu/1974:152#K2P20",
+          "https://lagen.nu/1974:152#K2P3",
+          "https://lagen.nu/1974:152#K8P18"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1439"
+      }
+    },
+    {
+      "id": "rf-1988:1438",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1988:1438",
+      "date": "1989-01-01",
+      "title": "ändr. 13 kap 2, 3, 7, 8, 10, 11 §§",
+      "description": "ändr. 13 kap 2, 3, 7, 8, 10, 11 §§",
+      "preparatoryWorks": [
+        "Prop. 1987/88:6",
+        "Rskr 1987/88:113",
+        "Rskr 1988/89:11"
+      ],
+      "lawUrl": "https://lagen.nu/1988:1438",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1438",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1438",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1989-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K13",
+          "https://lagen.nu/1974:152#K13P10",
+          "https://lagen.nu/1974:152#K13P11",
+          "https://lagen.nu/1974:152#K13P2",
+          "https://lagen.nu/1974:152#K13P3",
+          "https://lagen.nu/1974:152#K13P7",
+          "https://lagen.nu/1974:152#K13P8"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1438"
+      }
+    },
+    {
+      "id": "rf-1988:1437",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1988:1437",
+      "date": "1989-01-01",
+      "title": "ändr. 9 kap 11 §",
+      "description": "ändr. 9 kap 11 §",
+      "preparatoryWorks": [
+        "Rskr 1986/87:111",
+        "Rskr 1988/89:11"
+      ],
+      "lawUrl": "https://lagen.nu/1988:1437",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1437",
+      "sfsMetadataUrl": "https://lagen.nu/1988:1437",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1989-01-01",
+        "ersatter": [
+          "https://lagen.nu/1974:152#K9P11"
+        ],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1988:1437"
+      }
+    },
+    {
+      "id": "rf-1985:866",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1985:866",
+      "date": "1986-01-01",
+      "title": "ändr. 9 kap 11 §; omtryck",
+      "description": "ändr. 9 kap 11 §; omtryck",
+      "preparatoryWorks": [
+        "Prop. 1984/85:83",
+        "Rskr 1984/85:295",
         "Rskr 1985/86:1"
       ],
-      "lawUrl": "https://lagen.nu/1985:864",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:864",
-      "sfsMetadataUrl": "https://lagen.nu/1985:864",
+      "lawUrl": "https://lagen.nu/1985:866",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:866",
+      "sfsMetadataUrl": "https://lagen.nu/1985:866",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "1986-01-01",
-        "ersatter": [],
+        "ersatter": [
+          "https://lagen.nu/1974:152#K9P11"
+        ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 1985:864"
+        "sfsIdentifier": "SFS 1985:866"
       }
     },
     {
@@ -2742,29 +2549,222 @@
       }
     },
     {
-      "id": "rf-1985:866",
+      "id": "rf-1985:864",
       "constitutionId": "rf",
       "status": "confirmed",
-      "sfs": "1985:866",
+      "sfs": "1985:864",
       "date": "1986-01-01",
-      "title": "ändr. 9 kap 11 §; omtryck",
-      "description": "ändr. 9 kap 11 §; omtryck",
+      "title": "ändr. 9 p övergångsbest., övergångsbest. till 1982:937; nya 10-14 p övergångsbest.",
+      "description": "ändr. 9 p övergångsbest., övergångsbest. till 1982:937; nya 10-14 p övergångsbest.",
       "preparatoryWorks": [
-        "Prop. 1984/85:83",
-        "Rskr 1984/85:295",
+        "Prop. 1984/85:36",
+        "Rskr 1984/85:54",
         "Rskr 1985/86:1"
       ],
-      "lawUrl": "https://lagen.nu/1985:866",
-      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:866",
-      "sfsMetadataUrl": "https://lagen.nu/1985:866",
+      "lawUrl": "https://lagen.nu/1985:864",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:864",
+      "sfsMetadataUrl": "https://lagen.nu/1985:864",
       "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
       "metadata": {
         "ikraft": "1986-01-01",
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1985:864"
+      }
+    },
+    {
+      "id": "rf-1985:863",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1985:863",
+      "date": "1986-01-01",
+      "title": "ny 13 kap 13 §",
+      "description": "ny 13 kap 13 §",
+      "preparatoryWorks": [
+        "Prop. 1984/85:83",
+        "Rskr 1984/85:116",
+        "Rskr 1985/86:1"
+      ],
+      "lawUrl": "https://lagen.nu/1985:863",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:863",
+      "sfsMetadataUrl": "https://lagen.nu/1985:863",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1986-01-01",
+        "ersatter": [],
+        "inforsI": [
+          "https://lagen.nu/1974:152#K13P13"
+        ],
+        "sfsIdentifier": "SFS 1985:863"
+      }
+    },
+    {
+      "id": "rf-1985:862",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "1985:862",
+      "date": "1986-01-01",
+      "title": "ändr. 4 p övergångsbest. till 1976:871",
+      "description": "ändr. 4 p övergångsbest. till 1976:871",
+      "preparatoryWorks": [
+        "Prop. 1984/85:83",
+        "Rskr 1984/85:117"
+      ],
+      "lawUrl": "https://lagen.nu/1985:862",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:862",
+      "sfsMetadataUrl": "https://lagen.nu/1985:862",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": "1986-01-01",
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 1985:862"
+      }
+    },
+    {
+      "id": "tf-2015:151",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2015:151",
+      "date": null,
+      "title": "omtryck",
+      "description": "omtryck",
+      "preparatoryWorks": [],
+      "lawUrl": "https://lagen.nu/2015:151",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2015:151",
+      "sfsMetadataUrl": "https://lagen.nu/2015:151",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2015:151"
+      }
+    },
+    {
+      "id": "ygl-2015:150",
+      "constitutionId": "ygl",
+      "status": "confirmed",
+      "sfs": "2015:150",
+      "date": null,
+      "title": "omtryck",
+      "description": "omtryck",
+      "preparatoryWorks": [],
+      "lawUrl": "https://lagen.nu/2015:150",
+      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2015:150",
+      "sfsMetadataUrl": "https://lagen.nu/2015:150",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2015:150"
+      }
+    },
+    {
+      "id": "tf-2011:509",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2011:509",
+      "date": null,
+      "title": "omtryck",
+      "description": "omtryck",
+      "preparatoryWorks": [],
+      "lawUrl": "https://lagen.nu/2011:509",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2011:509",
+      "sfsMetadataUrl": "https://lagen.nu/2011:509",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2011:509"
+      }
+    },
+    {
+      "id": "ygl-2011:508",
+      "constitutionId": "ygl",
+      "status": "confirmed",
+      "sfs": "2011:508",
+      "date": null,
+      "title": "omtryck",
+      "description": "omtryck",
+      "preparatoryWorks": [],
+      "lawUrl": "https://lagen.nu/2011:508",
+      "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2011:508",
+      "sfsMetadataUrl": "https://lagen.nu/2011:508",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1991%3A1469&tab=forfattningstext",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2011:508"
+      }
+    },
+    {
+      "id": "rf-2011:109",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "2011:109",
+      "date": null,
+      "title": "omtryck",
+      "description": "omtryck",
+      "preparatoryWorks": [],
+      "lawUrl": "https://lagen.nu/2011:109",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2011:109",
+      "sfsMetadataUrl": "https://lagen.nu/2011:109",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2011:109"
+      }
+    },
+    {
+      "id": "rf-2003:593",
+      "constitutionId": "rf",
+      "status": "confirmed",
+      "sfs": "2003:593",
+      "date": null,
+      "title": "omtryck",
+      "description": "omtryck",
+      "preparatoryWorks": [],
+      "lawUrl": "https://lagen.nu/2003:593",
+      "versionUrl": "https://lagen.nu/1974:152/konsolidering/2003:593",
+      "sfsMetadataUrl": "https://lagen.nu/2003:593",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1974%3A152&tab=forfattningstext",
+      "metadata": {
+        "ikraft": null,
+        "ersatter": [],
+        "inforsI": [],
+        "sfsIdentifier": "SFS 2003:593"
+      }
+    },
+    {
+      "id": "tf-2002:906",
+      "constitutionId": "tf",
+      "status": "confirmed",
+      "sfs": "2002:906",
+      "date": null,
+      "title": "ändr. 7 kap 4 § i 2002:801",
+      "description": "ändr. 7 kap 4 § i 2002:801",
+      "preparatoryWorks": [
+        "Bet. 2001/02:KU21",
+        "Prop. 2001/02:74",
+        "Rskr. 2001/02:233"
+      ],
+      "lawUrl": "https://lagen.nu/2002:906",
+      "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:906",
+      "sfsMetadataUrl": "https://lagen.nu/2002:906",
+      "sourceUrl": "https://beta.rkrattsbaser.gov.se/sfs/item?bet=1949%3A105&tab=forfattningstext",
+      "metadata": {
+        "ikraft": null,
         "ersatter": [
-          "https://lagen.nu/1974:152#K9P11"
+          "https://lagen.nu/1949:105#K7P4"
         ],
         "inforsI": [],
-        "sfsIdentifier": "SFS 1985:866"
+        "sfsIdentifier": "SFS 2002:906"
       }
     },
     {

@@ -365,7 +365,14 @@ for query in ("vilande grundlagsändringar", "vilande grundlagsbeslut"):
         print(f"Ferenda search failed for {query}: {error}")
 
 
-history.sort(key=lambda item: item.get("date") or item.get("sfs", ""), reverse=True)
+history.sort(
+    key=lambda item: (
+        item.get("date") is not None,
+        item.get("date") or "",
+        item.get("sfs", ""),
+    ),
+    reverse=True,
+)
 aborted = load_static_json(ABORTED_CASES)
 benchmarks = load_static_json(BENCHMARK_CASES)
 output = {
