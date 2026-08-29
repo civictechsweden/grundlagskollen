@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1954-1960-folkomrostningsinstitutet",
+    "status": "aborted",
+    "constitutionId": "rf",
+    "alsoConstitutionIds": ["ro"],
+    "title": "Grundlagsändringar beträffande folkomröstningsinstitutet",
+    "summary": "Ett vilande förslag från 1954 om att bygga ut det rådgivande folkomröstningsinstitutet togs upp till slutligt beslut 1960 och förkastades.",
+    "firstDecisionDate": "1954",
+    "finalDecisionDate": "1960-03-23",
+    "finalDecision": "förkastad",
+    "vote": {"yes": 40, "no": 97, "abstain": 5},
+    "sourceUrl": "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/tisdagen-den-22-mars-sid_el9c9/html/",
+    "evidence": "Vid den slutliga voteringen röstade 40 för och 97 mot; fem ledamöter avstod.",
+    "note": "Detta är en uttryckligen belagd förkastelse. Ett saknat andra beslut i ett annat ärende får inte klassas som avbrutet på samma sätt."
+  }
+]

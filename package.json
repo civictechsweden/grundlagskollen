@@ -1,0 +1,17 @@
+{
+  "name": "grundlagsmonitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "update-data": "uv run --with certifi scripts/update_data.py"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.12",
+    "tailwindcss": "^4.1.12",
+    "vite": "^7.1.3"
+  }
+}

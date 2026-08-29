@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-08-29T15:28:43.589821+00:00",
+  "patches": {
+    "rf:2010:1408": {
+      "from": "2002:905",
+      "to": "2010:1408",
+      "path": "/versions/patches/rf-2002-905-to-2010-1408.diff",
+      "changedLines": 1544,
+      "characters": 139179
+    },
+    "rf:2014:1385": {
+      "from": "2010:1408",
+      "to": "2014:1385",
+      "path": "/versions/patches/rf-2010-1408-to-2014-1385.diff",
+      "changedLines": 68,
+      "characters": 14951
+    },
+    "rf:2018:1903": {
+      "from": "2014:1385",
+      "to": "2018:1903",
+      "path": "/versions/patches/rf-2014-1385-to-2018-1903.diff",
+      "changedLines": 60,
+      "characters": 9804
+    },
+    "rf:2022:1566": {
+      "from": "2018:1903",
+      "to": "2022:1566",
+      "path": "/versions/patches/rf-2018-1903-to-2022-1566.diff",
+      "changedLines": 58,
+      "characters": 6327
+    },
+    "rf:2022:1600": {
+      "from": "2022:1566",
+      "to": "2022:1600",
+      "path": "/versions/patches/rf-2022-1566-to-2022-1600.diff",
+      "changedLines": 12,
+      "characters": 997
+    },
+    "tf:2014:1370": {
+      "from": "2002:1049",
+      "to": "2014:1370",
+      "path": "/versions/patches/tf-2002-1049-to-2014-1370.diff",
+      "changedLines": 158,
+      "characters": 43750
+    },
+    "tf:2018:1801": {
+      "from": "2014:1370",
+      "to": "2018:1801",
+      "path": "/versions/patches/tf-2014-1370-to-2018-1801.diff",
+      "changedLines": 1652,
+      "characters": 150254
+    },
+    "tf:2022:1524": {
+      "from": "2018:1801",
+      "to": "2022:1524",
+      "path": "/versions/patches/tf-2018-1801-to-2022-1524.diff",
+      "changedLines": 92,
+      "characters": 10263
+    },
+    "ygl:2010:1410": {
+      "from": "1991:1469",
+      "to": "2010:1410",
+      "path": "/versions/patches/ygl-1991-1469-to-2010-1410.diff",
+      "changedLines": 136,
+      "characters": 32037
+    },
+    "ygl:2014:1359": {
+      "from": "2010:1410",
+      "to": "2014:1359",
+      "path": "/versions/patches/ygl-2010-1410-to-2014-1359.diff",
+      "changedLines": 62,
+      "characters": 16794
+    },
+    "ygl:2018:1802": {
+      "from": "2014:1359",
+      "to": "2018:1802",
+      "path": "/versions/patches/ygl-2014-1359-to-2018-1802.diff",
+      "changedLines": 1022,
+      "characters": 88526
+    },
+    "ygl:2022:1525": {
+      "from": "2018:1802",
+      "to": "2022:1525",
+      "path": "/versions/patches/ygl-2018-1802-to-2022-1525.diff",
+      "changedLines": 28,
+      "characters": 3490
+    }
+  },
+  "note": "Patch paths are relative to the static frontend root."
+}

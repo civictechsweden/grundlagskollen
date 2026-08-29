@@ -1,0 +1,52 @@
+{
+  "generatedAt": "2026-08-29T15:28:43.589821+00:00",
+  "laws": {
+    "rf": {
+      "catalogVersions": 6,
+      "fetchedVersions": 6,
+      "fetchErrors": 0,
+      "datedChangeBatches": 13,
+      "canonicalChangeBatches": 5,
+      "metadataOnlyChangeBatches": 8,
+      "amendmentsMissingEffectiveDate": 8,
+      "effectiveDateCoverage": 0.3846
+    },
+    "so": {
+      "catalogVersions": 0,
+      "fetchedVersions": 0,
+      "fetchErrors": 0,
+      "datedChangeBatches": 0,
+      "canonicalChangeBatches": 0,
+      "metadataOnlyChangeBatches": 0,
+      "amendmentsMissingEffectiveDate": 10,
+      "effectiveDateCoverage": null
+    },
+    "tf": {
+      "catalogVersions": 4,
+      "fetchedVersions": 4,
+      "fetchErrors": 0,
+      "datedChangeBatches": 12,
+      "canonicalChangeBatches": 4,
+      "metadataOnlyChangeBatches": 8,
+      "amendmentsMissingEffectiveDate": 26,
+      "effectiveDateCoverage": 0.3333
+    },
+    "ygl": {
+      "catalogVersions": 5,
+      "fetchedVersions": 5,
+      "fetchErrors": 0,
+      "datedChangeBatches": 7,
+      "canonicalChangeBatches": 4,
+      "metadataOnlyChangeBatches": 3,
+      "amendmentsMissingEffectiveDate": 2,
+      "effectiveDateCoverage": 0.5714
+    }
+  },
+  "patches": 12,
+  "limitations": [
+    "Ferenda exposes a finite list of consolidated versions; it is not the same thing as one full text snapshot per SFS amendment.",
+    "SFS metadata identifies effective dates, replaced provisions and inserted provisions, but does not by itself contain enough structure to apply every textual amendment deterministically.",
+    "Events with missing effective-date metadata are retained as metadata-only records and are not silently assigned a date.",
+    "A generated diff compares Ferenda HTML snapshots after text normalization; it is not a legally authoritative redline."
+  ]
+}

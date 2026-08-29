@@ -1,0 +1,141 @@
+{
+  "generatedAt": "2026-08-29T15:28:43.485211+00:00",
+  "snapshotGeneratedAt": "2026-08-29T15:28:43.419634+00:00",
+  "fixtureCount": 8,
+  "caseResults": [
+    {
+      "id": "benchmark-2026-current-queue",
+      "expectedStatus": "pending-first-vote",
+      "status": "matched",
+      "expected": 7,
+      "matched": 7,
+      "missing": [],
+      "sourceUrls": [
+        "https://www.riksdagen.se/sv/utskick-aktuellt/2026/juni/16/aktuellt-vilande-grundlagsandringar/"
+      ]
+    },
+    {
+      "id": "benchmark-2025-ku2",
+      "expectedStatus": "pending-first-vote",
+      "status": "matched",
+      "expectedId": "HD01KU2",
+      "sourceUrls": [
+        "https://www.gp.se/debatt/regeringens-forslag-pa-andringar-i-grundlagen-far-inte-motas-av-tystnad.fa4fa791-41b6-4e10-8550-58b60b0288b0",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-skydd-for-demokratin-och-domstolarnas_hd01ku2/"
+      ]
+    },
+    {
+      "id": "benchmark-2025-ku8",
+      "expectedStatus": "pending-first-vote",
+      "status": "matched",
+      "expectedId": "HD01KU8",
+      "sourceUrls": [
+        "https://www.gp.se/debatt/regeringens-forslag-pa-andringar-i-grundlagen-far-inte-motas-av-tystnad.fa4fa791-41b6-4e10-8550-58b60b0288b0",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-konstitutionell-beredskap_hd01ku8/"
+      ]
+    },
+    {
+      "id": "benchmark-2022-utlandsspioneri",
+      "expectedStatus": "confirmed",
+      "status": "matched",
+      "expectedSfs": [
+        "2022:1517",
+        "2022:1518"
+      ],
+      "matchedSfs": [
+        "2022:1517",
+        "2022:1518"
+      ],
+      "missingSfs": [],
+      "sourceUrls": [
+        "https://www.sverigesradio.se/avsnitt/spionerilag-stoppar-svt-publicering-intern-kritik-infor-oppen-rida-pa-ug-och-pms-nilssons-di-comeback",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/utlandsspioneri-vilande-grundlagsforslag-m-m-_ha01ku7/"
+      ]
+    },
+    {
+      "id": "benchmark-2022-riksbanken",
+      "expectedStatus": "confirmed",
+      "status": "matched",
+      "expectedSfs": [
+        "2022:1566"
+      ],
+      "matchedSfs": [
+        "2022:1566"
+      ],
+      "missingSfs": [],
+      "sourceUrls": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/en-ny-riksbankslag-vilande-grundlagsforslag-m-m-_ha01ku8/"
+      ]
+    },
+    {
+      "id": "benchmark-2018-mediegrundlagar",
+      "expectedStatus": "confirmed",
+      "status": "matched",
+      "expectedSfs": [
+        "2018:1801",
+        "2018:1802"
+      ],
+      "matchedSfs": [
+        "2018:1801",
+        "2018:1802"
+      ],
+      "missingSfs": [],
+      "sourceUrls": [
+        "https://lagen.nu/bet/2018/19:KU2",
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/andrade-mediegrundlagar_gz01ku2/"
+      ]
+    },
+    {
+      "id": "benchmark-2010-reformerad-grundlag",
+      "expectedStatus": "confirmed",
+      "status": "matched",
+      "expectedSfs": [
+        "2010:1408",
+        "2010:1349"
+      ],
+      "matchedSfs": [
+        "2010:1408",
+        "2010:1349"
+      ],
+      "missingSfs": [],
+      "sourceUrls": [
+        "https://lagen.nu/bet/2010/11:KU4",
+        "https://lagen.nu/bet/2010/11:KU3"
+      ]
+    },
+    {
+      "id": "benchmark-1960-forkastad",
+      "expectedStatus": "aborted",
+      "status": "matched",
+      "expectedId": "1954-1960-folkomrostningsinstitutet",
+      "sourceUrls": [
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/protokoll/tisdagen-den-22-mars-sid_el9c9/html/"
+      ]
+    }
+  ],
+  "metrics": {
+    "evidenceRecall": {
+      "matched": 17,
+      "expected": 17,
+      "rate": 1.0
+    },
+    "currentPendingRecall": {
+      "matched": 7,
+      "expected": 7,
+      "rate": 1.0
+    },
+    "currentPendingPrecisionAgainstFixture": {
+      "matched": 7,
+      "generated": 7,
+      "unexpected": [],
+      "rate": 1.0
+    },
+    "confirmedSfsInSnapshot": 121,
+    "abortedCasesInSnapshot": 1
+  },
+  "limitations": [
+    "The fixtures are a regression set, not an exhaustive catalogue of every historical proposal.",
+    "A Ferenda search hit without a matching SFS is reported as an unresolved signal, not as an aborted proposal.",
+    "Confirmed-case recall is measured only for the SFS identifiers named in the fixtures."
+  ]
+}
