@@ -36,8 +36,12 @@ CACHE = DATA / ".cache" / "riksdag"
 FERENDA = "https://ferenda.lagen.nu/api/v1"
 RIKSDAG_LIST = "https://data.riksdagen.se/dokumentlista/"
 RIKSDAG_DOCUMENT = "https://data.riksdagen.se/dokument/"
-START_DATE = "1975-01-01"
+# Riksdag open data's digitised KU material begins in 1867.  Use the same
+# discovery, classification and Riksdag-to-SFS validation path across the
+# entire available parliamentary record.
+START_DATE = "1867-01-01"
 NEXT_ELECTION = "2026-09-13"
+MAX_FINAL_DECISION_YEARS = 5
 SSL_CONTEXT = ssl.create_default_context(cafile=os.environ.get("SSL_CERT_FILE") or (certifi.where() if certifi else None))
 
 CONSTITUTIONS = [
@@ -51,11 +55,12 @@ DISCOVERY_QUERIES = (
     "grundlagsbeslut",
     "vilande",
     "hvilande",
+    "hvila",
     "grundlagsenlig behandling",
 )
 
-# These documents are named in the discussion and are deliberately fetched
-# even though the modern discovery window starts in 1975.
+# These documents are named in the discussion and deliberately remain in the
+# regression corpus alongside the complete 1867–present discovery window.
 REGRESSION_DOCUMENT_IDS = {
     "GF01KU13",  # 1991 final rejection
     "GF01KU1",   # 1991 final adoption for GE01KU21
@@ -78,11 +83,11 @@ REGRESSION_DOCUMENT_IDS = {
 }
 
 CONSTITUTION_PATTERNS = (
-    ("rf", r"regeringsformen|regeringsform"),
-    ("so", r"successionsordningen|successionsordning"),
-    ("tf", r"tryckfrihetsförordningen|tryckfrihetsförordning"),
+    ("rf", r"regerings[-\s]?formen|regerings[-\s]?form"),
+    ("so", r"successions[-\s]?ordningen|successions[-\s]?ordning"),
+    ("tf", r"tryckfrihets[-\s]?förordningen|tryckfrihets[-\s]?förordning"),
     ("ygl", r"yttrandefrihetsgrundlagen|yttrandefrihetsgrundlag"),
-    ("ro", r"riksdagsordningen"),
+    ("ro", r"riksdags[-\s]?ordningen"),
 )
 
 FIRST_PATTERNS = (
@@ -93,6 +98,7 @@ FIRST_PATTERNS = (
     r"(?:som|såsom)\s+(?:vilande|hvilande)\s+(?:antar|antaga)",
     r"(?:antar|antaga)[^.]{0,220}?(?:som|såsom)\s+(?:vilande|hvilande)",
     r"(?:vilande|hvilande)\s+(?:antar|antaga)",
+    r"(?:antar|antaga)[^.]{0,220}?att\s+hvila\s+till\s+grundlagsenlig\s+behandling",
 )
 FINAL_ADOPT_PATTERNS = (
     r"riksdagen\s+(?:antar|antog|har\s+antagit)\s+slutligt",
@@ -100,9 +106,10 @@ FINAL_ADOPT_PATTERNS = (
     r"riksdagen\s+(?:antar|antog|antagit)\s+slutligen",
 )
 FINAL_REJECT_PATTERNS = (
-    r"(?:riksdagen|utskottet|kammaren)[\s\S]{0,260}?(?:det\s+)?(?:vilande\s+)?förslaget[\s\S]{0,220}?förkast(?:as|ar|ade|at)",
     r"(?:det\s+)?vilande\s+förslaget[\s\S]{0,220}?förkast(?:as|ar|ade|at)",
+    r"(?:det\s+)?vilande\s+grundlagsbeslut(?:et)?[\s\S]{0,220}?förkast(?:as|ar|ade|at)",
     r"för\s+slutligt\s+beslut[\s\S]{0,220}?förkast(?:as|ar|ade|at)",
+    r"(?:riksdagen|kammaren)\s+(?:beslutar|beslöt|har\s+beslutat)\s+att\s+förkasta\s+(?:det\s+)?vilande\s+förslaget",
 )
 REJECTED_BEFORE_FIRST_PATTERNS = (
     r"(?:utskottet|utskottets)[\s\S]{0,1200}(?:avstyrk(?:er|te|s)|avslår|föreslår\s+avslag|avvisar)[\s\S]{0,1000}(?:motion|yrkande)",
@@ -465,6 +472,42 @@ def committee_decision_text(text: str) -> str:
         end = committee.end() + min((match.start() for match in end_matches), default=len(text) - committee.end())
         return text[committee.start():end]
 
+    # Many reports from the transitional digitised corpus place the decisive
+    # text under “Utskottet hemställer” rather than a separate modern heading.
+    # Prefer that block over earlier background discussion and quoted motions.
+    operative_matches = list(re.finditer(r"(?i)\bUtskottet\s+hemställer\b", text))
+    if operative_matches:
+        proposal = operative_matches[-1]
+        end_matches = [
+            match
+            for pattern in (
+                r"(?im)^\s*Närvarande\s*:?.*$",
+                r"(?im)^\s*Reservation(?:er)?(?:\s+och\s+särskilda\s+yttranden)?\s*$",
+                r"(?im)^\s*Bilaga\b.*$",
+            )
+            if (match := re.search(pattern, text[proposal.end():]))
+        ]
+        end = proposal.end() + min((match.start() for match in end_matches), default=len(text) - proposal.end())
+        return text[proposal.start():end]
+
+    # Older reports use a standalone “Hemställan” for the operative proposal.
+    # It is essential to avoid classifying quoted motions, background rules or
+    # reservations as an actual first decision in digitised pre-1975 material.
+    legacy_matches = list(re.finditer(r"(?im)^\s*Hemställan\s*$", text))
+    if legacy_matches:
+        proposal = legacy_matches[-1]
+        end_matches = [
+            match
+            for pattern in (
+                r"(?im)^\s*Närvarande\s*$",
+                r"(?im)^\s*Reservation(?:er)?(?:\s+och\s+särskilda\s+yttranden)?\s*$",
+                r"(?im)^\s*Bilaga\b.*$",
+            )
+            if (match := re.search(pattern, text[proposal.end():]))
+        ]
+        end = proposal.end() + min((match.start() for match in end_matches), default=len(text) - proposal.end())
+        return text[proposal.start():end]
+
     committee_matches = list(re.finditer(r"(?im)^\s*(?:Konstitutions)?utskottet\s*$", text))
     if not committee_matches:
         return text
@@ -500,8 +543,11 @@ def classify(title: str, text: str) -> dict:
     corpus = f"{title}\n{text}"
     committee_text = committee_decision_text(text)
     first = snippets(committee_text, FIRST_PATTERNS)
-    adopted = snippets(corpus, FINAL_ADOPT_PATTERNS)
-    rejected = snippets(corpus, FINAL_REJECT_PATTERNS)
+    # The word “förkastas” frequently occurs in the proposed text of a new
+    # constitution.  Only an operative committee section (or a protocol) can
+    # establish the outcome of a pending constitutional proposal.
+    adopted = snippets(committee_text, FINAL_ADOPT_PATTERNS)
+    rejected = snippets(committee_text, FINAL_REJECT_PATTERNS)
     protocol_adopted, protocol_rejected = protocol_decision_signals(title, corpus)
     adopted.extend(protocol_adopted)
     rejected.extend(protocol_rejected)
@@ -509,6 +555,7 @@ def classify(title: str, text: str) -> dict:
     rejected = list(dict.fromkeys(rejected))
     final_context = bool(re.search(r"för slutligt beslut|slutligt beslut|slutbehandling|slutlig prövning", corpus, re.I))
     title_vilande = bool(re.search(r"vilande|hvilande", title, re.I))
+    historic_final_title = bool(re.search(r"\b(?:uppgift|angående)\b[^\n]{0,100}\b(?:vilande|hvilande)\b[^\n]{0,100}\b(?:förslag|grundlags)", title, re.I))
     final_procedure = bool(
         re.search(r"(?:anmäl|anmäler|anmäld|anmäla)[\s\S]{0,120}(?:för|till)\s+slutligt\s+beslut[\s\S]{0,120}(?:vilande|hvilande)", committee_text, re.I)
         or re.search(r"(?:vilande|hvilande)[\s\S]{0,160}(?:anmäl|anmäler|anmäld|anmäla)[\s\S]{0,120}(?:för|till)\s+slutligt\s+beslut", committee_text, re.I)
@@ -518,7 +565,11 @@ def classify(title: str, text: str) -> dict:
     # A first-decision report may describe the future second vote. Require an
     # explicit final-procedure context before interpreting the same words as a
     # final decision.
-    is_final = bool((adopted or rejected) and (title_vilande or final_procedure or legacy_chamber_vote) or (final_context and title_vilande))
+    is_final = bool(
+        (adopted or rejected) and (title_vilande or final_procedure or legacy_chamber_vote)
+        or (final_context and title_vilande)
+        or historic_final_title
+    )
     is_first = bool(first) and not is_final
     rejected_before_first_signals = snippets(committee_text, REJECTED_BEFORE_FIRST_PATTERNS) if not first else []
     rejected_before_first = bool(rejected_before_first_signals)
@@ -747,6 +798,24 @@ def load_known_pending() -> list[dict]:
     return value if isinstance(value, list) else []
 
 
+def ferenda_betankande_search_terms(changes: list[dict]) -> list[str]:
+    """Return proposition citations usable as supplementary KU search seeds.
+
+    SFS is not a source of proposal records: rejected constitutional changes
+    are absent from it.  These citations only expand the Riksdag betänkande
+    discovery set after the independent keyword sweep has run.
+    """
+    terms: list[str] = []
+    for change in changes:
+        for reference in change.get("preparatoryWorkReferences", []):
+            if reference.get("kind") != "proposition":
+                continue
+            match = re.search(r"\b(\d{4}/\d{2}:\d+)\b", str(reference.get("citation") or ""))
+            if match:
+                terms.append(match.group(1))
+    return list(dict.fromkeys(terms))
+
+
 def pair_decisions(documents: list[dict], known_pending: list[dict], changes: list[dict] | None = None) -> list[dict]:
     firsts = [doc for doc in documents if doc["classification"]["stage"] == "first"]
     finals = [doc for doc in documents if doc["classification"]["stage"] == "final"]
@@ -781,6 +850,12 @@ def pair_decisions(documents: list[dict], known_pending: list[dict], changes: li
         for final in finals:
             final_date = final.get("decisionDate") or final.get("publishedDate") or "0000-00-00"
             if final_date <= first_date:
+                continue
+            # A later report can quote a historic proposition without being
+            # its post-election second decision.  Keep the generic reference
+            # matcher within the longest possible ordinary electoral cycle;
+            # broader historic pairing needs explicit chamber evidence.
+            if int(final_date[:4]) - int(first_date[:4]) > MAX_FINAL_DECISION_YEARS:
                 continue
             shared = first_keys & ref_keys(final)
             shared_proposition = len(proposition_keys(first) & proposition_keys(final))
@@ -1063,14 +1138,25 @@ def attach_sfs(proposals: list[dict], changes: list[dict]) -> dict:
 
 def main() -> None:
     CACHE.mkdir(parents=True, exist_ok=True)
+    # Fetch SFS metadata first, but use it only to supplement Riksdag keyword
+    # discovery.  It must never decide whether a parliamentary case exists.
+    changes, catalogs = fetch_ferenda_changes()
     discovered: dict[str, dict] = {}
+
+    def add_discovered(record: dict, discovery: str, force: bool = False) -> None:
+        document_id = str(record.get("dok_id") or record.get("id") or "").upper()
+        if not document_id or (not force and not candidate_from_record(record, discovery)):
+            return
+        entry = discovered.setdefault(document_id, {"record": record, "queries": []})
+        entry["queries"].append(discovery)
+
     for query in DISCOVERY_QUERIES:
         for record in document_list(query):
-            document_id = str(record.get("dok_id") or record.get("id") or "").upper()
-            if not document_id or not candidate_from_record(record, query):
-                continue
-            entry = discovered.setdefault(document_id, {"record": record, "queries": []})
-            entry["queries"].append(query)
+            add_discovered(record, query)
+    sfs_seed_citations = ferenda_betankande_search_terms(changes)
+    for citation in sfs_seed_citations:
+        for record in document_list(citation):
+            add_discovered(record, f"ferenda-sfs-proposition:{citation}", force=True)
     for document_id in REGRESSION_DOCUMENT_IDS:
         discovered.setdefault(document_id, {"record": {"dok_id": document_id}, "queries": ["regression-fixture"]})
     for item in load_known_pending():
@@ -1100,14 +1186,13 @@ def main() -> None:
         )
     ]
 
-    changes, catalogs = fetch_ferenda_changes()
     graph = graph_for(documents)
     proposals = pair_decisions(documents, load_known_pending(), changes)
     match_report = attach_sfs(proposals, changes)
     generated_at = now()
     output = {
         "generatedAt": generated_at,
-        "scope": {"modernFrom": START_DATE, "note": "Modern discovery starts 1975; older documents are included when named by regression fixtures."},
+        "scope": {"parliamentaryFrom": START_DATE, "note": "Riksdag KU discovery runs from the first digitised parliamentary year (1867). Ferenda SFS is secondary confirmation for the resulting decision chains."},
         "election": {"nextDate": NEXT_ELECTION, "source": "https://www.val.se/sa-rostar-du/rosta-pa-valdagen"},
         "constitutions": CONSTITUTIONS + [{"id": "ro", "short": "RO", "title": "Riksdagsordningen", "sfs": None}],
         "proposals": proposals,
@@ -1119,6 +1204,7 @@ def main() -> None:
         "sources": {"riksdagOpenData": "https://www.riksdagen.se/sv/dokument-och-lagar/riksdagens-oppna-data/", "riksdagApi": RIKSDAG_DOCUMENT, "riksdagDocumentListApi": RIKSDAG_LIST, "ferendaApi": FERENDA, "ferendaOpenApi": "https://ferenda.lagen.nu/openapi.json"},
         "coverage": {
             "discoveryQueries": list(DISCOVERY_QUERIES),
+            "ferendaSfsPropositionSeeds": len(sfs_seed_citations),
             "modernCandidateDocuments": len(discovered),
             "documentsFetched": len(documents),
             "documentFetchErrors": errors,

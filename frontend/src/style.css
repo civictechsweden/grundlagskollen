@@ -217,7 +217,6 @@ h1 {
 
 .status.is-pending { color: #8a5b10; }
 .status.is-adopted { color: #1b684f; }
-.status.is-confirmed { color: #35605a; }
 .status.is-rejected { color: #934535; }
 
 .expand-mark {
@@ -329,8 +328,6 @@ h1 {
   font-size: 12px;
   text-align: right;
 }
-
-.detail-footer-sfs { padding-top: 14px; }
 
 .empty-state {
   margin: 0;
