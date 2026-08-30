@@ -1,70 +1,6 @@
 {
-  "generatedAt": "2026-08-30T06:46:59.900057+00:00",
+  "generatedAt": "2026-08-30T07:20:58.534231+00:00",
   "nodes": [
-    {
-      "id": "riksdag:c610ku5",
-      "type": "document",
-      "documentId": "C610KU5",
-      "title": "Konstitutions-Utskottets Utlåtande N:o 5",
-      "kind": "bet",
-      "date": "1873-03-04"
-    },
-    {
-      "id": "riksdag:c810ku3",
-      "type": "document",
-      "documentId": "C810KU3",
-      "title": "Konstitutions- Utskottets Utlåtande N:» 3",
-      "kind": "bet",
-      "date": "1875-02-26"
-    },
-    {
-      "id": "riksdag:ca10ku2",
-      "type": "document",
-      "documentId": "CA10KU2",
-      "title": "Konstitutions-Utskottets Utlåtande N:o 2",
-      "kind": "bet",
-      "date": "1877-04-17"
-    },
-    {
-      "id": "riksdag:cc10ku5",
-      "type": "document",
-      "documentId": "CC10KU5",
-      "title": "Konstitutions-Utskottets Utlåtande N:o 5",
-      "kind": "bet",
-      "date": "1879-04-25"
-    },
-    {
-      "id": "riksdag:cc10ku7",
-      "type": "document",
-      "documentId": "CC10KU7",
-      "title": "Konstitutions-Utskottets Utlåtande N:o 7",
-      "kind": "bet",
-      "date": "1879-05-06"
-    },
-    {
-      "id": "riksdag:cd10ku11",
-      "type": "document",
-      "documentId": "CD10KU11",
-      "title": "Konstitutions-Utskottets Utlåtande N:o 11",
-      "kind": "bet",
-      "date": "1880-04-30"
-    },
-    {
-      "id": "riksdag:cd10ku13",
-      "type": "document",
-      "documentId": "CD10KU13",
-      "title": "Konstitutions-Utskottets Utlåtande N:o 13",
-      "kind": "bet",
-      "date": "1880-05-03"
-    },
-    {
-      "id": "riksdag:cd10ku9",
-      "type": "document",
-      "documentId": "CD10KU9",
-      "title": "Konstitutions-Utskottets Memorial N:o 9",
-      "kind": "bet",
-      "date": "1880-04-23"
-    },
     {
       "id": "riksdag:ce10ku4",
       "type": "document",
@@ -74,44 +10,12 @@
       "date": "1881-03-08"
     },
     {
-      "id": "riksdag:ce10ku5",
-      "type": "document",
-      "documentId": "CE10KU5",
-      "title": "Konstitutions-Utskottets Utlåtande N:o 5",
-      "kind": "bet",
-      "date": "1881-03-18"
-    },
-    {
       "id": "riksdag:ce10ku6",
       "type": "document",
       "documentId": "CE10KU6",
       "title": "Konstitutions-Utskottets Utlåtande N:o (i",
       "kind": "bet",
       "date": "1881-03-18"
-    },
-    {
-      "id": "riksdag:cf10ku6",
-      "type": "document",
-      "documentId": "CF10KU6",
-      "title": "Konstitutions-Utskottets Utlåtande N:o 6",
-      "kind": "bet",
-      "date": "1882-04-03"
-    },
-    {
-      "id": "riksdag:cg10ku7",
-      "type": "document",
-      "documentId": "CG10KU7",
-      "title": "Konstitutions-TJtskottets Utlåtande N:o 7",
-      "kind": "bet",
-      "date": "1883-04-26"
-    },
-    {
-      "id": "riksdag:ch10ku16",
-      "type": "document",
-      "documentId": "CH10KU16",
-      "title": "Konstitutions- Utskottets Utlåtande N:o 16",
-      "kind": "bet",
-      "date": "1884-05-02"
     },
     {
       "id": "riksdag:cj10ku3",
@@ -136,38 +40,6 @@
       "title": "1888. Andra Kammaren. N:o 10",
       "kind": "prot",
       "date": "1888-02-21"
-    },
-    {
-      "id": "riksdag:cm10ku7",
-      "type": "document",
-      "documentId": "CM10KU7",
-      "title": "Konstitutionsutskottets Utlåtande N:o 7",
-      "kind": "bet",
-      "date": "1889-04-01"
-    },
-    {
-      "id": "riksdag:cn10ku11",
-      "type": "document",
-      "documentId": "CN10KU11",
-      "title": "Konstitutionsutskottets Utlåtande N:o 11",
-      "kind": "bet",
-      "date": "1890-04-21"
-    },
-    {
-      "id": "riksdag:co10ku7",
-      "type": "document",
-      "documentId": "CO10KU7",
-      "title": "Konstitutionsutskottets Utlåtande. N:o 7",
-      "kind": "bet",
-      "date": "1891-04-10"
-    },
-    {
-      "id": "riksdag:cp10ku15",
-      "type": "document",
-      "documentId": "CP10KU15",
-      "title": "Konstitutionsutskottets Utlåtande N:o 15",
-      "kind": "bet",
-      "date": "1892-05-03"
     },
     {
       "id": "riksdag:cq10ku21",
@@ -218,76 +90,12 @@
       "date": "1896-04-10"
     },
     {
-      "id": "riksdag:ct10ku8",
-      "type": "document",
-      "documentId": "CT10KU8",
-      "title": "Konstitutionsutskottets Utlåtande N:o 8",
-      "kind": "bet",
-      "date": "1896-04-10"
-    },
-    {
       "id": "riksdag:cu9o15",
       "type": "document",
       "documentId": "CU9O15",
       "title": "RIKSDAGENS PROTOKOLL",
       "kind": "prot",
       "date": "1897-01-01"
-    },
-    {
-      "id": "riksdag:cv10ku8",
-      "type": "document",
-      "documentId": "CV10KU8",
-      "title": "Konstitutionsutskottets Utlåtande N:o 8",
-      "kind": "bet",
-      "date": "1898-04-15"
-    },
-    {
-      "id": "riksdag:cw10ku15",
-      "type": "document",
-      "documentId": "CW10KU15",
-      "title": "Konstitutionsutskottets Utlåtande N:o 15",
-      "kind": "bet",
-      "date": "1899-05-02"
-    },
-    {
-      "id": "riksdag:cy10ku10",
-      "type": "document",
-      "documentId": "CY10KU10",
-      "title": "Konstitutionsutskottets Utlåtande N:o 10",
-      "kind": "bet",
-      "date": "1901-05-10"
-    },
-    {
-      "id": "riksdag:cy10ku9",
-      "type": "document",
-      "documentId": "CY10KU9",
-      "title": "Konstitutionsutskottets Utlåtande N:o 9",
-      "kind": "bet",
-      "date": "1901-05-10"
-    },
-    {
-      "id": "riksdag:d010ku10",
-      "type": "document",
-      "documentId": "D010KU10",
-      "title": "Konstitutionsutskottets Utlåtande N:o 10",
-      "kind": "bet",
-      "date": "1903-05-05"
-    },
-    {
-      "id": "riksdag:d410ku5",
-      "type": "document",
-      "documentId": "D410KU5",
-      "title": "Konstitutionsutskottets Utlåtande N:o 5",
-      "kind": "bet",
-      "date": "1907-04-22"
-    },
-    {
-      "id": "riksdag:d510ku14",
-      "type": "document",
-      "documentId": "D510KU14",
-      "title": "Konstitutionsutskottets Utlåtande N:o 14",
-      "kind": "bet",
-      "date": "1908-05-01"
     },
     {
       "id": "riksdag:d510ku22",
@@ -306,52 +114,12 @@
       "date": "1908-05-21"
     },
     {
-      "id": "riksdag:d510ku6",
-      "type": "document",
-      "documentId": "D510KU6",
-      "title": "Konstitutionsutskottets Utlåtande J:o 6",
-      "kind": "bet",
-      "date": "1908-03-13"
-    },
-    {
-      "id": "riksdag:d610ku9",
-      "type": "document",
-      "documentId": "D610KU9",
-      "title": "Konstitutionsutskottets Utlåtande N:o 9",
-      "kind": "bet",
-      "date": "1909-04-16"
-    },
-    {
-      "id": "riksdag:d710ku10",
-      "type": "document",
-      "documentId": "D710KU10",
-      "title": "Konstitutionsutskottets Utlåtande Nr 10",
-      "kind": "bet",
-      "date": "1910-04-08"
-    },
-    {
-      "id": "riksdag:d810ku14",
-      "type": "document",
-      "documentId": "D810KU14",
-      "title": "Konstitutionsutskottets utlåtande Nr lé",
-      "kind": "bet",
-      "date": "1911-03-28"
-    },
-    {
       "id": "riksdag:d810ku26",
       "type": "document",
       "documentId": "D810KU26",
       "title": "Konstitutionsutskottets utlåtande Nr 26",
       "kind": "bet",
       "date": "1911-04-02"
-    },
-    {
-      "id": "riksdag:d910ku35",
-      "type": "document",
-      "documentId": "D910KU35",
-      "title": "Konstitutionsutskottets utlåtande Nr 35",
-      "kind": "bet",
-      "date": "1912-05-15"
     },
     {
       "id": "riksdag:db18ku14",
@@ -378,14 +146,6 @@
       "date": "1914-08-17"
     },
     {
-      "id": "riksdag:db18ku29",
-      "type": "document",
-      "documentId": "DB18KU29",
-      "title": "Konstitutionsutskottets utlåtande Nr 29",
-      "kind": "bet",
-      "date": "1914-08-21"
-    },
-    {
       "id": "riksdag:db18ku32",
       "type": "document",
       "documentId": "DB18KU32",
@@ -410,14 +170,6 @@
       "date": "1915-03-02"
     },
     {
-      "id": "riksdag:dd10ku12",
-      "type": "document",
-      "documentId": "DD10KU12",
-      "title": "Konstitutionsutskottets utlåtande Nr 12",
-      "kind": "bet",
-      "date": "1916-04-07"
-    },
-    {
       "id": "riksdag:de10ku13",
       "type": "document",
       "documentId": "DE10KU13",
@@ -434,30 +186,6 @@
       "date": "1917-05-21"
     },
     {
-      "id": "riksdag:de10ku25",
-      "type": "document",
-      "documentId": "DE10KU25",
-      "title": "Konstitutionsutskottets utlåtande Nr 25",
-      "kind": "bet",
-      "date": "1917-05-31"
-    },
-    {
-      "id": "riksdag:de10ku27",
-      "type": "document",
-      "documentId": "DE10KU27",
-      "title": "Konstitutionsutskottets utlåtande Nr 27",
-      "kind": "bet",
-      "date": "1917-05-31"
-    },
-    {
-      "id": "riksdag:de10ku28",
-      "type": "document",
-      "documentId": "DE10KU28",
-      "title": "Konstitutionsutskottets utlåtande Nr 28",
-      "kind": "bet",
-      "date": "1917-05-31"
-    },
-    {
       "id": "riksdag:de10ku30",
       "type": "document",
       "documentId": "DE10KU30",
@@ -466,52 +194,12 @@
       "date": "1917-06-02"
     },
     {
-      "id": "riksdag:de10ku32",
-      "type": "document",
-      "documentId": "DE10KU32",
-      "title": "Konstitutionsutskottets utlåtande Nr 32",
-      "kind": "bet",
-      "date": "1917-06-04"
-    },
-    {
-      "id": "riksdag:de10ku33",
-      "type": "document",
-      "documentId": "DE10KU33",
-      "title": "Konstitutionsutskottets utlåtande Nr 33",
-      "kind": "bet",
-      "date": "1917-06-04"
-    },
-    {
-      "id": "riksdag:de10ku34",
-      "type": "document",
-      "documentId": "DE10KU34",
-      "title": "Konstitutionsutskottets utlåtande Nr 34",
-      "kind": "bet",
-      "date": "1917-06-04"
-    },
-    {
-      "id": "riksdag:de10ku35",
-      "type": "document",
-      "documentId": "DE10KU35",
-      "title": "Konstitutionsutskottets utlåtande Nr 35",
-      "kind": "bet",
-      "date": "1917-06-04"
-    },
-    {
       "id": "riksdag:de10ku36",
       "type": "document",
       "documentId": "DE10KU36",
       "title": "Konstitutionsutskottets utlåtande Nr 36",
       "kind": "bet",
       "date": "1917-06-04"
-    },
-    {
-      "id": "riksdag:de10ku40",
-      "type": "document",
-      "documentId": "DE10KU40",
-      "title": "Konstitutionsutskottets memorial Nr 40",
-      "kind": "bet",
-      "date": "1917-06-11"
     },
     {
       "id": "riksdag:dg10ku34",
@@ -530,52 +218,12 @@
       "date": "1919-05-30"
     },
     {
-      "id": "riksdag:dg10ku44",
-      "type": "document",
-      "documentId": "DG10KU44",
-      "title": "KonstitutiomutHkotteU utlåtande Nr 44",
-      "kind": "bet",
-      "date": "1919-06-02"
-    },
-    {
-      "id": "riksdag:dh10ku29",
-      "type": "document",
-      "documentId": "DH10KU29",
-      "title": "Konstitutionsutskottets utlåtande Nr 29",
-      "kind": "bet",
-      "date": "1920-04-15"
-    },
-    {
       "id": "riksdag:dh10ku37",
       "type": "document",
       "documentId": "DH10KU37",
       "title": "KonstitutioneltxkcdtetH utlåtande Nr 37",
       "kind": "bet",
       "date": "1920-04-29"
-    },
-    {
-      "id": "riksdag:dh10ku41",
-      "type": "document",
-      "documentId": "DH10KU41",
-      "title": "Konstitutionsutskottens utlåtande Nr 41",
-      "kind": "bet",
-      "date": "1920-05-04"
-    },
-    {
-      "id": "riksdag:dh10ku48",
-      "type": "document",
-      "documentId": "DH10KU48",
-      "title": "Konstitutionsutskottets utlåtande Nr 48",
-      "kind": "bet",
-      "date": "1920-05-14"
-    },
-    {
-      "id": "riksdag:dh10ku57",
-      "type": "document",
-      "documentId": "DH10KU57",
-      "title": "Konstitutionsutskottets utlåtande Nr 57",
-      "kind": "bet",
-      "date": "1920-05-27"
     },
     {
       "id": "riksdag:dh10ku63",
@@ -586,20 +234,12 @@
       "date": "1920-06-07"
     },
     {
-      "id": "riksdag:di10ku22",
+      "id": "riksdag:di10ku23",
       "type": "document",
-      "documentId": "DI10KU22",
-      "title": "Konstitutionsutskottets utlåtande Nr 22",
+      "documentId": "DI10KU23",
+      "title": "Konstitutionsutskottets utlåtande Nr 23",
       "kind": "bet",
       "date": "1921-03-08"
-    },
-    {
-      "id": "riksdag:di10ku27",
-      "type": "document",
-      "documentId": "DI10KU27",
-      "title": "Konstitutionsutskottets utlåtande Nr 27",
-      "kind": "bet",
-      "date": "1921-03-12"
     },
     {
       "id": "riksdag:di10ku28",
@@ -610,12 +250,20 @@
       "date": "1921-03-15"
     },
     {
-      "id": "riksdag:di10ku4",
+      "id": "riksdag:di10ku30",
       "type": "document",
-      "documentId": "DI10KU4",
-      "title": "Konstitutionsutskottet» memorial Nr 4",
+      "documentId": "DI10KU30",
+      "title": "Konstitutionsutskottets utlåtande AV 30",
       "kind": "bet",
-      "date": "1921-01-19"
+      "date": "1921-03-15"
+    },
+    {
+      "id": "riksdag:di10ku37",
+      "type": "document",
+      "documentId": "DI10KU37",
+      "title": "Konstitutionsutskottets utlåtande Nr 37",
+      "kind": "bet",
+      "date": "1921-04-19"
     },
     {
       "id": "riksdag:dj10ku1",
@@ -642,46 +290,6 @@
       "date": "1924-03-27"
     },
     {
-      "id": "riksdag:dm10ku1",
-      "type": "document",
-      "documentId": "DM10KU1",
-      "title": "Konstitutionsutskottets memorial nr 1",
-      "kind": "bet",
-      "date": "1925-01-30"
-    },
-    {
-      "id": "riksdag:do10ku13",
-      "type": "document",
-      "documentId": "DO10KU13",
-      "title": "Konstitutionsutskottets utlåtande Nr IS",
-      "kind": "bet",
-      "date": "1927-03-17"
-    },
-    {
-      "id": "riksdag:do10ku15",
-      "type": "document",
-      "documentId": "DO10KU15",
-      "title": "Konstitutionsutskottets utlåtande Nr 15",
-      "kind": "bet",
-      "date": "1927-03-29"
-    },
-    {
-      "id": "riksdag:dp10ku27",
-      "type": "document",
-      "documentId": "DP10KU27",
-      "title": "Konstitutionsutskottets utlåtande Nr 27",
-      "kind": "bet",
-      "date": "1928-01-01"
-    },
-    {
-      "id": "riksdag:dp10ku3",
-      "type": "document",
-      "documentId": "DP10KU3",
-      "title": "Konstitutionsutskottets utlåtande Nr 3",
-      "kind": "bet",
-      "date": "1928-02-23"
-    },
-    {
       "id": "riksdag:dt10ku26",
       "type": "document",
       "documentId": "DT10KU26",
@@ -690,60 +298,12 @@
       "date": "1932-05-12"
     },
     {
-      "id": "riksdag:dt10ku28",
-      "type": "document",
-      "documentId": "DT10KU28",
-      "title": "Konstitutionsutskottets utlåtande Nr 28",
-      "kind": "bet",
-      "date": "1932-01-01"
-    },
-    {
       "id": "riksdag:du10ku3",
       "type": "document",
       "documentId": "DU10KU3",
       "title": "Konstitutionsutskottets utlåtande Nr 3",
       "kind": "bet",
       "date": "1933-02-17"
-    },
-    {
-      "id": "riksdag:dv10ku7",
-      "type": "document",
-      "documentId": "DV10KU7",
-      "title": "Konstitutionsutskottets utlåtande Nr 7",
-      "kind": "bet",
-      "date": "1934-03-01"
-    },
-    {
-      "id": "riksdag:dx10ku42",
-      "type": "document",
-      "documentId": "DX10KU42",
-      "title": "Konstitutionsutskottets utlåtande Nr 42",
-      "kind": "bet",
-      "date": "1936-05-28"
-    },
-    {
-      "id": "riksdag:dy10ku1c",
-      "type": "document",
-      "documentId": "DY10KU1C",
-      "title": "Konstitutionsutskottets memorial Nr 1 c",
-      "kind": "bet",
-      "date": "1937-05-05"
-    },
-    {
-      "id": "riksdag:e910ku31",
-      "type": "document",
-      "documentId": "E910KU31",
-      "title": "Konstitutionsutskottets memorial nr 31",
-      "kind": "bet",
-      "date": "1948-07-15"
-    },
-    {
-      "id": "riksdag:ea10ku7",
-      "type": "document",
-      "documentId": "EA10KU7",
-      "title": "Konstitutionsutskottets utlåtande nr 7",
-      "kind": "bet",
-      "date": "1949-03-15"
     },
     {
       "id": "riksdag:ec10ku19",
@@ -784,38 +344,6 @@
       "title": "Konstitutionsutskottets utlåtande nr 19",
       "kind": "bet",
       "date": "1953-05-09"
-    },
-    {
-      "id": "riksdag:ef11ku19",
-      "type": "document",
-      "documentId": "EF11KU19",
-      "title": "Konstitutionsutskottets betänkande nr 19",
-      "kind": "bet",
-      "date": "1954-11-23"
-    },
-    {
-      "id": "riksdag:ek10ku4",
-      "type": "document",
-      "documentId": "EK10KU4",
-      "title": "Konstitutionsutskottets utlåtande nr 4 år 1959",
-      "kind": "bet",
-      "date": "1959-03-05"
-    },
-    {
-      "id": "riksdag:el10ku22",
-      "type": "document",
-      "documentId": "EL10KU22",
-      "title": "Konstitutionsutskottets utlåtande nr 22 år 1960",
-      "kind": "bet",
-      "date": "1960-05-17"
-    },
-    {
-      "id": "riksdag:en10ku5",
-      "type": "document",
-      "documentId": "EN10KU5",
-      "title": "Konstitutionsutskottets utlåtande nr 5 år 1962",
-      "kind": "bet",
-      "date": "1962-03-07"
     },
     {
       "id": "riksdag:ft10ku27",
@@ -1010,14 +538,6 @@
       "date": "1979-10-25"
     },
     {
-      "id": "riksdag:g501ku16",
-      "type": "document",
-      "documentId": "G501KU16",
-      "title": "om ändring i regeringsformen (prop. 1981/82:52)",
-      "kind": "bet",
-      "date": "1981-12-01"
-    },
-    {
       "id": "riksdag:g501ku21",
       "type": "document",
       "documentId": "G501KU21",
@@ -1032,14 +552,6 @@
       "title": "angående hets mot folkgrupp (prop. 1981/82:58)",
       "kind": "bet",
       "date": "1982-03-25"
-    },
-    {
-      "id": "riksdag:g501ku36",
-      "type": "document",
-      "documentId": "G501KU36",
-      "title": "om formerna för den kyrkliga lagstiftningen m.m. (prop. 1981/82:77)",
-      "kind": "bet",
-      "date": "1982-04-22"
     },
     {
       "id": "riksdag:g501ku38",
@@ -2058,6 +1570,22 @@
       "date": "2025-12-03"
     },
     {
+      "id": "riksdag:dj90beslut",
+      "type": "document",
+      "documentId": "DJ90BESLUT",
+      "title": "Riksdagsbeslutet 1922",
+      "kind": "prot",
+      "date": "1922-01-01"
+    },
+    {
+      "id": "riksdag:dj9o22",
+      "type": "document",
+      "documentId": "DJ9O22",
+      "title": "Föredrogos var för sig följande å kammarens bord vilandeKungl. Maj:ts propositioner; och hänvisades därvid",
+      "kind": "prot",
+      "date": "1922-01-01"
+    },
+    {
       "id": "riksdag:ft10ku32",
       "type": "document",
       "documentId": "FT10KU32",
@@ -2072,6 +1600,62 @@
       "title": "Konstitutionsutskottets utlåtande nr 6 år 1970",
       "kind": "bet",
       "date": "1970-02-11"
+    },
+    {
+      "id": "riksdag:fu09128",
+      "type": "document",
+      "documentId": "FU09128",
+      "title": "Riksdagens protokoll 1971:128 Onsdagen den 17 november",
+      "kind": "prot",
+      "date": "1971-11-17"
+    },
+    {
+      "id": "riksdag:fu0922",
+      "type": "document",
+      "documentId": "FU0922",
+      "title": "Riksdagens protokoll 1971:22 Onsdagen den 10 februari",
+      "kind": "prot",
+      "date": "1971-02-10"
+    },
+    {
+      "id": "riksdag:fx09109",
+      "type": "document",
+      "documentId": "FX09109",
+      "title": "Riksdagens protokoll 1974:109 Onsdagen den 30 oktober",
+      "kind": "prot",
+      "date": "1974-10-30"
+    },
+    {
+      "id": "riksdag:fx09120",
+      "type": "document",
+      "documentId": "FX09120",
+      "title": "Riksdagens protokoll 1974:120 Onsdagen den 13 november",
+      "kind": "prot",
+      "date": "1974-11-13"
+    },
+    {
+      "id": "riksdag:fx0920",
+      "type": "document",
+      "documentId": "FX0920",
+      "title": "Riksdagens protokoll 1974:20 Onsdagen den 6 februari",
+      "kind": "prot",
+      "date": "1974-02-06"
+    },
+    {
+      "id": "riksdag:fx0930",
+      "type": "document",
+      "documentId": "FX0930",
+      "title": "Riksdagens protokoll 1974:30 Onsdagen den 27 februari",
+      "kind": "prot",
+      "date": "1974-02-27"
+    },
+    {
+      "id": "riksdag:fx0954",
+      "type": "document",
+      "documentId": "FX0954",
+      "title": "Riksdagens protokoll 1974:54 Onsdagen den 3 april",
+      "kind": "prot",
+      "date": "1974-04-03"
     },
     {
       "id": "riksdag:fu0k1",
@@ -2370,20 +1954,6 @@
       "date": null
     },
     {
-      "id": "riksdag:g50k67",
-      "type": "document",
-      "documentId": "G50K67",
-      "title": "Riksdagsskrivelse 1981/82:67",
-      "kind": "rskr",
-      "date": null
-    },
-    {
-      "id": "citation:proposition:1981/82:52",
-      "type": "citation",
-      "kind": "proposition",
-      "value": "1981/82:52"
-    },
-    {
       "id": "riksdag:g50k163",
       "type": "document",
       "documentId": "G50K163",
@@ -2418,26 +1988,6 @@
       "value": "1970:87"
     },
     {
-      "id": "riksdag:g50k263",
-      "type": "document",
-      "documentId": "G50K263",
-      "title": "Riksdagsskrivelse 1981/82:263",
-      "kind": "rskr",
-      "date": null
-    },
-    {
-      "id": "citation:proposition:1981/82:77",
-      "type": "citation",
-      "kind": "proposition",
-      "value": "1981/82:77"
-    },
-    {
-      "id": "citation:proposition:1981/82:192",
-      "type": "citation",
-      "kind": "proposition",
-      "value": "1981/82:192"
-    },
-    {
       "id": "riksdag:g50k448",
       "type": "document",
       "documentId": "G50K448",
@@ -2470,6 +2020,30 @@
       "title": "Riksdagsskrivelse 1982/83:1",
       "kind": "rskr",
       "date": null
+    },
+    {
+      "id": "citation:proposition:1981/82:77",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1981/82:77"
+    },
+    {
+      "id": "citation:proposition:1981/82:52",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1981/82:52"
+    },
+    {
+      "id": "citation:betänkande:1981/82:ku36",
+      "type": "citation",
+      "kind": "betänkande",
+      "value": "1981/82:KU36"
+    },
+    {
+      "id": "citation:betänkande:1981/82:ku16",
+      "type": "citation",
+      "kind": "betänkande",
+      "value": "1981/82:KU16"
     },
     {
       "id": "citation:betänkande:1980/81:ku21",
@@ -3044,6 +2618,12 @@
       "title": "Riksdagsskrivelse 1989/90:44",
       "kind": "rskr",
       "date": null
+    },
+    {
+      "id": "citation:proposition:1981/82:192",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1981/82:192"
     },
     {
       "id": "citation:proposition:1981/82:158",
@@ -15374,6 +14954,90 @@
       "type": "citation",
       "kind": "betänkande",
       "value": "2015/16:KU20"
+    },
+    {
+      "id": "citation:proposition:1971:47",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1971:47"
+    },
+    {
+      "id": "citation:proposition:1974:139",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:139"
+    },
+    {
+      "id": "citation:proposition:1974:143",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:143"
+    },
+    {
+      "id": "citation:proposition:1974:166",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:166"
+    },
+    {
+      "id": "citation:proposition:1974:170",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:170"
+    },
+    {
+      "id": "citation:proposition:1974:7",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:7"
+    },
+    {
+      "id": "citation:proposition:1974:4",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:4"
+    },
+    {
+      "id": "citation:proposition:1974:20",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:20"
+    },
+    {
+      "id": "citation:proposition:1974:1",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:1"
+    },
+    {
+      "id": "citation:proposition:1974:2",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:2"
+    },
+    {
+      "id": "citation:proposition:1973:146",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1973:146"
+    },
+    {
+      "id": "citation:proposition:1973:1",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1973:1"
+    },
+    {
+      "id": "citation:proposition:1974:14",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:14"
+    },
+    {
+      "id": "citation:proposition:1974:70",
+      "type": "citation",
+      "kind": "proposition",
+      "value": "1974:70"
     }
   ],
   "edges": [
@@ -16066,30 +15730,6 @@
       "evidence": "1978/79:KU33"
     },
     {
-      "from": "riksdag:g501ku16",
-      "to": "riksdag:g50k67",
-      "type": "structured_reference",
-      "relation": "rskr",
-      "sourceDocumentId": "G501KU16",
-      "evidence": ""
-    },
-    {
-      "from": "riksdag:g501ku16",
-      "to": "citation:proposition:1981/82:52",
-      "type": "citation_reference",
-      "relation": "text_regex",
-      "sourceDocumentId": "G501KU16",
-      "evidence": "1981/82:52"
-    },
-    {
-      "from": "riksdag:g501ku16",
-      "to": "riksdag:g501ku16",
-      "type": "citation_reference",
-      "relation": "text_regex",
-      "sourceDocumentId": "G501KU16",
-      "evidence": "1981/82:KU16"
-    },
-    {
       "from": "riksdag:g501ku21",
       "to": "riksdag:g50k163",
       "type": "structured_reference",
@@ -16144,38 +15784,6 @@
       "relation": "text_regex",
       "sourceDocumentId": "G501KU24",
       "evidence": "1981/82:KU24"
-    },
-    {
-      "from": "riksdag:g501ku36",
-      "to": "riksdag:g50k263",
-      "type": "structured_reference",
-      "relation": "rskr",
-      "sourceDocumentId": "G501KU36",
-      "evidence": ""
-    },
-    {
-      "from": "riksdag:g501ku36",
-      "to": "citation:proposition:1981/82:77",
-      "type": "citation_reference",
-      "relation": "text_regex",
-      "sourceDocumentId": "G501KU36",
-      "evidence": "1981/82:77"
-    },
-    {
-      "from": "riksdag:g501ku36",
-      "to": "citation:proposition:1981/82:192",
-      "type": "citation_reference",
-      "relation": "text_regex",
-      "sourceDocumentId": "G501KU36",
-      "evidence": "1981/82:192"
-    },
-    {
-      "from": "riksdag:g501ku36",
-      "to": "riksdag:g501ku36",
-      "type": "citation_reference",
-      "relation": "text_regex",
-      "sourceDocumentId": "G501KU36",
-      "evidence": "1981/82:KU36"
     },
     {
       "from": "riksdag:g501ku38",
@@ -16267,7 +15875,7 @@
     },
     {
       "from": "riksdag:g601ku1",
-      "to": "riksdag:g501ku36",
+      "to": "citation:betänkande:1981/82:ku36",
       "type": "citation_reference",
       "relation": "text_regex",
       "sourceDocumentId": "G601KU1",
@@ -16275,7 +15883,7 @@
     },
     {
       "from": "riksdag:g601ku1",
-      "to": "riksdag:g501ku16",
+      "to": "citation:betänkande:1981/82:ku16",
       "type": "citation_reference",
       "relation": "text_regex",
       "sourceDocumentId": "G601KU1",
@@ -16547,7 +16155,7 @@
     },
     {
       "from": "riksdag:g801ku5",
-      "to": "riksdag:g501ku16",
+      "to": "citation:betänkande:1981/82:ku16",
       "type": "citation_reference",
       "relation": "text_regex",
       "sourceDocumentId": "G801KU5",
@@ -16963,7 +16571,7 @@
     },
     {
       "from": "riksdag:gb01ku30",
-      "to": "riksdag:g501ku36",
+      "to": "citation:betänkande:1981/82:ku36",
       "type": "citation_reference",
       "relation": "text_regex",
       "sourceDocumentId": "GB01KU30",
@@ -17555,7 +17163,7 @@
     },
     {
       "from": "riksdag:gd01ku2",
-      "to": "riksdag:g501ku36",
+      "to": "citation:betänkande:1981/82:ku36",
       "type": "citation_reference",
       "relation": "text_regex",
       "sourceDocumentId": "GD01KU2",
@@ -37128,6 +36736,150 @@
       "relation": "text_regex",
       "sourceDocumentId": "HD01KU8",
       "evidence": "2015/16:KU20"
+    },
+    {
+      "from": "riksdag:fu09128",
+      "to": "citation:proposition:1971:47",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FU09128",
+      "evidence": "1971:47"
+    },
+    {
+      "from": "riksdag:fx09109",
+      "to": "citation:proposition:1973:90",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX09109",
+      "evidence": "1973:90"
+    },
+    {
+      "from": "riksdag:fx09120",
+      "to": "citation:proposition:1974:139",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX09120",
+      "evidence": "1974:139"
+    },
+    {
+      "from": "riksdag:fx09120",
+      "to": "citation:proposition:1974:143",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX09120",
+      "evidence": "1974:143"
+    },
+    {
+      "from": "riksdag:fx09120",
+      "to": "citation:proposition:1974:166",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX09120",
+      "evidence": "1974:166"
+    },
+    {
+      "from": "riksdag:fx09120",
+      "to": "citation:proposition:1974:170",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX09120",
+      "evidence": "1974:170"
+    },
+    {
+      "from": "riksdag:fx0920",
+      "to": "citation:proposition:1972:66",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0920",
+      "evidence": "1972:66"
+    },
+    {
+      "from": "riksdag:fx0920",
+      "to": "citation:proposition:1974:7",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0920",
+      "evidence": "1974:7"
+    },
+    {
+      "from": "riksdag:fx0920",
+      "to": "citation:proposition:1974:4",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0920",
+      "evidence": "1974:4"
+    },
+    {
+      "from": "riksdag:fx0920",
+      "to": "citation:proposition:1974:20",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0920",
+      "evidence": "1974:20"
+    },
+    {
+      "from": "riksdag:fx0930",
+      "to": "citation:proposition:1974:1",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0930",
+      "evidence": "1974:1"
+    },
+    {
+      "from": "riksdag:fx0930",
+      "to": "citation:proposition:1974:2",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0930",
+      "evidence": "1974:2"
+    },
+    {
+      "from": "riksdag:fx0930",
+      "to": "citation:proposition:1973:146",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0930",
+      "evidence": "1973:146"
+    },
+    {
+      "from": "riksdag:fx0954",
+      "to": "citation:proposition:1974:20",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0954",
+      "evidence": "1974:20"
+    },
+    {
+      "from": "riksdag:fx0954",
+      "to": "citation:proposition:1973:1",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0954",
+      "evidence": "1973:1"
+    },
+    {
+      "from": "riksdag:fx0954",
+      "to": "citation:proposition:1974:1",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0954",
+      "evidence": "1974:1"
+    },
+    {
+      "from": "riksdag:fx0954",
+      "to": "citation:proposition:1974:14",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0954",
+      "evidence": "1974:14"
+    },
+    {
+      "from": "riksdag:fx0954",
+      "to": "citation:proposition:1974:70",
+      "type": "citation_reference",
+      "relation": "text_regex",
+      "sourceDocumentId": "FX0954",
+      "evidence": "1974:70"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-30T06:47:11.870993+00:00",
+  "generatedAt": "2026-08-30T07:21:05.614072+00:00",
   "metrics": {
-    "total_pending_proposals": 111,
-    "finally_adopted": 63,
+    "total_pending_proposals": 44,
+    "finally_adopted": 68,
     "finally_rejected": 1,
-    "unresolved": 104,
-    "matched_to_sfs": 83,
-    "adopted_without_sfs_match": 0,
-    "orphan_sfs": 38,
+    "unresolved": 37,
+    "matched_to_sfs": 80,
+    "adopted_without_sfs_match": 7,
+    "orphan_sfs": 41,
     "rejected_with_sfs": 0,
     "chronology_errors": 0,
     "unknown_sfs_operations": 28,
@@ -865,15 +865,15 @@
     ],
     "twoWayValidation": {
       "riksdagToSfs": {
-        "adopted": 63,
-        "matched": 63,
-        "withoutMatch": 0
+        "adopted": 68,
+        "matched": 61,
+        "withoutMatch": 7
       },
-      "firstDecisionSfsConfirmation": 58,
+      "firstDecisionSfsConfirmation": 56,
       "sfsToRiksdag": {
         "changes": 121,
-        "matched": 83,
-        "orphan": 38
+        "matched": 80,
+        "orphan": 41
       }
     }
   },

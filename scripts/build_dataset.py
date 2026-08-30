@@ -287,17 +287,20 @@ def snippets(text: str, patterns: tuple[str, ...]) -> list[str]:
     return list(dict.fromkeys(values))
 
 
-def document_list(query: str) -> list[dict]:
+def document_list(query: str, document_type: str = "bet", organization: str = "KU", date_from: str = START_DATE, date_to: str | None = None) -> list[dict]:
     params = {
         "sok": query,
-        "doktyp": "bet",
-        "org": "KU",
-        "from": START_DATE,
+        "doktyp": document_type,
+        "from": date_from,
         "utformat": "json",
         "sort": "datum",
         "sortorder": "desc",
         "p": "1",
     }
+    if organization:
+        params["org"] = organization
+    if date_to:
+        params["tom"] = date_to
     first_url = f"{RIKSDAG_LIST}?{urlencode(params)}"
     first = fetch_json(first_url).get("dokumentlista", {})
     documents = as_list(first.get("dokument"))
@@ -403,6 +406,12 @@ def legacy_final_reference_terms(text: str, date: str | None, stage: str) -> lis
             ):
                 for number in re.findall(r"\d+", reference.group(1)):
                     terms.append(f"{year}:{prefix}{number}")
+    for reference in re.finditer(
+        r"\bHänvisning\s*:\s*(?:Konstitutions[-\s]*)?utskottets\s+(?:utlåtande|utlåtanden|betänkande|memorial)\s+nr\.?\s*(\d+)\s+år\s+(\d{4})",
+        text,
+        re.I,
+    ):
+        terms.append(f"{reference.group(2)}:KU{reference.group(1)}")
     return list(dict.fromkeys(terms))
 
 
@@ -594,38 +603,37 @@ def committee_decision_text(text: str) -> str:
         end = proposal.end() + min((match.start() for match in end_matches), default=len(text) - proposal.end())
         return text[proposal.start():end]
 
-    committee_matches = list(re.finditer(r"(?im)^\s*(?:Konstitutions)?utskottet\s*$", text))
-    if not committee_matches:
-        return text
-    # The table of contents often contains an early standalone “Utskottet”.
-    # The last such heading is the report's actual committee section.
-    committee = committee_matches[-1]
-    reservation = re.search(r"(?im)^\s*Reservation(?:er)?\s*$", text[committee.start():])
-    end = committee.start() + reservation.start() if reservation else len(text)
-    return text[committee.start():end]
+    # No explicit operative section means there is no safe committee decision
+    # slice.  Returning the whole document here turns quoted motions and
+    # historical discussion into false decisions, so leave it unclassified.
+    return ""
 
 
-def protocol_decision_signals(title: str, corpus: str) -> tuple[list[str], list[str]]:
+def protocol_decision_signals(title: str, corpus: str, document_type: str = "") -> tuple[list[str], list[str]]:
     """Extract the chamber result from a protocol's vilande-proposal item."""
-    if not re.search(r"protokoll", title, re.I):
+    if document_type != "prot" and not re.search(r"protokoll|kammaren", title, re.I):
         return [], []
-    marker = re.search(r"vilande\s+förslag\s+till\s+grundlagsändringar", corpus, re.I)
-    if not marker:
+    markers = list(re.finditer(r"(?:vilande|hvilande)[\s\S]{0,120}(?:grundlagsändring|grundlag|förslag)", corpus, re.I))
+    if not markers:
         return [], []
-    section = corpus[marker.start():]
-    next_item = re.search(r"\n\s*§\s*6\b", section, re.I)
-    if next_item:
-        section = section[:next_item.start()]
-    adopted = snippets(section, (
-        r"förklarades\s+den\s+förra\s+propositionen\s+vara\s+med\s+över(?:\s|\xad)*vägande\s+ja\s+besvarad",
-    ))
-    rejected = snippets(section, (
-        r"vinner\s+nej\s+har\s+kammaren\s+förkastat\s+förslaget",
-    ))
-    return adopted, rejected
+    for marker in reversed(markers):
+        section = corpus[marker.start():]
+        next_item = re.search(r"\n\s*§\s*6\b", section, re.I)
+        if next_item:
+            section = section[:next_item.start()]
+        adopted = snippets(section, (
+            r"förklarades\s+den\s+förra\s+propositionen\s+vara\s+med\s+över(?:\s|\xad)*vägande\s+ja\s+besvarad",
+            r"(?:slutlig|slutliga)\s+prövning[^.]{0,180}(?:godkänt\s+och\s+)?antagit\s+(?:berörda\s+)?förslag",
+        ))
+        rejected = snippets(section, (
+            r"vinner\s+nej[\s,]+har\s+kammaren\s+förkastat(?:\s+(?:nämnda|detta|det))?\s+förslag",
+        ))
+        if adopted or rejected:
+            return adopted, rejected
+    return [], []
 
 
-def classify(title: str, text: str) -> dict:
+def classify(title: str, text: str, document_type: str = "") -> dict:
     corpus = f"{title}\n{text}"
     committee_text = committee_decision_text(text)
     first = snippets(committee_text, FIRST_PATTERNS)
@@ -634,7 +642,7 @@ def classify(title: str, text: str) -> dict:
     # establish the outcome of a pending constitutional proposal.
     adopted = snippets(committee_text, FINAL_ADOPT_PATTERNS)
     rejected = snippets(committee_text, FINAL_REJECT_PATTERNS)
-    protocol_adopted, protocol_rejected = protocol_decision_signals(title, corpus)
+    protocol_adopted, protocol_rejected = protocol_decision_signals(title, corpus, document_type)
     adopted.extend(protocol_adopted)
     rejected.extend(protocol_rejected)
     adopted = list(dict.fromkeys(adopted))
@@ -823,7 +831,7 @@ def extract_document(document_id: str, discovery: list[str]) -> dict:
     refs = structured_references(status)
     activity_list = activities(status)
     title = str(doc.get("titel") or document_id)
-    classification = classify(title, text)
+    classification = classify(title, text, str(doc.get("doktyp") or ""))
     resolved_decision_date = decision_date(doc, activity_list)
     return {
         "documentId": str(doc.get("dok_id") or document_id).upper(),
@@ -968,6 +976,22 @@ def pair_decisions(documents: list[dict], known_pending: list[dict], changes: li
                 scored.append((score, final))
         scored.sort(key=lambda pair: (pair[0], pair[1].get("decisionDate") or ""), reverse=True)
         final = scored[0][1] if scored and scored[0][0] >= 12 else None
+        # A historic “Riksdagsbeslutet” can contain the chamber's final vote
+        # for several pending proposals while the KU memorial supplies the
+        # item-by-item references to their first reports.  Join those two
+        # primary records when they overlap in constitution and year.
+        if final and final.get("kind") == "bet" and final.get("classification", {}).get("outcome") == "unresolved":
+            final_year = (final.get("decisionDate") or "")[:4]
+            protocol_candidates = [
+                candidate for candidate in finals
+                if candidate.get("kind") == "prot"
+                and candidate.get("classification", {}).get("outcome") in {"adopted", "rejected"}
+                and (candidate.get("decisionDate") or "")[:4] == final_year
+                and set(first.get("constitutionIds", [])) & set(candidate.get("constitutionIds", []))
+            ]
+            if protocol_candidates:
+                protocol_candidates.sort(key=lambda candidate: candidate.get("decisionDate") or "")
+                final = protocol_candidates[0]
         if final:
             used_first_ids.add(first["documentId"])
         committee = None
@@ -1330,6 +1354,18 @@ def main() -> None:
         for citation in document.get("legacyFinalReferenceTerms", []):
             for record in document_list(citation):
                 add_discovered(record, f"historic-final-reference:{document['documentId']}:{citation}", force=True)
+        if document.get("classification", {}).get("stage") == "final":
+            decision_date = document.get("decisionDate") or ""
+            if decision_date < "1976-01-01" and re.fullmatch(r"\d{4}-\d{2}-\d{2}", decision_date):
+                year = decision_date[:4]
+                for record in document_list(
+                    "vilande grundlag",
+                    document_type="prot",
+                    organization="",
+                    date_from=f"{year}-01-01",
+                    date_to=f"{year}-12-31",
+                ):
+                    add_discovered(record, f"historic-final-protocol:{document['documentId']}", force=True)
     for document_id, entry in sorted(discovered.items()):
         if document_id in extracted_ids:
             continue
