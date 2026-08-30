@@ -5,11 +5,9 @@ const app = document.querySelector('#app');
 const lawById = Object.fromEntries((data.constitutions || []).map((law) => [law.id, law]));
 const lawOptions = (data.constitutions || []).filter((law) => law.sfs);
 
-const elections = [
-  '1976-09-19', '1979-09-16', '1982-09-19', '1985-09-15', '1988-09-18',
-  '1991-09-15', '1994-09-18', '1998-09-20', '2002-09-15', '2006-09-17',
-  '2010-09-19', '2014-09-14', '2018-09-09', '2022-09-11', '2026-09-13',
-];
+const elections = (data.election?.dates || [])
+  .filter((election) => election.date)
+  .sort((a, b) => a.date.localeCompare(b.date));
 
 const records = (data.proposals || [])
   .filter((proposal) => proposal.firstDecision?.date && proposal.status !== 'unresolved')
@@ -81,11 +79,21 @@ function safeId(value) {
 }
 
 function electionBetween(record) {
-  const candidates = elections.filter((date) => date > record.firstDate);
+  const candidates = elections.filter((election) => election.date > record.firstDate);
   if (record.finalDate) {
-    return candidates.find((date) => date < record.finalDate) || null;
+    return candidates.find((election) => election.date < record.finalDate) || null;
   }
   return candidates[0] || null;
+}
+
+function electionDateLabel(election) {
+  if (!election?.date) return null;
+  if (election.precision === 9) return election.date.slice(0, 4);
+  if (election.precision === 10) {
+    return new Intl.DateTimeFormat('sv-SE', { month: 'long', year: 'numeric' })
+      .format(new Date(`${election.date}T12:00:00`));
+  }
+  return formatDate(election.date);
 }
 
 function timelineEvent(label, date, missing = false) {
@@ -202,7 +210,7 @@ function renderCard(record) {
     </div>
     <div class="decision-timeline" aria-label="Tidslinje för beslutet">
       ${timelineEvent('Första beslutet', formatDate(record.firstDate))}
-      ${timelineEvent('Val däremellan', election ? formatDate(election) : null, !election)}
+      ${timelineEvent('Val däremellan', electionDateLabel(election), !election)}
       ${timelineEvent('Andra beslutet', record.finalDate ? formatDate(record.finalDate) : null, !record.finalDate)}
     </div>
     <div class="detail-footer">

@@ -1,12 +1,343 @@
 {
-  "generatedAt": "2026-08-30T04:29:22.939936+00:00",
+  "generatedAt": "2026-08-30T06:47:00.571752+00:00",
   "scope": {
     "parliamentaryFrom": "1867-01-01",
     "note": "Riksdag KU discovery runs from the first digitised parliamentary year (1867). Ferenda SFS is secondary confirmation for the resulting decision chains."
   },
   "election": {
-    "nextDate": "2026-09-13",
-    "source": "https://www.val.se/sa-rostar-du/rosta-pa-valdagen"
+    "dates": [
+      {
+        "id": "Q18287047",
+        "date": "1869-01-01",
+        "precision": 9,
+        "label": "Andrakammarvalet i Sverige 1869",
+        "source": "https://www.wikidata.org/wiki/Q18287047"
+      },
+      {
+        "id": "Q18287050",
+        "date": "1872-01-01",
+        "precision": 9,
+        "label": "Andrakammarvalet i Sverige 1872",
+        "source": "https://www.wikidata.org/wiki/Q18287050"
+      },
+      {
+        "id": "Q18289602",
+        "date": "1875-01-01",
+        "precision": 9,
+        "label": "Andrakammarvalet i Sverige 1875",
+        "source": "https://www.wikidata.org/wiki/Q18289602"
+      },
+      {
+        "id": "Q18287058",
+        "date": "1881-01-01",
+        "precision": 9,
+        "label": "Andrakammarvalet i Sverige 1881",
+        "source": "https://www.wikidata.org/wiki/Q18287058"
+      },
+      {
+        "id": "Q15639167",
+        "date": "1884-01-01",
+        "precision": 9,
+        "label": "Andrakammarvalet i Sverige 1884",
+        "source": "https://www.wikidata.org/wiki/Q15639167"
+      },
+      {
+        "id": "Q7654959",
+        "date": "1890-01-01",
+        "precision": 9,
+        "label": "andrakammarvalet i Sverige 1890",
+        "source": "https://www.wikidata.org/wiki/Q7654959"
+      },
+      {
+        "id": "Q7654967",
+        "date": "1893-01-01",
+        "precision": 9,
+        "label": "Andrakammarvalet i Sverige 1893",
+        "source": "https://www.wikidata.org/wiki/Q7654967"
+      },
+      {
+        "id": "Q7654966",
+        "date": "1899-09-22",
+        "precision": 11,
+        "label": "andrakammarvalet i Sverige 1899",
+        "source": "https://www.wikidata.org/wiki/Q7654966"
+      },
+      {
+        "id": "Q1628641",
+        "date": "1911-09-10",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1911",
+        "source": "https://www.wikidata.org/wiki/Q1628641"
+      },
+      {
+        "id": "Q3777203",
+        "date": "1914-03-27",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1914",
+        "source": "https://www.wikidata.org/wiki/Q3777203"
+      },
+      {
+        "id": "Q3777205",
+        "date": "1914-09-05",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1914",
+        "source": "https://www.wikidata.org/wiki/Q3777205"
+      },
+      {
+        "id": "Q1326331",
+        "date": "1917-09-01",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1917",
+        "source": "https://www.wikidata.org/wiki/Q1326331"
+      },
+      {
+        "id": "Q1326899",
+        "date": "1920-09-04",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1920",
+        "source": "https://www.wikidata.org/wiki/Q1326899"
+      },
+      {
+        "id": "Q1326888",
+        "date": "1921-09-10",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1921",
+        "source": "https://www.wikidata.org/wiki/Q1326888"
+      },
+      {
+        "id": "Q1327492",
+        "date": "1924-09-19",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1924",
+        "source": "https://www.wikidata.org/wiki/Q1327492"
+      },
+      {
+        "id": "Q1410168",
+        "date": "1928-09-15",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1928",
+        "source": "https://www.wikidata.org/wiki/Q1410168"
+      },
+      {
+        "id": "Q1327521",
+        "date": "1932-09-17",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1932",
+        "source": "https://www.wikidata.org/wiki/Q1327521"
+      },
+      {
+        "id": "Q1327512",
+        "date": "1936-09-20",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1936",
+        "source": "https://www.wikidata.org/wiki/Q1327512"
+      },
+      {
+        "id": "Q1629354",
+        "date": "1940-09-15",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1940",
+        "source": "https://www.wikidata.org/wiki/Q1629354"
+      },
+      {
+        "id": "Q1629403",
+        "date": "1944-09-17",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1944",
+        "source": "https://www.wikidata.org/wiki/Q1629403"
+      },
+      {
+        "id": "Q1448234",
+        "date": "1948-09-19",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1948",
+        "source": "https://www.wikidata.org/wiki/Q1448234"
+      },
+      {
+        "id": "Q1628554",
+        "date": "1952-09-21",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1952",
+        "source": "https://www.wikidata.org/wiki/Q1628554"
+      },
+      {
+        "id": "Q1629382",
+        "date": "1956-09-16",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1956",
+        "source": "https://www.wikidata.org/wiki/Q1629382"
+      },
+      {
+        "id": "Q652709",
+        "date": "1958-06-01",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1958",
+        "source": "https://www.wikidata.org/wiki/Q652709"
+      },
+      {
+        "id": "Q1581698",
+        "date": "1960-09-18",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1960",
+        "source": "https://www.wikidata.org/wiki/Q1581698"
+      },
+      {
+        "id": "Q1582285",
+        "date": "1964-09-20",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1964",
+        "source": "https://www.wikidata.org/wiki/Q1582285"
+      },
+      {
+        "id": "Q2297737",
+        "date": "1968-09-15",
+        "precision": 11,
+        "label": "Andrakammarvalet i Sverige 1968",
+        "source": "https://www.wikidata.org/wiki/Q2297737"
+      },
+      {
+        "id": "Q1247167",
+        "date": "1970-09-20",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1970",
+        "source": "https://www.wikidata.org/wiki/Q1247167"
+      },
+      {
+        "id": "Q1498349",
+        "date": "1973-09-16",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1973",
+        "source": "https://www.wikidata.org/wiki/Q1498349"
+      },
+      {
+        "id": "Q941995",
+        "date": "1976-09-19",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1976",
+        "source": "https://www.wikidata.org/wiki/Q941995"
+      },
+      {
+        "id": "Q1378385",
+        "date": "1979-09-16",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1979",
+        "source": "https://www.wikidata.org/wiki/Q1378385"
+      },
+      {
+        "id": "Q2298233",
+        "date": "1982-09-19",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1982",
+        "source": "https://www.wikidata.org/wiki/Q2298233"
+      },
+      {
+        "id": "Q2178539",
+        "date": "1985-09-15",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1985",
+        "source": "https://www.wikidata.org/wiki/Q2178539"
+      },
+      {
+        "id": "Q180963",
+        "date": "1988-09-18",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1988",
+        "source": "https://www.wikidata.org/wiki/Q180963"
+      },
+      {
+        "id": "Q931619",
+        "date": "1991-09-15",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1991",
+        "source": "https://www.wikidata.org/wiki/Q931619"
+      },
+      {
+        "id": "Q923007",
+        "date": "1994-09-18",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1994",
+        "source": "https://www.wikidata.org/wiki/Q923007"
+      },
+      {
+        "id": "Q1813189",
+        "date": "1998-09-20",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 1998",
+        "source": "https://www.wikidata.org/wiki/Q1813189"
+      },
+      {
+        "id": "Q1473467",
+        "date": "2002-09-15",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 2002",
+        "source": "https://www.wikidata.org/wiki/Q1473467"
+      },
+      {
+        "id": "Q1324608",
+        "date": "2006-09-17",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 2006",
+        "source": "https://www.wikidata.org/wiki/Q1324608"
+      },
+      {
+        "id": "Q1340192",
+        "date": "2010-09-19",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 2010",
+        "source": "https://www.wikidata.org/wiki/Q1340192"
+      },
+      {
+        "id": "Q7654987",
+        "date": "2014-09-14",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 2014",
+        "source": "https://www.wikidata.org/wiki/Q7654987"
+      },
+      {
+        "id": "Q18332247",
+        "date": "2018-09-09",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 2018",
+        "source": "https://www.wikidata.org/wiki/Q18332247"
+      },
+      {
+        "id": "Q56629098",
+        "date": "2022-09-11",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 2022",
+        "source": "https://www.wikidata.org/wiki/Q56629098"
+      },
+      {
+        "id": "Q113639313",
+        "date": "2026-09-13",
+        "precision": 11,
+        "label": "riksdagsvalet i Sverige 2026",
+        "source": "https://www.wikidata.org/wiki/Q113639313"
+      },
+      {
+        "id": "Q113640047",
+        "date": "2030-09-08",
+        "precision": 11,
+        "label": "Riksdagsvalet i Sverige 2030",
+        "source": "https://www.wikidata.org/wiki/Q113640047"
+      },
+      {
+        "id": "Q126456831",
+        "date": "2034-09-10",
+        "precision": 11,
+        "label": "Riksdagsvalet i Sverige 2034",
+        "source": "https://www.wikidata.org/wiki/Q126456831"
+      },
+      {
+        "id": "Q130484232",
+        "date": "2038-09-12",
+        "precision": 11,
+        "label": "Riksdagsvalet i Sverige 2038",
+        "source": "https://www.wikidata.org/wiki/Q130484232"
+      }
+    ],
+    "source": "Wikidata Swedish general elections",
+    "queryUrl": "https://query.wikidata.org/sparql"
   },
   "constitutions": [
     {
@@ -45,6 +376,102 @@
     }
   ],
   "proposals": [
+    {
+      "proposalId": "riksdag:c610ku5",
+      "title": "Konstitutions-Utskottets Utlåtande N:o 5",
+      "constitutionIds": [
+        "rf",
+        "tf"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "C610KU5",
+        "date": "1873-03-04",
+        "documentUrl": "https://data.riksdagen.se/dokument/C610Ku5",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          "e anses förenligt med dess karakter af en konstitutiv grundlag. Utskottet får derföre hemställa, att Riksdagen måtte antaga att hvila till grundlagsenlig behandling följande af Kongl. Maj:t framställda förslag till ändring i Tryckfrihets-förordningens § 1 mom. 1, 3 och 9: Konstitutions-Utslcottets Utlåtande N:o 5. 3 Tryckfrihetsförordningen. § Nuvarande lyd…"
+        ]
+      },
+      "finalDecision": null,
+      "sfsIds": [],
+      "match": {
+        "method": "no_final_match",
+        "confidence": 0.0,
+        "score": 0
+      },
+      "documentIds": [
+        "C610KU5"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/C610Ku5",
+          "sourceDocumentId": "C610KU5",
+          "method": "riksdag_status_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
+    },
+    {
+      "proposalId": "riksdag:c810ku3",
+      "title": "Konstitutions- Utskottets Utlåtande N:» 3",
+      "constitutionIds": [
+        "rf",
+        "ro"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "C810KU3",
+        "date": "1875-02-26",
+        "documentUrl": "https://data.riksdagen.se/dokument/C810Ku3",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          ". På grund af hvad jag sålunda anfört, tillstyrker jag, att det i Kongl. Maj:ts proposition framställda förslag måtte antagas att hvila till grundlagsenlig behandling. “ af Hell1 Hydin: ”På sätt jag vid förra riksdagen i då afgifven reservation yttrade, anser jag obehöflig! att grundlag ändras för att de bestämmelser, som skola innefatta grunder, vilkor och…"
+        ]
+      },
+      "finalDecision": null,
+      "sfsIds": [],
+      "match": {
+        "method": "no_final_match",
+        "confidence": 0.0,
+        "score": 0
+      },
+      "documentIds": [
+        "C810KU3"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/C810Ku3",
+          "sourceDocumentId": "C810KU3",
+          "method": "riksdag_status_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
+    },
     {
       "proposalId": "riksdag:ca10ku2",
       "title": "Konstitutions-Utskottets Utlåtande N:o 2",
@@ -176,6 +603,101 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/CC10Ku7",
           "sourceDocumentId": "CC10KU7",
+          "method": "riksdag_status_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
+    },
+    {
+      "proposalId": "riksdag:cd10ku11",
+      "title": "Konstitutions-Utskottets Utlåtande N:o 11",
+      "constitutionIds": [
+        "ro"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "CD10KU11",
+        "date": "1880-04-30",
+        "documentUrl": "https://data.riksdagen.se/dokument/CD10Ku11",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          "Ericssons motion icke inå af Riksdagen bifallas; men 3:o att Riksdagen, med bifall till Herr Hedlunds motion, ville antaga att hvila till grundlagsenlig behandling följande förändrade lydelse af 14 § Riksdagsordningen : konstitutions-Utskottets Utlåtande N:o 11. 7 Riksdagsordningen: § (Nuvarande lydelse:) Valrätt tillkommer inom den kommun, der han bosatt ä…"
+        ]
+      },
+      "finalDecision": null,
+      "sfsIds": [],
+      "match": {
+        "method": "no_final_match",
+        "confidence": 0.0,
+        "score": 0
+      },
+      "documentIds": [
+        "CD10KU11"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/CD10Ku11",
+          "sourceDocumentId": "CD10KU11",
+          "method": "riksdag_status_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
+    },
+    {
+      "proposalId": "riksdag:cd10ku13",
+      "title": "Konstitutions-Utskottets Utlåtande N:o 13",
+      "constitutionIds": [
+        "rf",
+        "ro"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "CD10KU13",
+        "date": "1880-05-03",
+        "documentUrl": "https://data.riksdagen.se/dokument/CD10Ku13",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          "får Utskottet vördsamt hemställa, att Riksdagen, med bifall till syftet åt Herr Westins ifrågavarande motion, ville antaga att hvila till grundlagsenlig behandling följande förändrade lydelse af nedannämnda grundlagsstadganden: Regeringsform eu. § 53. Nuvarande lydelse: Lagtima Riksdag skall för ärendenas beredning tillsätta dessa Utskott: ett Konstitutions…"
+        ]
+      },
+      "finalDecision": null,
+      "sfsIds": [],
+      "match": {
+        "method": "no_final_match",
+        "confidence": 0.0,
+        "score": 0
+      },
+      "documentIds": [
+        "CD10KU13"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/CD10Ku13",
+          "sourceDocumentId": "CD10KU13",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -347,7 +869,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "d sålunda blifvit anfördt får Utskottet hemställa, att Riksdagen, med bifall till motionärernes framställning, ville antaga att hvila till grundlagsenlig behandling följande förändrade lydelse af nedanstående paragrafer i Tryckfrihetsförordningen: 8 Konstitutions-Utslcottets Utlåtande N:o 6. Tryckfrihetsförordningen. § (Nuvarande lydelse.) 5:o) Privilegier…"
+          "får Utskottet hemställa, att Riksdagen, med bifall till motionärernes framställning, ville antaga att hvila till grundlagsenlig behandling följande förändrade lydelse af nedanstående paragrafer i Tryckfrihetsförordningen: 8 Konstitutions-Utslcottets Utlåtande N:o 6. Tryckfrihetsförordningen. § (Nuvarande lydelse.) 5:o) Privilegier åboktryckeriskol"
         ]
       },
       "finalDecision": null,
@@ -539,7 +1061,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "stånd att förhöja. På grund häraf får Utskottet hemställa, att Riksdagen, med bifall till Herr Ekmans motion, ville antaga att hvila till grundlagsenlig behandling följande förslag till förändrad lydelse af Riksdagsordningen. 8 33. (Nuvarande lydelse:) »Så snart fullmagterna undergått den i mom. 1 af nästföregående § (Föreslagen lydelse:) »Så snart fullmagt…"
+          "får Utskottet hemställa, att Riksdagen, med bifall till Herr Ekmans motion, ville antaga att hvila till grundlagsenlig behandling följande förslag till förändrad lydelse af Riksdagsordningen. 8 33. (Nuvarande lydelse:) »Så snart fullmagterna undergått den i mom. 1 af nästföregående § (Föreslagen lydelse:) »Så snart fullmagterna undergått"
         ]
       },
       "finalDecision": null,
@@ -617,23 +1139,24 @@
       }
     },
     {
-      "proposalId": "riksdag:cn10ku9",
-      "title": "Konstitutionsutskottets Utlåtande N:o 9",
+      "proposalId": "riksdag:cn10ku11",
+      "title": "Konstitutionsutskottets Utlåtande N:o 11",
       "constitutionIds": [
+        "rf",
         "ro"
       ],
       "status": "unresolved",
       "temporal": "past",
       "firstDecision": {
         "status": "adopted_as_pending",
-        "documentId": "CN10KU9",
-        "date": "1890-04-12",
-        "documentUrl": "https://data.riksdagen.se/dokument/CN10Ku9",
+        "documentId": "CN10KU11",
+        "date": "1890-04-21",
+        "documentUrl": "https://data.riksdagen.se/dokument/CN10Ku11",
         "propositionReferences": [],
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "ter eller bostadsandelar uppgå till ett taxeringsvärde af minst 1,000 kronor; af herr Broström: att Riksdagen måtte antaga att hvila till grundlagsenlig behandling följande förändrade lydelse af 14 § i riksdagsordningen: Valrätt tillkommer inom den kommun, der han bosatt är, en hvar i kommunens allmänna angelägenheter röstberättigad man, hvilken antingen eg…"
+          "yrkande om afslag å förevarande kong], proposition n:o 29 och den i ämnet väckta motion, föreslå, det Riksdagen måtte antaga som hvilande följande förslag till ändring af § 71 riksdagsordningen. § 71. Riksdagen skall genom fyratioåtta valmän, af livilka hvardera kammaren inom sig utser tjugufyra, välja fullmägtige att, jemlikt särskilda reglementen,"
         ]
       },
       "finalDecision": null,
@@ -644,13 +1167,13 @@
         "score": 0
       },
       "documentIds": [
-        "CN10KU9"
+        "CN10KU11"
       ],
       "provenance": [
         {
           "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CN10Ku9",
-          "sourceDocumentId": "CN10KU9",
+          "sourceUrl": "https://data.riksdagen.se/dokument/CN10Ku11",
+          "sourceDocumentId": "CN10KU11",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -873,7 +1396,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "t med hvad sålunda blifvit anfördt får utskottet hemställa, att Riksdagen, i anledning af ifrågavarande motion, ville antaga att hvila till grundlagsenlig behandling följande förändrade lydelse af nedanstående paragrafer i tryckfrihetsförordningen: T ryckfrihetsförordningen. § {Nuvarande lydelse:) 5:o) Privilegier å boktryckeri skola ej erfordras, utan stån…"
+          "får utskottet hemställa, att Riksdagen, i anledning af ifrågavarande motion, ville antaga att hvila till grundlagsenlig behandling följande förändrade lydelse af nedanstående paragrafer i tryckfrihetsförordningen: T ryckfrihetsförordningen. § {Nuvarande lydelse:) 5:o) Privilegier å boktryckeri skola ej erfordras, utan stånde hvar och en fri"
         ]
       },
       "finalDecision": null,
@@ -922,7 +1445,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "rande, att Kongl. Maj:ts proposition i den del, hvarom i denna punkt vore fråga, icke kunde oförändrad bifallas, ville antaga att hvila till grundlagsenlig behandling följande förslag till förändrad lydelse af 2 § 4:o tryckfrihetsförordningen: Bill. till Riksd. Prof. 1896. 3 Sami. 14 Käft. (N:o 15). 1 2 Konstitutionsutskottets Memorial N:o 15. § 2. Att ej n…"
+          "får utskottet hemställa, att kamrarne, hvar för sig med frånträdande af sitt ifrågavarande beslut, ville antaga att hvila till grundlagsenlig behandling följande förslag till förändrad lydelse af 2 § 4:o tryckfrihetsförordningen: Konstitutionsutskottets Memorial K:o 15. 5 • ;I i.! >i oJxou! -amu . i . t , oi> *>oi - iTifjs i -Dr 4:o. — — — — — — — — — — — —"
         ]
       },
       "finalDecision": null,
@@ -970,7 +1493,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "unda anfört, far utskottet hemställa, att kamrarne, hvar för sig med frånträdande af sitt ifrågavarande beslut, ville antaga att hvila till grundlagsenlig behandling följande förslag till ändringar i 50, 70, 72, 98, 109 och 111 §§ regeringsformen samt 32, 65, 68, 71 och 73 §§ riksdagsordningen. Bill. till Rilcsd. Pr Öl. 1896. 8 Sami. 1.5 Raft. 2 10 Konstitu…"
+          "utskottet hemställa, att kamrarne, hvar för sig med frånträdande af sitt ifrågavarande beslut, ville antaga att hvila till grundlagsenlig behandling följande förslag till ändringar i 50, 70, 72, 98, 109 och 111 §§ regeringsformen samt 32, 65, 68, 71 och 73 §§ riksdagsordningen. Bill. till Rilcsd. Pr Öl. 1896. 8 Sami. 1.5 Raft. 2 10 Konstitutionsutskottets M…"
         ]
       },
       "finalDecision": null,
@@ -1095,101 +1618,6 @@
       }
     },
     {
-      "proposalId": "riksdag:ct10ku9",
-      "title": "Konstitutionsutskottets Utlåtande N;o 9",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "CT10KU9",
-        "date": "1896-04-17",
-        "documentUrl": "https://data.riksdagen.se/dokument/CT10Ku9",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "as i spetsen för bank förvaltningen», ansett att utskottet bort, med afstyrkande af den kongl. propositionen, förorda antagande i nu tillämpliga delar af 1890 års förslag, sådant det finnes upptaget i den af mig i ämnet väckta motion, som jag härmed hemställer må af Riksdagen antagas såsom hvilande till vidare grundlagsenlig behandling.» af herrar Bergms, A…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "CT10KU9"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CT10Ku9",
-          "sourceDocumentId": "CT10KU9",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:cu10ku3",
-      "title": "Konstitutionsutskottets Utlåtande N:o 3",
-      "constitutionIds": [
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "CU10KU3",
-        "date": "1897-03-19",
-        "documentUrl": "https://data.riksdagen.se/dokument/CU10Ku3",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "t det proportionella valsättet, som motionären ville för Riksdagen framlägga, då han nu föresloge, att Riksdagen måtte antaga såsom hvilande till vidare grundlagsenlig behandling följande förslag till ändrad lydelse af § 75 riksdagsordningen: i . bni! r. ii! 1: Vid alla val iakttages, att namnsedlarne, så framt de skola blifva gällande, böra vara enkla,"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "CU10KU3"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CU10Ku3",
-          "sourceDocumentId": "CU10KU3",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:cv10ku8",
       "title": "Konstitutionsutskottets Utlåtande N:o 8",
       "constitutionIds": [
@@ -1239,53 +1667,6 @@
       }
     },
     {
-      "proposalId": "riksdag:cv10ku9",
-      "title": "Konstitutionsutskottets Utlåtande N:o 9",
-      "constitutionIds": [
-        "tf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "CV10KU9",
-        "date": "1898-04-18",
-        "documentUrl": "https://data.riksdagen.se/dokument/CV10Ku9",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "s utlåtanden n:o 19 år 1895 och n:o 8 år 1896 samt § 4 i sistnämnda års riksdagsbeslut, hemstält, att Riksdagen ville antaga att hvila till grundlagsenlig behandling följande förändrade lydelse af nedanstående §§ i tryckfrihetsförordningen:, do; t ■ ••, M • j: ''it,;/.i -oitill. dov nio jUcRit-Ik oLjs?....x{''■■;,• ■ s9f» iitj efuioosi»» •i,& j : >:(<•„ nf…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "CV10KU9"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CV10Ku9",
-          "sourceDocumentId": "CV10KU9",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:cw10ku15",
       "title": "Konstitutionsutskottets Utlåtande N:o 15",
       "constitutionIds": [
@@ -1321,196 +1702,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/CW10Ku15",
           "sourceDocumentId": "CW10KU15",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:cw10ku17",
-      "title": "Konstitutionsutskottets Utlåtande N:o 17",
-      "constitutionIds": [
-        "rf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "CW10KU17",
-        "date": "1899-05-02",
-        "documentUrl": "https://data.riksdagen.se/dokument/CW10Ku17",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "väckt, till konstitutionsutskottet hänvisad motion, n:o 98, har herr E. Wavrinsky hemstält, att Riksdagen ville till hvilande antaga följande grundlagsändringsförslag: att § 13 regeringsformen må erhålla följande förändrade lydelse: Konungen må ej börja krig eller sluta fred utan Riksdagens, genom båda kamrarnas sammanstämmande beslut, meddelade s"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "CW10KU17"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CW10Ku17",
-          "sourceDocumentId": "CW10KU17",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:cw10ku18",
-      "title": "Konstitutionsutskottets Utlåtande N:o IS",
-      "constitutionIds": [
-        "rf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "CW10KU18",
-        "date": "1899-05-02",
-        "documentUrl": "https://data.riksdagen.se/dokument/CW10Ku18",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "ren under åberopande af motiveringen till motionen n:o 217 vid 1896 års riksdag, hemställer, det Riksdagen ville till hvilande antaga följande grundlagsändringsförslag: att § 15 i regeringsformen må få följande lydelse: »Ej ma rikets krigsmagt eller någon del deraf öfverlåtas i främmande magters tjenst.» Uti § 28 mom. 8 af nu gällande värnpligtsla"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "CW10KU18"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CW10Ku18",
-          "sourceDocumentId": "CW10KU18",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:cw10ku5",
-      "title": "Konstitutionsutskottets Utlåtande N:o 5",
-      "constitutionIds": [
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "CW10KU5",
-        "date": "1899-03-20",
-        "documentUrl": "https://data.riksdagen.se/dokument/CW10Ku5",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "ren väckt och till konstitutionsutskottet hanvisad motion, n:o 236, har herr P. Paulson hemstält, att Riksdagen matte antaga såsom hvilande till vidare grundlagsenlig behandling följande förslag till ändrad lydelse af § 12 riksdagsordningen. »§ 12. Riksdagsman i Första Kammaren eger ej att för denna befattning något arfvode uppbära, men åtnjuter af st"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "CW10KU5"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CW10Ku5",
-          "sourceDocumentId": "CW10KU5",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:cw10ku9",
-      "title": "Konstitutionsutskottets Utlåtande N:o 9",
-      "constitutionIds": [
-        "rf",
-        "tf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "CW10KU9",
-        "date": "1899-04-10",
-        "documentUrl": "https://data.riksdagen.se/dokument/CW10Ku9",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "gen framlade förslag till lag om straffregistrets införande. Skulle under nuvarande treårsperiod grundlagsändringen oj antagas såsom hvilande, blefve den oundvikliga följden, att reformen måste undanskjutas åtminstone för eu tid af 4 år. Konstitutionsutskottet vid 1898 års riksdag fann de af motionären anförda skäl tala för bifall i hufvudsak till lians fö",
-          "väckt och till konstitutionsutskottet hänvisad motion, n:o 235, har herr H. Odencrants hemstält, »att Riksdagen ville antaga att hvila till grundlagsenlig behandling följande förslag till förändrad lydelse af 2 § 4 mom. tryckfrihetsförordningen : 4;o) — — — — — — — Att protokoll------ sexton skillingar. Att ingen må tillåtas att i andra fall, än allmänna la…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "CW10KU9"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CW10Ku9",
-          "sourceDocumentId": "CW10KU9",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -1621,54 +1812,6 @@
       }
     },
     {
-      "proposalId": "riksdag:cz10ku3",
-      "title": "Konstitutionsutskottets Utlåtande N:o 3",
-      "constitutionIds": [
-        "rf",
-        "tf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "CZ10KU3",
-        "date": "1902-04-11",
-        "documentUrl": "https://data.riksdagen.se/dokument/CZ10Ku3",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "ngsförordning, grundad på principen om obligatorisk sjelfdeklaration. Skulle under denna riksdag grundlagsändringen ej antagas såsom hvilande, blefve den oundvikliga följden, att stötestenen förblefve liggande ännu åtminstone för en tid af fyra år, ty ett uppskjutande vore ju liktydigt med frågans förhalande pfver nästa treårsperiod. Vid pröfning af den k"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "CZ10KU3"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/CZ10Ku3",
-          "sourceDocumentId": "CZ10KU3",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:d010ku10",
       "title": "Konstitutionsutskottets Utlåtande N:o 10",
       "constitutionIds": [
@@ -1718,301 +1861,6 @@
       }
     },
     {
-      "proposalId": "riksdag:d010ku8",
-      "title": "Konstitutionsutskottets Utlåtande N:o 8",
-      "constitutionIds": [
-        "rf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "D010KU8",
-        "date": "1903-04-23",
-        "documentUrl": "https://data.riksdagen.se/dokument/D010Ku8",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "Kammaren väckt, till konstitutionsutskottet hänvisad motion, n:o 177, herr A. Hedin föreslagit, att Riksdagen måtte såsom hvilande antaga den ändring af § 45 regeringsformen, att ur nämnda paragraf uteslutes ordet »civilt» framför ordet »ämbete». Till stöd för sitt förslag, att grundlagens stadgande om förbud för prins att innehafva civila ämbeten måt",
-          "en väckt, till konstitutionsutskottet hänvisad motion, n:o 177, herr A. Hedin föreslagit, att Riksdagen måtte såsom hvilande antaga den ändring af § 45 regeringsformen, att ur nämnda paragraf uteslutes ordet »civilt» framför ordet »ämbete». Till stöd för sitt förslag, att grundlagens stadgande om förbud för prins att innehafva civila ämbeten måt"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "D010KU8"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/D010Ku8",
-          "sourceDocumentId": "D010KU8",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:d110ku5",
-      "title": "Konstitutionsutskottets Utlåtande N:o 5",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "D110KU5",
-        "date": "1904-05-08",
-        "documentUrl": "https://data.riksdagen.se/dokument/D110Ku5",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "kretsar med högst 4 representanter för hvarje valkrets. af herr Cederberg: att Riksdagen, därest i öfrigt i hufvudsak såsom hvilande antagas de i Kungl. Maj:ts proposition n:o 51 framställda grundlagsändringar, ville för 19 § riksdagsordningen antaga denna lydelse: Konstitutionsutskottets Utlåtande N:o 5. 69 Valen till Andra Kammaren äro omedelbara. Va",
-          "osition samt omförmälda motion n:o 180; och hemställer motionären i nyssnämnda motion n:o 247: att Riksdagen behagade antaga såsom hvilande för vidare grundlagsenlig behandling följande förslag till ändrad lydelse af: Regeringsformen. § 49. Riksdagen representerar svenska folket. De rättigheter och åligganden, som gällande lag tillägger Rikets Ständer",
-          "r med högst 4 representanter för hvarje valkrets. af herr Cederberg: att Riksdagen, därest i öfrigt i hufvudsak såsom hvilande antagas de i Kungl. Maj:ts proposition n:o 51 framställda grundlagsändringar, ville för 19 § riksdagsordningen antaga denna lydelse: Konstitutionsutskottets Utlåtande N:o 5. 69 Valen till Andra Kammaren äro omedelbara. Va"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "D110KU5"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/D110Ku5",
-          "sourceDocumentId": "D110KU5",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:d210ku12",
-      "title": "Konstitutionsutskottets Utlåtande N:o 12",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "D210KU12",
-        "date": "1905-05-09",
-        "documentUrl": "https://data.riksdagen.se/dokument/D210Ku12",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "utan direkt anknyter sig till \"bestående förhållanden. Då den möjligheten ej är utesluten, att Riksdagen skulle kunna antaga båda förslagen såsom hvilande, så skulle svenska folket sedermera vid valen kunna närmare gifva till känna, hvilketdera som synes landet riktigast.» Utskottet vill till en början erinra, att utskottet vid innevarande års riksdag i utl…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "D210KU12"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/D210Ku12",
-          "sourceDocumentId": "D210KU12",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:d210ku6",
-      "title": "Konstitutionsutskottets Utlåtande X:o 6",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "D210KU6",
-        "date": "1905-04-10",
-        "documentUrl": "https://data.riksdagen.se/dokument/D210Ku6",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "en måtte i samband med öfriga grundlagsändringar rörande utsträck- Motion fl'' ning åt valrätten till Andra Kammaren såsom hvilande antaga viss ändrad lydelse af § 71 regeringsformen och § 65 riksdagsordningen, i syfte att från gemensam votering undandraga beslut rörande skattefrihet eller lindring i skatten för viss inkomst eller förmögenhet samt beträ",
-          "s granskning öfverlämnade vallagsförslag. Uti sin förevarande motion hemställer herr Eloivson: att Riksdagen behagade antaga såsom hvilande för vidare grundlagsenlig behandling följande förslag till ändrad lydelse af §§ 31, 49 och 53 regeringsformen samt §§ 6, 7, 8, 10, 11, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 25, 27, 28 och 38 riksdagsordningen äfve",
-          "åtte i samband med öfriga grundlagsändringar rörande utsträck- Motion fl'' ning åt valrätten till Andra Kammaren såsom hvilande antaga viss ändrad lydelse af § 71 regeringsformen och § 65 riksdagsordningen, i syfte att från gemensam votering undandraga beslut rörande skattefrihet eller lindring i skatten för viss inkomst eller förmögenhet samt beträ"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "D210KU6"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/D210Ku6",
-          "sourceDocumentId": "D210KU6",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:d310ku4",
-      "title": "Konstitutionsutskottets Utlåtande 1V.-o 4",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "D310KU4",
-        "date": "1906-03-09",
-        "documentUrl": "https://data.riksdagen.se/dokument/D310Ku4",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "kt, till konstitutionsutskottet hänvisad motion, n:o 128, har herr C. Olsson i Viken hemställt, att Riksdagen måtte antaga nedanstående förslag till ändrad lydelse af § 52 regeringsformen samt § 33 riksdagsordningen såsom hvilande till vidare grundlagsenlig behandling: Regeringsform en. § 52. Riksdagens kamrar utse hvar för sig bland sina ledamöter talman s…",
-          "vissa delar i den af motionären använda motivering, i anledning af förevarande motion hemställa, det Riksdagen måtte antaga nedanstående förslag till ändrad lydelse af § 52 regeringsformen och § 33 riksdagsordningen att hvila till grundlagsenlig behandling: Regeringsformen: (Nuvarande lydelse:) (Föreslagen lydelse:) § 52. Kamrarnes talmän och vice talmän ut…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "D310KU4"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/D310Ku4",
-          "sourceDocumentId": "D310KU4",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:d310ku7b1",
-      "title": "Konstitutionsutskottets Utlåtande K:o 7",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "D310KU7B1",
-        "date": "1906-05-04",
-        "documentUrl": "https://data.riksdagen.se/dokument/D310Ku7b1",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "re utredning beträffande grundprinciperna knappast numera erfordras, utan torde Riksdagen kunna redan nu besluta att såsom hvilande antaga vissa erforderliga grundlagsändringar. Däremot erfordras angående den särskilda vallagen ytterligare utredning, hvilken emellertid i betraktande af det rikliga material, som föreligger tillgängligt, bör utan svårighe",
-          ".......................... 71,291. af herrar friherre Adelswärd och Hammarskjöld: Herrar fri - att Riksdagen behagade antaga såsom hvilande för vidare grund- snSrds^och lagsenlig behandling följande förslag till ändrad lydelse af §§ 31, 49, Hammar53 och 71 regeringsformen samt §§ 6, 7, 8, 10, 13, 14, 15, 16, 17, Motion. 18, 19, 20, 21, 22, 23, 24, 25, 2",
-          "nna utgå. Vår framställning i afseende på valrättsvillkoren går sålunda korteligen ut på att Riksdagen nu måtte till hvilande antaga en grundlagsreform, hvarigenom vid valen till Andra Kammaren införes verklig allmän rösträtt för män, utan några inskränkningar utöfver sådana, hvilka Konstitutionsutskottets Utlåtande N:o 7. 213 gälla generellt ä"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "D310KU7B1"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/D310Ku7b1",
-          "sourceDocumentId": "D310KU7B1",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:d410ku5",
       "title": "Konstitutionsutskottets Utlåtande N:o 5",
       "constitutionIds": [
@@ -2048,54 +1896,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/D410Ku5",
           "sourceDocumentId": "D410KU5",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:d510ku1",
-      "title": "Konstitutionsutskottets Utlåtande N:o 1",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "D510KU1",
-        "date": "1908-02-14",
-        "documentUrl": "https://data.riksdagen.se/dokument/D510Ku1",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "j skulle upphöra och dessa mål öfverföras till statsrådet. Sedan konstitutionsutskottet hemställt, att Riksdagen måtte antaga förslaget såsom hvilande till vidare grundlagsenlig behandling, blef utskottets hemställan godkänd af Andra Kammaren utan votering, hvaremot Första Kammaren afslog förslaget med 68 röster mot 50. Den behandling, som i Riksdagen kom f…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "D510KU1"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/D510Ku1",
-          "sourceDocumentId": "D510KU1",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -2172,7 +1972,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "Ossian Berger och J. F. Nyström hemställt, att Riksdagen matte såsom hvilande till vidare grundlagsenlig behandling antaga följande tillägg till det vid 1907 års riksdag såsom hvilande antagna öfvergångsstadgandet i riksdagsordningen: 4. Om riksdagsmans rätt till resekostnadsersättning samt arfvode eller dagtraktamente skola de före år 1909 gällande stadgan…"
+          "får utskottet hemställa, att Riksdagen må, i anledning af förevarande motion, antaga såsom hvilande till vidare grundlagsenlig behandling följande förslag till öfvergångsstadgande i riksdagsordningen: 4. Om riksdagsmans rätt till resekostnadsersättning samt arfvode eller dagtraktamente skola de före år 1909 gälla"
         ]
       },
       "finalDecision": null,
@@ -2440,23 +2240,24 @@
       }
     },
     {
-      "proposalId": "riksdag:d910ku33",
-      "title": "Konstitutionsutskottet utlåtande Nr 33",
+      "proposalId": "riksdag:d810ku26",
+      "title": "Konstitutionsutskottets utlåtande Nr 26",
       "constitutionIds": [
+        "rf",
         "ro"
       ],
       "status": "unresolved",
       "temporal": "past",
       "firstDecision": {
         "status": "adopted_as_pending",
-        "documentId": "D910KU33",
-        "date": "1912-05-15",
-        "documentUrl": "https://data.riksdagen.se/dokument/D910Ku33",
+        "documentId": "D810KU26",
+        "date": "1911-04-02",
+        "documentUrl": "https://data.riksdagen.se/dokument/D810Ku26",
         "propositionReferences": [],
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "ll. I motionen nr 307 i Andra kammaren har herr Branting in. fl. ii: 307. hemställt, »att Riksdagen för sin del måtte antaga som hvilande till grundlagsenlig behandling I. Beträffande § 16 riksdagsordningen följande ändrade lydelse af nämnda paragrafs första stycke: Valrätt till Andra kammaren tillkommer en hvar välfrejdad svensk medborgare, såväl m"
+          "vore afslutad, samt att Riksdagen saknade giltig anledning att föregripa resultatet af nämnda utredning genom att nu antaga såsom hvilande vissa i ämnet väckta grundlagsförslag; af herr af Callerholm, friherre Bonde, herrar Ericsson, Berg från Gföteborg, von Schéele och Edén, hvilka ansett, att utskottet bort tillstyrka de i herr Beckmans m. fl. och he"
         ]
       },
       "finalDecision": null,
@@ -2467,13 +2268,13 @@
         "score": 0
       },
       "documentIds": [
-        "D910KU33"
+        "D810KU26"
       ],
       "provenance": [
         {
           "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/D910Ku33",
-          "sourceDocumentId": "D910KU33",
+          "sourceUrl": "https://data.riksdagen.se/dokument/D810Ku26",
+          "sourceDocumentId": "D810KU26",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -2534,101 +2335,6 @@
       }
     },
     {
-      "proposalId": "riksdag:da10ku13",
-      "title": "Konstitutionsutskottets utlåtande Nr 13",
-      "constitutionIds": [
-        "rf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DA10KU13",
-        "date": "1913-03-31",
-        "documentUrl": "https://data.riksdagen.se/dokument/DA10Ku13",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "utskottet hänvisad motion, nr 261, hava hrr Sjöberg och Kronlund hemställt, »att Riksdagen för sin del måtte besluta antaga som vilande en sådan omredigering av 31 § regeringsformen, att i samma § ordet män måtte utgå». Till stöd för sitt förslag hava motionärerna anfört: »I motion nr 167 i Andra kammaren, i vilken motion undertecknade föreslå, a"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DA10KU13"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DA10Ku13",
-          "sourceDocumentId": "DA10KU13",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:da10ku27",
-      "title": "Konstitutionsutskottets utlåtande Nr 27",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DA10KU27",
-        "date": "1913-05-22",
-        "documentUrl": "https://data.riksdagen.se/dokument/DA10Ku27",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "såsom talman, till dess förfallet upphört.» I herr Waldéns m. fl. motion nr 273 har hemställts, »att Riksdagen måtte antaga nedanstående förslag till ändrad lydelse av § 52 regeringsformen samt § 33 riksdagsordningen såsom vilande till vidare grundlagsenlig behandling: Beger ing sformen. § 52. Riksdagens kamrar utse var för sig bland sina ledamöter talman s…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DA10KU27"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DA10Ku27",
-          "sourceDocumentId": "DA10KU27",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:db18ku14",
       "title": "Konstitutionsutskottets utlåtande Nr 14",
       "constitutionIds": [
@@ -2646,7 +2352,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "kt, till konstitutionsutskottet hänvisad motion, nr 82, har herr Kjellén hemställt, »att riksdagen måtte felain del antaga som vilande till grundlagsenlig behandling följande förslag till ändringar i grundlagarna: Regeringsformen. 8 109 Lagtima riksdag kan ej utan egen begäran åtskiljas förr ___ _ den ena av dem, i vilka fall riksdag skall, med eg"
+          "får utskottet hemställa, att riksdagen, i anledning av herr Kjelléns ifrågavarande motion, måtte för sin del antaga som vilande till grundlagsenlig behandling följande förslag till ändringar i grundlagarna: Regeringsformen. § 109. Lagtima riksdag — — — den ena av dem, i vilka fall riksdag skall, med egenskap utav lagtima, åter sammanträda"
         ]
       },
       "finalDecision": null,
@@ -2693,7 +2399,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          ". På grund av vad sålunda anförts får utskottet hemställa, att riksdagen, i anledning av ifrågavarande motion, måtte antaga såsom vilande till vidare grundlagsenlig behandling följande Förslag till ändrad lydelse av § 86 regeringsformen. (Nuvarande lydelse.) (Föreslagen lydelse.) § 86. § 86. Med tryckfrihet förstås varje svensk mans rättighet att,"
+          "får utskottet hemställa, att riksdagen, i anledning av ifrågavarande motion, måtte antaga såsom vilande till vidare grundlagsenlig behandling följande Förslag till ändrad lydelse av § 86 regeringsformen. (Nuvarande lydelse.) (Föreslagen lydelse.) § 86. § 86. Med tryckfrihet förstås varje svensk mans rättighet att,"
         ]
       },
       "finalDecision": null,
@@ -2724,55 +2430,6 @@
       }
     },
     {
-      "proposalId": "riksdag:db18ku22",
-      "title": "Konstitutionsutskottets utlåtande Nr 22",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DB18KU22",
-        "date": "1914-08-11",
-        "documentUrl": "https://data.riksdagen.se/dokument/DB18Ku22",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "det är enligt samma proposition att förvänta, att förslag komma att framläggas för riksdagen. Då riksdagen, genom att såsom vilande antaga Kungl. Maj:ts ifrågavarande proposition om ändrad lydelse av §§ 18 och 22 regeringsformen, öppnat möjlighet för genomförande av den ifrågasatta processlagstiftningen, synes det utskottet lämpligast att avvakta Kungl.",
-          "enligt samma proposition att förvänta, att förslag komma att framläggas för riksdagen. Då riksdagen, genom att såsom vilande antaga Kungl. Maj:ts ifrågavarande proposition om ändrad lydelse av §§ 18 och 22 regeringsformen, öppnat möjlighet för genomförande av den ifrågasatta processlagstiftningen, synes det utskottet lämpligast att avvakta Kungl."
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DB18KU22"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DB18Ku22",
-          "sourceDocumentId": "DB18KU22",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:db18ku28",
       "title": "Konstitutionsutskottets utlåtande Nr 28",
       "constitutionIds": [
@@ -2789,7 +2446,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "iven och med två vittnens underskrift bestyrkt.» I herr Brantings motion hemställes, »att riksdagen för sin del måtte antaga som vilande till grundlagsenlig behandling I. Beträffande § 16 riksdagsordningen följande ändrade lydelse av nämnda paragrafs första stycke: Valrätt till andra kammaren tillkommer en var välfräjdad svensk medborgare, såväl ma"
+          "rr Brantings m. fl. motion, nr 243, i vad den avser bestämmelser, som avvika från de uti nämnda motioner föreslagna, antaga såsom vilande till vidare grundlagsenlig behandling följande Bihang till senare riksdagens ''protokoll 1914. 5 saml. 23 höft. (Nr 28.) 4 26 Konstitutionsutskottets utlåtande Nr 28. Förslag till ändrad lydelse av riksdagsordnin"
         ]
       },
       "finalDecision": null,
@@ -2930,9 +2587,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "ring i processlagstiftningen, som är avsedd att då föreslås, har utskottet ansett sig böra tillstyrka riksdagen att nu såsom vilande antaga vederbörliga ändringar i regeringsformen. Utskottet förutsätter emellertid därvid, att dessa ändringar i regeringsformen, därest de bliva vilande, vid 1915 års riksdag icke företagas till 4 Konstitutionsutskottets u",
-          "blivande förslagen inom processlagstiftningen, och att det vid nu pågående riksdag endast gäller, huruvida genom ett antagande av grundlagsändringarna såsom vilande till nästa lagtima riksdag efter nya val till andra kammaren skall öppnas möjlighet för sagda riksdag att genomföra den ifrågasatta processlagsreformen. Skulle vid den kommande riksdagen ett för…",
-          "processlagstiftningen, som är avsedd att då föreslås, har utskottet ansett sig böra tillstyrka riksdagen att nu såsom vilande antaga vederbörliga ändringar i regeringsformen. Utskottet förutsätter emellertid därvid, att dessa ändringar i regeringsformen, därest de bliva vilande, vid 1915 års riksdag icke företagas till 4 Konstitutionsutskottets u"
+          "får utskottet hemställa, att riksdagen med bifall till Kungl. Maj:ts förevarande proposition måtte antaga såsom vilande till vidare grundlagsenlig behandling följande Förslag tiii ändrad lydelse av §§ 18 och 22 regeringsformen: (Nuvarande lyded se:) % 18- l:o) Regeringsrätten tillkommer det även att, i mål av beskaffenhet att"
         ]
       },
       "finalDecision": null,
@@ -2980,7 +2635,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          ". På grund av vad sålunda anförts får utskottet hemställa, att riksdagen, i anledning av ifrågavarande motion, måtte antaga såsom vilande till vidare grund’ lagsenlig behandling följande Förslag till ändrad lydelse av § 55 riksdagsordningen. (Nuvarande lydelse:) § 55. Motion i ämne, som tillhör ständigt utskotts behandling, må av riksdagsman i d"
+          "får utskottet hemställa, att riksdagen, i anledning av ifrågavarande motion, måtte antaga såsom vilande till vidare grund’ lagsenlig behandling följande Förslag till ändrad lydelse av § 55 riksdagsordningen. (Nuvarande lydelse:) § 55. Motion i ämne, som tillhör ständigt utskotts behandling, må av riksdagsman i d"
         ]
       },
       "finalDecision": null,
@@ -3046,54 +2701,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/DD10Ku12",
           "sourceDocumentId": "DD10KU12",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:dd10ku15",
-      "title": "Konstitutionsutskottets utlåtande Nr 15",
-      "constitutionIds": [
-        "rf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DD10KU15",
-        "date": "1916-05-02",
-        "documentUrl": "https://data.riksdagen.se/dokument/DD10Ku15",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "rist, att eu närmare reglering av församlingsfriheten icke givits i lag. Motionärerna hemställa, att riksdagen måtte som vilande antaga vissa i motionen formulerade förslag till ändringar i §§ 16 och 86 regeringsformen. Konstitutionsutskottet har vid 1914 års senare riksdag förordat och andra kammaren bifallit ett förslag, innefattande tillägg till a",
-          ", att eu närmare reglering av församlingsfriheten icke givits i lag. Motionärerna hemställa, att riksdagen måtte som vilande antaga vissa i motionen formulerade förslag till ändringar i §§ 16 och 86 regeringsformen. Konstitutionsutskottet har vid 1914 års senare riksdag förordat och andra kammaren bifallit ett förslag, innefattande tillägg till a"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DD10KU15"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DD10Ku15",
-          "sourceDocumentId": "DD10KU15",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -3602,7 +3209,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "err Hallén m. fl. (i det följande kallad herr Halléns motion) hemställa motionärerna, att riksdagen för sin del måtte antaga som vilande till grundlagsenlig behandling l:o) beträffande § 16 riksdagsordningen följande ändrade lydelse av nämnda paragrafs första stycke: Valrätt till andra kammaren tillkommer envar välfrejdad svensk medborgare, såväl man"
+          "rund härav och med åberopande av den i motionen anförda motiveringen yrka vi således, att riksdagen för sin del måtte antaga som vilande till grundlagsenlig behandling: I. Beträffande § 16 riksdagsordningen följande ändrade lydelse av nämnda paragrafs första stycke: Valrätt till andra kammaren tillkommer envar välfräjdad svensk medborgare, såväl man"
         ]
       },
       "finalDecision": null,
@@ -3699,7 +3306,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "s får utskottet hemställa, l:o) att riksdagen, i anledning av Kungl. Maj:ts förevarande proposition måtte för sin del antaga såsom vilande till vidare grundlagsenlig behandling följande 12 Konstitutionsutskottets utlåtande Nr 34. Förslag till ändrad lydelse av §§ 12, 51 och 105 regeringsformen, §§ 38, 50, 55, 56 och 74 riksdagsordningen samt § 2 mom"
+          "får utskottet hemställa, l:o) att riksdagen, i anledning av Kungl. Maj:ts förevarande proposition måtte för sin del antaga såsom vilande till vidare grundlagsenlig behandling följande 12 Konstitutionsutskottets utlåtande Nr 34. Förslag till ändrad lydelse av §§ 12, 51 och 105 regeringsformen, §§ 38, 50, 55, 56 och 74 riksdagsordningen samt § 2 mom"
         ]
       },
       "finalDecision": null,
@@ -3717,6 +3324,54 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/DG10Ku34",
           "sourceDocumentId": "DG10KU34",
+          "method": "riksdag_status_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
+    },
+    {
+      "proposalId": "riksdag:dg10ku35",
+      "title": "Konstitutionsutskottets utlåtande Nr 35",
+      "constitutionIds": [
+        "rf",
+        "ro"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "DG10KU35",
+        "date": "1919-05-30",
+        "documentUrl": "https://data.riksdagen.se/dokument/DG10Ku35",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          "får utskottet hemställa, a) att riksdagen i anledning av Kungl. Maj:ts förevarande proposition måtte antaga såsom vilande till vidare grundlagsenlig behandling följande Utskottet yttrande. Bihang till riksdagens protokoll 1919. 5 samt. 30 käft. (Nr 35.) 2 10 Konstitutionsutskottets utlåtande Nr 35. Förslag till ändrad lydelse av"
+        ]
+      },
+      "finalDecision": null,
+      "sfsIds": [],
+      "match": {
+        "method": "no_final_match",
+        "confidence": 0.0,
+        "score": 0
+      },
+      "documentIds": [
+        "DG10KU35"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/DG10Ku35",
+          "sourceDocumentId": "DG10KU35",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -3924,55 +3579,6 @@
       }
     },
     {
-      "proposalId": "riksdag:dh10ku42",
-      "title": "Konstitutionsutskottets utlåtande Nr 42",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DH10KU42",
-        "date": "1920-05-04",
-        "documentUrl": "https://data.riksdagen.se/dokument/DH10Ku42",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "stitutionsutskottet hänvisad motion nr 147 hava herrar Månsson i Hagaström och Werner hemställt, att riksdagen måtte såsom vilande antaga följande grundlagsändringar: Datt i regeringsformens § 104 orden: ''eller någon allmän överläggning därom uti nämnden förefalla’ måtte utgå; att i riksdagsordningens § 69 första mom. orden ''vart tredje år’ ersätta",
-          "ionsutskottet hänvisad motion nr 147 hava herrar Månsson i Hagaström och Werner hemställt, att riksdagen måtte såsom vilande antaga följande grundlagsändringar: Datt i regeringsformens § 104 orden: ''eller någon allmän överläggning därom uti nämnden förefalla’ måtte utgå; att i riksdagsordningens § 69 första mom. orden ''vart tredje år’ ersätta"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DH10KU42"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DH10Ku42",
-          "sourceDocumentId": "DH10KU42",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:dh10ku48",
       "title": "Konstitutionsutskottets utlåtande Nr 48",
       "constitutionIds": [
@@ -4008,53 +3614,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/DH10Ku48",
           "sourceDocumentId": "DH10KU48",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:dh10ku51",
-      "title": "Konstitutionsutskottets utlåtande Nr 51",
-      "constitutionIds": [
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DH10KU51",
-        "date": "1920-05-20",
-        "documentUrl": "https://data.riksdagen.se/dokument/DH10Ku51",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "l härvidlag erinra om det i propositionen anmärkta förhållandet, att därest nu föreslagna grundlagsändringar slutligen antagas, dels det vid föregående års lagtima riksdag såsom vilande antagna moment 2 till 21 § riksdagsordningen angående kvinnas särskilda rätt till avsägelse av riksdagsmannauppdrag blir obehövligt, dels ock den ändring i 67 § i nu gälland…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DH10KU51"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DH10Ku51",
-          "sourceDocumentId": "DH10KU51",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -4275,8 +3834,8 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "i Vibberbo m. fl. har hemställts, »att riksdagen måtte för sin del besluta att till vidare grundlagsenlig behandling såsom vilande antaga följande ändrade lydelse av 16 § riksdagsordningen: Valrätt tillkommer en var man och kvinna, som är svensk undersåte och senast under nästföregående kalenderår uppnått 23 års ålder. Valrätt må dock ej utövas av a",
-          "berbo m. fl. har hemställts, »att riksdagen måtte för sin del besluta att till vidare grundlagsenlig behandling såsom vilande antaga följande ändrade lydelse av 16 § riksdagsordningen: Valrätt tillkommer en var man och kvinna, som är svensk undersåte och senast under nästföregående kalenderår uppnått 23 års ålder. Valrätt må dock ej utövas av a"
+          "nna skyndsamt verkställas och icke på något sätt behöver inverka på grundlagsstadgandets avfattning, blivit slutförd, såsom vilande antaga ett förslag i motionernas syfte, helst det slutliga avgörandet därav i alla händelser måste grundlagsenligt anstå viss tid, men det å andra sidan är av vikt, att saken snarast möjligt må slutligt avgöras och alltså m",
+          "yndsamt verkställas och icke på något sätt behöver inverka på grundlagsstadgandets avfattning, blivit slutförd, såsom vilande antaga ett förslag i motionernas syfte, helst det slutliga avgörandet därav i alla händelser måste grundlagsenligt anstå viss tid, men det å andra sidan är av vikt, att saken snarast möjligt må slutligt avgöras och alltså m"
         ]
       },
       "finalDecision": null,
@@ -4452,55 +4011,6 @@
       }
     },
     {
-      "proposalId": "riksdag:dl10ku4",
-      "title": "Konstitutionsutskottets utlåtande Nr i",
-      "constitutionIds": [
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DL10KU4",
-        "date": "1924-02-29",
-        "documentUrl": "https://data.riksdagen.se/dokument/DL10Ku4",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "hult m. fl., i vilka motioner hemställts, a) i motionerna 1:8 och II: 2, »att utskottet måtte föreslå riksdagen att såsom vilande antaga följande ändrade lydelse av § 12 i riksdagsordningen: § 12. Ledamot av — — — — — 25 riksdaler, vilket dagtraktamente dock ej må överstiga sammanlagt 3,500 riksdaler. — — — — — — — Ledamot av 19 riksdaler---------",
-          "let av 3,500 kronor och i sistnämnda fallet 2,800 kronor.» samt d) i motionen II: 35, »att riksdagen ville besluta och antaga såsom vilande till vidare grundlagsenlig behandling sådan ändring i § 12 riksdagsordningen, att riksdagsmannaarvodet kommer att utgå med 18 kronor till riksdagsman bosatt där riksdag hålles samt med 24 kronor till annan riksdagsma",
-          "m. fl., i vilka motioner hemställts, a) i motionerna 1:8 och II: 2, »att utskottet måtte föreslå riksdagen att såsom vilande antaga följande ändrade lydelse av § 12 i riksdagsordningen: § 12. Ledamot av — — — — — 25 riksdaler, vilket dagtraktamente dock ej må överstiga sammanlagt 3,500 riksdaler. — — — — — — — Ledamot av 19 riksdaler---------"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DL10KU4"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DL10Ku4",
-          "sourceDocumentId": "DL10KU4",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:dm10ku1",
       "title": "Konstitutionsutskottets memorial nr 1",
       "constitutionIds": [
@@ -4537,54 +4047,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/DM10Ku1",
           "sourceDocumentId": "DM10KU1",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:dn10ku15",
-      "title": "Konstitutionsutskottets utlåtande Nr 15",
-      "constitutionIds": [
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DN10KU15",
-        "date": "1926-03-05",
-        "documentUrl": "https://data.riksdagen.se/dokument/DN10Ku15",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "l konstitutionsutskottet hänvisad motion, nr 219, har herr Luterkort hemställt, 1 :o) att riksdagen måtte besluta att såsom vilande antaga sådan ändrad huvudsaklig lydelse av 43 § 2 stycket riksdagsordningen, som i motionen angivits; samt 2.-o) att, därest denna hemställan icke vinner riksdagens bifall, riksdagen måtte hos Kungl. Maj:t hemställa om u",
-          "titutionsutskottet hänvisad motion, nr 219, har herr Luterkort hemställt, 1 :o) att riksdagen måtte besluta att såsom vilande antaga sådan ändrad huvudsaklig lydelse av 43 § 2 stycket riksdagsordningen, som i motionen angivits; samt 2.-o) att, därest denna hemställan icke vinner riksdagens bifall, riksdagen måtte hos Kungl. Maj:t hemställa om u"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DN10KU15"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DN10Ku15",
-          "sourceDocumentId": "DN10KU15",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -4790,22 +4252,25 @@
       }
     },
     {
-      "proposalId": "riksdag:dq10ku19",
-      "title": "Konstitutionsutskottets utlåtande Nr 19",
-      "constitutionIds": [],
+      "proposalId": "riksdag:dt10ku26",
+      "title": "Konstitutionsutskottets utlåtande Nr 26",
+      "constitutionIds": [
+        "rf",
+        "tf",
+        "ro"
+      ],
       "status": "unresolved",
       "temporal": "past",
       "firstDecision": {
         "status": "adopted_as_pending",
-        "documentId": "DQ10KU19",
-        "date": "1929-05-16",
-        "documentUrl": "https://data.riksdagen.se/dokument/DQ10Ku19",
+        "documentId": "DT10KU26",
+        "date": "1932-05-12",
+        "documentUrl": "https://data.riksdagen.se/dokument/DT10Ku26",
         "propositionReferences": [],
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "t utskottets mening icke komma i fråga. Ej heller finner utskottet, som i sitt utlåtande nr 20 föreslår riksdagen att som vilande antaga grundlagsändring om valbarhetscensus’ avskaffande, att census bör ersättas med fullgjord skattebetalningsplikt som villkor för val - Utskottets 4 Konstitutionsutskottets utlåtande Nr 19. barhet till första kammaren",
-          "skottets mening icke komma i fråga. Ej heller finner utskottet, som i sitt utlåtande nr 20 föreslår riksdagen att som vilande antaga grundlagsändring om valbarhetscensus’ avskaffande, att census bör ersättas med fullgjord skattebetalningsplikt som villkor för val - Utskottets 4 Konstitutionsutskottets utlåtande Nr 19. barhet till första kammaren"
+          "emställa, 1) att riksdagen, med förklarande att Kungl. Maj:ts förevarande proposition icke kunnat i oförändrat skick antagas, måtte i anledning av propositionen samt motionerna 1:6, 307 och 310 och II: 102, 444, 455, 456 och 458 såsom vilande för vidare grundlagsenlig behandling antaga följande Förslag till ändrad lydelse av §§ 53, 81 och 82 regeringsformen…"
         ]
       },
       "finalDecision": null,
@@ -4816,13 +4281,13 @@
         "score": 0
       },
       "documentIds": [
-        "DQ10KU19"
+        "DT10KU26"
       ],
       "provenance": [
         {
           "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DQ10Ku19",
-          "sourceDocumentId": "DQ10KU19",
+          "sourceUrl": "https://data.riksdagen.se/dokument/DT10Ku26",
+          "sourceDocumentId": "DT10KU26",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -4884,54 +4349,6 @@
       }
     },
     {
-      "proposalId": "riksdag:dt10ku30",
-      "title": "Konstitutionsutskottets utlåtande Nr SO",
-      "constitutionIds": [
-        "rf",
-        "tf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DT10KU30",
-        "date": "1932-05-19",
-        "documentUrl": "https://data.riksdagen.se/dokument/DT10Ku30",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "ad konkurrenskraft i förhållande till utlandet. Utskottets tillstyrkande hemställan, att Kungl. Majits förslag skulle antagas såsom vilande till vidare grundlagsenlig behandling, godkändes av 1924 års riksdag; vid 1925 års riksdag blev grundlagsändringen definitivt antagen. Såsom torde inhämtas av vad ovan anförts örn riksdagens behandling av förslag til"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DT10KU30"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DT10Ku30",
-          "sourceDocumentId": "DT10KU30",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:du10ku3",
       "title": "Konstitutionsutskottets utlåtande Nr 3",
       "constitutionIds": [
@@ -4966,103 +4383,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/DU10Ku3",
           "sourceDocumentId": "DU10KU3",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:dv10ku23",
-      "title": "Konstitutionsutskottets utlåtande Nr SS",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DV10KU23",
-        "date": "1934-05-31",
-        "documentUrl": "https://data.riksdagen.se/dokument/DV10Ku23",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "skottets yttrande och hemställan bort hava följande lydelse: Då konstitutionsutskottet år 1920 föreslog riksdagen att såsom vilande antaga sådant förslag till ändrad lydelse av bl. a. § 60 riksdagsordningen, att omröstning i kamrarna regelmässigt skulle ske öppet utan att grundlagen dock lämnade närmare regler örn sättet för den öppna omröstningen, var",
-          "ts yttrande och hemställan bort hava följande lydelse: Då konstitutionsutskottet år 1920 föreslog riksdagen att såsom vilande antaga sådant förslag till ändrad lydelse av bl. a. § 60 riksdagsordningen, att omröstning i kamrarna regelmässigt skulle ske öppet utan att grundlagen dock lämnade närmare regler örn sättet för den öppna omröstningen, var"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DV10KU23"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DV10Ku23",
-          "sourceDocumentId": "DV10KU23",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:dv10ku3",
-      "title": "Konstitutionsutskottets utlåtande Nr 8",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DV10KU3",
-        "date": "1934-02-15",
-        "documentUrl": "https://data.riksdagen.se/dokument/DV10Ku3",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "ommande fyraårsperiods slut. 3. Avgår riksdagsman---— — återstående tiden. 2) samt att riksdagen jämväl måtte besluta antaga som vilande sådana ändringar av regeringsformen och riksdagsordningen, att till urtima riksmöte den höst, under vilken ordinarie val till andra kammaren ägt rum, den nyvalda och icke den dittills sittande riksdagen inkallas. B"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DV10KU3"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DV10Ku3",
-          "sourceDocumentId": "DV10KU3",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -5111,55 +4431,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/DV10Ku7",
           "sourceDocumentId": "DV10KU7",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:dx10ku37",
-      "title": "Konstitutionsutskottets utlåtande Nr 37",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DX10KU37",
-        "date": "1936-05-20",
-        "documentUrl": "https://data.riksdagen.se/dokument/DX10Ku37",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "r lagts till grund för den föreliggande propositionen. Denna innefattar endast förslag till grundlagsändringar att nu antagas såsom vilande; förslag till sekretesslag framlägges ej till antagande men är jämte motiv fogat som bilaga till propositionen. I grundlagsförslaget fastliålles vid den gällande principen om allmänna handlingars offentlighet. Allmä"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DX10KU37"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DX10Ku37",
-          "sourceDocumentId": "DX10KU37",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -5222,54 +4493,6 @@
       }
     },
     {
-      "proposalId": "riksdag:dx10ku44",
-      "title": "Konstitutionsutskottets utlåtande Nr 44",
-      "constitutionIds": [
-        "tf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DX10KU44",
-        "date": "1936-06-09",
-        "documentUrl": "https://data.riksdagen.se/dokument/DX10Ku44",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "tén för utredning rörande åtgärder mot statsfientlig verksamhet, såvitt nu är i fråga, att riksdagen måtte för sin del såsom vilande antaga följande förslag till ändring i vissa delar av §§ 1, 3, 4 och 5 tryckfrihetsförordningen : § I 1 :o. Alla ----handlingar. För spridande av tryckt skrift bland krigs folk eller bland värnpliktiga, vilka ej äro kri",
-          "r utredning rörande åtgärder mot statsfientlig verksamhet, såvitt nu är i fråga, att riksdagen måtte för sin del såsom vilande antaga följande förslag till ändring i vissa delar av §§ 1, 3, 4 och 5 tryckfrihetsförordningen : § I 1 :o. Alla ----handlingar. För spridande av tryckt skrift bland krigs folk eller bland värnpliktiga, vilka ej äro kri"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DX10KU44"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DX10Ku44",
-          "sourceDocumentId": "DX10KU44",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:dy10ku1c",
       "title": "Konstitutionsutskottets memorial Nr 1 c",
       "constitutionIds": [
@@ -5305,151 +4528,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/DY10Ku1c",
           "sourceDocumentId": "DY10KU1C",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:dy10ku21",
-      "title": "Konstitutionsutskottets utlåtande Nr 21",
-      "constitutionIds": [
-        "rf",
-        "tf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "DY10KU21",
-        "date": "1937-05-11",
-        "documentUrl": "https://data.riksdagen.se/dokument/DY10Ku21",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "en förra året. Förslaget har nu efter vissa jämkningar genom förevarande proposition nr 107 förelagts riksdagen till antagande under förutsättning att det av riksdagen såsom vilande antagna grundlagsförslaget varder slutligen godkänt. Tillika har i proposition nr 108 föreslagits vissa redaktionella jämkningar i kommunallagarnas bestämmelser örn rätten att t…"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "DY10KU21"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/DY10Ku21",
-          "sourceDocumentId": "DY10KU21",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:e210ku5",
-      "title": "Konstitutionsutskottets memorial Nr 5",
-      "constitutionIds": [
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "E210KU5",
-        "date": "1941-02-13",
-        "documentUrl": "https://data.riksdagen.se/dokument/E210Ku5",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "rial Nr 5. Utskottet fann (memorial nr 23) för egen del de anförda skälen bärande och hemställde, att riksdagen ville såsom vilande antaga förslag till ändrad lydelse av bland annat § 23 utformat i enlighet med de avgivna riktlinjerna; i grundlagen skulle dock utsägas, att till ledamot av riksdagen skulle utgå »fast arvode, beräknat för hela den tid rik",
-          "r 5. Utskottet fann (memorial nr 23) för egen del de anförda skälen bärande och hemställde, att riksdagen ville såsom vilande antaga förslag till ändrad lydelse av bland annat § 23 utformat i enlighet med de avgivna riktlinjerna; i grundlagen skulle dock utsägas, att till ledamot av riksdagen skulle utgå »fast arvode, beräknat för hela den tid rik"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "E210KU5"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/E210Ku5",
-          "sourceDocumentId": "E210KU5",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:e910ku10",
-      "title": "Konstitutionsutskottets utlåtande nr 10",
-      "constitutionIds": [
-        "rf"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "E910KU10",
-        "date": "1948-03-04",
-        "documentUrl": "https://data.riksdagen.se/dokument/E910Ku10",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "kt, till konstitutionsutskottet hänvisad motion, nr 141, av herr Sjödahl hemställes, »att riksdagen måtte besluta att såsom vilande antaga följande förslag till ny lydelse av § 31 regeringsformen liksom ändring av övergångsstadgandet: § 31. Till borgmästartjänst i stad och till tjänst som lagfaren rådman i stad äge staden föreslå tre behöriga personer.",
-          "ll konstitutionsutskottet hänvisad motion, nr 141, av herr Sjödahl hemställes, »att riksdagen måtte besluta att såsom vilande antaga följande förslag till ny lydelse av § 31 regeringsformen liksom ändring av övergångsstadgandet: § 31. Till borgmästartjänst i stad och till tjänst som lagfaren rådman i stad äge staden föreslå tre behöriga personer."
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "E910KU10"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/E910Ku10",
-          "sourceDocumentId": "E910KU10",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -5576,7 +4654,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "åberopande av vad sålunda anförts får utskottet hemställa, att riksdagen måtte, i anledning av förevarande motioner, antaga såsom vilande för vidare grundlagsenlig behandling följande Förslag till ändrad lydelse av § 53 regeringsformen samt § 36 mom. 1—2. § 44, § 55 mom. 2 samt §§ 59 och 63 riksdagsordningen. Regeringsformen. (Föreslagen lydelse.)"
+          "får utskottet hemställa, att riksdagen måtte, i anledning av förevarande motioner, antaga såsom vilande för vidare grundlagsenlig behandling följande Förslag till ändrad lydelse av § 53 regeringsformen samt § 36 mom. 1—2. § 44, § 55 mom. 2 samt §§ 59 och 63 riksdagsordningen. Regeringsformen. (Föreslagen lydelse.)"
         ]
       },
       "finalDecision": null,
@@ -5624,7 +4702,7 @@
         "riksdagCitationReferences": [],
         "riksdagReferences": [],
         "evidence": [
-          "åberopande av vad sålunda anförts får utskottet hemställa, 1) att riksdagen måtte, i anledning av förevarande motion, antaga såsom vilande för vidare grundlagsenlig behandling följande Förslag till ändrad lydelse av § 70 mom. (Nuvarande lydelse:) § 70. 1. De sex fullmäktige i riksbanken, vilka enligt 72 § regeringsformen skola utses av riksdagen"
+          "får utskottet hemställa, 1) att riksdagen måtte, i anledning av förevarande motion, antaga såsom vilande för vidare grundlagsenlig behandling följande Förslag till ändrad lydelse av § 70 mom. (Nuvarande lydelse:) § 70. 1. De sex fullmäktige i riksbanken, vilka enligt 72 § regeringsformen skola utses av riksdagen"
         ]
       },
       "finalDecision": null,
@@ -5642,55 +4720,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/EC10Ku23",
           "sourceDocumentId": "EC10KU23",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:ed10ku29",
-      "title": "Konstitutionsutskottets betänkande nr 29",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "ED10KU29",
-        "date": "1952-05-20",
-        "documentUrl": "https://data.riksdagen.se/dokument/ED10Ku29",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "t hänvisad motion, nr I: 329, av herr Holmbäck hemställes, »att riksdagen ville till vidare grundlagsenlig behandling såsom vilande antaga förslag avseende att minska den forcering som nu äger rum i riksdagsarbetet vid slutet av riksdagens vårsessioner samt att konstitutionsutskottet måtte utarbeta härför erforderlig grundlagstext». Beträffande motive",
-          "isad motion, nr I: 329, av herr Holmbäck hemställes, »att riksdagen ville till vidare grundlagsenlig behandling såsom vilande antaga förslag avseende att minska den forcering som nu äger rum i riksdagsarbetet vid slutet av riksdagens vårsessioner samt att konstitutionsutskottet måtte utarbeta härför erforderlig grundlagstext». Beträffande motive"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "ED10KU29"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/ED10Ku29",
-          "sourceDocumentId": "ED10KU29",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -5756,56 +4785,6 @@
       }
     },
     {
-      "proposalId": "riksdag:ef10ku16",
-      "title": "Konstitutionsutskottets utlåtande nr 16",
-      "constitutionIds": [
-        "rf",
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "EF10KU16",
-        "date": "1954-05-13",
-        "documentUrl": "https://data.riksdagen.se/dokument/EF10Ku16",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "tningen föreslås skola hållas vid sådan tidpunkt, före den 1 juli 1955, att riksdagen med ledning av dess utslag kan såsom vilande antaga vederbörliga grundlagstillägg senast vid 1956 års vårsession, och bör enligt motionärerna äga rum hösten 1954 eller våren—försommaren 1955. Det i motionerna framlagda förslaget är utformat i ett förslag till Lag o",
-          "t hemställa, att riksdagen, med förklarande att Kungl. Maj:ts förevarande proposition icke kunnat i oförändrat skick antagas, måtte i anledning av propositionen och motionerna 1:532 och II: 682 samt med avslag å motionerna 1: 523 och II: 674 samt I: 533 och II: 683 såsom vilande för vidare grundlagsenlig behandling antaga det i propositionen framlagda grund…",
-          "n föreslås skola hållas vid sådan tidpunkt, före den 1 juli 1955, att riksdagen med ledning av dess utslag kan såsom vilande antaga vederbörliga grundlagstillägg senast vid 1956 års vårsession, och bör enligt motionärerna äga rum hösten 1954 eller våren—försommaren 1955. Det i motionerna framlagda förslaget är utformat i ett förslag till Lag o"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "EF10KU16"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/EF10Ku16",
-          "sourceDocumentId": "EF10KU16",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
       "proposalId": "riksdag:ef11ku19",
       "title": "Konstitutionsutskottets betänkande nr 19",
       "constitutionIds": [
@@ -5841,54 +4820,6 @@
           "field": "firstDecision",
           "sourceUrl": "https://data.riksdagen.se/dokument/ef11ku19",
           "sourceDocumentId": "EF11KU19",
-          "method": "riksdag_status_and_text"
-        }
-      ],
-      "sfsValidation": {
-        "source": "Ferenda SFS amendment metadata via documented JSON API",
-        "firstDecisionConfirmed": false,
-        "finalDecisionConfirmed": false,
-        "firstDecisionSfsIds": [],
-        "finalDecisionSfsIds": [],
-        "evidence": []
-      }
-    },
-    {
-      "proposalId": "riksdag:eg10ku17",
-      "title": "Konstitutionsutskottets utlåtande nr 17 är 1955",
-      "constitutionIds": [
-        "ro"
-      ],
-      "status": "unresolved",
-      "temporal": "past",
-      "firstDecision": {
-        "status": "adopted_as_pending",
-        "documentId": "EG10KU17",
-        "date": "1955-05-03",
-        "documentUrl": "https://data.riksdagen.se/dokument/EG10Ku17",
-        "propositionReferences": [],
-        "riksdagCitationReferences": [],
-        "riksdagReferences": [],
-        "evidence": [
-          "mt nr 382 i andra kammaren av herr Carlsson i Bakeröd m. fl. hemställes, »att riksdagen måtte för sin del besluta att såsom vilande antaga sådana ändringar av § 6 i riksdagsordningen, som på samma sätt som gäller för val till riksdagens andra kammare tillförsäkrar varje förstakammarvalkrets minst fem mandat, samt att vederbörande utskott måtte utarbeta",
-          "382 i andra kammaren av herr Carlsson i Bakeröd m. fl. hemställes, »att riksdagen måtte för sin del besluta att såsom vilande antaga sådana ändringar av § 6 i riksdagsordningen, som på samma sätt som gäller för val till riksdagens andra kammare tillförsäkrar varje förstakammarvalkrets minst fem mandat, samt att vederbörande utskott måtte utarbeta"
-        ]
-      },
-      "finalDecision": null,
-      "sfsIds": [],
-      "match": {
-        "method": "no_final_match",
-        "confidence": 0.0,
-        "score": 0
-      },
-      "documentIds": [
-        "EG10KU17"
-      ],
-      "provenance": [
-        {
-          "field": "firstDecision",
-          "sourceUrl": "https://data.riksdagen.se/dokument/EG10Ku17",
-          "sourceDocumentId": "EG10KU17",
           "method": "riksdag_status_and_text"
         }
       ],
@@ -6034,6 +4965,135 @@
           "sourceUrl": "https://data.riksdagen.se/dokument/EN10Ku5",
           "sourceDocumentId": "EN10KU5",
           "method": "riksdag_status_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
+    },
+    {
+      "proposalId": "riksdag:ft10ku27",
+      "title": "Konstitutionsutskottets utlåtande nr 27 år 1970",
+      "constitutionIds": [
+        "rf",
+        "ro"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "FT10KU27",
+        "date": "1970-04-23",
+        "documentUrl": "https://data.riksdagen.se/dokument/FT10Ku27",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          "FU01KU1 identifies 1970:KU27 as a proposal adopted as pending before its final parliamentary treatment."
+        ]
+      },
+      "finalDecision": {
+        "status": "unresolved",
+        "documentId": "FU01KU1",
+        "date": "1971-01-12",
+        "documentUrl": "https://data.riksdagen.se/dokument/FU01KU1",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [
+          "FU0K1"
+        ],
+        "evidence": []
+      },
+      "sfsIds": [],
+      "match": {
+        "method": "shared_document_references",
+        "confidence": 0.4,
+        "score": 12
+      },
+      "documentIds": [
+        "FT10KU27",
+        "FU01KU1"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/FT10Ku27",
+          "sourceDocumentId": "FT10KU27",
+          "method": "riksdag_status_and_text"
+        },
+        {
+          "field": "finalDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/FU01KU1",
+          "sourceDocumentId": "FU01KU1",
+          "method": "shared_document_references_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
+    },
+    {
+      "proposalId": "riksdag:ft10ku31",
+      "title": "Konstitutionsutskottets utlåtande nr 31 år 1970",
+      "constitutionIds": [
+        "tf"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "FT10KU31",
+        "date": "1970-05-05",
+        "documentUrl": "https://data.riksdagen.se/dokument/FT10Ku31",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          "FU01KU5 identifies 1970:KU31 as a proposal adopted as pending before its final parliamentary treatment."
+        ]
+      },
+      "finalDecision": {
+        "status": "unresolved",
+        "documentId": "FU01KU5",
+        "date": "1971-02-03",
+        "documentUrl": "https://data.riksdagen.se/dokument/FU01KU5",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": []
+      },
+      "sfsIds": [],
+      "match": {
+        "method": "shared_document_references",
+        "confidence": 0.4,
+        "score": 12
+      },
+      "documentIds": [
+        "FT10KU31",
+        "FU01KU5"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/FT10Ku31",
+          "sourceDocumentId": "FT10KU31",
+          "method": "riksdag_status_and_text"
+        },
+        {
+          "field": "finalDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/FU01KU5",
+          "sourceDocumentId": "FU01KU5",
+          "method": "shared_document_references_and_text"
         }
       ],
       "sfsValidation": {
@@ -27253,6 +26313,135 @@
         "finalDecisionSfsIds": [],
         "evidence": []
       }
+    },
+    {
+      "proposalId": "riksdag:ft10ku32",
+      "title": "Konstitutionsutskottets utlåtande nr 32 år 1970",
+      "constitutionIds": [
+        "rf",
+        "tf",
+        "ro"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "FT10KU32",
+        "date": "1970-05-05",
+        "documentUrl": "https://data.riksdagen.se/dokument/FT10Ku32",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          "FU01KU5 identifies 1970:KU32 as a proposal adopted as pending before its final parliamentary treatment."
+        ]
+      },
+      "finalDecision": {
+        "status": "unresolved",
+        "documentId": "FU01KU5",
+        "date": "1971-02-03",
+        "documentUrl": "https://data.riksdagen.se/dokument/FU01KU5",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": []
+      },
+      "sfsIds": [],
+      "match": {
+        "method": "shared_document_references",
+        "confidence": 0.4,
+        "score": 12
+      },
+      "documentIds": [
+        "FT10KU32",
+        "FU01KU5"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/FT10Ku32",
+          "sourceDocumentId": "FT10KU32",
+          "method": "riksdag_status_and_text"
+        },
+        {
+          "field": "finalDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/FU01KU5",
+          "sourceDocumentId": "FU01KU5",
+          "method": "shared_document_references_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
+    },
+    {
+      "proposalId": "riksdag:ft10ku6",
+      "title": "Konstitutionsutskottets utlåtande nr 6 år 1970",
+      "constitutionIds": [
+        "rf",
+        "tf"
+      ],
+      "status": "unresolved",
+      "temporal": "past",
+      "firstDecision": {
+        "status": "adopted_as_pending",
+        "documentId": "FT10KU6",
+        "date": "1970-02-11",
+        "documentUrl": "https://data.riksdagen.se/dokument/FT10Ku6",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": [
+          "FU01KU5 identifies 1970:KU6 as a proposal adopted as pending before its final parliamentary treatment."
+        ]
+      },
+      "finalDecision": {
+        "status": "unresolved",
+        "documentId": "FU01KU5",
+        "date": "1971-02-03",
+        "documentUrl": "https://data.riksdagen.se/dokument/FU01KU5",
+        "propositionReferences": [],
+        "riksdagCitationReferences": [],
+        "riksdagReferences": [],
+        "evidence": []
+      },
+      "sfsIds": [],
+      "match": {
+        "method": "shared_document_references",
+        "confidence": 0.4,
+        "score": 12
+      },
+      "documentIds": [
+        "FT10KU6",
+        "FU01KU5"
+      ],
+      "provenance": [
+        {
+          "field": "firstDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/FT10Ku6",
+          "sourceDocumentId": "FT10KU6",
+          "method": "riksdag_status_and_text"
+        },
+        {
+          "field": "finalDecision",
+          "sourceUrl": "https://data.riksdagen.se/dokument/FU01KU5",
+          "sourceDocumentId": "FU01KU5",
+          "method": "shared_document_references_and_text"
+        }
+      ],
+      "sfsValidation": {
+        "source": "Ferenda SFS amendment metadata via documented JSON API",
+        "firstDecisionConfirmed": false,
+        "finalDecisionConfirmed": false,
+        "firstDecisionSfsIds": [],
+        "finalDecisionSfsIds": [],
+        "evidence": []
+      }
     }
   ],
   "changes": [
@@ -43059,11 +42248,11 @@
       "grundlagsenlig behandling"
     ],
     "ferendaSfsPropositionSeeds": 59,
-    "modernCandidateDocuments": 1413,
-    "documentsFetched": 284,
+    "modernCandidateDocuments": 1933,
+    "documentsFetched": 259,
     "documentFetchErrors": [],
-    "firstDecisions": 200,
-    "finalDecisions": 68,
+    "firstDecisions": 175,
+    "finalDecisions": 72,
     "limitations": [
       "Riksdagens öppna data saknar ett enda authoritative pending-fält; klassning bygger på beslutstext och status.",
       "Äldre tvåkammarfall kräver kammarvisa beslut och kan inte reduceras till ett enda kammarresultat.",

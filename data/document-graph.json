@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-08-30T04:29:22.237719+00:00",
+  "generatedAt": "2026-08-30T06:46:59.900057+00:00",
   "nodes": [
+    {
+      "id": "riksdag:c610ku5",
+      "type": "document",
+      "documentId": "C610KU5",
+      "title": "Konstitutions-Utskottets Utlåtande N:o 5",
+      "kind": "bet",
+      "date": "1873-03-04"
+    },
+    {
+      "id": "riksdag:c810ku3",
+      "type": "document",
+      "documentId": "C810KU3",
+      "title": "Konstitutions- Utskottets Utlåtande N:» 3",
+      "kind": "bet",
+      "date": "1875-02-26"
+    },
     {
       "id": "riksdag:ca10ku2",
       "type": "document",
@@ -24,6 +40,22 @@
       "title": "Konstitutions-Utskottets Utlåtande N:o 7",
       "kind": "bet",
       "date": "1879-05-06"
+    },
+    {
+      "id": "riksdag:cd10ku11",
+      "type": "document",
+      "documentId": "CD10KU11",
+      "title": "Konstitutions-Utskottets Utlåtande N:o 11",
+      "kind": "bet",
+      "date": "1880-04-30"
+    },
+    {
+      "id": "riksdag:cd10ku13",
+      "type": "document",
+      "documentId": "CD10KU13",
+      "title": "Konstitutions-Utskottets Utlåtande N:o 13",
+      "kind": "bet",
+      "date": "1880-05-03"
     },
     {
       "id": "riksdag:cd10ku9",
@@ -114,12 +146,12 @@
       "date": "1889-04-01"
     },
     {
-      "id": "riksdag:cn10ku9",
+      "id": "riksdag:cn10ku11",
       "type": "document",
-      "documentId": "CN10KU9",
-      "title": "Konstitutionsutskottets Utlåtande N:o 9",
+      "documentId": "CN10KU11",
+      "title": "Konstitutionsutskottets Utlåtande N:o 11",
       "kind": "bet",
-      "date": "1890-04-12"
+      "date": "1890-04-21"
     },
     {
       "id": "riksdag:co10ku7",
@@ -194,22 +226,6 @@
       "date": "1896-04-10"
     },
     {
-      "id": "riksdag:ct10ku9",
-      "type": "document",
-      "documentId": "CT10KU9",
-      "title": "Konstitutionsutskottets Utlåtande N;o 9",
-      "kind": "bet",
-      "date": "1896-04-17"
-    },
-    {
-      "id": "riksdag:cu10ku3",
-      "type": "document",
-      "documentId": "CU10KU3",
-      "title": "Konstitutionsutskottets Utlåtande N:o 3",
-      "kind": "bet",
-      "date": "1897-03-19"
-    },
-    {
       "id": "riksdag:cu9o15",
       "type": "document",
       "documentId": "CU9O15",
@@ -226,52 +242,12 @@
       "date": "1898-04-15"
     },
     {
-      "id": "riksdag:cv10ku9",
-      "type": "document",
-      "documentId": "CV10KU9",
-      "title": "Konstitutionsutskottets Utlåtande N:o 9",
-      "kind": "bet",
-      "date": "1898-04-18"
-    },
-    {
       "id": "riksdag:cw10ku15",
       "type": "document",
       "documentId": "CW10KU15",
       "title": "Konstitutionsutskottets Utlåtande N:o 15",
       "kind": "bet",
       "date": "1899-05-02"
-    },
-    {
-      "id": "riksdag:cw10ku17",
-      "type": "document",
-      "documentId": "CW10KU17",
-      "title": "Konstitutionsutskottets Utlåtande N:o 17",
-      "kind": "bet",
-      "date": "1899-05-02"
-    },
-    {
-      "id": "riksdag:cw10ku18",
-      "type": "document",
-      "documentId": "CW10KU18",
-      "title": "Konstitutionsutskottets Utlåtande N:o IS",
-      "kind": "bet",
-      "date": "1899-05-02"
-    },
-    {
-      "id": "riksdag:cw10ku5",
-      "type": "document",
-      "documentId": "CW10KU5",
-      "title": "Konstitutionsutskottets Utlåtande N:o 5",
-      "kind": "bet",
-      "date": "1899-03-20"
-    },
-    {
-      "id": "riksdag:cw10ku9",
-      "type": "document",
-      "documentId": "CW10KU9",
-      "title": "Konstitutionsutskottets Utlåtande N:o 9",
-      "kind": "bet",
-      "date": "1899-04-10"
     },
     {
       "id": "riksdag:cy10ku10",
@@ -290,14 +266,6 @@
       "date": "1901-05-10"
     },
     {
-      "id": "riksdag:cz10ku3",
-      "type": "document",
-      "documentId": "CZ10KU3",
-      "title": "Konstitutionsutskottets Utlåtande N:o 3",
-      "kind": "bet",
-      "date": "1902-04-11"
-    },
-    {
       "id": "riksdag:d010ku10",
       "type": "document",
       "documentId": "D010KU10",
@@ -306,68 +274,12 @@
       "date": "1903-05-05"
     },
     {
-      "id": "riksdag:d010ku8",
-      "type": "document",
-      "documentId": "D010KU8",
-      "title": "Konstitutionsutskottets Utlåtande N:o 8",
-      "kind": "bet",
-      "date": "1903-04-23"
-    },
-    {
-      "id": "riksdag:d110ku5",
-      "type": "document",
-      "documentId": "D110KU5",
-      "title": "Konstitutionsutskottets Utlåtande N:o 5",
-      "kind": "bet",
-      "date": "1904-05-08"
-    },
-    {
-      "id": "riksdag:d210ku12",
-      "type": "document",
-      "documentId": "D210KU12",
-      "title": "Konstitutionsutskottets Utlåtande N:o 12",
-      "kind": "bet",
-      "date": "1905-05-09"
-    },
-    {
-      "id": "riksdag:d210ku6",
-      "type": "document",
-      "documentId": "D210KU6",
-      "title": "Konstitutionsutskottets Utlåtande X:o 6",
-      "kind": "bet",
-      "date": "1905-04-10"
-    },
-    {
-      "id": "riksdag:d310ku4",
-      "type": "document",
-      "documentId": "D310KU4",
-      "title": "Konstitutionsutskottets Utlåtande 1V.-o 4",
-      "kind": "bet",
-      "date": "1906-03-09"
-    },
-    {
-      "id": "riksdag:d310ku7b1",
-      "type": "document",
-      "documentId": "D310KU7B1",
-      "title": "Konstitutionsutskottets Utlåtande K:o 7",
-      "kind": "bet",
-      "date": "1906-05-04"
-    },
-    {
       "id": "riksdag:d410ku5",
       "type": "document",
       "documentId": "D410KU5",
       "title": "Konstitutionsutskottets Utlåtande N:o 5",
       "kind": "bet",
       "date": "1907-04-22"
-    },
-    {
-      "id": "riksdag:d510ku1",
-      "type": "document",
-      "documentId": "D510KU1",
-      "title": "Konstitutionsutskottets Utlåtande N:o 1",
-      "kind": "bet",
-      "date": "1908-02-14"
     },
     {
       "id": "riksdag:d510ku14",
@@ -426,12 +338,12 @@
       "date": "1911-03-28"
     },
     {
-      "id": "riksdag:d910ku33",
+      "id": "riksdag:d810ku26",
       "type": "document",
-      "documentId": "D910KU33",
-      "title": "Konstitutionsutskottet utlåtande Nr 33",
+      "documentId": "D810KU26",
+      "title": "Konstitutionsutskottets utlåtande Nr 26",
       "kind": "bet",
-      "date": "1912-05-15"
+      "date": "1911-04-02"
     },
     {
       "id": "riksdag:d910ku35",
@@ -440,22 +352,6 @@
       "title": "Konstitutionsutskottets utlåtande Nr 35",
       "kind": "bet",
       "date": "1912-05-15"
-    },
-    {
-      "id": "riksdag:da10ku13",
-      "type": "document",
-      "documentId": "DA10KU13",
-      "title": "Konstitutionsutskottets utlåtande Nr 13",
-      "kind": "bet",
-      "date": "1913-03-31"
-    },
-    {
-      "id": "riksdag:da10ku27",
-      "type": "document",
-      "documentId": "DA10KU27",
-      "title": "Konstitutionsutskottets utlåtande Nr 27",
-      "kind": "bet",
-      "date": "1913-05-22"
     },
     {
       "id": "riksdag:db18ku14",
@@ -472,14 +368,6 @@
       "title": "Konstitutionsutskottets utlåtande Nr 21",
       "kind": "bet",
       "date": "1914-08-07"
-    },
-    {
-      "id": "riksdag:db18ku22",
-      "type": "document",
-      "documentId": "DB18KU22",
-      "title": "Konstitutionsutskottets utlåtande Nr 22",
-      "kind": "bet",
-      "date": "1914-08-11"
     },
     {
       "id": "riksdag:db18ku28",
@@ -528,14 +416,6 @@
       "title": "Konstitutionsutskottets utlåtande Nr 12",
       "kind": "bet",
       "date": "1916-04-07"
-    },
-    {
-      "id": "riksdag:dd10ku15",
-      "type": "document",
-      "documentId": "DD10KU15",
-      "title": "Konstitutionsutskottets utlåtande Nr 15",
-      "kind": "bet",
-      "date": "1916-05-02"
     },
     {
       "id": "riksdag:de10ku13",
@@ -642,6 +522,14 @@
       "date": "1919-05-30"
     },
     {
+      "id": "riksdag:dg10ku35",
+      "type": "document",
+      "documentId": "DG10KU35",
+      "title": "Konstitutionsutskottets utlåtande Nr 35",
+      "kind": "bet",
+      "date": "1919-05-30"
+    },
+    {
       "id": "riksdag:dg10ku44",
       "type": "document",
       "documentId": "DG10KU44",
@@ -674,28 +562,12 @@
       "date": "1920-05-04"
     },
     {
-      "id": "riksdag:dh10ku42",
-      "type": "document",
-      "documentId": "DH10KU42",
-      "title": "Konstitutionsutskottets utlåtande Nr 42",
-      "kind": "bet",
-      "date": "1920-05-04"
-    },
-    {
       "id": "riksdag:dh10ku48",
       "type": "document",
       "documentId": "DH10KU48",
       "title": "Konstitutionsutskottets utlåtande Nr 48",
       "kind": "bet",
       "date": "1920-05-14"
-    },
-    {
-      "id": "riksdag:dh10ku51",
-      "type": "document",
-      "documentId": "DH10KU51",
-      "title": "Konstitutionsutskottets utlåtande Nr 51",
-      "kind": "bet",
-      "date": "1920-05-20"
     },
     {
       "id": "riksdag:dh10ku57",
@@ -770,28 +642,12 @@
       "date": "1924-03-27"
     },
     {
-      "id": "riksdag:dl10ku4",
-      "type": "document",
-      "documentId": "DL10KU4",
-      "title": "Konstitutionsutskottets utlåtande Nr i",
-      "kind": "bet",
-      "date": "1924-02-29"
-    },
-    {
       "id": "riksdag:dm10ku1",
       "type": "document",
       "documentId": "DM10KU1",
       "title": "Konstitutionsutskottets memorial nr 1",
       "kind": "bet",
       "date": "1925-01-30"
-    },
-    {
-      "id": "riksdag:dn10ku15",
-      "type": "document",
-      "documentId": "DN10KU15",
-      "title": "Konstitutionsutskottets utlåtande Nr 15",
-      "kind": "bet",
-      "date": "1926-03-05"
     },
     {
       "id": "riksdag:do10ku13",
@@ -826,12 +682,12 @@
       "date": "1928-02-23"
     },
     {
-      "id": "riksdag:dq10ku19",
+      "id": "riksdag:dt10ku26",
       "type": "document",
-      "documentId": "DQ10KU19",
-      "title": "Konstitutionsutskottets utlåtande Nr 19",
+      "documentId": "DT10KU26",
+      "title": "Konstitutionsutskottets utlåtande Nr 26",
       "kind": "bet",
-      "date": "1929-05-16"
+      "date": "1932-05-12"
     },
     {
       "id": "riksdag:dt10ku28",
@@ -842,36 +698,12 @@
       "date": "1932-01-01"
     },
     {
-      "id": "riksdag:dt10ku30",
-      "type": "document",
-      "documentId": "DT10KU30",
-      "title": "Konstitutionsutskottets utlåtande Nr SO",
-      "kind": "bet",
-      "date": "1932-05-19"
-    },
-    {
       "id": "riksdag:du10ku3",
       "type": "document",
       "documentId": "DU10KU3",
       "title": "Konstitutionsutskottets utlåtande Nr 3",
       "kind": "bet",
       "date": "1933-02-17"
-    },
-    {
-      "id": "riksdag:dv10ku23",
-      "type": "document",
-      "documentId": "DV10KU23",
-      "title": "Konstitutionsutskottets utlåtande Nr SS",
-      "kind": "bet",
-      "date": "1934-05-31"
-    },
-    {
-      "id": "riksdag:dv10ku3",
-      "type": "document",
-      "documentId": "DV10KU3",
-      "title": "Konstitutionsutskottets utlåtande Nr 8",
-      "kind": "bet",
-      "date": "1934-02-15"
     },
     {
       "id": "riksdag:dv10ku7",
@@ -882,14 +714,6 @@
       "date": "1934-03-01"
     },
     {
-      "id": "riksdag:dx10ku37",
-      "type": "document",
-      "documentId": "DX10KU37",
-      "title": "Konstitutionsutskottets utlåtande Nr 37",
-      "kind": "bet",
-      "date": "1936-05-20"
-    },
-    {
       "id": "riksdag:dx10ku42",
       "type": "document",
       "documentId": "DX10KU42",
@@ -898,44 +722,12 @@
       "date": "1936-05-28"
     },
     {
-      "id": "riksdag:dx10ku44",
-      "type": "document",
-      "documentId": "DX10KU44",
-      "title": "Konstitutionsutskottets utlåtande Nr 44",
-      "kind": "bet",
-      "date": "1936-06-09"
-    },
-    {
       "id": "riksdag:dy10ku1c",
       "type": "document",
       "documentId": "DY10KU1C",
       "title": "Konstitutionsutskottets memorial Nr 1 c",
       "kind": "bet",
       "date": "1937-05-05"
-    },
-    {
-      "id": "riksdag:dy10ku21",
-      "type": "document",
-      "documentId": "DY10KU21",
-      "title": "Konstitutionsutskottets utlåtande Nr 21",
-      "kind": "bet",
-      "date": "1937-05-11"
-    },
-    {
-      "id": "riksdag:e210ku5",
-      "type": "document",
-      "documentId": "E210KU5",
-      "title": "Konstitutionsutskottets memorial Nr 5",
-      "kind": "bet",
-      "date": "1941-02-13"
-    },
-    {
-      "id": "riksdag:e910ku10",
-      "type": "document",
-      "documentId": "E910KU10",
-      "title": "Konstitutionsutskottets utlåtande nr 10",
-      "kind": "bet",
-      "date": "1948-03-04"
     },
     {
       "id": "riksdag:e910ku31",
@@ -978,14 +770,6 @@
       "date": "1952-05-20"
     },
     {
-      "id": "riksdag:ed10ku29",
-      "type": "document",
-      "documentId": "ED10KU29",
-      "title": "Konstitutionsutskottets betänkande nr 29",
-      "kind": "bet",
-      "date": "1952-05-20"
-    },
-    {
       "id": "riksdag:ee10ku17",
       "type": "document",
       "documentId": "EE10KU17",
@@ -1002,28 +786,12 @@
       "date": "1953-05-09"
     },
     {
-      "id": "riksdag:ef10ku16",
-      "type": "document",
-      "documentId": "EF10KU16",
-      "title": "Konstitutionsutskottets utlåtande nr 16",
-      "kind": "bet",
-      "date": "1954-05-13"
-    },
-    {
       "id": "riksdag:ef11ku19",
       "type": "document",
       "documentId": "EF11KU19",
       "title": "Konstitutionsutskottets betänkande nr 19",
       "kind": "bet",
       "date": "1954-11-23"
-    },
-    {
-      "id": "riksdag:eg10ku17",
-      "type": "document",
-      "documentId": "EG10KU17",
-      "title": "Konstitutionsutskottets utlåtande nr 17 är 1955",
-      "kind": "bet",
-      "date": "1955-05-03"
     },
     {
       "id": "riksdag:ek10ku4",
@@ -1048,6 +816,22 @@
       "title": "Konstitutionsutskottets utlåtande nr 5 år 1962",
       "kind": "bet",
       "date": "1962-03-07"
+    },
+    {
+      "id": "riksdag:ft10ku27",
+      "type": "document",
+      "documentId": "FT10KU27",
+      "title": "Konstitutionsutskottets utlåtande nr 27 år 1970",
+      "kind": "bet",
+      "date": "1970-04-23"
+    },
+    {
+      "id": "riksdag:ft10ku31",
+      "type": "document",
+      "documentId": "FT10KU31",
+      "title": "Konstitutionsutskottets utlåtande nr 31 år 1970",
+      "kind": "bet",
+      "date": "1970-05-05"
     },
     {
       "id": "riksdag:fu01ku1",
@@ -2272,6 +2056,22 @@
       "title": "Stärkt konstitutionell beredskap",
       "kind": "bet",
       "date": "2025-12-03"
+    },
+    {
+      "id": "riksdag:ft10ku32",
+      "type": "document",
+      "documentId": "FT10KU32",
+      "title": "Konstitutionsutskottets utlåtande nr 32 år 1970",
+      "kind": "bet",
+      "date": "1970-05-05"
+    },
+    {
+      "id": "riksdag:ft10ku6",
+      "type": "document",
+      "documentId": "FT10KU6",
+      "title": "Konstitutionsutskottets utlåtande nr 6 år 1970",
+      "kind": "bet",
+      "date": "1970-02-11"
     },
     {
       "id": "riksdag:fu0k1",

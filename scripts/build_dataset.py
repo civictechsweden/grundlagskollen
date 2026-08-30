@@ -36,11 +36,11 @@ CACHE = DATA / ".cache" / "riksdag"
 FERENDA = "https://ferenda.lagen.nu/api/v1"
 RIKSDAG_LIST = "https://data.riksdagen.se/dokumentlista/"
 RIKSDAG_DOCUMENT = "https://data.riksdagen.se/dokument/"
+WIKIDATA_SPARQL = "https://query.wikidata.org/sparql"
 # Riksdag open data's digitised KU material begins in 1867.  Use the same
 # discovery, classification and Riksdag-to-SFS validation path across the
 # entire available parliamentary record.
 START_DATE = "1867-01-01"
-NEXT_ELECTION = "2026-09-13"
 MAX_FINAL_DECISION_YEARS = 5
 SSL_CONTEXT = ssl.create_default_context(cafile=os.environ.get("SSL_CERT_FILE") or (certifi.where() if certifi else None))
 
@@ -167,6 +167,47 @@ def fetch_bytes(url: str, accept: str = "application/json") -> bytes:
 
 def fetch_json(url: str) -> dict:
     return json.loads(fetch_bytes(url, "application/json").decode("utf-8"))
+
+
+WIKIDATA_ELECTION_QUERY = """
+SELECT DISTINCT ?election ?electionLabel ?date ?precision WHERE {
+  ?election wdt:P31 wd:Q22266709;
+            wdt:P17 wd:Q34;
+            p:P585 ?dateStatement.
+  FILTER NOT EXISTS { ?election wdt:P31 wd:Q71989553. }
+  ?dateStatement ps:P585 ?date;
+                 psv:P585/wikibase:timePrecision ?precision.
+  FILTER(YEAR(?date) >= 1867)
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "sv,en". }
+}
+ORDER BY ?date
+""".strip()
+
+
+def fetch_wikidata_elections() -> list[dict]:
+    """Fetch Swedish general-election dates and retain Wikidata precision."""
+    query_url = f"{WIKIDATA_SPARQL}?{urlencode({'format': 'json', 'query': WIKIDATA_ELECTION_QUERY})}"
+    response = fetch_json(query_url)
+    elections: list[dict] = []
+    seen: set[tuple[str, str]] = set()
+    for binding in response.get("results", {}).get("bindings", []):
+        election_id = str(binding.get("election", {}).get("value", "")).rstrip("/").split("/")[-1]
+        date = str(binding.get("date", {}).get("value", ""))[:10]
+        if not election_id or not re.fullmatch(r"\d{4}-\d{2}-\d{2}", date):
+            continue
+        key = (election_id, date)
+        if key in seen:
+            continue
+        seen.add(key)
+        precision = str(binding.get("precision", {}).get("value", ""))
+        elections.append({
+            "id": election_id,
+            "date": date,
+            "precision": int(precision) if precision.isdigit() else None,
+            "label": binding.get("electionLabel", {}).get("value"),
+            "source": f"https://www.wikidata.org/wiki/{election_id}",
+        })
+    return elections
 
 
 def fetch_riksdag_text(document_id: str) -> tuple[str, str]:
@@ -326,6 +367,45 @@ def citations(text: str) -> list[dict]:
     ]
 
 
+def legacy_final_reference_terms(text: str, date: str | None, stage: str) -> list[str]:
+    """Find pre-1975 report references in a final-treatment KU report.
+
+    A historic final report often says, for example, “utlåtanden nr 6, 31
+    och 32 … vid 1970 års riksdag”, rather than using today's ``1970/71:KU6``
+    citation syntax.  These are primary-source links: they let the ordinary
+    KU search retrieve and parse the original first-decision report.  They do
+    not themselves create a proposal or an outcome.
+    """
+    if stage != "final":
+        return []
+    if (date or "") >= "1975-01-01":
+        return []
+    terms: list[str] = []
+    for year_match in re.finditer(r"\b(?:vid|från)\s+(\d{4})\s+års\s+riksdag", text, re.I):
+        year = year_match.group(1)
+        context = text[max(0, year_match.start() - 700):year_match.start()]
+        # References in the final report are normally introduced by the KU's
+        # own “hänvisar till …” sentence.  Keeping that tail avoids treating
+        # the report's masthead (for example “betänkande nr 5 år 1971”) as a
+        # 1970 reference merely because it is nearby in the OCR text.
+        introducers = list(re.finditer(r"\b(?:hänvisar|hänvisning)\b", context, re.I))
+        if not introducers:
+            continue
+        context = context[introducers[-1].start():]
+        for kind, labels, prefix in (
+            ("betänkande", r"utlåtanden?|betänkanden?|memorial(?:en)?", "KU"),
+            ("proposition", r"propositionerna?|propp?\.", ""),
+        ):
+            for reference in re.finditer(
+                rf"\b(?:{labels})\s+(?:nr\.?\s*)?(\d+(?:(?:\s*,\s*|\s+och\s+)\d+)*)",
+                context,
+                re.I,
+            ):
+                for number in re.findall(r"\d+", reference.group(1)):
+                    terms.append(f"{year}:{prefix}{number}")
+    return list(dict.fromkeys(terms))
+
+
 def legal_target_hints(text: str) -> list[str]:
     """Keep compact, reviewable hints for the provision named in a decision."""
     patterns = (
@@ -475,7 +555,13 @@ def committee_decision_text(text: str) -> str:
     # Many reports from the transitional digitised corpus place the decisive
     # text under “Utskottet hemställer” rather than a separate modern heading.
     # Prefer that block over earlier background discussion and quoted motions.
-    operative_matches = list(re.finditer(r"(?i)\bUtskottet\s+hemställer\b", text))
+    # Older reports commonly use either “Utskottet får hemställa” or
+    # “får utskottet hemställa”.  Without these forms we fall back to the
+    # entire OCR text and accidentally treat a motion's wording as a decision.
+    operative_matches = list(re.finditer(
+        r"(?i)\b(?:utskottet(?:\s+(?:har\s+)?får)?|får\s+utskottet)\s+hemställ(?:er|a)\b",
+        text,
+    ))
     if operative_matches:
         proposal = operative_matches[-1]
         end_matches = [
@@ -608,6 +694,14 @@ def ref_key(ref: dict) -> str | None:
 
 def ref_keys(document: dict) -> set[str]:
     values = {f"citation:{item['kind']}:{item['normalized']}" for item in document.get("citations", [])}
+    meeting = str(document.get("riksmote") or "")
+    designation = str(document.get("designation") or "")
+    number = re.search(r"\d+", designation)
+    if document.get("kind") == "bet" and re.fullmatch(r"\d{4}", meeting) and number:
+        values.add(f"citation:betänkande:{normalize_citation(f'{meeting}:KU{number.group(0)}')}")
+    for term in document.get("legacyFinalReferenceTerms", []):
+        kind = "betänkande" if re.fullmatch(r"\d{4}:KU\d+", term, re.I) else "proposition"
+        values.add(f"citation:{kind}:{normalize_citation(term)}")
     for ref in document.get("structuredReferences", []):
         key = ref_key(ref)
         if key:
@@ -730,6 +824,7 @@ def extract_document(document_id: str, discovery: list[str]) -> dict:
     activity_list = activities(status)
     title = str(doc.get("titel") or document_id)
     classification = classify(title, text)
+    resolved_decision_date = decision_date(doc, activity_list)
     return {
         "documentId": str(doc.get("dok_id") or document_id).upper(),
         "kind": str(doc.get("doktyp") or "bet"),
@@ -738,7 +833,7 @@ def extract_document(document_id: str, discovery: list[str]) -> dict:
         "designation": doc.get("beteckning"),
         "title": title,
         "publishedDate": iso_date(doc.get("datum")),
-        "decisionDate": decision_date(doc, activity_list),
+        "decisionDate": resolved_decision_date,
         "documentUrl": doc.get("dokument_url_html") or f"{RIKSDAG_DOCUMENT}{document_id}",
         "textUrl": text_url,
         "source": "Riksdagens öppna data",
@@ -746,6 +841,7 @@ def extract_document(document_id: str, discovery: list[str]) -> dict:
         "constitutionIds": constitution_ids(f"{title}\n{text}"),
         "structuredReferences": refs,
         "citations": citations(text),
+        "legacyFinalReferenceTerms": legacy_final_reference_terms(text, resolved_decision_date, classification["stage"]),
         "legalTargetHints": legal_target_hints(text),
         "voteHints": vote_hints(text),
         "dateHints": date_hints(text, doc.get("rm")),
@@ -937,6 +1033,54 @@ def pair_decisions(documents: list[dict], known_pending: list[dict], changes: li
         record["match"] = {"method": "curated_pending_seed_override", "confidence": 0.7, "score": record.get("match", {}).get("score", 0)}
         record["provenance"].append({"field": "status", "sourceUrl": item.get("riksdagUrl"), "method": "curated_pending_seed_override"})
     return records
+
+
+def confirm_historic_first_decisions(documents: list[dict]) -> None:
+    """Promote only KU reports explicitly named by a later final report.
+
+    Before 1975 the first KU report did not always repeat the word
+    ``vilande`` in its operative clause.  The subsequent KU final-treatment
+    report can, however, identify that exact report as one of the pending
+    decisions.  This records that direct parliamentary evidence without
+    treating SFS metadata, a title, or a bare keyword as proof.
+    """
+    by_historic_ku_term: dict[str, dict] = {}
+    for document in documents:
+        meeting = str(document.get("riksmote") or "")
+        designation = str(document.get("designation") or "")
+        number = re.search(r"\d+", designation)
+        if document.get("kind") == "bet" and re.fullmatch(r"\d{4}", meeting) and number:
+            by_historic_ku_term[f"{meeting}:KU{number.group(0)}".upper()] = document
+
+    for final in documents:
+        if final.get("classification", {}).get("stage") != "final":
+            continue
+        final_date = final.get("decisionDate") or final.get("publishedDate") or ""
+        for term in final.get("legacyFinalReferenceTerms", []):
+            first = by_historic_ku_term.get(term.upper())
+            if not first:
+                continue
+            first_date = first.get("decisionDate") or first.get("publishedDate") or ""
+            if not first_date or not final_date or first_date >= final_date:
+                continue
+            classification = first["classification"]
+            if classification["stage"] != "candidate" or classification.get("outcome"):
+                continue
+            evidence = (
+                f"{final['documentId']} identifies {term} as a proposal adopted "
+                f"as pending before its final parliamentary treatment."
+            )
+            classification.update({
+                "stage": "first",
+                "firstPendingDecision": True,
+                "firstSignals": [*classification.get("firstSignals", []), evidence],
+            })
+            first["evidence"] = [*first.get("evidence", []), evidence]
+            first["historicFinalConfirmation"] = {
+                "term": term,
+                "finalDocumentId": final["documentId"],
+                "finalDocumentUrl": final["documentUrl"],
+            }
 
 
 def proposal_record(first: dict, final: dict | None, score: int, committee: dict | None = None) -> dict:
@@ -1141,6 +1285,7 @@ def main() -> None:
     # Fetch SFS metadata first, but use it only to supplement Riksdag keyword
     # discovery.  It must never decide whether a parliamentary case exists.
     changes, catalogs = fetch_ferenda_changes()
+    elections = fetch_wikidata_elections()
     discovered: dict[str, dict] = {}
 
     def add_discovered(record: dict, discovery: str, force: bool = False) -> None:
@@ -1152,7 +1297,11 @@ def main() -> None:
 
     for query in DISCOVERY_QUERIES:
         for record in document_list(query):
-            add_discovered(record, query)
+            # The Riksdag API has already matched this document's full text
+            # against the discovery keyword.  Older KU reports often have a
+            # generic title and an empty summary, so a second metadata filter
+            # would silently remove genuine first-decision reports.
+            add_discovered(record, query, force=True)
     sfs_seed_citations = ferenda_betankande_search_terms(changes)
     for citation in sfs_seed_citations:
         for record in document_list(citation):
@@ -1171,6 +1320,25 @@ def main() -> None:
             documents.append(extract_document(document_id, entry["queries"]))
         except Exception as error:
             errors.append({"documentId": document_id, "error": str(error), "discovery": entry["queries"]})
+
+    # Historic final-treatment reports provide the old-style KU/proposition
+    # references needed to find their original first-decision reports.  Run
+    # that small, explicit second discovery pass before pairing—not from SFS,
+    # and never by inventing a link from a law amendment.
+    extracted_ids = {document["documentId"] for document in documents}
+    for document in documents:
+        for citation in document.get("legacyFinalReferenceTerms", []):
+            for record in document_list(citation):
+                add_discovered(record, f"historic-final-reference:{document['documentId']}:{citation}", force=True)
+    for document_id, entry in sorted(discovered.items()):
+        if document_id in extracted_ids:
+            continue
+        try:
+            documents.append(extract_document(document_id, entry["queries"]))
+        except Exception as error:
+            errors.append({"documentId": document_id, "error": str(error), "discovery": entry["queries"]})
+
+    confirm_historic_first_decisions(documents)
 
     # The broad `vilande` query also returns ordinary KU reports that merely
     # mention constitutional questions. Keep the search provenance, but only
@@ -1193,7 +1361,11 @@ def main() -> None:
     output = {
         "generatedAt": generated_at,
         "scope": {"parliamentaryFrom": START_DATE, "note": "Riksdag KU discovery runs from the first digitised parliamentary year (1867). Ferenda SFS is secondary confirmation for the resulting decision chains."},
-        "election": {"nextDate": NEXT_ELECTION, "source": "https://www.val.se/sa-rostar-du/rosta-pa-valdagen"},
+        "election": {
+            "dates": elections,
+            "source": "Wikidata Swedish general elections",
+            "queryUrl": WIKIDATA_SPARQL,
+        },
         "constitutions": CONSTITUTIONS + [{"id": "ro", "short": "RO", "title": "Riksdagsordningen", "sfs": None}],
         "proposals": proposals,
         "changes": sorted(changes, key=lambda item: (item.get("date") is not None, item.get("date") or "", item["sfs"]), reverse=True),

@@ -1,15 +1,15 @@
 # Dataset benchmark
 
-Generated: `2026-08-30T04:29:28.841721+00:00`
+Generated: `2026-08-30T06:47:11.870993+00:00`
 
 ## Coverage
 
 | Metric | Value |
 | --- | ---: |
-| `total_pending_proposals` | 136 |
+| `total_pending_proposals` | 111 |
 | `finally_adopted` | 63 |
 | `finally_rejected` | 1 |
-| `unresolved` | 129 |
+| `unresolved` | 104 |
 | `matched_to_sfs` | 83 |
 | `adopted_without_sfs_match` | 0 |
 | `orphan_sfs` | 38 |
