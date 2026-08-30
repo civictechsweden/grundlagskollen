@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T07:20:59.137350+00:00",
+  "generatedAt": "2026-08-30T07:26:34.418593+00:00",
   "documents": [
     {
       "documentId": "CE10KU4",
@@ -61,7 +61,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "tf"
@@ -113,7 +114,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -163,7 +166,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -272,7 +277,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -321,7 +327,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -370,7 +377,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -421,7 +430,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -476,7 +487,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -529,7 +541,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "tf"
@@ -695,7 +708,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -746,7 +760,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -797,7 +812,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -844,7 +860,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -944,7 +961,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -998,7 +1016,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -1047,7 +1066,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -1097,7 +1117,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -1200,7 +1221,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "tf",
@@ -1299,7 +1321,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -1359,7 +1383,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -1415,7 +1440,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -1514,6 +1540,7 @@
       "discovery": [
         "vilande",
         "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:tf",
         "historic-final-reference:DJ10KU1:1921:KU23"
       ],
       "constitutionIds": [
@@ -1670,6 +1697,7 @@
       "discovery": [
         "vilande",
         "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
         "historic-final-reference:DJ10KU1:1921:KU37"
       ],
       "constitutionIds": [
@@ -1729,7 +1757,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -1785,7 +1815,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -1878,7 +1909,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -1986,7 +2019,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -2034,7 +2068,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -2086,7 +2121,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "grundlagsbeslut",
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -2141,7 +2177,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -2239,6 +2278,7 @@
       "discovery": [
         "vilande",
         "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
         "historic-final-reference:FU01KU1:1970:KU27"
       ],
       "constitutionIds": [
@@ -2294,6 +2334,7 @@
       "discovery": [
         "vilande",
         "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:tf",
         "historic-final-reference:FU01KU5:1970:KU31"
       ],
       "constitutionIds": [
@@ -2348,7 +2389,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/FU01KU1/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -2409,7 +2451,9 @@
       "textUrl": "https://data.riksdagen.se/dokument/FU01KU5/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -2458,7 +2502,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/FU01KU6/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -2501,7 +2546,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/FU01KU7/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "tf",
@@ -2559,7 +2605,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -2667,7 +2716,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/FX01KU1/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -2732,7 +2782,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/FX01KU14/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -2773,7 +2824,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/FX01KU2/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "tf"
@@ -2827,7 +2879,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/FX01KU6/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -2878,7 +2931,10 @@
       "textUrl": "https://data.riksdagen.se/dokument/FX01KU7/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -2940,7 +2996,10 @@
       "textUrl": "https://data.riksdagen.se/dokument/FX01KU8/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -3026,7 +3085,10 @@
       "textUrl": "https://data.riksdagen.se/dokument/FZ01KU1/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -3105,7 +3167,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1975/76:160"
+        "ferenda-sfs-proposition:1975/76:160",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -3184,7 +3248,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1975/76:112"
+        "ferenda-sfs-proposition:1975/76:112",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -3274,7 +3339,9 @@
       "discovery": [
         "vilande",
         "grundlagsenlig behandling",
-        "ferenda-sfs-proposition:1975/76:204"
+        "ferenda-sfs-proposition:1975/76:204",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "tf",
@@ -3359,7 +3426,11 @@
         "grundlagsenlig behandling",
         "ferenda-sfs-proposition:1975/76:209",
         "ferenda-sfs-proposition:1975/76:160",
-        "ferenda-sfs-proposition:1975/76:204"
+        "ferenda-sfs-proposition:1975/76:204",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -3488,7 +3559,9 @@
         "ferenda-sfs-proposition:1975/76:112",
         "ferenda-sfs-proposition:1975/76:209",
         "ferenda-sfs-proposition:1975/76:160",
-        "ferenda-sfs-proposition:1975/76:204"
+        "ferenda-sfs-proposition:1975/76:204",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -3737,7 +3810,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1977/78:71"
+        "ferenda-sfs-proposition:1977/78:71",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -3817,7 +3893,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1978/79:179"
+        "ferenda-sfs-proposition:1978/79:179",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "tf",
@@ -3900,7 +3978,11 @@
         "vilande",
         "grundlagsenlig behandling",
         "ferenda-sfs-proposition:1975/76:209",
-        "ferenda-sfs-proposition:1978/79:195"
+        "ferenda-sfs-proposition:1978/79:195",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -4011,7 +4093,10 @@
         "grundlagsenlig behandling",
         "ferenda-sfs-proposition:1977/78:71",
         "ferenda-sfs-proposition:1978/79:195",
-        "ferenda-sfs-proposition:1978/79:179"
+        "ferenda-sfs-proposition:1978/79:179",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -4118,7 +4203,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1981/82:37"
+        "ferenda-sfs-proposition:1981/82:37",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -4196,6 +4283,7 @@
       "discovery": [
         "vilande",
         "ferenda-sfs-proposition:1981/82:58",
+        "ferenda-sfs-law-discovery:tf",
         "historic-final-reference:FU01KU5:1970:87"
       ],
       "constitutionIds": [
@@ -4277,7 +4365,9 @@
       "textUrl": "https://data.riksdagen.se/dokument/G501KU38/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "tf",
@@ -4363,7 +4453,9 @@
         "ferenda-sfs-proposition:1981/82:77",
         "ferenda-sfs-proposition:1981/82:52",
         "ferenda-sfs-proposition:1981/82:37",
-        "ferenda-sfs-proposition:1981/82:58"
+        "ferenda-sfs-proposition:1981/82:58",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -4481,7 +4573,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/G701KU9/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -4554,7 +4647,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1984/85:36"
+        "ferenda-sfs-proposition:1984/85:36",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -4628,7 +4722,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1984/85:83"
+        "ferenda-sfs-proposition:1984/85:83",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -4706,7 +4801,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1984/85:83"
+        "ferenda-sfs-proposition:1984/85:83",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -4793,7 +4891,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1984/85:61"
+        "ferenda-sfs-proposition:1984/85:61",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -4873,7 +4972,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1984/85:36"
+        "ferenda-sfs-proposition:1984/85:36",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -5082,7 +5182,8 @@
         "vilande",
         "ferenda-sfs-proposition:1984/85:83",
         "ferenda-sfs-proposition:1984/85:36",
-        "ferenda-sfs-proposition:1984/85:61"
+        "ferenda-sfs-proposition:1984/85:61",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -5205,7 +5306,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1984/85:83"
+        "ferenda-sfs-proposition:1984/85:83",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -5295,7 +5397,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1986/87:143"
+        "ferenda-sfs-proposition:1986/87:143",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -5386,7 +5489,8 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1987/88:6"
+        "ferenda-sfs-proposition:1987/88:6",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -5468,7 +5572,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1987/88:57"
+        "ferenda-sfs-proposition:1987/88:57",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -5582,7 +5687,8 @@
       "discovery": [
         "vilande",
         "grundlagsenlig behandling",
-        "ferenda-sfs-proposition:1987/88:31"
+        "ferenda-sfs-proposition:1987/88:31",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -5740,7 +5846,8 @@
         "vilande",
         "grundlagsenlig behandling",
         "ferenda-sfs-proposition:1987/88:22",
-        "ferenda-sfs-proposition:1987/88:32"
+        "ferenda-sfs-proposition:1987/88:32",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -5845,7 +5952,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1987/88:32"
+        "ferenda-sfs-proposition:1987/88:32",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -5934,7 +6043,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1987/88:58"
+        "ferenda-sfs-proposition:1987/88:58",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -6014,6 +6125,9 @@
         "vilande",
         "ferenda-sfs-proposition:1986/87:151",
         "ferenda-sfs-proposition:1978/79:179",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl",
         "historic-final-reference:FU01KU5:1970:87"
       ],
       "constitutionIds": [
@@ -6174,7 +6288,9 @@
         "ferenda-sfs-proposition:1987/88:22",
         "ferenda-sfs-proposition:1986/87:151",
         "ferenda-sfs-proposition:1987/88:32",
-        "ferenda-sfs-proposition:1986/87:143"
+        "ferenda-sfs-proposition:1986/87:143",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -6678,7 +6794,9 @@
       "discovery": [
         "vilande",
         "ferenda-sfs-proposition:1975/76:160",
-        "ferenda-sfs-proposition:1990/91:60"
+        "ferenda-sfs-proposition:1990/91:60",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -7062,7 +7180,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1986/87:143"
+        "ferenda-sfs-proposition:1986/87:143",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -7195,7 +7316,10 @@
         "ferenda-sfs-proposition:1986/87:151",
         "ferenda-sfs-proposition:1990/91:64",
         "ferenda-sfs-proposition:1975/76:204",
-        "ferenda-sfs-proposition:1978/79:179"
+        "ferenda-sfs-proposition:1978/79:179",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -7610,7 +7734,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "grundlagsbeslut",
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -7847,7 +7972,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1990/91:66"
+        "ferenda-sfs-proposition:1990/91:66",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -7979,7 +8105,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1990/91:67"
+        "ferenda-sfs-proposition:1990/91:67",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -8346,7 +8473,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1990/91:64"
+        "ferenda-sfs-proposition:1990/91:64",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -8489,7 +8619,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/GF01KU13/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -8633,7 +8764,10 @@
         "vilande",
         "ferenda-sfs-proposition:1990/91:66",
         "ferenda-sfs-proposition:1990/91:67",
-        "ferenda-sfs-proposition:1990/91:60"
+        "ferenda-sfs-proposition:1990/91:60",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -8815,7 +8949,8 @@
         "grundlagsbeslut",
         "vilande",
         "ferenda-sfs-proposition:1975/76:209",
-        "ferenda-sfs-proposition:1987/88:31"
+        "ferenda-sfs-proposition:1987/88:31",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -9138,7 +9273,9 @@
       "textUrl": "https://data.riksdagen.se/dokument/GG01KU5/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so"
       ],
       "constitutionIds": [
         "rf",
@@ -9448,7 +9585,8 @@
       "discovery": [
         "vilande",
         "ferenda-sfs-proposition:1984/85:36",
-        "ferenda-sfs-proposition:1993/94:77"
+        "ferenda-sfs-proposition:1993/94:77",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -10176,7 +10314,8 @@
       "discovery": [
         "vilande",
         "grundlagsenlig behandling",
-        "ferenda-sfs-proposition:1993/94:77"
+        "ferenda-sfs-proposition:1993/94:77",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -10415,7 +10554,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1993/94:113"
+        "ferenda-sfs-proposition:1993/94:113",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -10560,7 +10701,10 @@
         "vilande",
         "grundlagsenlig behandling",
         "ferenda-sfs-proposition:1993/94:114",
-        "ferenda-sfs-proposition:1993/94:117"
+        "ferenda-sfs-proposition:1993/94:117",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -10772,7 +10916,11 @@
         "ferenda-sfs-proposition:1977/78:71",
         "ferenda-sfs-proposition:1993/94:114",
         "ferenda-sfs-proposition:1993/94:117",
-        "ferenda-sfs-proposition:1993/94:115"
+        "ferenda-sfs-proposition:1993/94:115",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -11348,7 +11496,10 @@
         "ferenda-sfs-proposition:1975/76:209",
         "ferenda-sfs-proposition:1978/79:195",
         "ferenda-sfs-proposition:1987/88:32",
-        "ferenda-sfs-proposition:1993/94:117"
+        "ferenda-sfs-proposition:1993/94:117",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -11968,7 +12119,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1993/94:118"
+        "ferenda-sfs-proposition:1993/94:118",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -12112,7 +12266,10 @@
         "vilande",
         "ferenda-sfs-proposition:1986/87:151",
         "ferenda-sfs-proposition:1990/91:64",
-        "ferenda-sfs-proposition:1978/79:179"
+        "ferenda-sfs-proposition:1978/79:179",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -12698,7 +12855,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1993/94:116"
+        "ferenda-sfs-proposition:1993/94:116",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -12887,7 +13047,11 @@
         "ferenda-sfs-proposition:1977/78:71",
         "ferenda-sfs-proposition:1993/94:114",
         "ferenda-sfs-proposition:1993/94:117",
-        "ferenda-sfs-proposition:1993/94:115"
+        "ferenda-sfs-proposition:1993/94:115",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -13170,7 +13334,8 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1993/94:115"
+        "ferenda-sfs-proposition:1993/94:115",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -13314,7 +13479,8 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1993/94:77"
+        "ferenda-sfs-proposition:1993/94:77",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -13535,7 +13701,8 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1993/94:77"
+        "ferenda-sfs-proposition:1993/94:77",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -13710,7 +13877,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "grundlagsenlig behandling"
+        "grundlagsenlig behandling",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -14487,7 +14657,9 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1993/94:113"
+        "ferenda-sfs-proposition:1993/94:113",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -14655,7 +14827,8 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1993/94:117"
+        "ferenda-sfs-proposition:1993/94:117",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -14828,7 +15001,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1993/94:118"
+        "ferenda-sfs-proposition:1993/94:118",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -15004,7 +15180,8 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1993/94:116"
+        "ferenda-sfs-proposition:1993/94:116",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -15137,7 +15314,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/GI01KU8/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -15278,7 +15456,9 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1993/94:114"
+        "ferenda-sfs-proposition:1993/94:114",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -15437,7 +15617,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/GJ01KU16/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -15544,7 +15725,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1997/98:40"
+        "ferenda-sfs-proposition:1997/98:40",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -15876,7 +16059,10 @@
         "ferenda-sfs-proposition:1987/88:57",
         "ferenda-sfs-proposition:1993/94:116",
         "ferenda-sfs-proposition:1997/98:44",
-        "ferenda-sfs-proposition:1975/76:160"
+        "ferenda-sfs-proposition:1975/76:160",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -16250,7 +16436,10 @@
         "ferenda-sfs-proposition:1986/87:151",
         "ferenda-sfs-proposition:1993/94:114",
         "ferenda-sfs-proposition:1997/98:43",
-        "ferenda-sfs-proposition:1978/79:179"
+        "ferenda-sfs-proposition:1978/79:179",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -16792,7 +16981,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1997/98:49"
+        "ferenda-sfs-proposition:1997/98:49",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -17192,7 +17384,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1997/98:40"
+        "ferenda-sfs-proposition:1997/98:40",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -17448,7 +17641,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1997/98:44"
+        "ferenda-sfs-proposition:1997/98:44",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -17601,7 +17795,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1997/98:43"
+        "ferenda-sfs-proposition:1997/98:43",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -17813,7 +18010,10 @@
       "textUrl": "https://data.riksdagen.se/dokument/GM01KU5/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -17980,7 +18180,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1990/91:64"
+        "ferenda-sfs-proposition:1990/91:64",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -18222,7 +18425,9 @@
       "discovery": [
         "vilande",
         "grundlagsenlig behandling",
-        "ferenda-sfs-proposition:1997/98:40"
+        "ferenda-sfs-proposition:1997/98:40",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so"
       ],
       "constitutionIds": [
         "rf",
@@ -19009,7 +19214,10 @@
         "ferenda-sfs-proposition:1997/98:44",
         "ferenda-sfs-proposition:1975/76:160",
         "ferenda-sfs-proposition:2001/02:74",
-        "ferenda-sfs-proposition:2001/02:70"
+        "ferenda-sfs-proposition:2001/02:70",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -19282,7 +19490,11 @@
         "ferenda-sfs-proposition:1975/76:209",
         "ferenda-sfs-proposition:1987/88:57",
         "ferenda-sfs-proposition:1993/94:114",
-        "ferenda-sfs-proposition:2001/02:72"
+        "ferenda-sfs-proposition:2001/02:72",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -19883,7 +20095,10 @@
         "vilande",
         "ferenda-sfs-proposition:1997/98:43",
         "ferenda-sfs-proposition:2001/02:59",
-        "ferenda-sfs-proposition:2001/02:74"
+        "ferenda-sfs-proposition:2001/02:74",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -20323,7 +20538,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2001/02:73"
+        "ferenda-sfs-proposition:2001/02:73",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -20535,7 +20752,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2001/02:64"
+        "ferenda-sfs-proposition:2001/02:64",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -20776,7 +20996,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2001/02:64"
+        "ferenda-sfs-proposition:2001/02:64",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -21053,7 +21276,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/GQ01KU3/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -21239,7 +21463,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/GQ01KU4/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -21434,7 +21659,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2001/02:70"
+        "ferenda-sfs-proposition:2001/02:70",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -21638,7 +21865,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2001/02:72"
+        "ferenda-sfs-proposition:2001/02:72",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -21913,7 +22141,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2001/02:59"
+        "ferenda-sfs-proposition:2001/02:59",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -22187,7 +22417,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2001/02:74"
+        "ferenda-sfs-proposition:2001/02:74",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "tf",
@@ -22454,7 +22686,9 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:2001/02:73"
+        "ferenda-sfs-proposition:2001/02:73",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -22685,7 +22919,10 @@
         "ferenda-sfs-proposition:1993/94:117",
         "ferenda-sfs-proposition:1997/98:40",
         "ferenda-sfs-proposition:1997/98:49",
-        "ferenda-sfs-proposition:2001/02:72"
+        "ferenda-sfs-proposition:2001/02:72",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -23721,7 +23958,8 @@
       "discovery": [
         "vilande",
         "ferenda-sfs-proposition:1986/87:151",
-        "ferenda-sfs-proposition:2001/02:72"
+        "ferenda-sfs-proposition:2001/02:72",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -24119,7 +24357,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/GS01KU29/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -24723,7 +24962,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:1997/98:49"
+        "ferenda-sfs-proposition:1997/98:49",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -25056,7 +25296,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "grundlagsbeslut",
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -26144,7 +26385,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/GU01KU3/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -26326,7 +26568,8 @@
         "vilande",
         "grundlagsenlig behandling",
         "ferenda-sfs-proposition:2001/02:73",
-        "ferenda-sfs-proposition:2009/10:80"
+        "ferenda-sfs-proposition:2009/10:80",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -26616,7 +26859,10 @@
         "vilande",
         "ferenda-sfs-proposition:1990/91:64",
         "ferenda-sfs-proposition:2009/10:80",
-        "ferenda-sfs-proposition:2009/10:81"
+        "ferenda-sfs-proposition:2009/10:81",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -26911,7 +27157,10 @@
         "vilande",
         "ferenda-sfs-proposition:2001/02:72",
         "ferenda-sfs-proposition:2009/10:80",
-        "ferenda-sfs-proposition:2009/10:81"
+        "ferenda-sfs-proposition:2009/10:81",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -27905,7 +28154,9 @@
       "discovery": [
         "vilande",
         "ferenda-sfs-proposition:1975/76:160",
-        "ferenda-sfs-proposition:2009/10:58"
+        "ferenda-sfs-proposition:2009/10:58",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "tf",
@@ -28189,7 +28440,10 @@
         "vilande",
         "ferenda-sfs-proposition:1997/98:43",
         "ferenda-sfs-proposition:1978/79:179",
-        "ferenda-sfs-proposition:2009/10:70"
+        "ferenda-sfs-proposition:2009/10:70",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -28631,7 +28885,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:2009/10:81"
+        "ferenda-sfs-proposition:2009/10:81",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -28931,7 +29188,10 @@
         "grundlagsbeslut",
         "vilande",
         "ferenda-sfs-proposition:2009/10:80",
-        "ferenda-sfs-proposition:2009/10:81"
+        "ferenda-sfs-proposition:2009/10:81",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -29278,7 +29538,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:2009/10:70"
+        "ferenda-sfs-proposition:2009/10:70",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -29494,7 +29757,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:2009/10:58"
+        "ferenda-sfs-proposition:2009/10:58",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -29778,7 +30044,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2013/14:48"
+        "ferenda-sfs-proposition:2013/14:48",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -30125,7 +30392,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2013/14:47"
+        "ferenda-sfs-proposition:2013/14:47",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -30547,7 +30817,8 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:2013/14:48"
+        "ferenda-sfs-proposition:2013/14:48",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -30739,7 +31010,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:2013/14:47"
+        "ferenda-sfs-proposition:2013/14:47",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -30889,7 +31163,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:2013/14:51"
+        "ferenda-sfs-proposition:2013/14:51",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -31037,7 +31314,9 @@
       "discovery": [
         "vilande",
         "ferenda-sfs-proposition:2009/10:80",
-        "ferenda-sfs-proposition:2013/14:48"
+        "ferenda-sfs-proposition:2013/14:48",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -31861,7 +32140,10 @@
         "vilande",
         "ferenda-sfs-proposition:1986/87:151",
         "ferenda-sfs-proposition:2001/02:74",
-        "ferenda-sfs-proposition:2016/17:222"
+        "ferenda-sfs-proposition:2016/17:222",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -32114,7 +32396,8 @@
         "vilande",
         "ferenda-sfs-proposition:1997/98:40",
         "ferenda-sfs-proposition:2001/02:73",
-        "ferenda-sfs-proposition:2009/10:80"
+        "ferenda-sfs-proposition:2009/10:80",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -32370,7 +32653,11 @@
         "ferenda-sfs-proposition:2001/02:74",
         "ferenda-sfs-proposition:2016/17:222",
         "ferenda-sfs-proposition:2017/18:49",
-        "ferenda-sfs-proposition:2017/18:59"
+        "ferenda-sfs-proposition:2017/18:59",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -32932,7 +33219,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "grundlagsbeslut",
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so"
       ],
       "constitutionIds": [
         "rf",
@@ -33213,7 +33502,10 @@
         "vilande",
         "ferenda-sfs-proposition:2016/17:222",
         "ferenda-sfs-proposition:2017/18:49",
-        "ferenda-sfs-proposition:2017/18:59"
+        "ferenda-sfs-proposition:2017/18:59",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -33507,7 +33799,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "grundlagsbeslut",
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -33726,7 +34019,9 @@
       "discovery": [
         "vilande",
         "ferenda-sfs-proposition:2009/10:80",
-        "ferenda-sfs-proposition:2018/19:162"
+        "ferenda-sfs-proposition:2018/19:162",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -34016,7 +34311,10 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:1975/76:204"
+        "ferenda-sfs-proposition:1975/76:204",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -34403,7 +34701,8 @@
       "discovery": [
         "grundlagsbeslut",
         "vilande",
-        "ferenda-sfs-proposition:2001/02:73"
+        "ferenda-sfs-proposition:2001/02:73",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -34700,7 +34999,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2021/22:40"
+        "ferenda-sfs-proposition:2021/22:40",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -34881,7 +35181,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2021/22:42"
+        "ferenda-sfs-proposition:2021/22:42",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -35189,7 +35490,10 @@
         "ferenda-sfs-proposition:1975/76:204",
         "ferenda-sfs-proposition:2001/02:74",
         "ferenda-sfs-proposition:2017/18:49",
-        "ferenda-sfs-proposition:2021/22:59"
+        "ferenda-sfs-proposition:2021/22:59",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -35630,7 +35934,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2021/22:41"
+        "ferenda-sfs-proposition:2021/22:41",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -35857,7 +36162,10 @@
         "ferenda-sfs-proposition:2001/02:74",
         "ferenda-sfs-proposition:2013/14:51",
         "ferenda-sfs-proposition:2016/17:222",
-        "ferenda-sfs-proposition:2021/22:55"
+        "ferenda-sfs-proposition:2021/22:55",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -36109,7 +36417,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/H901KU3/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -36419,7 +36728,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2018/19:162"
+        "ferenda-sfs-proposition:2018/19:162",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -36594,7 +36905,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/HA01KU3/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -36803,7 +37115,9 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2009/10:80"
+        "ferenda-sfs-proposition:2009/10:80",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "rf",
@@ -37152,7 +37466,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2021/22:42"
+        "ferenda-sfs-proposition:2021/22:42",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -37351,7 +37666,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2021/22:59"
+        "ferenda-sfs-proposition:2021/22:59",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -37554,7 +37872,10 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2021/22:55"
+        "ferenda-sfs-proposition:2021/22:55",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -37767,7 +38088,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2021/22:41"
+        "ferenda-sfs-proposition:2021/22:41",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf",
@@ -38050,7 +38372,8 @@
       "source": "Riksdagens öppna data",
       "discovery": [
         "vilande",
-        "ferenda-sfs-proposition:2021/22:40"
+        "ferenda-sfs-proposition:2021/22:40",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -38224,7 +38547,10 @@
       "textUrl": "https://data.riksdagen.se/dokument/HB01KU22/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -38456,7 +38782,11 @@
         "grundlagsbeslut",
         "vilande",
         "grundlagsenlig behandling",
-        "ferenda-sfs-proposition:2009/10:80"
+        "ferenda-sfs-proposition:2009/10:80",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:so",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",
@@ -38715,7 +39045,9 @@
       "textUrl": "https://data.riksdagen.se/dokument/HD01KU32/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "tf",
@@ -38926,7 +39258,8 @@
       "textUrl": "https://data.riksdagen.se/dokument/HD01KU33/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:tf"
       ],
       "constitutionIds": [
         "tf"
@@ -39145,7 +39478,8 @@
         "vilande",
         "ferenda-sfs-proposition:1975/76:209",
         "ferenda-sfs-proposition:2009/10:80",
-        "ferenda-sfs-proposition:2021/22:42"
+        "ferenda-sfs-proposition:2021/22:42",
+        "ferenda-sfs-law-discovery:rf"
       ],
       "constitutionIds": [
         "rf"
@@ -39503,7 +39837,10 @@
       "textUrl": "https://data.riksdagen.se/dokument/HD01KU8/text",
       "source": "Riksdagens öppna data",
       "discovery": [
-        "vilande"
+        "vilande",
+        "ferenda-sfs-law-discovery:rf",
+        "ferenda-sfs-law-discovery:tf",
+        "ferenda-sfs-law-discovery:ygl"
       ],
       "constitutionIds": [
         "rf",

@@ -1330,6 +1330,10 @@ def main() -> None:
     for citation in sfs_seed_citations:
         for record in document_list(citation):
             add_discovered(record, f"ferenda-sfs-proposition:{citation}", force=True)
+    for law in CONSTITUTIONS:
+        law_query = f"{law['title']} vilande"
+        for record in document_list(law_query):
+            add_discovered(record, f"ferenda-sfs-law-discovery:{law['id']}", force=True)
     for document_id in REGRESSION_DOCUMENT_IDS:
         discovered.setdefault(document_id, {"record": {"dok_id": document_id}, "queries": ["regression-fixture"]})
     for item in load_known_pending():
