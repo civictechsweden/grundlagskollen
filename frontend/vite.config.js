@@ -13,9 +13,13 @@ function frontendDataset() {
   const pick = (value, keys) => value && Object.fromEntries(keys.filter((key) => key in value).map((key) => [key, value[key]]));
   return {
     ...pick(data, ['constitutions', 'election', 'generatedAt', 'currentRefreshedAt', 'historicalSnapshotAt', 'sources']),
+    changes: data.changes.map((change) => ({
+      ...pick(change, ['sfs', 'constitutionId', 'lawUrl', 'comparisonUrl', 'printedVersionUrl']),
+      effectiveDate: change.metadata?.ikraft || change.date || null,
+    })),
     proposals: data.proposals.map((proposal) => ({
       ...pick(proposal, ['proposalId', 'title', 'sourceText', 'status', 'constitutionIds', 'sfsIds', 'parliamentaryProgress', 'match']),
-      ...Object.fromEntries(['firstDecision', 'finalDecision', 'nextDecision'].map((field) => [field, pick(proposal[field], ['documentId', 'date', 'documentUrl'])])),
+      ...Object.fromEntries(['firstDecision', 'finalDecision', 'nextDecision'].map((field) => [field, pick(proposal[field], ['documentId', 'date', 'documentUrl', 'parliamentaryProgress'])])),
     })),
   };
 }

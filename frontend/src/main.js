@@ -3,6 +3,7 @@ import './style.css';
 
 const app = document.querySelector('#app');
 const lawById = Object.fromEntries(data.constitutions.map((law) => [law.id, law]));
+const sfsById = Object.fromEntries(data.changes.map((change) => [change.sfs, change]));
 const elections = [...(data.election?.dates || [])].sort((a, b) => a.date.localeCompare(b.date));
 const checkedAt = data.currentRefreshedAt || data.generatedAt;
 const recentSince = new Date(checkedAt);
@@ -21,9 +22,44 @@ const state = { query: params.get('q') || '', law: params.get('law') || 'all', s
 if (!['all', ...Object.keys(lawById)].includes(state.law)) state.law = 'all';
 if (!['verified', 'all', 'pending', 'adopted', 'rejected', 'unresolved'].includes(state.status)) state.status = 'verified';
 const chevron = '<svg class="chevron" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
+const linkIcon = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';
+const playIcon = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="m10 8 6 4-6 4z"/></svg>';
+let copyFeedbackTimer;
 
 function escapeHTML(value = '') {
   return String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
+}
+
+function renderSourceText(source) {
+  if (!source.html) {
+    return source.text.split(/\n\s*\n/).map((paragraph) => `<p>${escapeHTML(paragraph).replaceAll('\n', '<br>')}</p>`).join('');
+  }
+  const parsed = new DOMParser().parseFromString(source.html, 'text/html');
+  const allowed = new Set(['p', 'ul', 'ol', 'li', 'strong', 'em', 'b', 'i', 'br', 'a', 'sub', 'sup']);
+  const excluded = new Set(['script', 'style', 'iframe', 'object', 'embed', 'template', 'svg', 'math']);
+  const renderNode = (node) => {
+    if (node.nodeType === Node.TEXT_NODE) return escapeHTML(node.textContent);
+    if (node.nodeType !== Node.ELEMENT_NODE || excluded.has(node.localName)) return '';
+    const children = [...node.childNodes].map(renderNode).join('');
+    const tag = node.localName;
+    if (!allowed.has(tag)) return children;
+    if (tag === 'br') return '<br>';
+    let attributes = '';
+    if (tag === 'a') {
+      if (!node.hasAttribute('href')) return children;
+      try {
+        const url = new URL(node.getAttribute('href'), source.sourceUrl);
+        if (!['http:', 'https:'].includes(url.protocol)) return children;
+        attributes = ` href="${escapeHTML(url.href)}"`;
+      } catch { return children; }
+    }
+    const ordinal = node.getAttribute(tag === 'ol' ? 'start' : 'value');
+    if (['ol', 'li'].includes(tag) && /^-?\d+$/.test(ordinal || '')) {
+      attributes = ` ${tag === 'ol' ? 'start' : 'value'}="${ordinal}"`;
+    }
+    return `<${tag}${attributes}>${children}</${tag}>`;
+  };
+  return [...parsed.body.childNodes].map(renderNode).join('');
 }
 
 function formatDate(value, long = false) {
@@ -43,6 +79,17 @@ function lawNames(record) { return record.constitutionIds.map((id) => lawById[id
 function sourceLink(document, label) {
   return document?.documentUrl ? `<a href="${escapeHTML(document.documentUrl)}">${escapeHTML(label)}</a>` : '';
 }
+function riksdagSection(document, section) {
+  if (!document || !/^[a-z0-9]{2}01ku\d+$/i.test(document.documentId || '')) return document;
+  // Riksdagen resolves this document-ID route to its canonical page, so
+  // links do not depend on generating or maintaining Swedish title slugs.
+  const id = document.documentId.toLowerCase();
+  return {
+    ...document,
+    documentUrl: `https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/_${id}/#${section}`,
+    ...(section === 'debatt' ? { webcastUrl: `https://www.riksdagen.se/sv/webb-tv/video/debatt-om-forslag/_${id}/` } : {}),
+  };
+}
 function electionBetween(record) {
   return elections.find((election) => election.date > record.firstDecision.date && (!record.finalDecision?.date || election.date < record.finalDecision.date));
 }
@@ -52,69 +99,65 @@ function electionLabel(election) {
   if (election.precision === 10) return new Intl.DateTimeFormat('sv-SE', { month: 'long', year: 'numeric' }).format(new Date(`${election.date}T12:00:00`));
   return formatDate(election.date);
 }
-function recommendationLabel(event) {
-  if (event?.recommendation === 'adopt') return 'Föreslår ja';
-  if (event?.recommendation === 'reject') return 'Föreslår nej';
-  return 'Behandlat i utskottet';
-}
 function eventDate(event) {
   if (!event) return 'Inte identifierat i underlaget';
   return `${event.status === 'planned' ? 'Planerat ' : event.status === 'unconfirmed' ? 'Ej bekräftat · ' : ''}${formatDate(event.date)}`;
 }
-function timelineItem(label, value, kind = 'completed') {
-  return `<li class="milestone is-${kind}"><span class="milestone-dot" aria-hidden="true"></span><div><strong>${escapeHTML(label)}</strong><span>${escapeHTML(value)}</span></div></li>`;
+function timelineItem(label, value, kind = 'completed', document = null, showPlay = false) {
+  return `<li class="milestone is-${kind}"><span class="milestone-dot" aria-hidden="true"></span><div><strong class="milestone-heading">${sourceLink(document, label) || escapeHTML(label)}${showPlay && kind === 'completed' && document?.documentUrl ? `<a class="debate-play" href="${escapeHTML(document.webcastUrl || document.documentUrl)}" aria-label="Se debatten på riksdagens webb-tv" title="Se debatten på riksdagens webb-tv">${playIcon}</a>` : ''}</strong><span>${escapeHTML(value)}</span></div></li>`;
+}
+
+function renderSfsTimeline(record) {
+  if (record.status !== 'adopted' || !record.finalDecision) return '';
+  const amendments = (record.sfsIds || []).map((id) => sfsById[id]).filter(Boolean);
+  if (!amendments.length) return '';
+  return `<li class="milestone is-completed"><span class="milestone-dot" aria-hidden="true"></span><div>
+    <strong>${amendments.length > 1 ? 'Författningsändringar' : 'Författningsändring'}</strong>
+    ${amendments.map((amendment) => `<span class="sfs-entry">SFS ${escapeHTML(amendment.sfs)}${amendments.length > 1 ? ` · ${escapeHTML(lawById[amendment.constitutionId]?.title || '')}` : ''}${amendment.effectiveDate ? `<span class="sfs-effective">Gäller från <time datetime="${escapeHTML(amendment.effectiveDate)}">${escapeHTML(formatDate(amendment.effectiveDate))}</time></span>` : ''}${amendment.printedVersionUrl || amendment.comparisonUrl ? `<span class="sfs-links">${amendment.printedVersionUrl ? `<a href="${escapeHTML(amendment.printedVersionUrl)}" aria-label="Tryckt version av SFS ${escapeHTML(amendment.sfs)}">Tryckt version</a>` : ''}${amendment.comparisonUrl ? `<a href="${escapeHTML(amendment.comparisonUrl)}" aria-label="SFS ${escapeHTML(amendment.sfs)} på lagen.nu">lagen.nu</a>` : ''}</span>` : ''}</span>`).join('')}
+  </div></li>`;
 }
 
 function renderTimeline(record) {
+  const firstProgress = record.firstDecision.parliamentaryProgress;
   const progress = record.parliamentaryProgress;
   const election = electionBetween(record);
   const electionComplete = election && election.date <= String(checkedAt).slice(0, 10);
   return `<ol class="decision-timeline" aria-label="Ärendets steg">
-    ${timelineItem('Första beslutet i kammaren', formatDate(record.firstDecision.date))}
-    ${timelineItem('Riksdagsval däremellan', electionLabel(election), electionComplete ? 'completed' : 'planned')}
-    ${progress?.committee ? timelineItem('Utskottets behandling inför andra beslutet', `${progress.committee.status === 'completed' ? `${recommendationLabel(progress.committee)} · ` : ''}${eventDate(progress.committee)}`, progress.committee.status) : ''}
-    ${progress?.debate ? timelineItem('Debatt i kammaren', eventDate(progress.debate), progress.debate.status) : ''}
+    ${firstProgress?.committee ? timelineItem('Utskottets förslag', eventDate(firstProgress.committee), firstProgress.committee.status, riksdagSection(record.firstDecision, 'beredning')) : ''}
+    ${firstProgress?.debate ? timelineItem('Debatt i kammaren', eventDate(firstProgress.debate), firstProgress.debate.status, riksdagSection(record.firstDecision, 'debatt'), true) : ''}
+    ${timelineItem('Första beslutet i kammaren', formatDate(record.firstDecision.date), 'completed', riksdagSection(record.firstDecision, 'beslut'))}
+    ${timelineItem('Riksdagsval däremellan', electionLabel(election), electionComplete ? 'completed' : 'planned', election?.wikipediaUrl ? { documentUrl: election.wikipediaUrl } : null)}
+    ${progress?.committee ? timelineItem('Utskottets förslag', eventDate(progress.committee), progress.committee.status, riksdagSection(progress, 'beredning')) : ''}
+    ${progress?.debate ? timelineItem('Debatt i kammaren', eventDate(progress.debate), progress.debate.status, riksdagSection(progress, 'debatt'), true) : ''}
     ${timelineItem('Andra beslutet i kammaren', record.finalDecision?.date
       ? `${record.status === 'adopted' ? 'Antagen' : record.status === 'rejected' ? 'Förkastad' : 'Utgång oklar'} · ${formatDate(record.finalDecision.date)}`
-      : record.nextDecision?.date ? `Planerat ${formatDate(record.nextDecision.date)}` : 'Inte identifierat i underlaget', record.finalDecision?.date ? 'completed' : 'planned')}
+      : record.nextDecision?.date ? `Planerat ${formatDate(record.nextDecision.date)}` : 'Inte identifierat i underlaget', record.finalDecision?.date ? 'completed' : 'planned', riksdagSection(record.finalDecision || record.nextDecision || progress, 'beslut'))}
+    ${renderSfsTimeline(record)}
   </ol>`;
 }
 
 function renderCard(record, context = 'current') {
   const id = `${context === 'history' ? 'history' : 'case'}-${safeId(record.proposalId)}`;
-  const progress = record.parliamentaryProgress;
   const finalDate = record.finalDecision?.date;
-  const committee = progress?.committee;
   return `<details class="change-card ${context === 'history' ? 'history-card' : ''}" id="${id}" data-card-year="${yearOf(record.firstDecision.date)}">
     <summary>
       ${context === 'history' ? `<time class="change-date" datetime="${escapeHTML(record.firstDecision.date)}">${escapeHTML(formatDate(record.firstDecision.date))}</time>` : ''}
       <div class="change-main">
         <h3>${escapeHTML(record.sourceText?.title || record.title)}</h3>
         <p class="change-laws">${escapeHTML(lawNames(record))}</p>
-        ${context !== 'history' && committee?.status === 'completed' ? `<p class="committee-note">Utskottet: ${escapeHTML(recommendationLabel(committee).toLocaleLowerCase('sv'))} <span>· ${escapeHTML(formatDate(committee.date))}</span></p>` : ''}
       </div>
       <div class="change-state"><span class="status is-${record.status}">${escapeHTML(statusLabel(record.status))}</span>
         ${context !== 'history' ? `<span class="state-date">${finalDate ? escapeHTML(formatDate(finalDate)) : record.nextDecision?.date ? `Planerat ${escapeHTML(formatDate(record.nextDecision.date))}` : 'Datum ännu inte identifierat'}</span>` : ''}
       </div>
-      ${chevron}
+      <span class="card-actions"><button class="permalink" type="button" data-copy-link="${id}" aria-label="Kopiera länk till ärendet: ${escapeHTML(record.sourceText?.title || record.title)}" title="Kopiera länk till ärendet">${linkIcon}</button>${chevron}</span>
     </summary>
     <div class="change-detail">
       <div class="detail-copy">
-        <h4>${record.sourceText?.kind === 'decision_notice' ? 'Riksdagens beslut i korthet' : record.sourceText?.kind === 'committee_notice' ? 'Riksdagens text om utskottets förslag' : 'Sammanfattning ur betänkandet'}</h4>
-        ${record.sourceText ? `<p class="source-attribution">Text från Sveriges riksdag, återgiven utan omskrivning.</p><div class="source-text">${escapeHTML(record.sourceText.text)}</div>` : '<p>Ingen sammanfattning finns i det hämtade underlaget. Läs betänkandet hos riksdagen via källänkarna nedan.</p>'}
-        ${record.sourceText?.title ? `<p class="official-title"><strong>Det första betänkandets titel</strong>${escapeHTML(record.title)}</p>` : ''}
-        ${record.status === 'pending' ? `<p class="decision-note">${committee?.status === 'completed' ? 'Utskottets förslag är klart.' : 'Förslaget har antagits som vilande.'} Grundlagsändringen behöver fortfarande ett andra, likalydande beslut i kammaren.</p>` : ''}
+        <h4>${record.sourceText?.kind === 'decision_notice' ? 'Riksdagens beslut i korthet' : record.sourceText?.kind === 'committee_notice' ? 'Utskottets förslag' : 'Sammanfattning ur betänkandet'}</h4>
+        ${record.sourceText ? `<p class="source-attribution">Källa: Riksdagens öppna data.</p><div class="source-text">${renderSourceText(record.sourceText)}</div>` : '<p>Ingen sammanfattning finns i det hämtade underlaget. Läs betänkandet hos riksdagen via länkarna i tidslinjen.</p>'}
         ${record.status === 'unresolved' ? '<p class="decision-note">Underlaget saknar ett säkert slutligt utfall. Det betyder inte att förslaget fortfarande är aktuellt eller att det har förkastats.</p>' : ''}
-        <div class="source-links"><h4>Källor hos riksdagen</h4>
-          ${sourceLink(record.firstDecision, 'Första beslutet')}
-          ${progress ? sourceLink(progress, `${progress.designation} · utskott, debatt och kammarbeslut`) : sourceLink(record.finalDecision, 'Andra beslutet')}
-          ${record.sourceText ? `<a href="${escapeHTML(record.sourceText.sourceUrl)}">Källan till texten ovan</a>` : ''}
-          ${record.sfsIds?.length ? `<p>SFS: ${record.sfsIds.map((sfs) => `<a href="https://lagen.nu/${escapeHTML(sfs)}">${escapeHTML(sfs)}</a>`).join(', ')}</p>` : ''}
-        </div>
-        ${record.match?.method === 'explicit_first_decision_citation' ? `<div class="link-evidence"><h4>Kopplingen till första beslutet</h4><p>Det uppföljande betänkandet anger följande under ”Behandlade förslag”:</p><blockquote>${escapeHTML(record.match.evidence.evidence)}</blockquote><a href="${escapeHTML(record.match.evidence.sourceUrl)}">Läs hänvisningen i källtexten</a></div>` : record.finalDecision || record.nextDecision ? '<p class="decision-note">Kopplingen mellan betänkandena bygger på automatisk matchning av referenser. En uttrycklig hänvisning till det första beslutet har inte identifierats.</p>' : ''}
-        <a class="permalink" href="#${id}">Länk till ärendet</a>
       </div>
-      <div class="detail-progress"><h4>Från förslag till grundlag</h4>${renderTimeline(record)}</div>
+      <div class="detail-progress"><h4>Från förslag till grundlag</h4>${renderTimeline(record)}${record.status !== 'adopted' && record.sfsIds?.length ? `<p class="timeline-references">SFS-referenser: ${record.sfsIds.map((sfs) => sfsById[sfs]?.lawUrl ? `<a href="${escapeHTML(sfsById[sfs].lawUrl)}">${escapeHTML(sfs)}</a>` : escapeHTML(sfs)).join(', ')}</p>` : ''}</div>
     </div>
   </details>`;
 }
@@ -130,28 +173,25 @@ function renderShell() {
     <main id="main"><div id="top"></div>
       <section class="intro" aria-labelledby="page-title">
         <h1 id="page-title">Vad händer med grundlagarna?</h1>
-        <p>Följ ändringarna i Sveriges fyra grundlagar. Se utskottens förslag, planerade beslut och riksdagens beslut direkt från öppna data.</p>
-        <p class="updated">Riksdagsuppgifter kontrollerade <time datetime="${escapeHTML(String(checkedAt).slice(0, 10))}">${escapeHTML(formatDate(checkedAt, true))}</time></p>
-      </section>
-      <section id="aktuellt" class="current-section" aria-labelledby="upcoming-heading">
-        <div class="section-heading"><h2 id="upcoming-heading">På väg till andra beslutet</h2>${nextDates.length ? `<p class="next-date">Nästa planerade beslut: <strong>${escapeHTML(formatDate(nextDates[0], true))}</strong></p>` : ''}</div>
-        <p class="section-intro">Utskottet lämnar ett förslag. Kammaren fattar det slutliga beslutet. Öppna ett ärende för att följa stegen.</p>
-        <div class="changes-list current-list">${pending.length ? pending.map((record) => renderCard(record)).join('') : '<p class="empty-state">Inga förslag väntar på ett andra beslut i den aktuella bevakningen.</p>'}</div>
-      </section>
-      <section class="recent-section" aria-labelledby="recent-heading">
-        <div class="section-heading"><h2 id="recent-heading">Senast avgjorda i kammaren</h2></div>
-        <p class="section-intro">Ett slutligt ja och ett ikraftträdande är olika steg. Läs riksdagens egen text om beslutet i varje ärende.</p>
-        <div class="changes-list">${decided.map((record) => renderCard(record)).join('') || '<p class="empty-state">Inga nya slutliga beslut i den aktuella bevakningen.</p>'}</div>
+        <p>Följ ändringarna i Sveriges fyra grundlagar (och riksdagsordningen).</p><p>All information hämtas från Riksdagens <a href="${escapeHTML(data.sources.riksdagOpenData)}">öppna data</a>.</p>
+        <p class="updated">Senast uppdaterad <time datetime="${escapeHTML(String(checkedAt).slice(0, 10))}">${escapeHTML(formatDate(checkedAt, true))}</time></p>
       </section>
       <section id="sa-fungerar-det" class="explanation" aria-labelledby="process-heading">
         <h2 id="process-heading">Två beslut. Ett val emellan.</h2>
         <p>En grundlag ändras genom två likalydande beslut av riksdagen, med ett riksdagsval mellan besluten.</p>
         <ol class="process-steps">
-          <li><strong>Första beslutet</strong><p>Riksdagen antar förslaget som vilande. Det är ännu ingen färdig grundlagsändring.</p></li>
-          <li><strong>Riksdagsval</strong><p>Väljarna väljer en ny riksdag innan förslaget kan avgöras.</p></li>
-          <li><strong>Andra beslutet</strong><p>Den nyvalda riksdagen antar eller förkastar samma förslag. Ett antaget förslag börjar gälla vid sitt ikraftträdande.</p></li>
+          <li><strong>Första beslutet</strong><p>Riksdagen antar förslaget som vilande.</p></li>
+          <li><strong>Riksdagsval</strong><p>Väljarna väljer en ny riksdag.</p></li>
+          <li><strong>Andra beslutet</strong><p>Riksdagen antar eller förkastar samma förslag.</p></li>
         </ol>
-        <details class="method-note"><summary>Vilken roll har utskottet? ${chevron}</summary><p>Konstitutionsutskottet bereder ärendet och lämnar ett förslag till kammaren. När betänkandet har justerats visar vi att utskottets behandling är klar. Det är ett annat steg än riksdagens beslut.</p><p>Utskott, debatt och beslut hämtas separat från Riksdagens öppna data. En planerad tid i ärendegången visas som planerad tills källan bekräftar att händelsen har inträffat. Datum kan ändras.</p><p>RO betyder riksdagsordningen. Den är inte en av de fyra grundlagarna, men vissa huvudbestämmelser kan beslutas i samma ordning.</p></details>
+      </section>
+      <section id="aktuellt" class="current-section" aria-labelledby="upcoming-heading">
+        <div class="section-heading"><h2 id="upcoming-heading">På väg till andra beslutet</h2>${nextDates.length ? `<p class="next-date">Nästa planerade beslut: <strong>${escapeHTML(formatDate(nextDates[0], true))}</strong></p>` : ''}</div>
+        <div class="changes-list current-list">${pending.length ? pending.map((record) => renderCard(record)).join('') : '<p class="empty-state">Inga förslag väntar på ett andra beslut i den aktuella bevakningen.</p>'}</div>
+      </section>
+      <section class="recent-section" aria-labelledby="recent-heading">
+        <div class="section-heading"><h2 id="recent-heading">Senast avgjorda i kammaren</h2></div>
+        <div class="changes-list">${decided.map((record) => renderCard(record)).join('') || '<p class="empty-state">Inga nya slutliga beslut i den aktuella bevakningen.</p>'}</div>
       </section>
       <section id="historik" class="history-section" aria-labelledby="history-heading">
         <div class="section-heading"><h2 id="history-heading">Utforska historiken</h2><p id="results-count" class="results-count" role="status" aria-live="polite"></p></div>
@@ -172,7 +212,7 @@ function renderShell() {
       <footer id="kallor" class="site-footer"><div><strong>Öppen bevakning. Spårbara källor.</strong><p>Ärendetitlar, källtexter, beslutsuppgifter och planerade datum hämtas från <a href="${escapeHTML(data.sources.riksdagOpenData)}">Riksdagens öppna data</a>. Texterna är skrivna av Sveriges riksdag och återges utan omskrivning. Status och kopplingar mellan beslut beräknas automatiskt från underlaget.</p></div>
         <details class="method-note"><summary>Om underlaget och dess begränsningar ${chevron}</summary><p>Den aktuella bevakningen kontrollerades ${escapeHTML(formatDate(checkedAt, true))}. Historiska lagändringar och SFS-versioner bygger på ett separat underlag från ${escapeHTML(formatDate(data.historicalSnapshotAt || data.generatedAt, true))}, med metadata från Ferenda och lagen.nu.</p><p>Historiken omfattar inte alla ändringar med säkert fastställda utfall. När ett slutligt beslut saknas visas utgången som oklar. Avsaknad av ett SFS-nummer betyder inte att riksdagen har sagt nej.</p><p><a href="/DATA_BENCHMARK.md">Läs datakontrollen</a> · <a href="/VERSIONING_REPORT.md">Läs rapporten om lagversioner</a></p></details>
       </footer>
-    </main>`;
+    </main><p id="copy-feedback" class="copy-feedback" role="status" aria-live="polite"></p>`;
   document.querySelector('#status-filter').value = state.status;
   document.querySelector('.filter-panel').addEventListener('submit', (event) => event.preventDefault());
   document.querySelector('#search-filter').addEventListener('input', (event) => { state.query = event.target.value; renderList(); updateURL(); });
@@ -220,6 +260,25 @@ function openLinkedRecord() {
     requestAnimationFrame(() => target.scrollIntoView({ block: 'start' }));
   }
 }
+app.addEventListener('click', async (event) => {
+  const button = event.target.closest('[data-copy-link]');
+  if (!button) return;
+  event.preventDefault();
+  event.stopPropagation();
+  const url = new URL(location.href);
+  url.hash = button.dataset.copyLink;
+  const feedback = document.querySelector('#copy-feedback');
+  clearTimeout(copyFeedbackTimer);
+  try {
+    await navigator.clipboard.writeText(url.href);
+    feedback.classList.remove('is-error');
+    feedback.textContent = 'Länk kopierad';
+  } catch {
+    feedback.classList.add('is-error');
+    feedback.textContent = 'Länken kunde inte kopieras. Försök igen.';
+  }
+  copyFeedbackTimer = setTimeout(() => { feedback.textContent = ''; }, 3000);
+});
 window.addEventListener('hashchange', openLinkedRecord);
 renderShell();
 renderList();
