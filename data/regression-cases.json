@@ -123,5 +123,65 @@
       "https://ferenda.lagen.nu/1974:152",
       "https://ferenda.lagen.nu/openapi.json"
     ]
+  },
+  {
+    "id": "test-h-1921-1979-so-decision-chains",
+    "title": "Successionsordningen historical decision chains",
+    "expectedFirstReports": [
+      "DH10KU19",
+      "DX10KU35",
+      "E910KU11",
+      "EP10KU19",
+      "FW01KU26",
+      "G101KU36"
+    ],
+    "expectedSecondReports": [
+      "DI10KU4",
+      "DY10KU1",
+      "EA10KU10",
+      "EQ10KU1",
+      "FX01KU8",
+      "G301KU1"
+    ],
+    "expectedFinalDocuments": [
+      "DI90BESLUT",
+      "DIK021",
+      "DYK018",
+      "DY90BESLUT",
+      "EA9C11",
+      "EA9O11",
+      "EA91BESLUT",
+      "EQ9C8",
+      "EQ9O8",
+      "EQ91BESLUT",
+      "FX0930",
+      "G30923"
+    ],
+    "expectedSfs": [
+      "1921:21",
+      "1937:40",
+      "1949:110",
+      "1965:45",
+      "1974:154",
+      "1979:935"
+    ],
+    "expectedReprintSfs": [
+      "1937:728",
+      "1949:579",
+      "1965:817",
+      "1974:307"
+    ],
+    "sourceUrls": [
+      "https://data.riksdagen.se/dokument/DH10KU19",
+      "https://data.riksdagen.se/dokument/DI10KU4",
+      "https://data.riksdagen.se/dokument/DI90BESLUT",
+      "https://data.riksdagen.se/dokument/DYK018",
+      "https://data.riksdagen.se/dokument/EA91BESLUT",
+      "https://data.riksdagen.se/dokument/EQ91BESLUT",
+      "https://data.riksdagen.se/dokument/FX0930",
+      "https://data.riksdagen.se/dokument/G30923",
+      "https://ferenda.lagen.nu/1810:0926",
+      "https://ferenda.lagen.nu/openapi.json"
+    ]
   }
 ]

@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-08-30T07:26:50.825888+00:00",
+  "generatedAt": "2026-11-08T09:26:35.538770+00:00",
   "metrics": {
-    "total_pending_proposals": 44,
-    "finally_adopted": 68,
+    "total_pending_proposals": 149,
+    "finally_adopted": 107,
     "finally_rejected": 1,
-    "unresolved": 37,
-    "matched_to_sfs": 80,
-    "adopted_without_sfs_match": 7,
-    "orphan_sfs": 41,
+    "unresolved": 145,
+    "matched_to_sfs": 83,
+    "adopted_without_sfs_match": 42,
+    "orphan_sfs": 38,
     "rejected_with_sfs": 0,
-    "chronology_errors": 0,
+    "chronology_errors": 1,
     "unknown_sfs_operations": 28,
-    "regression_cases": 7,
-    "regression_passed": 7,
+    "regression_cases": 8,
+    "regression_passed": 8,
     "secondary_cases": 8,
     "secondary_passed": 8
   },
@@ -639,12 +639,691 @@
         "https://ferenda.lagen.nu/1974:152",
         "https://ferenda.lagen.nu/openapi.json"
       ]
+    },
+    {
+      "id": "test-h-1921-1979-so-decision-chains",
+      "title": "Successionsordningen historical decision chains",
+      "passed": true,
+      "checks": [
+        {
+          "name": "DH10KU19 present",
+          "passed": true,
+          "actual": "DH10KU19",
+          "expected": null
+        },
+        {
+          "name": "DH10KU19 first stage",
+          "passed": true,
+          "actual": "first",
+          "expected": "first"
+        },
+        {
+          "name": "DH10KU19 first pending",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "DH10KU19 has first-decision evidence",
+          "passed": true,
+          "actual": [
+            "tskottet sålunda anfört, får utskottet alltså hemställa, att riksdagen med bifall till förevarande proposition måtte såsom vilande till vidare grundlagsenlig behandling antaga följande Förslag till ändrad lydelse av §§ 6 och 7 successionsordningen. Nuvarande lydelse: % 6- Prinsessor av det kungliga huset må ej träda i gifte utan Konungens vetskap och samtyc…",
+            "et sålunda anfört, får utskottet alltså hemställa, att riksdagen med bifall till förevarande proposition måtte såsom vilande till vidare grundlagsenlig behandling antaga följande Förslag till ändrad lydelse av §§ 6 och 7 successionsordningen. Nuvarande lydelse: % 6- Prinsessor av det kungliga huset må ej träda i gifte utan Konungens vetskap och samtycke. Ej…"
+          ],
+          "expected": "operative pending wording"
+        },
+        {
+          "name": "DX10KU35 present",
+          "passed": true,
+          "actual": "DX10KU35",
+          "expected": null
+        },
+        {
+          "name": "DX10KU35 first stage",
+          "passed": true,
+          "actual": "first",
+          "expected": "first"
+        },
+        {
+          "name": "DX10KU35 first pending",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "DX10KU35 has first-decision evidence",
+          "passed": true,
+          "actual": [
+            "de grundlagsändringsförslag och hemställer alltså, att riksdagen, med bifall till ifrågavarande kungl, proposition, såsom vilande för vidare grundlagsenlig behandling måtte antaga följande Förslag till ändrad lydelse av § 44 regeringsformen och § 5 successionsordningen. (Nuvarande lydelse.) (Föreslagen lydelse.) Regeringsformen. 8 44. Ingen prins av det kon…",
+            "ndlagsändringsförslag och hemställer alltså, att riksdagen, med bifall till ifrågavarande kungl, proposition, såsom vilande för vidare grundlagsenlig behandling måtte antaga följande Förslag till ändrad lydelse av § 44 regeringsformen och § 5 successionsordningen. (Nuvarande lydelse.) (Föreslagen lydelse.) Regeringsformen. 8 44. Ingen prins av det konungsli…"
+          ],
+          "expected": "operative pending wording"
+        },
+        {
+          "name": "E910KU11 present",
+          "passed": true,
+          "actual": "E910KU11",
+          "expected": null
+        },
+        {
+          "name": "E910KU11 first stage",
+          "passed": true,
+          "actual": "first",
+          "expected": "first"
+        },
+        {
+          "name": "E910KU11 first pending",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "E910KU11 has first-decision evidence",
+          "passed": true,
+          "actual": [
+            "täller alltså, A) att riksdagen, i anledning av vad Kungl. Maj :t under punkt 1) i förevarande proposition hemställt, såsom vilande för vidare grundlagsenlig behandling måtte antaga följande såsom utskottets förslag betecknade Förslag till ändrad lydelse av 17 § (Nuvarande lydelse.) § 17. 1 :o. Konungens domsrätt skall uppdragas minst tolv av Honom utnämnda…",
+            "alltså, A) att riksdagen, i anledning av vad Kungl. Maj :t under punkt 1) i förevarande proposition hemställt, såsom vilande för vidare grundlagsenlig behandling måtte antaga följande såsom utskottets förslag betecknade Förslag till ändrad lydelse av 17 § (Nuvarande lydelse.) § 17. 1 :o. Konungens domsrätt skall uppdragas minst tolv av Honom utnämnda lagkun…"
+          ],
+          "expected": "operative pending wording"
+        },
+        {
+          "name": "EP10KU19 present",
+          "passed": true,
+          "actual": "EP10KU19",
+          "expected": null
+        },
+        {
+          "name": "EP10KU19 first stage",
+          "passed": true,
+          "actual": "first",
+          "expected": "first"
+        },
+        {
+          "name": "EP10KU19 first pending",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "EP10KU19 has first-decision evidence",
+          "passed": true,
+          "actual": [
+            "ag under punkt 1) i förevarande proposition och med avslag å motionerna II: 961, I: 802 och II: 986 samt I: 814 måtte såsom vilande för vidare grundlagsenlig behandling antaga följande såsom utskottets förslag betecknade. Förslag till ändrad lydelse av §§ 39, 41 och 93 regeringsformen, §§ 53 och 67 riksdagsordningen samt § 2 successionsordningen (Nuvarande…",
+            "r punkt 1) i förevarande proposition och med avslag å motionerna II: 961, I: 802 och II: 986 samt I: 814 måtte såsom vilande för vidare grundlagsenlig behandling antaga följande såsom utskottets förslag betecknade. Förslag till ändrad lydelse av §§ 39, 41 och 93 regeringsformen, §§ 53 och 67 riksdagsordningen samt § 2 successionsordningen (Nuvarande lydelse…"
+          ],
+          "expected": "operative pending wording"
+        },
+        {
+          "name": "FW01KU26 present",
+          "passed": true,
+          "actual": "FW01KU26",
+          "expected": null
+        },
+        {
+          "name": "FW01KU26 first stage",
+          "passed": true,
+          "actual": "first",
+          "expected": "first"
+        },
+        {
+          "name": "FW01KU26 first pending",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "FW01KU26 has first-decision evidence",
+          "passed": true,
+          "actual": [
+            "7. 1973:1862 såvitt gäller hemställan punkten E beträffande frågan om visst samråd med interpellant; KU 1973:26 94 såsom vilande för vidare grundlagsenlig behandling antar de i",
+            "73:1862 såvitt gäller hemställan punkten E beträffande frågan om visst samråd med interpellant; KU 1973:26 94 såsom vilande för vidare grundlagsenlig behandling antar de i"
+          ],
+          "expected": "operative pending wording"
+        },
+        {
+          "name": "G101KU36 present",
+          "passed": true,
+          "actual": "G101KU36",
+          "expected": null
+        },
+        {
+          "name": "G101KU36 first stage",
+          "passed": true,
+          "actual": "first",
+          "expected": "first"
+        },
+        {
+          "name": "G101KU36 first pending",
+          "passed": true,
+          "actual": true,
+          "expected": true
+        },
+        {
+          "name": "G101KU36 has first-decision evidence",
+          "passed": true,
+          "actual": [
+            "motionen 1977/78:215, 3. med avslag på motionen 1977/78:228, yrkandet 1, i motsvarande del och motionen 1977/78:213 som vilande antar den ändrade lydelse av § 4 SO som föreslås i propositionens förslag till lag om ändring i successionsordningen, 4. med avslag på motionen 1977/78:228, yrkandet 1 i vad det inte behandlats under 3, och motionen 1977/",
+            "ionen 1977/78:215, 3. med avslag på motionen 1977/78:228, yrkandet 1, i motsvarande del och motionen 1977/78:213 som vilande antar den ändrade lydelse av § 4 SO som föreslås i propositionens förslag till lag om ändring i successionsordningen, 4. med avslag på motionen 1977/78:228, yrkandet 1 i vad det inte behandlats under 3, och motionen 1977/"
+          ],
+          "expected": "operative pending wording"
+        },
+        {
+          "name": "DI10KU4 present",
+          "passed": true,
+          "actual": "DI10KU4",
+          "expected": null
+        },
+        {
+          "name": "DI10KU4 final-treatment stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "DY10KU1 present",
+          "passed": true,
+          "actual": "DY10KU1",
+          "expected": null
+        },
+        {
+          "name": "DY10KU1 final-treatment stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "EA10KU10 present",
+          "passed": true,
+          "actual": "EA10KU10",
+          "expected": null
+        },
+        {
+          "name": "EA10KU10 final-treatment stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "EQ10KU1 present",
+          "passed": true,
+          "actual": "EQ10KU1",
+          "expected": null
+        },
+        {
+          "name": "EQ10KU1 final-treatment stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "FX01KU8 present",
+          "passed": true,
+          "actual": "FX01KU8",
+          "expected": null
+        },
+        {
+          "name": "FX01KU8 final-treatment stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "G301KU1 present",
+          "passed": true,
+          "actual": "G301KU1",
+          "expected": null
+        },
+        {
+          "name": "G301KU1 final-treatment stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "DI90BESLUT present",
+          "passed": true,
+          "actual": "DI90BESLUT",
+          "expected": null
+        },
+        {
+          "name": "DI90BESLUT final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "DI90BESLUT adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "DI90BESLUT has adoption evidence",
+          "passed": true,
+          "actual": [
+            "Riksdagsbeslutet 1921 Riksdagsbeslutet 1921. 1 Sveriges Riksdags Beslut å det i Stockholm hållna lagtima riksmöte, som började den 10 januari och slutade den 21 juni 1921. Vi efterskrivna, Svenska Folkets valda ombud, göra veterligt: att, på grund av § 49 regeringsformen och § 2 riksdagsordningen, vid den 10 sistlidna januari under Hans Maj:t Konung Gustaf Y:s fjortonde regeringsår, oss här i Stockholm infunnit. Efter att över vårt arbete hava nedkallat Guds välsignelse, hava vi den 11 i nämnda månad å rikssalen s…",
+            "ra månader tillsammans, därest icke Konungen, såsom i riksdagsordningen sägs, förordnar om nya val till båda kamrarna, eller den ena av dem, i vilka fall riksdagen skall, med bibehållande av sin egenskap utav lagtima, sammanträda å den tid inom tre månader från det riksdagen blev upplöst, som Konungen bestämmer, samt må ej vidare av Konungen upplösas förr än efter fyra månader från det senare sammanträdets början. Urtima riksdag äger Konungen, när han för gott finner, åtskilja, och vare urtima riksdag alltid upplö…",
+            "illfället förordnad föredragande, uppenbarligen handlat emot rikets grundlag eller allmän lag, eller tillstyrkt någon överträdelse därav, eller underlåtit att göra föreställningar emot sådan överträdelse, eller den vållat och Riksdagsbeslutet 1921. 9 befrämjat genom uppsåtligt fördöljande av någon upplysning, eller att den föredragande underlåtit att, i de fall, som 38 § av denna regeringsform förutsätter) sin kontrasignation å ett Konungens beslut vägra, da skall konstitutionsutskottet ställa en sådan under tillt…",
+            "Övergång sstadgande. Det år, varunder lagtima riksdag först sammanträder efter nya val i hela riket till andra kammaren, förrättade efter den 1 april 1919, kallas här nedan första valåret. Riksdagsman i första kammaren, som är vald med tillämpning av de före första valåret gällande stadganden, äger ej med sin befattning fortfara längre än till utgången av nämnda år. Inträlfar dessförinnan ledighet, skall sådan, med tillämpning av nyssnämnda stadganden, fyllas för den återstående tiden. Val till första kammaren ska…",
+            "gifter, ävensom med tillämpande av vad i 15 § 2 och 3 mom. stadgas fastställa det antal riksdagsmän, som varje valkrets må utse. § 9. Såsom inhämtats av vår skrivelse till Kungl. Maj:t den 27 januari, hava vi till slutligt avgörande förehaft och antagit Kungl. Maj:ts förslag till ändrad lydelse av § 17 mom. 1 riksdagsordningen; i följd varav nämnda moment erhållit följande lydelse: § 17. 1. Val till riksdagsmän i andra kammaran verkställas året näst före början av de fyra år, för vilka valen gälla, å den dag, unde…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "DIK021 present",
+          "passed": true,
+          "actual": "DIK021",
+          "expected": null
+        },
+        {
+          "name": "DIK021 final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "DIK021 adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "DIK021 has adoption evidence",
+          "passed": true,
+          "actual": [
+            "rån 1920 års riksdag vilande av Eders Kungl. Maj:t framställda förslag till ändrad av §§ 6 och 7 successionsordningen har riksdagen numera förehaft till slutligt avgörande och antagit, i följd varav nämnda paragrafer erhållit följande lydelse: § 6. Prinsessor av det kungliga huset må ej träda i gifte utan Konungens vetskap och samtycke. § 7. Tronföljaren må…",
+            "vilande av Eders Kungl. Maj:t framställda förslag till ändrad av §§ 6 och 7 successionsordningen har riksdagen numera förehaft till slutligt avgörande och antagit, i följd varav nämnda paragrafer erhållit följande lydelse: § 6. Prinsessor av det kungliga huset må ej träda i gifte utan Konungens vetskap och samtycke. § 7. Tronföljaren må ej anträda resa utri…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "DYK018 present",
+          "passed": true,
+          "actual": "DYK018",
+          "expected": null
+        },
+        {
+          "name": "DYK018 final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "DYK018 adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "DYK018 has adoption evidence",
+          "passed": true,
+          "actual": [
+            "1) § 44 regeringsformen och § 5 successionsordningen; 2) § 24 riksdagsordningen; samt 3) § 3 tryckfrihetsförordningen, har riksdagen numera förehaft till slutligt avgörande och antagit, i följd varav förenämnda grundlagsparagrafer i nedanskrivna delar skola erhålla följande lydelse: 1) Regeringsformen. § 44. Ingen prins av det konungsliga huset, det vare si…",
+            "och § 5 successionsordningen; 2) § 24 riksdagsordningen; samt 3) § 3 tryckfrihetsförordningen, har riksdagen numera förehaft till slutligt avgörande och antagit, i följd varav förenämnda grundlagsparagrafer i nedanskrivna delar skola erhålla följande lydelse: 1) Regeringsformen. § 44. Ingen prins av det konungsliga huset, det vare sig »kronprins, arvfurste…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "DY90BESLUT present",
+          "passed": true,
+          "actual": "DY90BESLUT",
+          "expected": null
+        },
+        {
+          "name": "DY90BESLUT final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "DY90BESLUT adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "DY90BESLUT has adoption evidence",
+          "passed": true,
+          "actual": [
+            "§§ 33, 35, 36, 37, 38, 44, 50, 75 och 78 riksdagsordningen samt § 2 4:o tryckfrihetsförordningen (skrivelse nr 16). Ändrad lydelse av § 60 regeringsformen (skrivelse nr 17). Ändrad lydelse av § 44 regeringsformen, § 5 successionsordningen, § 24 riksdagsordningen samt § 3 8:o, 9:o och 12 :o tryckfrihetsförordningen (skrivelse nr 18). Lag örn ändrad lydelse a…",
+            "rivelse nr 16). Ändrad lydelse av § 60 regeringsformen (skrivelse nr 17). Ändrad lydelse av § 44 regeringsformen, § 5 successionsordningen, § 24 riksdagsordningen samt § 3 8:o, 9:o och 12 :o tryckfrihetsförordningen (skrivelse nr 18). Lag örn ändrad lydelse av 2 och 5 §§ sinnessjuklagen den 19 september 1929 (nr 321) (skrivelse nr 24). Lag om befordran med…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "EA9C11 present",
+          "passed": true,
+          "actual": "EA9C11",
+          "expected": null
+        },
+        {
+          "name": "EA9C11 final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "EA9C11 adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "EA9C11 has adoption evidence",
+          "passed": true,
+          "actual": [
+            "r Herlitz begärde rösträkning, verkställdes nu votering medelst omröstningsapparat; och befunnos vid omröstningens slut rösterna hava utfallit sålunda: Ja — 71; Nej — 53. Därjämte hade 3 ledamöter tillkännagivit, att de avstode från att rösta. Vid förnyad föredragning av konstitutionsutskottets utlåtande nr 9, i anledning av väckta motioner om beredande av större plats för s. k. personval vid allmänna val, bifölls vad utskottet i detta utlåtande hemställt. Föredrogs ånyo konstitutionsutskottets memorial nr 10, med…",
+            "finna densamma vara med övervägande ja besvarad. Herr Herlitz begärde votering, i anledning varav uppsattes samt efter given varsel upplästes och godkändes en så lydande omröstningsproposition: Den, som, under förutsättning att ny tryckfrihetsförordning antages, vill, att 2 kap. 10 § skall hava den lydelse som i konstitutionsutskottets memorial nr 10 under denna paragraf betecknats som alternativ I, röstar Ja; Den, det ej vill, röstar Nej; Vinner Nej, har kammaren under angivna förutsättning godkänt den i memorial…",
+            "erlitz begärde rösträkning, verkställdes nu votering medelst omröstningsapparat; och befunnos vid omröstningens slut rösterna hava utfallit sålunda: Ja — 71; Nej — 53. Därjämte hade 3 ledamöter tillkännagivit, att de avstode från att rösta. Vid förnyad föredragning av konstitutionsutskottets utlåtande nr 9, i anledning av väckta motioner om beredande av större plats för s. k. personval vid allmänna val, bifölls vad utskottet i detta utlåtande hemställt. Föredrogs ånyo konstitutionsutskottets memorial nr 10, med up…",
+            "na densamma vara med övervägande ja besvarad. Herr Herlitz begärde votering, i anledning varav uppsattes samt efter given varsel upplästes och godkändes en så lydande omröstningsproposition: Den, som, under förutsättning att ny tryckfrihetsförordning antages, vill, att 2 kap. 10 § skall hava den lydelse som i konstitutionsutskottets memorial nr 10 under denna paragraf betecknats som alternativ I, röstar Ja; Den, det ej vill, röstar Nej; Vinner Nej, har kammaren under angivna förutsättning godkänt den i memorialet…",
+            "an, med det anförda till det yrkande, som redan framställts av herr Hällgren om bifall till konstitutionsutskottets utlåtande. Herr HOLMBÄCK: Herr talman! Frågan om min ställning föregående år till den nya tryckfrihetsförordningen har varit uppe i debatten flera gånger i dag. Den berördes av statsministern i ett av hans anföranden i morse, och den har nu berörts av herr Karlsson i Vadstena. Jag vill bara stryka under, att jag nu har fullkomligt samma uppfattning, som jag då på det mest tydliga sätt redan på ett my…",
+            "ör en så utomordentligt ingående debatt redan föregående vår, att ny debatt kanske inte var så påkallad. Dessutom ansåg man, att det ur tekniska synpunkter kunde vara vådligt, om kamrarna fattade olika beslut. Herr HERLITZ: Herr talman! Det är ju ett ganska ovanligt förhållande, som nu ytterligare belysts av herr Holmbäck, att en sådan viktig fråga som denna skall avgöras utan någon argumentering. Herr Holmbäck var mycket angelägen att framhålla, att han stod på samma linje som herr Jones Erik Andersson, och jag k…",
+            "problemet på det sättet, att den normala budgeten ännu mera iin den nuvarande blir en rutinbudget och att de tilläggsbudgeter, som lui blivit normala under senare år, få ett bredare utrymme för att senare inordnas i en följande rutinbudget. Jag tror således att eu inbördes anpassning av de olika delarna i vårt bild - 72 Nr 11. Onsdagen den 23 mars 1949 fm. Grundlagsändringsförslag ang. revision av riksdagens arbetsformer. getarbete gör det möjligt att ge det nya riksdagsarbetet en sådan form, att väsentliga delar…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "EA9O11 present",
+          "passed": true,
+          "actual": "EA9O11",
+          "expected": null
+        },
+        {
+          "name": "EA9O11 final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "EA9O11 adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "EA9O11 has adoption evidence",
+          "passed": true,
+          "actual": [
+            "10 § i förslaget till tryckfrihetsförordning upptagna alternativen; och antog kammaren det såsom alternativ I betecknade förslaget till avfattning av paragrafen. Beträffande 7 kap. 3 § antog kammaren efter givna propositioner det såsom alternativ II betecknade förslaget. I avseende å 12 kap. 5 § gav herr talmannen propositioner på antagande dels av alternativ I dels ock av alternativ II; och fann herr talmannen den senare propositionen vara med övervägande ja besvarad. Herr Hagberg i no Nr 11. Onsdagen den 23 mars…",
+            ", att kammaren först genom preliminära beslut i fråga om var och en av de fyra paragrafer, där alternativ föreligga, fastställer, vilketdera alternativet som bör ingå i den nya tryckfrihetsförordningen under förutsättning att en sådan kommer att antagas. Sedan lydelsen av 2 kap. 10 §, 7 kap. 3 §, 12 kap. 5 § och 13 kap. 5 § blivit på detta sätt preliminärt fastställd, framställas propositioner på tryckfrihetsförordningen i dess helhet med den lydelse, den genom de först fattade besluten erhållit. Den sålunda föres…",
+            "kritik av detta förslag som framfördes av herr Håstad. På några punkter har jag dock en mening som avviker från hans uppfattning. Vad som inger mig bekymmer är det sätt varpå man har uttryckt sig här när det gäller frågan om begränsningen av framläggandet av propositioner och då jämväl framläggandet av sådana till höstriksdagen. Jag tror faktiskt, att det blir nödvändigt, att man inte tar denna skrivning alltför högtidligt, ty då är jag rädd för att det kommer att spricka ganska snart med de föreslagna bestämmelse…",
+            "g göras i förslagen. Jag kommer således nu att framställa propositioner beträffande varje förslag särskilt för sig såsom ett helt betraktat. När vi komma till det förslag till tryckfrihetsförordning, som återfinnes under punkten 12 mom. a, är att märka, att för vissa däri ingående paragrafer vid den tidigare behandlingen antagits två olika alternativ. För avgörandet beträffande tryckfrihetsförordningen erfordras därför en särskild propositionsordning, till vilken jag ämnar återkomma, när vi hinna till punkten 12 m…",
+            "ig såsom ett helt betraktat. När vi komma till det förslag till tryckfrihetsförordning, som återfinnes under punkten 12 mom. a, är att märka, att för vissa däri ingående paragrafer vid den tidigare behandlingen antagits två olika alternativ. För avgörandet beträffande tryckfrihetsförordningen erfordras därför en särskild propositionsordning, till vilken jag ämnar återkomma, när vi hinna till punkten 12 mom. a. Punkterna 1—11. De under dessa punkter upptagna, såsom vilande antagna grundlagsändringsförslagen blevo a…",
+            "er, vilketdera alternativet som bör ingå i den nya tryckfrihetsförordningen under förutsättning att en sådan kommer att antagas. Sedan lydelsen av 2 kap. 10 §, 7 kap. 3 §, 12 kap. 5 § och 13 kap. 5 § blivit på detta sätt preliminärt fastställd, framställas propositioner på tryckfrihetsförordningen i dess helhet med den lydelse, den genom de först fattade besluten erhållit. Den sålunda föreslagna föredragningsordningen blev av kammaren godkänd. Herr talmannen framställde härefter till en början propositioner angåen…",
+            "om de först fattade besluten erhållit. Den sålunda föreslagna föredragningsordningen blev av kammaren godkänd. Herr talmannen framställde härefter till en början propositioner angående de två i fråga om 2 kap. 10 § i förslaget till tryckfrihetsförordning upptagna alternativen; och antog kammaren det såsom alternativ I betecknade förslaget till avfattning av paragrafen. Beträffande 7 kap. 3 § antog kammaren efter givna propositioner det såsom alternativ II betecknade förslaget. I avseende å 12 kap. 5 § gav herr tal…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "EA91BESLUT present",
+          "passed": true,
+          "actual": "EA91BESLUT",
+          "expected": null
+        },
+        {
+          "name": "EA91BESLUT final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "EA91BESLUT adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "EA91BESLUT has adoption evidence",
+          "passed": true,
+          "actual": [
+            "Ändrad lydelse av § 12 regeringsformen (skrivelse nr 96). Ändrad lydelse av § 31 regeringsformen (skrivelse nr 97). Ändrad lydelse av § 17 mom. 1 regeringsformen, § 27 regeringsformen, §§ 38 och 106 regeringsformen samt § 39 mom. 2 riksdagsordningen, §§ 39, 41 och 93 regeringsformen samt § 2 successionsordningen och § 110 regeringsformen (skrivelse nr 98).…",
+            "gsformen, §§ 38 och 106 regeringsformen samt § 39 mom. 2 riksdagsordningen, §§ 39, 41 och 93 regeringsformen samt § 2 successionsordningen och § 110 regeringsformen (skrivelse nr 98). Ändrad lydelse av § 72 riksdagsordningen (skrivelse nr 99). Ändrad lydelse av §§ 17—20, 22 mom. 1, 96 och 101 regeringsformen (skrivelse nr 100). Tryckfrihetsförordning och än…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "EQ9C8 present",
+          "passed": true,
+          "actual": "EQ9C8",
+          "expected": null
+        },
+        {
+          "name": "EQ9C8 final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "EQ9C8 adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "EQ9C8 has adoption evidence",
+          "passed": true,
+          "actual": [
+            "ligen att tronföljarens behörighetsålder skulle sättas till 30 år i stället för 25 år. Jag skall nu inte närmare motivera denna inställning, men vill göra kammaren uppmärksam på att i det aktuella fallet, om man utgår från att den nuvarande kronprinsen är född 1946, och tar alla övriga medborgare som är födda 1946, skulle denna årsklass kunna påverka den politiska utvecklingen i detta land första gången vid 1968 års riksdagsmannaval. De som är födda 1946 får alltså rösträtt, men de är inte behöriga att bli valbara…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "EQ9O8 present",
+          "passed": true,
+          "actual": "EQ9O8",
+          "expected": null
+        },
+        {
+          "name": "EQ9O8 final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "EQ9O8 adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "EQ9O8 has adoption evidence",
+          "passed": true,
+          "actual": [
+            "ill uttryck i författningsutredningen. Innebar vidare författningsutredningens förslag verkligen att man ville beskära konungamakten i sådan utsträckning, att den blev lika med noll? Herr WAHLUND (ep): Herr talman! Bara några få ord. Herr Lundberg drog in författningsutredningen i detta sammanhang. Han behagade observera att jag på en viktig punkt i detta sammanhang, nämligen i fråga om riksdagsupplösningsinstitutet, anförde reservation inom utredningen. Härmed var överläggningen slutad. Förslag till ändrad lydels…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "EQ91BESLUT present",
+          "passed": true,
+          "actual": "EQ91BESLUT",
+          "expected": null
+        },
+        {
+          "name": "EQ91BESLUT final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "EQ91BESLUT adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "EQ91BESLUT has adoption evidence",
+          "passed": true,
+          "actual": [
+            "e av § 41 regeringsformen (skrivelse nr 64). Ändrad lydelse av § 93 regeringsformen (skrivelse nr 64). Ändrad lydelse av § 53 riksdagsordningen (skrivelse nr 64). Ändrad lydelse av § 67 riksdagsordningen (skrivelse nr 64). Ändrad lydelse av § 2 successionsordningen (skrivelse nr 64) Ändrad lydelse av § 81 regeringsformen (skrivelse nr 64). Ändrad lydelse av…",
+            "ningen (skrivelse nr 64). Ändrad lydelse av § 67 riksdagsordningen (skrivelse nr 64). Ändrad lydelse av § 2 successionsordningen (skrivelse nr 64) Ändrad lydelse av § 81 regeringsformen (skrivelse nr 64). Ändrad lydelse av § 96 regeringsformen (skrivelse nr 64). Ändrad lydelse av § 97 regeringsformen (skrivelse nr 64). Ändrad lydelse av § 98 regeringsformen…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "FX0930 present",
+          "passed": true,
+          "actual": "FX0930",
+          "expected": null
+        },
+        {
+          "name": "FX0930 final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "FX0930 adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "FX0930 has adoption evidence",
+          "passed": true,
+          "actual": [
+            "ratiskt samhälle komma ifrån. Till dem som anser att grundlagsförslaget ger för litet skydd åt de medborgerliga friheterna och rättigheterna vill jag slutligen säga, att arbetet slutar inte i och med det beslut som snart kommer att fattas. Det fortsätter i morgon - ja, det har redan böriat i den tillsatta utredningen. Stöd det arbetet! Visa att ert engagemang för dessa frågor som har kommit litet plötsligt för oss politiker, inte slutar lika plötsligt i och med att den nya grundlagen är antagen. Visa att intresset…",
+            "att fattas. Det fortsätter i morgon - ja, det har redan böriat i den tillsatta utredningen. Stöd det arbetet! Visa att ert engagemang för dessa frågor som har kommit litet plötsligt för oss politiker, inte slutar lika plötsligt i och med att den nya grundlagen är antagen. Visa att intresset finns kvar även efter det att IB-debatten har blåst över. Och visa att er vilja därvidlag kan ta sig uttryck i ett konkret engagemang inte bara mot någonting, utan även/ö> bestämda förbättringar i grundlagen! Det finns alltså e…",
+            "bara mot någonting, utan även/ö> bestämda förbättringar i grundlagen! Det finns alltså en utredning som enligt sina direktiv skall försöka vidga och fördjupa medborgarskyddet. Men vi har också i den debatt som förts, och även här i kammaren i dag, märkt ett motstånd mot att göra aUvar av den tanken. I Aftonbladet kunde man t. ex. häromdagen läsa att fri- och rättigheterna ges det säkraste grundlagsskyddet om folkets valda ombud tolkar dem. Men den som kan fälla en sådan kommentar, har inte förstått innebörden i et…",
+            "tolka dem, utan det måste också finnas en lagprövningsrätt. Vi vet att det finns en sådan, och den måste finnas kvar och sannolikt också förstärkas. Ingen har kunnat förklara hur ett förbättrat skydd för medborgarnas friheter och rättig­heter i grundlagen, mot tillfälliga riksdagsbeslut, annars skulle utformas. Det beslut som riksdagen strax kommer att fatta är ett viktigt steg för att fördjupa den svenska demokratin. Men det arbetet går vidare, och jag ser det som en stor liberal uppgift att ytterligare stärka sk…",
+            "skydd för medborgarnas friheter och rättig­heter i grundlagen, mot tillfälliga riksdagsbeslut, annars skulle utformas. Det beslut som riksdagen strax kommer att fatta är ett viktigt steg för att fördjupa den svenska demokratin. Men det arbetet går vidare, och jag ser det som en stor liberal uppgift att ytterligare stärka skyddet för de mänskliga friheterna och rättigheterna i grundlagen. Överiäggningen var härmed slutad. Konstitutionsutskoffets betänkande nr 6 Propositioner gavs på bifall till dels utskottets hems…",
+            "27 februari 1974 Ny regeringsform och ny riksdags­ordning, m. m. Konstitutionsutskottets betänkande nr 8 Herr TALMANNEN yttrade: De vid betänkandet fogade förslagen Upptas vart för sig. Förslaget till regeringsform Propositioner gavs på dels antagande, dels förkastande av detta förslag, och förklarades den förra propositionen vara med övervägande ja besvarad. Sedan herr Berndtson begärt votering upplästes och godkändes följande voteringsproposition: Den som vUl att kammaren antar det genom konstitutionsutskottets…",
+            "ehållen ett privilegierat fåtal. Men demokratin var också det medel som skapade förutsättningar för en poUtik i foUcfler- talets intresse och garantier mot att den politiska makten användes utan medborgerlig kontroll. Debatten om demokratins former har också senare gäUt samma grundfråga; Skall man ge ökade möjligheter för väljarna att få genomslag för sin uppfattning om vilken poUtik som bör bedrivas; skaU man riva eller bevara barriärer som hindrar ett sådant genomslag? Striden om enkammarsystem och valsätt under…",
+            "det bUdspråk som herr Bohman använder. Jag skall inte hårdra det, men nog har vi i åtminstone 20 år gett upplysningar i den här frågan. Sedan vUl jag inte använda ordet operation. Det är vUseledande i detta sammanhang. Här rör det sig om förändringar, som en stor riksdagsmajoritet har godtagit, och jag har inte hört klagomål över innebörden annat än från mindre grupper. Herr MOLIN (fp); Herr talman! De flesta som vill ha ett uppskov med det här beslutet viU naturiigtvis ha det därför att de tror och hoppas att det…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "G30923 present",
+          "passed": true,
+          "actual": "G30923",
+          "expected": null
+        },
+        {
+          "name": "G30923 final stage",
+          "passed": true,
+          "actual": "final",
+          "expected": "final"
+        },
+        {
+          "name": "G30923 adopted",
+          "passed": true,
+          "actual": "adopted",
+          "expected": "adopted"
+        },
+        {
+          "name": "G30923 has adoption evidence",
+          "passed": true,
+          "actual": [
+            "gången, göra ett försök att på folkpartiels vägnar ta åt sig huvuddelen av äran förden förstärkning av fri- och rättigheterna som nu skall införas i våra grundlagar. Det ger ingen riktig bild av vad som förekommit. De nu aktuella ändringsförslagen bygger på ett utredningsbetänkande som var enhälligt. Om vi går litet längre tillbaka i historieskrivningen och jämför de förslag till särskilda förändringar som vid olika tidpunkter lagts fram, så skall vi finna atf den ordning som vi nu kommer att fatta beslut om på må…",
+            "g genomför. Jag sade att det är mycket tillfredsställande alt det sker under en bred enighet. Jag sade slutligen att historikerna bör fö ta hand om frågan hur denna åsiktsgemenskap växte fram. Jag tror att Bertil Fiskesjö kan vara överens med mig på alla dessa tre punkter. BERTIL FISKESJÖ (c) replik: Herr lalman! Vad jag vände mig mot var atl Daniel Tarschys, liksom folkparlirepresentanlen i den tidigare debatten, ville föregripa historiens dom. BO SÖDERSTEN (s): Herr talman! Förslaget om införande av kvinnlig tro…",
+            "ngen (bil. 3). Vid betänkandet hade fogats ett särskilt yttrande av Hilding Johansson, Olle Svensson, Yngve Nyquist, Kurt Ove Johansson, Kerstin Nilsson, Sture Thun och Lahja Exner (samtliga s). HILDING JOHANSSON (s): Herr talman! När konstitutionsuiskottet förra gången behandlade frågan om kvinnlig tronföljd deltog ulskoUels socialdemokrater inte i behandlingen. 1 eu särskilt yttrande utvecklade vi skälen härför, och Jag förde sedan fram dem i ett anförande inför kammaren. Vi lät också förstå alt vi inte skulle d…"
+          ],
+          "expected": "operative adoption wording"
+        },
+        {
+          "name": "1921:21 substantive SFS present",
+          "passed": true,
+          "actual": "1921:21",
+          "expected": null
+        },
+        {
+          "name": "1937:40 substantive SFS present",
+          "passed": true,
+          "actual": "1937:40",
+          "expected": null
+        },
+        {
+          "name": "1949:110 substantive SFS present",
+          "passed": true,
+          "actual": "1949:110",
+          "expected": null
+        },
+        {
+          "name": "1965:45 substantive SFS present",
+          "passed": true,
+          "actual": "1965:45",
+          "expected": null
+        },
+        {
+          "name": "1974:154 substantive SFS present",
+          "passed": true,
+          "actual": "1974:154",
+          "expected": null
+        },
+        {
+          "name": "1979:935 substantive SFS present",
+          "passed": true,
+          "actual": "1979:935",
+          "expected": null
+        },
+        {
+          "name": "1937:728 reprint present",
+          "passed": true,
+          "actual": "1937:728",
+          "expected": null
+        },
+        {
+          "name": "1937:728 has no decision proposal",
+          "passed": true,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "name": "1949:579 reprint present",
+          "passed": true,
+          "actual": "1949:579",
+          "expected": null
+        },
+        {
+          "name": "1949:579 has no decision proposal",
+          "passed": true,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "name": "1965:817 reprint present",
+          "passed": true,
+          "actual": "1965:817",
+          "expected": null
+        },
+        {
+          "name": "1965:817 has no decision proposal",
+          "passed": true,
+          "actual": [],
+          "expected": []
+        },
+        {
+          "name": "1974:307 reprint present",
+          "passed": true,
+          "actual": "1974:307",
+          "expected": null
+        },
+        {
+          "name": "1974:307 has no decision proposal",
+          "passed": true,
+          "actual": [],
+          "expected": []
+        }
+      ],
+      "sourceUrls": [
+        "https://data.riksdagen.se/dokument/DH10KU19",
+        "https://data.riksdagen.se/dokument/DI10KU4",
+        "https://data.riksdagen.se/dokument/DI90BESLUT",
+        "https://data.riksdagen.se/dokument/DYK018",
+        "https://data.riksdagen.se/dokument/EA91BESLUT",
+        "https://data.riksdagen.se/dokument/EQ91BESLUT",
+        "https://data.riksdagen.se/dokument/FX0930",
+        "https://data.riksdagen.se/dokument/G30923",
+        "https://ferenda.lagen.nu/1810:0926",
+        "https://ferenda.lagen.nu/openapi.json"
+      ]
     }
   ],
   "secondaryBenchmarks": [
     {
       "id": "benchmark-2026-current-queue",
-      "title": "Vilande grundlagsändringar inför valet 2026",
+      "title": "Grundlagsärenden över valet 2026",
       "passed": true,
       "checks": [
         {
@@ -668,12 +1347,144 @@
             "HD01KU33",
             "HD01KU34"
           ]
+        },
+        {
+          "name": "HA01KU32 follow-up report",
+          "passed": true,
+          "actual": "HE01KU2",
+          "expected": "HE01KU2"
+        },
+        {
+          "name": "HE01KU2 committee and chamber separated",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HE01KU2 completed chamber event retained",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HB01KU22 follow-up report",
+          "passed": true,
+          "actual": "HE01KU3",
+          "expected": "HE01KU3"
+        },
+        {
+          "name": "HE01KU3 committee and chamber separated",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HE01KU3 completed chamber event retained",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HD01KU2 follow-up report",
+          "passed": true,
+          "actual": "HE01KU4",
+          "expected": "HE01KU4"
+        },
+        {
+          "name": "HE01KU4 committee and chamber separated",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HE01KU4 completed chamber event retained",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HD01KU8 follow-up report",
+          "passed": true,
+          "actual": "HE01KU6",
+          "expected": "HE01KU6"
+        },
+        {
+          "name": "HE01KU6 committee and chamber separated",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HE01KU6 planned vote is not final",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HD01KU32 follow-up report",
+          "passed": true,
+          "actual": "HE01KU7",
+          "expected": "HE01KU7"
+        },
+        {
+          "name": "HE01KU7 committee and chamber separated",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HE01KU7 planned vote is not final",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HD01KU33 follow-up report",
+          "passed": true,
+          "actual": "HE01KU8",
+          "expected": "HE01KU8"
+        },
+        {
+          "name": "HE01KU8 committee and chamber separated",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HE01KU8 planned vote is not final",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HD01KU34 follow-up report",
+          "passed": true,
+          "actual": "HE01KU9",
+          "expected": "HE01KU9"
+        },
+        {
+          "name": "HE01KU9 committee and chamber separated",
+          "passed": true,
+          "actual": null,
+          "expected": null
+        },
+        {
+          "name": "HE01KU9 planned vote is not final",
+          "passed": true,
+          "actual": null,
+          "expected": null
         }
       ],
       "sourceUrls": [
-        "https://www.riksdagen.se/sv/utskick-aktuellt/2026/juni/16/aktuellt-vilande-grundlagsandringar/"
+        "https://data.riksdagen.se/dokument/HE01KU2",
+        "https://data.riksdagen.se/dokument/HE01KU3",
+        "https://data.riksdagen.se/dokument/HE01KU4",
+        "https://data.riksdagen.se/dokument/HE01KU6",
+        "https://data.riksdagen.se/dokument/HE01KU7",
+        "https://data.riksdagen.se/dokument/HE01KU8",
+        "https://data.riksdagen.se/dokument/HE01KU9"
       ],
-      "note": "Riksdagens samlade översikt är kontrollkälla för den aktuella kön, inte för historiska SFS-versioner."
+      "note": "Kontrollerar att varje första beslut har rätt uppföljande betänkande och separata steg för utskottet och kammaren. Planerade datum är inte fattade beslut."
     },
     {
       "id": "benchmark-2025-ku2",
@@ -693,7 +1504,8 @@
       ],
       "sourceUrls": [
         "https://www.gp.se/debatt/regeringens-forslag-pa-andringar-i-grundlagen-far-inte-motas-av-tystnad.fa4fa791-41b6-4e10-8550-58b60b0288b0",
-        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-skydd-for-demokratin-och-domstolarnas_hd01ku2/"
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-skydd-for-demokratin-och-domstolarnas_hd01ku2/",
+        "https://data.riksdagen.se/dokument/HE01KU4"
       ],
       "note": "Sekundär källa kompletterad med Riksdagens ärendesida."
     },
@@ -715,7 +1527,8 @@
       ],
       "sourceUrls": [
         "https://www.gp.se/debatt/regeringens-forslag-pa-andringar-i-grundlagen-far-inte-motas-av-tystnad.fa4fa791-41b6-4e10-8550-58b60b0288b0",
-        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-konstitutionell-beredskap_hd01ku8/"
+        "https://www.riksdagen.se/sv/dokument-och-lagar/dokument/betankande/starkt-konstitutionell-beredskap_hd01ku8/",
+        "https://data.riksdagen.se/dokument/HE01KU6"
       ],
       "note": "Sekundär källa kompletterad med Riksdagens ärendesida."
     },
@@ -832,48 +1645,50 @@
   ],
   "qa": {
     "rejectedWithSfs": [],
-    "chronologyErrors": [],
+    "chronologyErrors": [
+      "riksdag:em10ku7"
+    ],
     "unknownSfsOperations": [
-      "1982:937",
-      "1985:862",
-      "1985:864",
-      "1988:1441",
-      "1991:1503",
       "1994:1481",
-      "2003:593",
-      "2011:109",
-      "1921:21",
-      "1937:40",
-      "1937:728",
-      "1949:110",
-      "1949:579",
-      "1965:45",
-      "1965:817",
-      "1974:154",
-      "1974:307",
-      "1979:935",
-      "1953:654",
-      "1957:500",
-      "1961:466",
-      "1965:818",
-      "1971:273",
-      "1974:308",
-      "2011:509",
+      "1991:1503",
+      "1988:1441",
+      "1985:864",
+      "1985:862",
       "2015:151",
+      "2015:150",
+      "2011:509",
       "2011:508",
-      "2015:150"
+      "2011:109",
+      "2003:593",
+      "1982:937",
+      "1979:935",
+      "1974:308",
+      "1974:307",
+      "1974:154",
+      "1971:273",
+      "1965:818",
+      "1965:817",
+      "1965:45",
+      "1961:466",
+      "1957:500",
+      "1953:654",
+      "1949:579",
+      "1949:110",
+      "1937:728",
+      "1937:40",
+      "1921:21"
     ],
     "twoWayValidation": {
       "riksdagToSfs": {
-        "adopted": 68,
-        "matched": 61,
-        "withoutMatch": 7
+        "adopted": 107,
+        "matched": 65,
+        "withoutMatch": 42
       },
-      "firstDecisionSfsConfirmation": 56,
+      "firstDecisionSfsConfirmation": 57,
       "sfsToRiksdag": {
         "changes": 121,
-        "matched": 80,
-        "orphan": 41
+        "matched": 83,
+        "orphan": 38
       }
     }
   },

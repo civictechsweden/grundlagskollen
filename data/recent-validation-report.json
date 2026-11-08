@@ -1,0 +1,733 @@
+{
+  "generatedAt": "2026-11-08T11:49:59.771577+00:00",
+  "fromYear": 2016,
+  "discoveryQueries": [
+    "vilande",
+    "grundlagsbeslut"
+  ],
+  "reportsChecked": 16,
+  "reportsPassed": 16,
+  "passed": true,
+  "cases": [
+    {
+      "documentId": "H601KU2",
+      "sourceUrl": "https://data.riksdagen.se/dokument/H601KU2",
+      "firstDecisionIds": [
+        "H501KU16"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "H601KU4",
+      "sourceUrl": "https://data.riksdagen.se/dokument/H601KU4",
+      "firstDecisionIds": [
+        "H501KU15"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HA01KU2",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU2",
+      "firstDecisionIds": [
+        "H701KU3"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HA01KU3",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU3",
+      "firstDecisionIds": [
+        "H901KU3"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HA01KU4",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU4",
+      "firstDecisionIds": [
+        "H901KU13"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HA01KU6",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU6",
+      "firstDecisionIds": [
+        "H901KU14"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HA01KU7",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU7",
+      "firstDecisionIds": [
+        "H901KU16"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HA01KU8",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU8",
+      "firstDecisionIds": [
+        "H901KU15"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HA01KU9",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU9",
+      "firstDecisionIds": [
+        "H901KU12"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HE01KU2",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU2",
+      "firstDecisionIds": [
+        "HA01KU32"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HE01KU3",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU3",
+      "firstDecisionIds": [
+        "HB01KU22"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HE01KU4",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU4",
+      "firstDecisionIds": [
+        "HD01KU2"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "chamber result retained",
+          "passed": true
+        },
+        {
+          "name": "outcome agrees with recorded chamber decision",
+          "passed": true
+        },
+        {
+          "name": "decision text matches API notice",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HE01KU6",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU6",
+      "firstDecisionIds": [
+        "HD01KU8"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "planned chamber event remains pending",
+          "passed": true
+        },
+        {
+          "name": "planned date matches source activity",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HE01KU7",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU7",
+      "firstDecisionIds": [
+        "HD01KU32"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "planned chamber event remains pending",
+          "passed": true
+        },
+        {
+          "name": "planned date matches source activity",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HE01KU8",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU8",
+      "firstDecisionIds": [
+        "HD01KU33"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "planned chamber event remains pending",
+          "passed": true
+        },
+        {
+          "name": "planned date matches source activity",
+          "passed": true
+        }
+      ]
+    },
+    {
+      "documentId": "HE01KU9",
+      "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU9",
+      "firstDecisionIds": [
+        "HD01KU34"
+      ],
+      "passed": true,
+      "checks": [
+        {
+          "name": "first decision explicitly cited",
+          "passed": true
+        },
+        {
+          "name": "follow-up linked to a first decision",
+          "passed": true
+        },
+        {
+          "name": "first report and date match explicit citation",
+          "passed": true
+        },
+        {
+          "name": "committee and chamber stages present",
+          "passed": true
+        },
+        {
+          "name": "source text has attribution",
+          "passed": true
+        },
+        {
+          "name": "no editorial fields",
+          "passed": true
+        },
+        {
+          "name": "planned chamber event remains pending",
+          "passed": true
+        },
+        {
+          "name": "planned date matches source activity",
+          "passed": true
+        }
+      ]
+    }
+  ]
+}

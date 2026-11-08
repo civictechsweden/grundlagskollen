@@ -129,6 +129,37 @@ def check_case(case: dict, proposals: list[dict], documents: dict[str, dict], ch
                 check(f"{document_id} final document", final and final.get("documentId") == expected["finalDocumentId"], final and final.get("documentId"), expected["finalDocumentId"])
                 check(f"{document_id} final date", final and final.get("date") == expected["finalDecisionDate"], final and final.get("date"), expected["finalDecisionDate"])
                 check(f"{document_id} SFS confirmation", proposal and set(proposal.get("sfsIds", [])) == set(expected["sfs"]), proposal and proposal.get("sfsIds"), expected["sfs"])
+    elif case_id == "test-h-1921-1979-so-decision-chains":
+        # These historical chains deliberately assert each document role,
+        # not only the final proposal pairing. Older Riksdag records split a
+        # chain across KU utlåtanden, memorial, chamber protocols and
+        # Riksdagsskrivelser/Riksdagsbeslut.
+        for document_id in case["expectedFirstReports"]:
+            document = documents.get(document_id, {})
+            classification = document.get("classification", {})
+            check(f"{document_id} present", bool(document), document_id)
+            check(f"{document_id} first stage", classification.get("stage") == "first", classification.get("stage"), "first")
+            check(f"{document_id} first pending", classification.get("firstPendingDecision") is True, classification.get("firstPendingDecision"), True)
+            check(f"{document_id} has first-decision evidence", bool(classification.get("firstSignals")), classification.get("firstSignals"), "operative pending wording")
+        for document_id in case["expectedSecondReports"]:
+            document = documents.get(document_id, {})
+            classification = document.get("classification", {})
+            check(f"{document_id} present", bool(document), document_id)
+            check(f"{document_id} final-treatment stage", classification.get("stage") == "final", classification.get("stage"), "final")
+        for document_id in case["expectedFinalDocuments"]:
+            document = documents.get(document_id, {})
+            classification = document.get("classification", {})
+            check(f"{document_id} present", bool(document), document_id)
+            check(f"{document_id} final stage", classification.get("stage") == "final", classification.get("stage"), "final")
+            check(f"{document_id} adopted", classification.get("outcome") == "adopted", classification.get("outcome"), "adopted")
+            check(f"{document_id} has adoption evidence", bool(classification.get("finalAdoptSignals")), classification.get("finalAdoptSignals"), "operative adoption wording")
+        for sfs in case["expectedSfs"]:
+            change = changes.get(sfs, {})
+            check(f"{sfs} substantive SFS present", bool(change), sfs)
+        for sfs in case["expectedReprintSfs"]:
+            change = changes.get(sfs, {})
+            check(f"{sfs} reprint present", bool(change), sfs)
+            check(f"{sfs} has no decision proposal", bool(change) and change.get("proposalIds") == [], change.get("proposalIds"), [])
     else:
         check("known regression case", False, case_id, "known case")
     return {"id": case_id, "title": case.get("title"), "passed": all(item["passed"] for item in checks), "checks": checks, "sourceUrls": case.get("sourceUrls", [])}
@@ -147,6 +178,16 @@ def check_secondary_case(case: dict, proposals: list[dict], changes: dict[str, d
     if expected_ids:
         found = [value for value in expected_ids if value in proposal_ids]
         check("Riksdag case discovered", len(found) == len(expected_ids), found, expected_ids)
+    by_first = {item.get("firstDecision", {}).get("documentId"): item for item in proposals}
+    for first_id, report_id in case.get("expectedCurrentReports", {}).items():
+        proposal = by_first.get(first_id, {})
+        progress = proposal.get("parliamentaryProgress", {})
+        check(f"{first_id} follow-up report", progress.get("documentId") == report_id, progress.get("documentId"), report_id)
+        check(f"{report_id} committee and chamber separated", bool(progress.get("committee")) and bool(progress.get("chamber")))
+        if progress.get("chamber", {}).get("status") == "planned":
+            check(f"{report_id} planned vote is not final", proposal.get("status") == "pending" and proposal.get("finalDecision") is None)
+        elif progress.get("chamber", {}).get("status") == "completed":
+            check(f"{report_id} completed chamber event retained", bool(proposal.get("finalDecision")))
     if expected_sfs:
         found = [value for value in expected_sfs if value in changes]
         check("SFS identifiers present", len(found) == len(expected_sfs), found, expected_sfs)
@@ -235,6 +276,8 @@ def main() -> None:
         (frontend_public / "DATA_BENCHMARK.md").write_text(benchmark_markdown)
     print(f"Regression cases: {report['metrics']['regression_passed']}/{report['metrics']['regression_cases']} passed.")
     print(f"Pending/unresolved: {report['metrics']['total_pending_proposals']}; adopted: {report['metrics']['finally_adopted']}; rejected: {report['metrics']['finally_rejected']}; SFS matched: {report['metrics']['matched_to_sfs']}.")
+    if any(not result["passed"] for result in [*results, *secondary_results]):
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":
