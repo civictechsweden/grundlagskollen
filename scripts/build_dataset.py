@@ -232,7 +232,7 @@ def fetch_bytes(url: str, accept: str = "application/json", max_age: float | Non
     if path.exists() and (max_age is None or time.time() - path.stat().st_mtime < max_age):
         FETCH_METRICS["cacheHits"] += 1
         return path.read_bytes()
-    request = Request(url, headers={"Accept": accept, "User-Agent": "grundlagsmonitor/0.2"})
+    request = Request(url, headers={"Accept": accept, "User-Agent": "grundlagskollen/0.2"})
     with urlopen(request, timeout=90, context=SSL_CONTEXT) as response:
         value = response.read()
     FETCH_METRICS["networkRequests"] += 1

@@ -12,7 +12,7 @@ wheels = [
 ]
 
 [[package]]
-name = "grundlagsmonitor"
+name = "grundlagskollen"
 version = "0.2.0"
 source = { virtual = "." }
 dependencies = [

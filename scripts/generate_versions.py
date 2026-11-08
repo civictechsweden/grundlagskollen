@@ -38,13 +38,13 @@ SSL_CONTEXT = ssl.create_default_context(cafile=certifi.where() if certifi else 
 
 
 def fetch_json(url: str) -> dict:
-    request = Request(url, headers={"Accept": "application/json", "User-Agent": "grundlagsmonitor-version-experiment/0.1"})
+    request = Request(url, headers={"Accept": "application/json", "User-Agent": "grundlagskollen-version-experiment/0.1"})
     with urlopen(request, timeout=90, context=SSL_CONTEXT) as response:
         return json.load(response)
 
 
 def fetch_bytes(url: str) -> bytes:
-    request = Request(url, headers={"Accept": "text/html", "User-Agent": "grundlagsmonitor-version-experiment/0.1"})
+    request = Request(url, headers={"Accept": "text/html", "User-Agent": "grundlagskollen-version-experiment/0.1"})
     with urlopen(request, timeout=90, context=SSL_CONTEXT) as response:
         return response.read()
 

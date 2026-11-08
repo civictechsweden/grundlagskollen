@@ -1,4 +1,4 @@
-import data from 'virtual:grundlagsmonitor-data';
+import data from 'virtual:grundlagskollen-data';
 import './style.css';
 
 const app = document.querySelector('#app');
@@ -167,7 +167,7 @@ function renderShell() {
   app.innerHTML = `
     <a class="skip-link" href="#main">Hoppa till innehållet</a>
     <header class="site-header"><div class="header-inner">
-      <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">§</span>Grundlagsmonitor</a>
+      <a class="brand" href="#top"><span class="brand-mark" aria-hidden="true">§</span>Grundlagskollen</a>
       <nav aria-label="Huvudnavigation"><a href="#aktuellt">Aktuellt</a><a href="#historik">Historik</a><a href="#sa-fungerar-det">Så fungerar det</a></nav>
     </div></header>
     <main id="main"><div id="top"></div>

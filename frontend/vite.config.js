@@ -4,7 +4,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 
 const datasetPath = fileURLToPath(new URL('../data/changes.json', import.meta.url));
-const datasetModule = '\0virtual:grundlagsmonitor-data';
+const datasetModule = '\0virtual:grundlagskollen-data';
 
 // Keep the complete legal evidence in the source dataset. Ship only fields
 // used by the interface, rather than every graph edge and parser excerpt.
@@ -26,8 +26,8 @@ function frontendDataset() {
 
 export default defineConfig({
   plugins: [tailwindcss(), {
-    name: 'grundlagsmonitor-data',
-    resolveId(id) { if (id === 'virtual:grundlagsmonitor-data') return datasetModule; },
+    name: 'grundlagskollen-data',
+    resolveId(id) { if (id === 'virtual:grundlagskollen-data') return datasetModule; },
     load(id) {
       if (id !== datasetModule) return;
       this.addWatchFile(datasetPath);

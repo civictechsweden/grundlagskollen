@@ -1,7 +1,8 @@
 [project]
-name = "grundlagsmonitor"
+name = "grundlagskollen"
 version = "0.2.0"
-description = "Reproducible data pipeline and static time machine for Swedish constitutional law"
+description = "Open-data tracker for amendments to Sweden's constitutional laws"
+license = "AGPL-3.0-only"
 requires-python = ">=3.12"
 dependencies = [
   "certifi>=2024.8.30",

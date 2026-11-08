@@ -40,11 +40,11 @@ jobs:
         working-directory: frontend
       - uses: actions/upload-artifact@v4
         with:
-          name: grundlagsmonitor-site
+          name: grundlagskollen-site
           path: frontend/dist
       - name: Commit changed snapshot
         run: |
-          git config user.name "grundlagsmonitor-bot"
+          git config user.name "grundlagskollen-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data DATA_BENCHMARK.md VERSIONING_REPORT.md frontend/public/versions frontend/public/DATA_BENCHMARK.md frontend/public/VERSIONING_REPORT.md
           git diff --cached --quiet || git commit -m "chore: update legal data"
