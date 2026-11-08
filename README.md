@@ -16,6 +16,32 @@ npm run dev
 
 `npm run build` från `frontend/` skapar `frontend/dist/`, inklusive de genererade versionstexterna och patcharna i `frontend/public/versions/`.
 
+## Refresh current parliamentary developments
+
+```bash
+uv run --locked scripts/refresh_current.py
+uv run --locked -m unittest discover -s tests
+uv run --locked scripts/benchmark_data.py
+```
+
+This bounded refresh discovers recent KU reports and re-fetches both text and status for monitored cases. It preserves the historical SFS and version catalog, with separate timestamps for the current check and historical snapshot. The daily workflow runs this update; weekly and manual runs also rebuild the full dataset and law versions. The frontend requires Node 20.19+ or 22.12+.
+
+`dokaktivitet.aktivitet` distinguishes committee treatment (`JUS`, justering), debate (`BEH`) and chamber decisions (`BES`). Each event retains its date and whether the API marks it `planerat` or `inträffat`. A committee recommendation or an elapsed calendar date never counts as a completed chamber vote. Current reports expose these stages as `parliamentaryProgress`; an upcoming second decision is stored separately in `nextDecision`, while `finalDecision` requires a completed chamber event.
+
+Discovery and content require no hand-maintained case list or AI service. The refresh searches the KU document API, rechecks previously discovered active reports, and follows explicit report citations under `Behandlade förslag` to find first decisions outside the discovery window. Both the report citation and the first decision's date must match. The source passage is preserved in `match.evidence`. Older cases without this explicit evidence retain their reference-matching method and are labelled accordingly in the interface.
+
+Displayed summaries and notice headings are Riksdag-authored source text: `dokuppgift.uppgift[kod=utsknotis]` for committee proposals and `[kod=notis]` for completed decisions, with their respective headline fields. If neither is available, the script extracts the report's `Sammanfattning` section only when its boundaries are identifiable. If no source summary is available, the interface links to the report instead. HTML is converted to escaped plain text without rewriting the wording. `sourceText` retains the document ID, source URL and field. No editorial titles, summaries or effective dates are injected into case records.
+
+The website puts upcoming second decisions and recent chamber outcomes before the searchable history. Native expandable entries show the official source text, the decision timeline, the first-decision citation and source links. The build projects only the fields the interface uses from the full legal dataset.
+
+To rediscover and validate the last ten years against open-data outcomes:
+
+```bash
+uv run --locked scripts/validate_recent.py --refresh
+```
+
+The check writes `data/recent-validation-report.json` and exits unsuccessfully if a recent follow-up report lacks a verified first-decision link, disagrees with the recorded chamber outcome, or loses the distinction between planned and completed events. The daily workflow runs this validation against the refreshed snapshot before building the frontend and committing changes. `--from-year` selects a different validation window.
+
 ## Dataflöde
 
 1. `pyproject.toml` deklarerar Python-version och beroenden; `uv.lock` låser körmiljön för lokalt arbete och CI.
