@@ -1,6 +1,6 @@
 # Grundlagskollen
 
-[Visit Grundlagskollen](https://civictechsweden.github.io/grundlagskollen/).
+[Visit Grundlagskollen](https://grundlagskollen.mesu.re/).
 
 A Swedish website for following changes to Sweden's constitutional laws: pending proposals, committee recommendations, parliamentary decisions, elections and published amendments. Each case has a timeline linking back to its sources.
 
