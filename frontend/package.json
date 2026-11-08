@@ -8,6 +8,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "update-data": "uv run --locked ../scripts/update_data.py",
+    "refresh-current": "uv run --locked ../scripts/refresh_current.py",
     "benchmark-data": "uv run --locked ../scripts/benchmark_data.py",
     "generate-versions": "uv run --locked ../scripts/generate_versions.py --git"
   },

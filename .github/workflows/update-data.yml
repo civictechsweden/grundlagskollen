@@ -3,10 +3,15 @@ name: Update legal data
 on:
   schedule:
     - cron: '17 2 * * *'
+    - cron: '37 3 * * 0'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: update-legal-data
+  cancel-in-progress: false
 
 jobs:
   update:
@@ -16,9 +21,27 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           version: "latest"
-      - run: uv run --locked --python 3.12 scripts/update_data.py
-      - run: uv run --locked --python 3.12 scripts/generate_versions.py --git
+      - if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 3 * * 0'
+        run: uv run --locked --python 3.12 scripts/update_data.py
+      - if: github.event_name == 'workflow_dispatch' || github.event.schedule == '37 3 * * 0'
+        run: uv run --locked --python 3.12 scripts/generate_versions.py --git
+      - run: uv run --locked --python 3.12 scripts/refresh_current.py
+      - run: uv run --locked --python 3.12 -m unittest discover -s tests
+      - run: uv run --locked --python 3.12 scripts/validate_recent.py
       - run: uv run --locked --python 3.12 scripts/benchmark_data.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+        working-directory: frontend
+      - run: npm run build
+        working-directory: frontend
+      - uses: actions/upload-artifact@v4
+        with:
+          name: grundlagsmonitor-site
+          path: frontend/dist
       - name: Commit changed snapshot
         run: |
           git config user.name "grundlagsmonitor-bot"
