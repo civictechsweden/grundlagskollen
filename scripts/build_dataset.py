@@ -247,7 +247,7 @@ def fetch_json(url: str, max_age: float | None = None) -> dict:
 
 
 WIKIDATA_ELECTION_QUERY = """
-SELECT DISTINCT ?election ?electionLabel ?date ?precision WHERE {
+SELECT DISTINCT ?election ?electionLabel ?date ?precision ?wikipediaUrl WHERE {
   ?election wdt:P31 wd:Q22266709;
             wdt:P17 wd:Q34;
             p:P585 ?dateStatement.
@@ -255,6 +255,10 @@ SELECT DISTINCT ?election ?electionLabel ?date ?precision WHERE {
   ?dateStatement ps:P585 ?date;
                  psv:P585/wikibase:timePrecision ?precision.
   FILTER(YEAR(?date) >= 1867)
+  OPTIONAL {
+    ?wikipediaUrl schema:about ?election;
+                  schema:isPartOf <https://sv.wikipedia.org/>.
+  }
   SERVICE wikibase:label { bd:serviceParam wikibase:language "sv,en". }
 }
 ORDER BY ?date
@@ -262,7 +266,7 @@ ORDER BY ?date
 
 
 def fetch_wikidata_elections() -> list[dict]:
-    """Fetch Swedish general-election dates and retain Wikidata precision."""
+    """Fetch election dates, precision and Swedish Wikipedia sitelinks."""
     query_url = f"{WIKIDATA_SPARQL}?{urlencode({'format': 'json', 'query': WIKIDATA_ELECTION_QUERY})}"
     response = fetch_json(query_url, max_age=86400)
     elections: list[dict] = []
@@ -283,6 +287,7 @@ def fetch_wikidata_elections() -> list[dict]:
             "precision": int(precision) if precision.isdigit() else None,
             "label": binding.get("electionLabel", {}).get("value"),
             "source": f"https://www.wikidata.org/wiki/{election_id}",
+            **({"wikipediaUrl": binding["wikipediaUrl"]["value"]} if binding.get("wikipediaUrl", {}).get("value") else {}),
         })
     return elections
 
@@ -661,7 +666,7 @@ def source_summary(status: dict, text: str, document_id: str, completed: bool) -
     for code in (("notis", "utsknotis") if completed else ("utsknotis",)):
         value = fields.get(code, {}).get("text")
         if isinstance(value, str) and value.strip():
-            return {"text": plain_source_text(value), "title": plain_source_text(str(fields.get(f"{code}rubrik", {}).get("text") or "")),
+            return {"text": plain_source_text(value), "html": value, "title": plain_source_text(str(fields.get(f"{code}rubrik", {}).get("text") or "")),
                     "documentId": document_id, "sourceUrl": f"{RIKSDAG_DOCUMENT}{document_id}.json",
                     "sourceField": f"dokumentstatus.dokuppgift.uppgift[kod={code}].text",
                     "kind": "decision_notice" if code == "notis" else "committee_notice"}
@@ -1445,6 +1450,7 @@ def proposal_record(first: dict, final: dict | None, score: int, committee: dict
             "documentId": first["documentId"],
             "date": first.get("decisionDate") or first.get("publishedDate"),
             "documentUrl": first["documentUrl"],
+            **({"parliamentaryProgress": first["parliamentaryProgress"]} if first.get("parliamentaryProgress") else {}),
             "propositionReferences": [item for item in first.get("citations", []) if item["kind"] == "proposition"],
             "riksdagCitationReferences": [item for item in first.get("citations", []) if item["kind"] != "proposition"],
             "riksdagReferences": first_refs,
@@ -1467,6 +1473,31 @@ def proposal_record(first: dict, final: dict | None, score: int, committee: dict
     }
 
 
+def printed_sfs_url(sfs: str) -> str | None:
+    """Link to the official publication within the digital archives' coverage."""
+    # Archive cutoffs: https://github.com/PierreMesure/python-sfs/blob/master/src/sfs/services/rkrattsdb.py
+    if not re.fullmatch(r"\d{4}:\d+", sfs):
+        return None
+    year, number = map(int, sfs.split(":"))
+    if (year, number) >= (2018, 160):
+        return f"https://svenskforfattningssamling.se/doc/{year}{number}.html"
+    if (year, number) >= (1998, 306):
+        return f"https://rkrattsdb.gov.se/SFSdoc/{year % 100:02d}/{year % 100:02d}{number:04d}.PDF"
+    return None
+
+
+def version_comparison_urls(law_uri: str, versions: dict[str, dict]) -> dict[str, str]:
+    """Compare successive available API versions, keeping both ends fixed."""
+    ordered = sorted(
+        (sfs for sfs in versions if re.fullmatch(r"\d{4}:\d+", sfs)),
+        key=lambda sfs: tuple(map(int, sfs.split(":"))),
+    )
+    return {
+        current: f"{versions[current].get('uri') or f'{law_uri}/konsolidering/{current}'}?{urlencode({'diff': previous})}"
+        for previous, current in zip(ordered, ordered[1:])
+    }
+
+
 def fetch_ferenda_changes() -> tuple[list[dict], dict[str, dict]]:
     changes: list[dict] = []
     catalogs: dict[str, dict] = {}
@@ -1475,6 +1506,7 @@ def fetch_ferenda_changes() -> tuple[list[dict], dict[str, dict]]:
         document = fetch_json(f"{FERENDA}/document?{urlencode({'uri': law['uri']})}", max_age=86400)
         versions_response = fetch_json(f"{FERENDA}/document/versions?{urlencode({'uri': law['uri']})}", max_age=86400)
         versions = {item.get("version"): item for item in versions_response.get("versions", []) if item.get("version")}
+        comparisons = version_comparison_urls(law["uri"], versions)
         catalogs[law["id"]] = {"constitutionId": law["id"], "sfs": law["sfs"], "source": "Ferenda / lagen.nu /document/versions", "versions": list(versions_response.get("versions", []))}
         for amendment in document.get("artifact", {}).get("amendments", []):
             uri = amendment.get("uri", "")
@@ -1496,7 +1528,9 @@ def fetch_ferenda_changes() -> tuple[list[dict], dict[str, dict]]:
                 "description": properties.get("rpubl:andrar") or "Ändring registrerad i konsolideringen",
                 "preparatoryWorks": works,
                 "preparatoryWorkReferences": work_references,
-                "lawUrl": f"https://lagen.nu/{sfs}",
+                "lawUrl": f"{law['uri']}#L{sfs}",
+                **({"printedVersionUrl": printed_sfs_url(sfs)} if printed_sfs_url(sfs) else {}),
+                **({"comparisonUrl": comparisons[sfs]} if sfs in comparisons else {}),
                 "versionUrl": version.get("uri") or f"https://lagen.nu/{law['sfs']}/konsolidering/{sfs}",
                 "sfsMetadataUrl": uri,
                 "metadata": {"ikraft": version.get("ikraft") or properties.get("rpubl:ikrafttradandedatum"), "ersatter": properties.get("rpubl:ersatter", []), "inforsI": properties.get("rpubl:inforsI", []), "sfsIdentifier": properties.get("dcterms:identifier")},

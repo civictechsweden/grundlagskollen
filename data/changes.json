@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T09:26:35.011628+00:00",
+  "generatedAt": "2026-11-08T13:13:43.252565+00:00",
   "currentRefreshedAt": "2026-11-08T09:24:40.758547+00:00",
   "historicalSnapshotAt": "2026-08-30T10:37:00.502047+00:00",
   "refreshScope": {
@@ -23,315 +23,360 @@
         "date": "1869-01-01",
         "precision": 9,
         "label": "Andrakammarvalet i Sverige 1869",
-        "source": "https://www.wikidata.org/wiki/Q18287047"
+        "source": "https://www.wikidata.org/wiki/Q18287047",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1869"
       },
       {
         "id": "Q18287050",
         "date": "1872-01-01",
         "precision": 9,
         "label": "Andrakammarvalet i Sverige 1872",
-        "source": "https://www.wikidata.org/wiki/Q18287050"
+        "source": "https://www.wikidata.org/wiki/Q18287050",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1872"
       },
       {
         "id": "Q18289602",
         "date": "1875-01-01",
         "precision": 9,
         "label": "Andrakammarvalet i Sverige 1875",
-        "source": "https://www.wikidata.org/wiki/Q18289602"
+        "source": "https://www.wikidata.org/wiki/Q18289602",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1875"
       },
       {
         "id": "Q18287058",
         "date": "1881-01-01",
         "precision": 9,
         "label": "Andrakammarvalet i Sverige 1881",
-        "source": "https://www.wikidata.org/wiki/Q18287058"
+        "source": "https://www.wikidata.org/wiki/Q18287058",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1881"
       },
       {
         "id": "Q15639167",
         "date": "1884-01-01",
         "precision": 9,
         "label": "Andrakammarvalet i Sverige 1884",
-        "source": "https://www.wikidata.org/wiki/Q15639167"
+        "source": "https://www.wikidata.org/wiki/Q15639167",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1884"
       },
       {
         "id": "Q7654959",
         "date": "1890-01-01",
         "precision": 9,
         "label": "andrakammarvalet i Sverige 1890",
-        "source": "https://www.wikidata.org/wiki/Q7654959"
+        "source": "https://www.wikidata.org/wiki/Q7654959",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1890"
       },
       {
         "id": "Q7654967",
         "date": "1893-01-01",
         "precision": 9,
         "label": "Andrakammarvalet i Sverige 1893",
-        "source": "https://www.wikidata.org/wiki/Q7654967"
+        "source": "https://www.wikidata.org/wiki/Q7654967",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1893"
       },
       {
         "id": "Q7654966",
         "date": "1899-09-22",
         "precision": 11,
         "label": "andrakammarvalet i Sverige 1899",
-        "source": "https://www.wikidata.org/wiki/Q7654966"
+        "source": "https://www.wikidata.org/wiki/Q7654966",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1899"
       },
       {
         "id": "Q1628641",
         "date": "1911-09-10",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1911",
-        "source": "https://www.wikidata.org/wiki/Q1628641"
+        "source": "https://www.wikidata.org/wiki/Q1628641",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1911"
       },
       {
         "id": "Q3777203",
         "date": "1914-03-27",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1914",
-        "source": "https://www.wikidata.org/wiki/Q3777203"
+        "source": "https://www.wikidata.org/wiki/Q3777203",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1914_(27_mars)"
       },
       {
         "id": "Q3777205",
         "date": "1914-09-05",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1914",
-        "source": "https://www.wikidata.org/wiki/Q3777205"
+        "source": "https://www.wikidata.org/wiki/Q3777205",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1914_(25_september)"
       },
       {
         "id": "Q1326331",
         "date": "1917-09-01",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1917",
-        "source": "https://www.wikidata.org/wiki/Q1326331"
+        "source": "https://www.wikidata.org/wiki/Q1326331",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1917"
       },
       {
         "id": "Q1326899",
         "date": "1920-09-04",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1920",
-        "source": "https://www.wikidata.org/wiki/Q1326899"
+        "source": "https://www.wikidata.org/wiki/Q1326899",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1920"
       },
       {
         "id": "Q1326888",
         "date": "1921-09-10",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1921",
-        "source": "https://www.wikidata.org/wiki/Q1326888"
+        "source": "https://www.wikidata.org/wiki/Q1326888",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1921"
       },
       {
         "id": "Q1327492",
         "date": "1924-09-19",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1924",
-        "source": "https://www.wikidata.org/wiki/Q1327492"
+        "source": "https://www.wikidata.org/wiki/Q1327492",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1924"
       },
       {
         "id": "Q1410168",
         "date": "1928-09-15",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1928",
-        "source": "https://www.wikidata.org/wiki/Q1410168"
+        "source": "https://www.wikidata.org/wiki/Q1410168",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1928"
       },
       {
         "id": "Q1327521",
         "date": "1932-09-17",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1932",
-        "source": "https://www.wikidata.org/wiki/Q1327521"
+        "source": "https://www.wikidata.org/wiki/Q1327521",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1932"
       },
       {
         "id": "Q1327512",
         "date": "1936-09-20",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1936",
-        "source": "https://www.wikidata.org/wiki/Q1327512"
+        "source": "https://www.wikidata.org/wiki/Q1327512",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1936"
       },
       {
         "id": "Q1629354",
         "date": "1940-09-15",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1940",
-        "source": "https://www.wikidata.org/wiki/Q1629354"
+        "source": "https://www.wikidata.org/wiki/Q1629354",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1940"
       },
       {
         "id": "Q1629403",
         "date": "1944-09-17",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1944",
-        "source": "https://www.wikidata.org/wiki/Q1629403"
+        "source": "https://www.wikidata.org/wiki/Q1629403",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1944"
       },
       {
         "id": "Q1448234",
         "date": "1948-09-19",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1948",
-        "source": "https://www.wikidata.org/wiki/Q1448234"
+        "source": "https://www.wikidata.org/wiki/Q1448234",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1948"
       },
       {
         "id": "Q1628554",
         "date": "1952-09-21",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1952",
-        "source": "https://www.wikidata.org/wiki/Q1628554"
+        "source": "https://www.wikidata.org/wiki/Q1628554",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1952"
       },
       {
         "id": "Q1629382",
         "date": "1956-09-16",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1956",
-        "source": "https://www.wikidata.org/wiki/Q1629382"
+        "source": "https://www.wikidata.org/wiki/Q1629382",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1956"
       },
       {
         "id": "Q652709",
         "date": "1958-06-01",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1958",
-        "source": "https://www.wikidata.org/wiki/Q652709"
+        "source": "https://www.wikidata.org/wiki/Q652709",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1958"
       },
       {
         "id": "Q1581698",
         "date": "1960-09-18",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1960",
-        "source": "https://www.wikidata.org/wiki/Q1581698"
+        "source": "https://www.wikidata.org/wiki/Q1581698",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1960"
       },
       {
         "id": "Q1582285",
         "date": "1964-09-20",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1964",
-        "source": "https://www.wikidata.org/wiki/Q1582285"
+        "source": "https://www.wikidata.org/wiki/Q1582285",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1964"
       },
       {
         "id": "Q2297737",
         "date": "1968-09-15",
         "precision": 11,
         "label": "Andrakammarvalet i Sverige 1968",
-        "source": "https://www.wikidata.org/wiki/Q2297737"
+        "source": "https://www.wikidata.org/wiki/Q2297737",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Andrakammarvalet_i_Sverige_1968"
       },
       {
         "id": "Q1247167",
         "date": "1970-09-20",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1970",
-        "source": "https://www.wikidata.org/wiki/Q1247167"
+        "source": "https://www.wikidata.org/wiki/Q1247167",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1970"
       },
       {
         "id": "Q1498349",
         "date": "1973-09-16",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1973",
-        "source": "https://www.wikidata.org/wiki/Q1498349"
+        "source": "https://www.wikidata.org/wiki/Q1498349",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1973"
       },
       {
         "id": "Q941995",
         "date": "1976-09-19",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1976",
-        "source": "https://www.wikidata.org/wiki/Q941995"
+        "source": "https://www.wikidata.org/wiki/Q941995",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1976"
       },
       {
         "id": "Q1378385",
         "date": "1979-09-16",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1979",
-        "source": "https://www.wikidata.org/wiki/Q1378385"
+        "source": "https://www.wikidata.org/wiki/Q1378385",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1979"
       },
       {
         "id": "Q2298233",
         "date": "1982-09-19",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1982",
-        "source": "https://www.wikidata.org/wiki/Q2298233"
+        "source": "https://www.wikidata.org/wiki/Q2298233",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1982"
       },
       {
         "id": "Q2178539",
         "date": "1985-09-15",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1985",
-        "source": "https://www.wikidata.org/wiki/Q2178539"
+        "source": "https://www.wikidata.org/wiki/Q2178539",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1985"
       },
       {
         "id": "Q180963",
         "date": "1988-09-18",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1988",
-        "source": "https://www.wikidata.org/wiki/Q180963"
+        "source": "https://www.wikidata.org/wiki/Q180963",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1988"
       },
       {
         "id": "Q931619",
         "date": "1991-09-15",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1991",
-        "source": "https://www.wikidata.org/wiki/Q931619"
+        "source": "https://www.wikidata.org/wiki/Q931619",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1991"
       },
       {
         "id": "Q923007",
         "date": "1994-09-18",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1994",
-        "source": "https://www.wikidata.org/wiki/Q923007"
+        "source": "https://www.wikidata.org/wiki/Q923007",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1994"
       },
       {
         "id": "Q1813189",
         "date": "1998-09-20",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 1998",
-        "source": "https://www.wikidata.org/wiki/Q1813189"
+        "source": "https://www.wikidata.org/wiki/Q1813189",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_1998"
       },
       {
         "id": "Q1473467",
         "date": "2002-09-15",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 2002",
-        "source": "https://www.wikidata.org/wiki/Q1473467"
+        "source": "https://www.wikidata.org/wiki/Q1473467",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_2002"
       },
       {
         "id": "Q1324608",
         "date": "2006-09-17",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 2006",
-        "source": "https://www.wikidata.org/wiki/Q1324608"
+        "source": "https://www.wikidata.org/wiki/Q1324608",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_2006"
       },
       {
         "id": "Q1340192",
         "date": "2010-09-19",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 2010",
-        "source": "https://www.wikidata.org/wiki/Q1340192"
+        "source": "https://www.wikidata.org/wiki/Q1340192",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_2010"
       },
       {
         "id": "Q7654987",
         "date": "2014-09-14",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 2014",
-        "source": "https://www.wikidata.org/wiki/Q7654987"
+        "source": "https://www.wikidata.org/wiki/Q7654987",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_2014"
       },
       {
         "id": "Q18332247",
         "date": "2018-09-09",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 2018",
-        "source": "https://www.wikidata.org/wiki/Q18332247"
+        "source": "https://www.wikidata.org/wiki/Q18332247",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_2018"
       },
       {
         "id": "Q56629098",
         "date": "2022-09-11",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 2022",
-        "source": "https://www.wikidata.org/wiki/Q56629098"
+        "source": "https://www.wikidata.org/wiki/Q56629098",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_2022"
       },
       {
         "id": "Q113639313",
         "date": "2026-09-13",
         "precision": 11,
         "label": "riksdagsvalet i Sverige 2026",
-        "source": "https://www.wikidata.org/wiki/Q113639313"
+        "source": "https://www.wikidata.org/wiki/Q113639313",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_2026"
       },
       {
         "id": "Q113640047",
         "date": "2030-09-08",
         "precision": 11,
         "label": "Riksdagsvalet i Sverige 2030",
-        "source": "https://www.wikidata.org/wiki/Q113640047"
+        "source": "https://www.wikidata.org/wiki/Q113640047",
+        "wikipediaUrl": "https://sv.wikipedia.org/wiki/Riksdagsvalet_i_Sverige_2030"
       },
       {
         "id": "Q126456831",
@@ -26890,6 +26935,21 @@
         "documentId": "H501KU13",
         "date": "2017-11-15",
         "documentUrl": "https://data.riksdagen.se/dokument/H501KU13",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2017-11-07",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2017-11-15",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2017-11-15",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -26965,6 +27025,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Olaga integritetsintrång ska bli ett nytt brott i brottsbalken. Det innebär att det ska bli straffbart att sprida vissa typer av bilder eller andra uppgifter om någon annans privatliv. Det gäller om syftet är att allvarligt skada personen som blir utsatt för det. Riksdagen sa ja till regeringens förslag och ändringarna börjar gälla den 1 januari 2018.\n\nDessutom vill regeringen tydliggöra och modernisera straffen för olaga hot, ofredande och förolämpning och göra fler typer av handlingar straffbara. Det skulle innebära ändringar i brottsbalken. Olaga hot och förolämpning är brott som även finns i tryckfrihetsförordningen. Därför föreslås även ändringar i den grundlagen.\n\nFör att ändra i en grundlag krävs det att riksdagen röstar lika två gånger om förslaget och det måste vara ett val emellan omröstningarna. Riksdagen ja till regeringens förslag om en ändring i grundlagen och frågan kommer att tas upp för ett slutgiltigt beslut efter nästa val. På grund av det beslutade riksdagen också att förslaget om ändringar när det gäller olaga hot och förolämpning skjuts upp till nästa års riksmöte.",
+        "html": "                           <p>Olaga integritetsintrång ska bli ett nytt brott i brottsbalken. Det innebär att det ska bli straffbart att sprida vissa typer av bilder eller andra uppgifter om någon annans privatliv. Det gäller om syftet är att allvarligt skada personen som blir utsatt för det. Riksdagen sa ja till regeringens förslag och ändringarna börjar gälla den 1 januari 2018.</p>\n<p>Dessutom vill regeringen tydliggöra och modernisera straffen för olaga hot, ofredande och förolämpning och göra fler typer av handlingar straffbara. Det skulle innebära ändringar i brottsbalken. Olaga hot och förolämpning är brott som även finns i tryckfrihetsförordningen. Därför föreslås även ändringar i den grundlagen.</p>\n<p>För att ändra i en grundlag krävs det att riksdagen röstar lika två gånger om förslaget och det måste vara ett val emellan omröstningarna. Riksdagen&nbsp;ja till regeringens förslag om en ändring i grundlagen och frågan kommer att&nbsp;tas upp för ett slutgiltigt beslut efter nästa val. På grund av det&nbsp;beslutade riksdagen&nbsp;också att förslaget om ändringar när det gäller olaga hot och förolämpning skjuts upp till nästa års riksmöte.</p>\r\n                                            ",
         "title": "Skyddet för den personliga integriteten ska stärkas (KU13)",
         "documentId": "H501KU13",
         "sourceUrl": "https://data.riksdagen.se/dokument/H501KU13.json",
@@ -27018,6 +27079,21 @@
         "documentId": "H501KU15",
         "date": "2018-04-11",
         "documentUrl": "https://data.riksdagen.se/dokument/H501KU15",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2018-03-28",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2018-04-11",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2018-04-11",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -27134,6 +27210,7 @@
       },
       "sourceText": {
         "text": "Riksdagen har slutligt antagit vilande förslag till lag om ändring i regeringsformen och lag om ändring i riksdagsordningen. Det handlar bland annat om att reglerna om hur många riksrevisorerna ska vara flyttas från regeringsformen till riksdagsordningen. Syftet är att antalet riksrevisorer, vid behov, ska kunna ändras snabbare.\n\nFörändringen innebär vidare att det införs krav på kvalificerad majoritet för att riksdagen ska kunna skilja en riksrevisor från sitt uppdrag. Konstitutionsutskottet får rätt att tillsätta en utredning som kan ligga till grund för att skilja en riksrevisor från uppdraget och att ge justitieombudsmännen, JO, i uppdrag att biträda utskottet med en sådan utredning. Vidare flyttas en bestämmelse om samverkans- och uppgiftsskyldighet från vanlig lag till regeringsformen och förtydligas på så sätt att Riksrevisionen har rätt till den information som myndigheten begär.\n\nFör att ändra en grundlag krävs att riksdagen fattar två beslut med likadant innehåll och att det hålls val till riksdagen mellan de två besluten. Den 11 april 2018 antog riksdagen förslagen om grundlagsändringar som vilande. Nu har riksdagen slutligt antagit grundlagsändringarna. De nya reglerna börjar gälla den 1 januari 2019.",
+        "html": "                           <p>Riksdagen har&nbsp;slutligt antagit vilande förslag till lag om ändring i regeringsformen och lag om ändring i riksdagsordningen. Det handlar bland annat om att reglerna om hur många riksrevisorerna ska vara flyttas från regeringsformen till riksdagsordningen. Syftet är att antalet riksrevisorer, vid behov, ska kunna ändras snabbare.</p>\n<p>Förändringen innebär vidare att det införs krav på kvalificerad majoritet för att riksdagen ska kunna skilja en riksrevisor från sitt uppdrag. Konstitutionsutskottet får rätt att tillsätta en utredning som kan ligga till grund för att skilja en riksrevisor från uppdraget och att ge justitieombudsmännen, JO, i uppdrag att biträda utskottet med en sådan utredning. Vidare flyttas&nbsp;en bestämmelse om samverkans- och uppgiftsskyldighet från vanlig lag till regeringsformen och förtydligas på så sätt att Riksrevisionen har rätt till den information som myndigheten begär.</p>\n<p>För att ändra en grundlag krävs att riksdagen fattar två beslut med likadant innehåll och att det hålls val till riksdagen mellan de två besluten. Den 11 april 2018 antog riksdagen förslagen om grundlagsändringar som vilande. Nu har&nbsp;riksdagen slutligt antagit grundlagsändringarna. De nya reglerna börjar gälla den 1 januari 2019.</p>\r\n                                            ",
         "title": "Regler om Riksrevisionen ändras i grundlag (KU4)",
         "documentId": "H601KU4",
         "sourceUrl": "https://data.riksdagen.se/dokument/H601KU4.json",
@@ -27270,6 +27347,21 @@
         "documentId": "H501KU16",
         "date": "2018-05-30",
         "documentUrl": "https://data.riksdagen.se/dokument/H501KU16",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2018-05-22",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2018-05-30",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2018-05-30",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -27546,6 +27638,7 @@
       },
       "sourceText": {
         "text": "Riksdagen har slutligt antagit vilande förslag till lag om ändring i tryckfrihetsförordningen (TF) och lag om ändring i yttrandefrihetsgrundlagen (YGL). Ändringarna handlar bland annat om en språklig översyn som syftar till att göra lagarna könsneutrala och lättare att använda och om ett stärkt skydd för den personliga integriteten.\n\nÄndringarna innebär bland annat att det ska bli möjligt att i vanlig lag införa förbud för söktjänster som innehåller vissa känsliga personuppgifter om de finns tillgängliga på ett sätt som innebär stora risker för att privatpersoners personliga integritet skadas. Det kan till exempel gälla uppgifter om etniskt ursprung, politiska åsikter, sexuell läggning, hälsa eller genetiska uppgifter.\n\nFörslaget innebär också att om en utgivare av en databas som fått en underrättelse från Justitiekanslern om att material i databasen kan utgöra yttrandefrihetsbrott tar bort materialet kan han eller hon inte hållas ansvarig för material som har funnits tillgängligt i databasen i mer än ett år. Det kan till exempel gälla en dagstidnings webbplats.\n\nFör att ändra en grundlag krävs att riksdagen fattar två beslut med likadant innehåll och att det hålls val till riksdagen mellan de två besluten. Den 30 maj 2018 antog riksdagen förslagen om grundlagsändringar som vilande. Nu har riksdagen slutligt antagit grundlagsändringarna. Lagändringarna börjar gälla den 1 januari 2019.",
+        "html": "                           <p>Riksdagen har slutligt antagit vilande förslag till lag om ändring i tryckfrihetsförordningen (TF) och lag om ändring i yttrandefrihetsgrundlagen (YGL). Ändringarna handlar bland annat om en språklig översyn som syftar till att göra lagarna könsneutrala och lättare att använda och om ett stärkt skydd för den personliga integriteten.</p>\n<p>Ändringarna innebär bland annat att det ska bli möjligt att i vanlig lag införa förbud för söktjänster som innehåller vissa känsliga personuppgifter om de finns tillgängliga på ett sätt som innebär stora risker för att privatpersoners personliga integritet skadas. Det kan till exempel gälla uppgifter om etniskt ursprung, politiska åsikter, sexuell läggning, hälsa eller genetiska uppgifter.</p>\n<p>Förslaget innebär också att om en utgivare av en databas som fått en underrättelse från Justitiekanslern om att material i databasen kan utgöra yttrandefrihetsbrott tar bort materialet kan han eller hon inte hållas ansvarig för material som har funnits tillgängligt i databasen i mer än ett år. Det kan till exempel gälla en dagstidnings webbplats.</p>\n<p>För att ändra en grundlag krävs att riksdagen fattar två beslut med likadant innehåll och att det hålls val till riksdagen mellan de två besluten. Den 30 maj 2018 antog riksdagen förslagen om grundlagsändringar som vilande. Nu har riksdagen slutligt antagit&nbsp;grundlagsändringarna. Lagändringarna börjar gälla den 1 januari 2019.</p>\r\n                                            ",
         "title": "Ändrade mediegrundlagar (KU2)",
         "documentId": "H601KU2",
         "sourceUrl": "https://data.riksdagen.se/dokument/H601KU2.json",
@@ -27736,6 +27829,21 @@
         "documentId": "H701KU3",
         "date": "2019-11-20",
         "documentUrl": "https://data.riksdagen.se/dokument/H701KU3",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2019-11-14",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2019-11-20",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2019-11-20",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -27876,6 +27984,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till ett vilande grundlagsförslag som bland annat innebär att den nuvarande beteckningen landsting byts ut mot region i tryckfrihetsförordningen.\n\nFörslaget om ändringar i tryckfrihetsordningen är ett så kallat vilande grundlagsförslag. Det innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. För att ändra en grundlag krävs det att riksdagen röstar lika två gånger med ett riksdagsval mellan omröstningarna. Det första beslutet togs den 20 november 2019, då röstade riksdagen ja. Därefter har det varit ett riksdagsval.\n\nLagändringarna börjar gälla den 1 januari 2023.",
+        "html": "                           <p>Riksdagen sa ja till ett vilande grundlagsförslag som bland annat innebär att den nuvarande beteckningen landsting byts ut mot region i tryckfrihetsförordningen.</p>\n<p>Förslaget om ändringar i tryckfrihetsordningen är ett så kallat vilande grundlagsförslag. Det innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. För att ändra en grundlag krävs det att riksdagen röstar lika två gånger med ett riksdagsval mellan omröstningarna. Det första beslutet togs den 20 november 2019, då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>\n<p>Lagändringarna börjar gälla den 1 januari 2023.</p>\r\n                                            ",
         "title": "Ändringar i tryckfrihetsförordningen (KU2)",
         "documentId": "HA01KU2",
         "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU2.json",
@@ -28018,6 +28127,21 @@
         "documentId": "H901KU12",
         "date": "2022-04-06",
         "documentUrl": "https://data.riksdagen.se/dokument/H901KU12",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2022-03-22",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2022-04-06",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2022-04-06",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -28086,6 +28210,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till ett vilande grundlagsförslag som innebär att det ska bli möjligt att hantera regeringens beslut digitalt. I dag måste beslut från regeringen skrivas under av statsministern eller annat statsråd med penna på papper för att de ska gälla. Ändringen innebär att besluten ska kunna bli gällande även på andra sätt, så länge höga krav på säkerhet uppfylls.\n\nFörslaget om ändring i regeringsformen är ett så kallat vilande grundlagsförslag. Ett vilande grundlagsförslag innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. För att ändra en grundlag krävs det att riksdagen röstar lika två gånger och det måste vara ett val mellan omröstningarna. Det första beslutet om grundlagsförslaget togs den 6 april 2022, då röstade riksdagen ja. Därefter har det varit ett riksdagsval.\n\nLagändringen föreslås börja gälla 1 januari 2023.",
+        "html": "                           <p>Riksdagen sa ja till ett vilande grundlagsförslag som innebär att det ska bli möjligt att hantera regeringens beslut digitalt. I dag måste beslut från regeringen skrivas under av statsministern eller annat statsråd med penna på papper för att de ska gälla. Ändringen innebär att besluten ska kunna bli gällande även på andra sätt, så länge höga krav på säkerhet uppfylls.</p>\n<p>Förslaget om ändring i regeringsformen är ett så kallat vilande grundlagsförslag. Ett vilande grundlagsförslag innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. För att ändra en grundlag krävs det att riksdagen röstar lika två gånger och det måste vara ett val mellan omröstningarna. Det första beslutet om grundlagsförslaget togs den 6 april 2022, då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>\n<p>Lagändringen föreslås börja gälla 1 januari 2023.</p>\r\n                                            ",
         "title": "Digital hantering av regeringsbeslut (KU9)",
         "documentId": "HA01KU9",
         "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU9.json",
@@ -28228,6 +28353,21 @@
         "documentId": "H901KU13",
         "date": "2022-04-06",
         "documentUrl": "https://data.riksdagen.se/dokument/H901KU13",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2022-03-24",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2022-04-06",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2022-04-06",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -28312,6 +28452,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till ett grundlagsförslag som innebär utökade möjligheter att genom vanlig lag begränsa föreningsfriheten för sammanslutningar som ägnar sig åt eller understöder terrorism.\n\nFörslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. För att ändra en grundlag krävs det att riksdagen röstar lika två gånger om förslaget och det måste vara ett val mellan omröstningarna. Det första beslutet om förslaget togs den 6 april 2022 och då röstade riksdagen ja.\n\nLagändringen ska börja gälla 1 januari 2023.",
+        "html": "                           <p>Riksdagen sa ja till ett grundlagsförslag som innebär utökade möjligheter att genom vanlig lag begränsa föreningsfriheten för sammanslutningar som ägnar sig åt eller understöder terrorism.</p>\n<p>Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. För att ändra en grundlag krävs det att riksdagen röstar lika två gånger om förslaget och det måste vara ett val mellan omröstningarna. Det första beslutet om förslaget togs den 6 april 2022 och då röstade riksdagen ja.</p>\n<p>Lagändringen ska börja gälla 1 januari 2023.</p>\r\n                                            ",
         "title": "Större möjlighet att begränsa föreningsfriheten för grupper som ägnar sig åt terrorism (KU4)",
         "documentId": "HA01KU4",
         "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU4.json",
@@ -28455,6 +28596,21 @@
         "documentId": "H901KU14",
         "date": "2022-05-11",
         "documentUrl": "https://data.riksdagen.se/dokument/H901KU14",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2022-05-04",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2022-05-11",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2022-05-11",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -28617,6 +28773,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till regeringens förslag till ändringar i två av Sveriges grundlagar: tryckfrihetsförordningen och yttrandefrihetsgrundlagen.\n\nYttrandefrihetsgrundlagens territoriella användningsområde utvidgas till att även gälla vissa satellitsändningar av program som kommer från utlandet, men som har en mycket stark svensk anknytning.\n\nBestämmelser införs i tryckfrihetsförordningen och yttrandefrihetsgrundlagen som ska göra att skyddslagens förbud mot att avbilda vissa platser och objekt kan användas på det grundlagsskyddade området.\n\nDen så kallade webbsändningsregelns användningsområde begränsas till att gälla aktörer som har grundlagsskydd enligt databasregeln.\n\nYttrandefrihetsgrundlagen ändras så att det kan ställas upp villkor för och granskning av public service-företagens programverksamhet på internet.\n\nEn bestämmelse i yttrandefrihetsgrundlagen om vidaresändningsplikt av vissa program förtydligas och utvidgas.\n\nEftersom det är grundlagar som ska ändras krävs att riksdagen röstar lika två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 11 maj 2022 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval. Riksdagen sa ja till det vilande förslaget.\n\nRiksdagen sa också ja till regeringens förslag om en ny så kallad forumregel, det vill säga en regel om vilken domstol som ska ta upp en viss typ av mål. Enligt förslaget ska yttrandefrihetsmål om vissa satellitsändningar från utlandet tas upp av Stockholms tingsrätt. Detta gäller om programmet huvudsakligen tas emot och vidaresänds i Sverige. \n\nSamtliga lagändringar ska börja gälla den 1 januari 2023.",
+        "html": "                           <p>Riksdagen sa ja till regeringens förslag till ändringar i två av Sveriges grundlagar: tryckfrihetsförordningen och yttrandefrihetsgrundlagen.</p>\n<ul>\n<li>Yttrandefrihetsgrundlagens territoriella användningsområde utvidgas till att även gälla vissa satellitsändningar av program som kommer från utlandet, men som har en mycket stark svensk anknytning.</li>\n<li>Bestämmelser införs i tryckfrihetsförordningen och yttrandefrihetsgrundlagen som ska göra att skyddslagens förbud mot att avbilda vissa platser och objekt kan användas på det grundlagsskyddade området.</li>\n<li>Den så kallade webbsändningsregelns användningsområde begränsas till att gälla aktörer som har grundlagsskydd enligt databasregeln.</li>\n<li>Yttrandefrihetsgrundlagen ändras så att det kan ställas upp villkor för och granskning av public service-företagens programverksamhet på internet.</li>\n<li>En bestämmelse i yttrandefrihetsgrundlagen om vidaresändningsplikt av vissa program förtydligas och utvidgas.</li>\n</ul>\n<p>Eftersom det är grundlagar som ska ändras krävs att riksdagen röstar lika två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 11 maj 2022 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval. Riksdagen sa ja till det vilande förslaget.</p>\n<p>Riksdagen sa också ja till regeringens förslag om en ny så kallad forumregel, det vill säga en regel om vilken domstol som ska ta upp en viss typ av mål. Enligt förslaget ska yttrandefrihetsmål om vissa satellitsändningar från utlandet tas upp av Stockholms tingsrätt. Detta gäller om programmet huvudsakligen tas emot och vidaresänds i Sverige.&nbsp;</p>\n<p>Samtliga lagändringar ska börja gälla den 1 januari 2023.</p>\r\n                                            ",
         "title": "Grundlagsändringar på tryck- och yttrandefrihetsområdet (KU6)",
         "documentId": "HA01KU6",
         "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU6.json",
@@ -28809,6 +28966,21 @@
         "documentId": "H901KU15",
         "date": "2022-06-01",
         "documentUrl": "https://data.riksdagen.se/dokument/H901KU15",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2022-05-19",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2022-06-01",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2022-06-01",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -28939,6 +29111,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till vilande förslag om ändringar i regeringsformen och riksdagsordningen som rör Riksbanken och till regeringens förslag om en ny riksbankslag. Förslagen om ändringar i regeringsformen och riksdagsordningen är så kallade vilande förslag, vilket innebär att riksdagen har tagit beslut i frågan vid ett tidigare tillfälle. Ändringarna i regeringsformen innebär bland annat ett förtydligande av Riksbankens uppgifter. Förslaget om ändring i riksdagsordningen innebär att det blir tydligt att riksdagens finansutskott ska följa upp och utvärdera Riksbankens verksamhet.\n\nRiksdagen sa också ja till regeringens förslag till en ny riksbankslag, men med några mindre ändringar. Den nya riksbankslagen innebär bland annat:\n\nMål, uppgifter och befogenheter för Riksbanken tydliggörs när det gäller penningpolitiken, det finansiella systemet, betalningsmedel, fredstida krissituationer och höjd beredskap samt internationell verksamhet\n\nDet ska bli tydligare hur Riksbankens ansvarsområden förhåller sig till varandra och ansvarsområdena för Finansinspektionen och Riksgäldskontoret\n\nDet ska bli tydligare att Riksbanken inom ramen för penningpolitiken ska ta realekonomisk hänsyn, och det skapas förutsättningar för en demokratisk förankring av preciseringen av prisstabilitetsmålet\n\nGrunderna för Riksbankens organisation behålls, men antalet ledamöter i direktionen minskas från sex till fem. Det införs en mer ändamålsenlig ansvarsfördelning mellan riksbanksfullmäktige, direktionen och riksbankschefen\n\nRiksbankens ställning som oberoende centralbank och självständig förvaltningsmyndighet stärks\n\nRiksbankens finansiella oberoende stärks inom ramen för exempelvis att disponera vinster och strukturera det egna kapitalet samt upplåning till valutareserven\n\nFörutsättningarna för insyn i och granskning av Riksbankens verksamhet ökar\n\nRiksbanken ska bidra till en hållbar utveckling på finansmarknaden.\n\nEftersom förslagen i vissa delar gäller ändringar i regeringsformen och riksdagsordningen krävs det att riksdagen röstar lika två gånger och det måste vara ett val mellan omröstningarna. Det första beslutet om förslagen togs den 1 juni 2022 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.\n\nSamtliga lagändringar ska börja gälla 1 januari 2023.",
+        "html": "                           <p>Riksdagen sa ja till vilande förslag om ändringar i regeringsformen och riksdagsordningen som rör Riksbanken och till regeringens förslag om en ny riksbankslag. Förslagen om ändringar i regeringsformen och riksdagsordningen är så kallade vilande förslag, vilket innebär att riksdagen har tagit beslut i frågan vid ett tidigare tillfälle.&nbsp;Ändringarna i regeringsformen innebär bland annat ett förtydligande av Riksbankens uppgifter. Förslaget om ändring i riksdagsordningen innebär att det blir tydligt att riksdagens finansutskott ska följa upp och utvärdera Riksbankens verksamhet.</p>\n<p>Riksdagen sa också ja till regeringens förslag till en ny riksbankslag, men med några mindre ändringar. Den nya riksbankslagen innebär bland annat:</p>\n<ul>\n<li>Mål, uppgifter och befogenheter för Riksbanken tydliggörs när det gäller penningpolitiken, det finansiella systemet, betalningsmedel, fredstida krissituationer och höjd beredskap samt internationell verksamhet</li>\n<li>Det ska bli tydligare hur Riksbankens ansvarsområden förhåller sig till varandra och ansvarsområdena för Finansinspektionen och Riksgäldskontoret</li>\n<li>Det ska bli tydligare att Riksbanken inom ramen för penningpolitiken ska ta realekonomisk hänsyn, och det skapas förutsättningar för en demokratisk förankring av preciseringen av prisstabilitetsmålet</li>\n<li>Grunderna för Riksbankens organisation behålls, men antalet ledamöter i direktionen minskas från sex till fem. Det införs en mer ändamålsenlig ansvarsfördelning mellan riksbanksfullmäktige, direktionen och riksbankschefen</li>\n<li>Riksbankens ställning som oberoende centralbank och självständig förvaltningsmyndighet stärks</li>\n<li>Riksbankens finansiella oberoende stärks inom ramen för exempelvis att disponera vinster och strukturera det egna kapitalet samt upplåning till valutareserven</li>\n<li>Förutsättningarna för insyn i och granskning av Riksbankens verksamhet ökar</li>\n<li>Riksbanken ska bidra till en hållbar utveckling på finansmarknaden.</li>\n</ul>\n<p>Eftersom förslagen i vissa delar gäller ändringar i regeringsformen och riksdagsordningen krävs det att riksdagen röstar lika två gånger och det måste vara ett val mellan omröstningarna. Det första beslutet om förslagen togs den 1 juni 2022 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>\n<p>Samtliga lagändringar ska börja gälla 1 januari 2023.</p>\r\n                                            ",
         "title": "Ändringar i grundlag och ny riksbankslag (KU8)",
         "documentId": "HA01KU8",
         "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU8.json",
@@ -29082,6 +29255,21 @@
         "documentId": "H901KU16",
         "date": "2022-04-06",
         "documentUrl": "https://data.riksdagen.se/dokument/H901KU16",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2022-03-31",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2022-04-06",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2022-04-06",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -29171,6 +29359,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till regeringens förslag till lagändringar och grundlagsändringar. Grundlagsändringarna är ett så kallat vilande förslag, vilket innebär att riksdagen har tagit ett beslut i den delen vid ett tidigare tillfälle.\n\nLagförslagen innebär bland annat att utlandsspioneri, grovt utlandsspioneri och grov obehörig befattning med hemlig uppgift med grund i utlandsspioneri kriminaliseras och förs in i brottsbalken.\n\nRiksdagen sa också ja till det vilande förslaget om ändringar i de två grundlagarna tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Ändringarna innebär bland annat att utlandsspioneri samt de former av obehörig befattning med hemlig uppgift och vårdslöshet med hemlig uppgift som har sin grund i utlandsspioneri även blir kriminaliserat som tryck- och yttrandefrihetsbrott.\n\nLagändringarna innebär även begränsningar av meddelarfriheten och anskaffarfriheten, alltså rätten att meddela och anskaffa uppgifter för publicering i grundlagsskyddade medieformer.\n\nEftersom förslaget i vissa delar gäller ändringar i grundlagar krävs det att riksdagen röstar lika två gånger och det måste vara ett val mellan omröstningarna. Det första beslutet om grundlagsförslaget togs den 6 april 2022 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.\n\nLagändringarna börjar gälla 1 januari 2023.",
+        "html": "                           <p>Riksdagen sa ja till regeringens förslag till lagändringar och grundlagsändringar. Grundlagsändringarna är ett så kallat vilande förslag, vilket innebär att riksdagen har tagit ett beslut i den delen vid ett tidigare tillfälle.</p>\n<p>Lagförslagen innebär bland annat att utlandsspioneri, grovt utlandsspioneri och grov obehörig befattning med hemlig uppgift med grund i utlandsspioneri kriminaliseras och förs in i brottsbalken.</p>\n<p>Riksdagen sa också ja till det vilande förslaget om ändringar i de två grundlagarna tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Ändringarna innebär bland annat att utlandsspioneri samt de former av obehörig befattning med hemlig uppgift och vårdslöshet med hemlig uppgift som har sin grund i utlandsspioneri även blir kriminaliserat som tryck- och yttrandefrihetsbrott.</p>\n<p>Lagändringarna innebär även begränsningar av meddelarfriheten och anskaffarfriheten, alltså rätten att meddela och anskaffa uppgifter för publicering i grundlagsskyddade medieformer.</p>\n<p>Eftersom förslaget i vissa delar gäller ändringar i grundlagar krävs det att riksdagen röstar lika två gånger och det måste vara ett val mellan omröstningarna. Det första beslutet om grundlagsförslaget togs den 6 april 2022 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>\n<p>Lagändringarna börjar gälla 1 januari 2023.</p>\r\n                                            ",
         "title": "Utlandsspioneri kriminaliseras och införs som tryck- och yttrandefrihetsbrott (KU7)",
         "documentId": "HA01KU7",
         "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU7.json",
@@ -29363,6 +29552,21 @@
         "documentId": "H901KU3",
         "date": "2021-11-17",
         "documentUrl": "https://data.riksdagen.se/dokument/H901KU3",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2021-11-09",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2021-11-17",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2021-11-17",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -29505,6 +29709,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till ett vilande grundlagsförslag om ändringar i regeringsformen och riksdagsordningen som gäller Lagrådet.\n\nFörslaget innebär att riksdagsstyrelsen ska inhämta Lagrådets yttrande innan styrelsen föreslår lagändringar som faller inom Lagrådets område. Riksdagsstyrelsen får låta bli att inhämta ett sådant yttrande om styrelsen bedömer att yttrandet i stället bör inhämtas av det utskott som ska behandla ärendet.\n\nBeslutet rör ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. För att ändra en grundlag krävs det att riksdagen röstar lika två gånger om förslaget och det måste vara ett val mellan omröstningarna. Det första beslutet om förslaget togs den 17 november 2021 och då röstade riksdagen ja.\n\nRiksdagen sa också ja till riksdagsstyrelsens förslag om ändringar i lagen om Lagrådet. Förslaget innebär att Riksdagsförvaltningen ska ställa föredragande till förfogande när Lagrådet behandlar lagförslag som har beretts i riksdagsstyrelsen.\n\nLagändringarna börjar gälla den 1 januari 2023.",
+        "html": "                           <p>Riksdagen sa ja till ett vilande grundlagsförslag om ändringar i regeringsformen och riksdagsordningen som gäller Lagrådet.</p>\n<p>Förslaget innebär att riksdagsstyrelsen ska inhämta Lagrådets yttrande innan styrelsen föreslår lagändringar som faller inom Lagrådets område. Riksdagsstyrelsen får låta bli att inhämta ett sådant yttrande om styrelsen bedömer att yttrandet i stället bör inhämtas av det utskott som ska behandla ärendet.</p>\n<p>Beslutet rör ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. För att ändra en grundlag krävs det att riksdagen röstar lika två gånger om förslaget och det måste vara ett val mellan omröstningarna. Det första beslutet om förslaget togs den 17 november 2021 och då röstade riksdagen ja.</p>\n<p>Riksdagen sa också ja till riksdagsstyrelsens förslag om ändringar i lagen om Lagrådet. Förslaget innebär att Riksdagsförvaltningen ska ställa föredragande till förfogande när Lagrådet behandlar lagförslag som har beretts i riksdagsstyrelsen.</p>\n<p>Lagändringarna börjar gälla den 1 januari 2023.</p>\r\n                                            ",
         "title": "Lagändringar som gäller Lagrådet (KU3)",
         "documentId": "HA01KU3",
         "sourceUrl": "https://data.riksdagen.se/dokument/HA01KU3.json",
@@ -29641,6 +29846,21 @@
         "documentId": "HA01KU32",
         "date": "2023-06-21",
         "documentUrl": "https://data.riksdagen.se/dokument/HA01KU32",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2023-06-15",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2023-06-21",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2023-06-21",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -29748,6 +29968,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till en grundlagsändring i regeringsformen. Ändringen rör riksdagens ombudsmän (JO) och de regler som gäller vid entledigande av en ombudsman som inte har riksdagens förtroende. Ett entledigande innebär att ombudsmannen måste avsluta sitt uppdrag. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nÄndringen i regeringsformen innebär att det införs en ny regel – så kallad besluts- och kvorumregel – vid entledigande av en ombudsman som inte längre har riksdagens förtroende. Enligt den nya regeln ska det krävas att tre fjärdedelar av de röstande, och samtidigt mer än hälften av riksdagens ledamöter, enas om ett beslut att entlediga en ombudsman eller en ställföreträdande ombudsman som inte längre har riksdagens förtroende. Regleringen är ett undantag från huvudregeln i 4 kap. 7 § regeringsformen om att majoritetsprincipen ska gälla vid omröstning.\n\nSyftet med en särskild besluts- och kvorumregel är att stärka ombudsmännens konstitutionella ställning.\n\nRiksdagen sa också ja till en ändring i riksdagsordningen som innebär en hänvisning till den föreslagna regleringen i regeringsformen.\n\nLagändringarna börjar gälla den 1 januari 2027.\n\nEftersom beslutet gäller en ändring i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringen i riksdagsordningen. Det första beslutet om förslaget togs den 21 juni 2023 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Riksdagen sa ja till en grundlagsändring i regeringsformen. Ändringen rör riksdagens ombudsmän (JO) och de regler som gäller vid entledigande av en ombudsman som inte har riksdagens förtroende. Ett entledigande innebär att ombudsmannen måste avsluta sitt uppdrag. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Ändringen i regeringsformen innebär att det införs en ny regel – så kallad besluts- och kvorumregel – vid entledigande av en ombudsman som inte längre har riksdagens förtroende. Enligt den nya regeln ska det krävas att tre fjärdedelar av de röstande, och samtidigt mer än hälften av riksdagens ledamöter, enas om ett beslut att entlediga en ombudsman eller en ställföreträdande ombudsman som inte längre har riksdagens förtroende. Regleringen är ett undantag från huvudregeln i 4 kap. 7 § regeringsformen om att majoritetsprincipen ska gälla vid omröstning.</p>\n<p>Syftet med en särskild besluts- och kvorumregel är att stärka ombudsmännens konstitutionella ställning.</p>\n<p>Riksdagen sa också ja till en ändring i riksdagsordningen som innebär en hänvisning till den föreslagna regleringen i regeringsformen.</p>\n<p>Lagändringarna börjar gälla den 1 januari 2027.</p>\n<p>Eftersom beslutet gäller en ändring i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringen i riksdagsordningen. Det första beslutet om förslaget togs den 21 juni 2023 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Justitieombudsmännens konstitutionella ställning stärks i grundlagen (KU2)",
         "documentId": "HE01KU2",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU2.json",
@@ -29837,6 +30058,21 @@
         "documentId": "HB01KU22",
         "date": "2024-05-22",
         "documentUrl": "https://data.riksdagen.se/dokument/HB01KU22",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2024-05-16",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2024-05-22",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2024-05-22",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -29909,6 +30145,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till en grundlagsändring i tryckfrihetsförordningen som bland annat handlar om att förnekelse av Förintelsen kriminaliseras också som tryckfrihetsbrott och som yttrandefrihetsbrott. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nÄndringen i tryckfrihetsförordningen innebär att bestämmelsen om hets mot folkgrupp i tryckfrihetsförordningen förtydligas och att tillämpningsområdet delvis utvidgas på så sätt att\n\nförnekelse av Förintelsen och vissa andra internationella brott uttryckligen kriminaliseras\n\ndet av lagtexten tydligt framgår att regleringen omfattar uppmaning till våld\n\nenskilda personer i de skyddade grupperna ges skydd och därigenom målsägandestatus och rätt till skadestånd.\n\nLagändringarna börjar gälla den 1 januari 2027.\n\nEftersom beslutet gäller tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 maj 2024 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Riksdagen sa ja till en grundlagsändring i tryckfrihetsförordningen som bland annat handlar om att förnekelse av Förintelsen kriminaliseras också som tryckfrihetsbrott och som yttrandefrihetsbrott. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Ändringen i tryckfrihetsförordningen innebär att bestämmelsen om hets mot folkgrupp i tryckfrihetsförordningen förtydligas och att tillämpningsområdet delvis utvidgas på så sätt att</p>\n<ul>\n<li>förnekelse av Förintelsen och vissa andra internationella brott uttryckligen kriminaliseras</li>\n<li>det av lagtexten tydligt framgår att regleringen omfattar uppmaning till våld</li>\n<li>enskilda personer i de skyddade grupperna ges skydd och därigenom målsägandestatus och rätt till skadestånd.</li>\n</ul>\n<p>Lagändringarna börjar gälla den 1 januari 2027.</p>\n<p>Eftersom beslutet gäller tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 maj 2024 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Grundlagsbestämmelse om hets mot folkgrupp ska bli tydligare (KU3)",
         "documentId": "HE01KU3",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU3.json",
@@ -29999,6 +30236,21 @@
         "documentId": "HD01KU2",
         "date": "2025-10-01",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU2",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2025-09-23",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2025-10-01",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2025-10-01",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -30085,6 +30337,7 @@
       },
       "sourceText": {
         "text": "Riksdagen sa ja till ändringar i regeringsformen och riksdagsordningen. Ändringarna handlar om att det ska bli svårare att ändra grundlagarna och om ökat skydd och stärkt oberoende för domstolarna. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nÄndringarna i regeringsformen innebär bland annat att det ska bli svårare att ändra grundlagarna. Det kommer exempelvis att ställas krav på att minst hälften av riksdagsledamöterna säger ja till ett beslut att anta ett grundlagsförslag som vilande och att minst två tredjedelar av riksdagens ledamöter säger ja till det andra beslutet att anta förslaget – efter att riksdagsval har hållits mellan de båda omröstningarna. Dessa krav ska även gälla vid ändringar av huvudbestämmelser i riksdagsordningen.\n\nÄndringarna innebär även att skyddet för domstolarnas och domarnas oberoende långsiktigt stärks. Bland annat ska den myndighet som ansvarar för administrationen av domstolarna ledas av en styrelse där en majoritet av ledamöterna är domare. Myndigheter under regeringen ska inte heller längre kunna utöva tillsyn över domstolarnas rättskipande verksamhet.\n\nSyftet är att stärka det institutionella skyddet för Sverige som demokratisk rättsstat.\n\nLagändringarna börjar gälla den 1 april 2027.\n\nEftersom beslutet gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringar i riksdagsordningen. Det första beslutet om förslaget togs den 1 oktober 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Riksdagen sa ja till ändringar i regeringsformen och riksdagsordningen. Ändringarna handlar om att det ska bli svårare att ändra grundlagarna och om ökat skydd och stärkt oberoende för domstolarna. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Ändringarna i regeringsformen innebär bland annat att det ska bli svårare att ändra grundlagarna. Det kommer exempelvis att ställas krav på att minst hälften av riksdagsledamöterna säger ja till ett beslut att anta ett grundlagsförslag som vilande och att minst två tredjedelar av riksdagens ledamöter säger ja till det andra beslutet att anta förslaget – efter att riksdagsval har hållits mellan de båda omröstningarna. Dessa krav ska även gälla vid ändringar av huvudbestämmelser i riksdagsordningen.</p>\n<p>Ändringarna innebär även att skyddet för domstolarnas och domarnas oberoende långsiktigt stärks. Bland annat ska den myndighet som ansvarar för administrationen av domstolarna ledas av en styrelse där en majoritet av ledamöterna är domare. Myndigheter under regeringen ska inte heller längre kunna utöva tillsyn över domstolarnas rättskipande verksamhet.</p>\n<p>Syftet är att stärka det institutionella skyddet för Sverige som demokratisk rättsstat.</p>\n<p>Lagändringarna börjar gälla den 1 april 2027.</p>\n<p>Eftersom beslutet gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringar i riksdagsordningen. Det första beslutet om förslaget togs den 1 oktober 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Stärkt skydd för demokratin och domstolarnas oberoende (KU4)",
         "documentId": "HE01KU4",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU4.json",
@@ -30175,6 +30428,21 @@
         "documentId": "HD01KU32",
         "date": "2026-04-22",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU32",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2026-04-16",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2026-04-22",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2026-04-22",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -30216,6 +30484,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Förslaget innebär att det blir möjligt att i vanlig lag reglera vissa tillgänglighetskrav för att till exempel säkerställa tillgängligheten för personer med funktionsnedsättning. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nDet vilande förslaget om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen innebär att fler krav som avser tillgänglighet ska kunna ställas i vanlig lag på produkter och tjänster som omfattas av grundlagsskydd. Syftet med ändringarna är att säkerställa tillgängligheten för personer med funktionsnedsättning samt de krav som följer av medlemskapet i Europeiska unionen.\n\nDe föreslagna ändringarna innebär bland annat följande: \n\nUtrymmet utvidgas för att ställa krav på att införa och på ett visst sätt utforma produktinformation, exempelvis på en förpackning.\n\nDet ska bli möjligt att ställa tillgänglighetskrav som rör information, format och funktion på bland annat e-böcker och e-handelstjänster.\n\nSkyldighet för nätinnehavare att vidaresända tillgänglighetstjänster, som textning och tolkning, ska kunna gälla andra än public service-företagens program.\n\nLagändringarna föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller tryckfrihetsförordningen och yttrandefrihetsgrundlagen som båda är grundlagar, krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Förslaget innebär att det blir möjligt att i vanlig lag reglera vissa tillgänglighetskrav för att till exempel säkerställa tillgängligheten för personer med funktionsnedsättning. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Det vilande förslaget om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen innebär att fler krav som avser tillgänglighet ska kunna ställas i vanlig lag på produkter och tjänster som omfattas av grundlagsskydd. Syftet med ändringarna är att säkerställa tillgängligheten för personer med funktionsnedsättning samt de krav som följer av medlemskapet i Europeiska unionen.</p>\n<p>De föreslagna ändringarna innebär bland annat följande: </p>\n<ul>\n<li>Utrymmet utvidgas för att ställa krav på att införa och på ett visst sätt utforma produktinformation, exempelvis på en förpackning.</li>\n<li>Det ska bli möjligt att ställa tillgänglighetskrav som rör information, format och funktion på bland annat e-böcker och e-handelstjänster.</li>\n<li>Skyldighet för nätinnehavare att vidaresända tillgänglighetstjänster, som textning och tolkning, ska kunna gälla andra än public service-företagens program.</li>\n</ul>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller tryckfrihetsförordningen och yttrandefrihetsgrundlagen som båda är grundlagar, krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Grundlagsändringar om tillgänglighetskrav för vissa medier (KU7)",
         "documentId": "HE01KU7",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU7.json",
@@ -30305,6 +30574,21 @@
         "documentId": "HD01KU33",
         "date": "2026-04-22",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU33",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2026-04-16",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2026-04-22",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2026-04-22",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -30343,6 +30627,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till en grundlagsändring i tryckfrihetsförordningen. Ändringen handlar om att en digital upptagning som har tagits i beslag eller kopierats vid en husrannsakan inte ska anses vara en allmän handling. Förslaget är ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nDet vilande förslaget om ändring i tryckfrihetsfrihetsförordningen innebär att en upptagning för automatiserad behandling som har tagits i beslag eller kopierats vid en husrannsakan, bland annat i en brottsutredande verksamhet, inte ska anses vara en allmän handling. Detsamma gäller en sådan upptagning som har kommit in till en myndighet till följd av att myndigheten har tagit över ansvaret för den beslagtagna informationsbäraren eller kopian från husrannsakan. \n\nOm en upptagning tillförs en utredning av brott eller brottslig verksamhet eller annan verksamhet hos myndigheten ska den dock även fortsättningsvis utgöra en allmän handling.\n\nLagändringen föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller en ändring i tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till en grundlagsändring i tryckfrihetsförordningen. Ändringen handlar om att en digital upptagning som har tagits i beslag eller kopierats vid en husrannsakan inte ska anses vara en allmän handling. Förslaget är ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Det vilande förslaget om ändring i tryckfrihetsfrihetsförordningen innebär att en upptagning för automatiserad behandling som har tagits i beslag eller kopierats vid en husrannsakan, bland annat i en brottsutredande verksamhet, inte ska anses vara en allmän handling. Detsamma gäller en sådan upptagning som har kommit in till en myndighet till följd av att myndigheten har tagit över ansvaret för den beslagtagna informationsbäraren eller kopian från husrannsakan. </p>\n<p>Om en upptagning tillförs en utredning av brott eller brottslig verksamhet eller annan verksamhet hos myndigheten ska den dock även fortsättningsvis utgöra en allmän handling.</p>\n<p>Lagändringen föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller en ändring i tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Digitala upptagningar som inhämtas genom beslag och kopiering vid husrannsakan ska inte anses vara allmänna handlingar (KU8)",
         "documentId": "HE01KU8",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU8.json",
@@ -30432,6 +30717,21 @@
         "documentId": "HD01KU34",
         "date": "2026-05-20",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU34",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2026-05-07",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2026-05-20",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2026-05-20",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -30507,6 +30807,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Konstitutionsutskottet (KU) föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen. Förslaget handlar bland annat om att abort ska bli en grundlagsskyddad fri- och rättighet. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. Det vilande förslaget om ändringar i regeringsformen innebär att\n\nrätten till abort införs i regeringsformen som en ny grundläggande fri- och rättighet\n\ndet ska bli möjligt att genom lag ta det svenska medborgarskapet ifrån en person som har dubbla medborgarskap och som har fått medborgarskapet på felaktiga grunder eller som har dömts för brott som allvarligt skadar Sveriges vitala intressen\n\nföreningsfriheten, det vill säga friheten att bland annat starta föreningar, ska kunna begränsas genom lag när det gäller sammanslutningar som ägnar sig åt allvarlig brottslighet för ekonomisk vinning eller annan otillbörlig fördel.\n\nLagändringarna föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 20 maj 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Konstitutionsutskottet (KU) föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen. Förslaget handlar bland annat om att abort ska bli en grundlagsskyddad fri- och rättighet. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. Det vilande förslaget om ändringar i regeringsformen innebär att</p>\n<ul>\n<li>rätten till abort införs i regeringsformen som en ny grundläggande fri- och rättighet</li>\n<li>det ska bli möjligt att genom lag ta det svenska medborgarskapet ifrån en person som har dubbla medborgarskap och som har fått medborgarskapet på felaktiga grunder eller som har dömts för brott som allvarligt skadar Sveriges vitala intressen</li>\n<li>föreningsfriheten, det vill säga friheten att bland annat starta föreningar, ska kunna begränsas genom lag när det gäller sammanslutningar som ägnar sig åt allvarlig brottslighet för ekonomisk vinning eller annan otillbörlig fördel.</li>\n</ul>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 20 maj 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval. </p>",
         "title": "Ja till grundlagsändringar om abort, medborgarskap och föreningsfrihet (KU9)",
         "documentId": "HE01KU9",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU9.json",
@@ -30597,6 +30898,21 @@
         "documentId": "HD01KU8",
         "date": "2025-12-03",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU8",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2025-11-13",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2025-11-27",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2025-12-03",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -30655,6 +30971,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen och ändringar i riksdagsordningen. Förslaget handlar bland annat om att riksdagen och regeringen ska ges bättre förutsättningar att i krig och andra svåra kriser fullgöra sina uppgifter och fatta nödvändiga beslut på legal grund. \n\nFörslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. \n\nFörslaget innebär bland annat följande:\n\nRiksdagens möjligheter att sammanträda stärks.\n\nRiksdagens krigsdelegation behålls för krig och krigsfara, och reglerna om delegationen justeras. Bland annat får talmannen en roll som motsvarar den i riksdagen. Vidare ska en ledamot som blir statsråd inte längre kunna ingå i delegationen.\n\nDet införs nya bestämmelser om normgivning i allvarliga fredstida krissituationer. Regleringen innebär att riksdagen med kvalificerad majoritet ska kunna ge regeringen särskilda befogenheter att meddela föreskrifter om det behövs för att hantera krissituationen. Befogenheterna ska när som helst kunna återkallas av riksdagen.\n\nUtskottet föreslår också att riksdagen antar förslag till vissa lagtekniska och redaktionella ändringar i riksdagsordningen, samt en redaktionell ändring i offentlighets- och sekretesslagen. \n\nLagändringarna föreslås börja gälla den 1 januari 2027. Utskottets förslag till ändring i en huvudbestämmelse i riksdagsordningen föreslås börja gälla den 2 januari 2027.\n\nEftersom förslaget gäller regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringarna i riksdagsordningens huvudbestämmelser i det vilande förslaget. Det första beslutet om förslaget togs den 3 december 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen och ändringar i riksdagsordningen. Förslaget handlar bland annat om att riksdagen och regeringen ska ges bättre förutsättningar att i krig och andra svåra kriser fullgöra sina uppgifter och fatta nödvändiga beslut på legal grund. </p>\n<p>Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. </p>\n<p>Förslaget innebär bland annat följande:</p>\n<ul>\n<li>Riksdagens möjligheter att sammanträda stärks.</li>\n<li>Riksdagens krigsdelegation behålls för krig och krigsfara, och reglerna om delegationen justeras. Bland annat får talmannen en roll som motsvarar den i riksdagen. Vidare ska en ledamot som blir statsråd inte längre kunna ingå i delegationen.</li>\n<li>Det införs nya bestämmelser om normgivning i allvarliga fredstida krissituationer. Regleringen innebär att riksdagen med kvalificerad majoritet ska kunna ge regeringen särskilda befogenheter att meddela föreskrifter om det behövs för att hantera krissituationen. Befogenheterna ska när som helst kunna återkallas av riksdagen.</li>\n</ul>\n<p>Utskottet föreslår också att riksdagen antar förslag till vissa lagtekniska och redaktionella ändringar i riksdagsordningen, samt en redaktionell ändring i offentlighets- och sekretesslagen. </p>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027. Utskottets förslag till ändring i en huvudbestämmelse i riksdagsordningen föreslås börja gälla den 2 januari 2027.</p>\n<p>Eftersom förslaget gäller regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringarna i riksdagsordningens huvudbestämmelser i det vilande förslaget. Det första beslutet om förslaget togs den 3 december 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Stärkt konstitutionell beredskap vid krig och svåra kriser (KU6)",
         "documentId": "HE01KU6",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU6.json",
@@ -31984,7 +32301,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1600",
+      "lawUrl": "https://lagen.nu/1974:152#L2022:1600",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1600",
       "sfsMetadataUrl": "https://lagen.nu/2022:1600",
       "metadata": {
@@ -32012,7 +32329,9 @@
       ],
       "proposalIds": [
         "riksdag:h901ku12"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1974:152/konsolidering/2022:1600?diff=2022%3A1566",
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221600.html"
     },
     {
       "id": "rf-2022:1566",
@@ -32067,7 +32386,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1566",
+      "lawUrl": "https://lagen.nu/1974:152#L2022:1566",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1566",
       "sfsMetadataUrl": "https://lagen.nu/2022:1566",
       "metadata": {
@@ -32141,7 +32460,9 @@
       ],
       "proposalIds": [
         "riksdag:h901ku15"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1974:152/konsolidering/2022:1566?diff=2018%3A1903",
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221566.html"
     },
     {
       "id": "rf-2022:1565",
@@ -32196,7 +32517,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1565",
+      "lawUrl": "https://lagen.nu/1974:152#L2022:1565",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1565",
       "sfsMetadataUrl": "https://lagen.nu/2022:1565",
       "metadata": {
@@ -32224,7 +32545,8 @@
       ],
       "proposalIds": [
         "riksdag:h901ku13"
-      ]
+      ],
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221565.html"
     },
     {
       "id": "rf-2022:1529",
@@ -32271,7 +32593,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1529",
+      "lawUrl": "https://lagen.nu/1974:152#L2022:1529",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2022:1529",
       "sfsMetadataUrl": "https://lagen.nu/2022:1529",
       "metadata": {
@@ -32299,7 +32621,8 @@
       ],
       "proposalIds": [
         "riksdag:h901ku3"
-      ]
+      ],
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221529.html"
     },
     {
       "id": "ygl-2022:1525",
@@ -32354,7 +32677,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1525",
+      "lawUrl": "https://lagen.nu/1991:1469#L2022:1525",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2022:1525",
       "sfsMetadataUrl": "https://lagen.nu/2022:1525",
       "metadata": {
@@ -32466,7 +32789,9 @@
       ],
       "proposalIds": [
         "riksdag:h901ku14"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1991:1469/konsolidering/2022:1525?diff=2018%3A1802",
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221525.html"
     },
     {
       "id": "tf-2022:1524",
@@ -32521,7 +32846,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1524",
+      "lawUrl": "https://lagen.nu/1949:105#L2022:1524",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1524",
       "sfsMetadataUrl": "https://lagen.nu/2022:1524",
       "metadata": {
@@ -32577,7 +32902,9 @@
       ],
       "proposalIds": [
         "riksdag:h901ku14"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1949:105/konsolidering/2022:1524?diff=2018%3A1801",
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221524.html"
     },
     {
       "id": "tf-2022:1523",
@@ -32632,7 +32959,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1523",
+      "lawUrl": "https://lagen.nu/1949:105#L2022:1523",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1523",
       "sfsMetadataUrl": "https://lagen.nu/2022:1523",
       "metadata": {
@@ -32688,7 +33015,8 @@
       ],
       "proposalIds": [
         "riksdag:h701ku3"
-      ]
+      ],
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221523.html"
     },
     {
       "id": "ygl-2022:1518",
@@ -32743,7 +33071,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1518",
+      "lawUrl": "https://lagen.nu/1991:1469#L2022:1518",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2022:1518",
       "sfsMetadataUrl": "https://lagen.nu/2022:1518",
       "metadata": {
@@ -32771,7 +33099,8 @@
       ],
       "proposalIds": [
         "riksdag:h901ku16"
-      ]
+      ],
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221518.html"
     },
     {
       "id": "tf-2022:1517",
@@ -32826,7 +33155,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2022:1517",
+      "lawUrl": "https://lagen.nu/1949:105#L2022:1517",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2022:1517",
       "sfsMetadataUrl": "https://lagen.nu/2022:1517",
       "metadata": {
@@ -32912,7 +33241,8 @@
       ],
       "proposalIds": [
         "riksdag:h901ku16"
-      ]
+      ],
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20221517.html"
     },
     {
       "id": "rf-2018:1903",
@@ -32959,7 +33289,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2018:1903",
+      "lawUrl": "https://lagen.nu/1974:152#L2018:1903",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2018:1903",
       "sfsMetadataUrl": "https://lagen.nu/2018:1903",
       "metadata": {
@@ -33015,7 +33345,9 @@
       ],
       "proposalIds": [
         "riksdag:h501ku15"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1974:152/konsolidering/2018:1903?diff=2014%3A1385",
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20181903.html"
     },
     {
       "id": "ygl-2018:1802",
@@ -33070,7 +33402,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2018:1802",
+      "lawUrl": "https://lagen.nu/1991:1469#L2018:1802",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2018:1802",
       "sfsMetadataUrl": "https://lagen.nu/2018:1802",
       "metadata": {
@@ -33559,7 +33891,9 @@
       ],
       "proposalIds": [
         "riksdag:h501ku16"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1991:1469/konsolidering/2018:1802?diff=2014%3A1359",
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20181802.html"
     },
     {
       "id": "tf-2018:1801",
@@ -33614,7 +33948,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2018:1801",
+      "lawUrl": "https://lagen.nu/1949:105#L2018:1801",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2018:1801",
       "sfsMetadataUrl": "https://lagen.nu/2018:1801",
       "metadata": {
@@ -34751,7 +35085,9 @@
       ],
       "proposalIds": [
         "riksdag:h501ku16"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1949:105/konsolidering/2018:1801?diff=2014%3A1370",
+      "printedVersionUrl": "https://svenskforfattningssamling.se/doc/20181801.html"
     },
     {
       "id": "rf-2014:1385",
@@ -34806,7 +35142,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2014:1385",
+      "lawUrl": "https://lagen.nu/1974:152#L2014:1385",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2014:1385",
       "sfsMetadataUrl": "https://lagen.nu/2014:1385",
       "metadata": {
@@ -34890,7 +35226,9 @@
       ],
       "proposalIds": [
         "riksdag:h101ku16"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1974:152/konsolidering/2014:1385?diff=2010%3A1408",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/14/141385.PDF"
     },
     {
       "id": "tf-2014:1370",
@@ -34945,7 +35283,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2014:1370",
+      "lawUrl": "https://lagen.nu/1949:105#L2014:1370",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2014:1370",
       "sfsMetadataUrl": "https://lagen.nu/2014:1370",
       "metadata": {
@@ -34971,7 +35309,9 @@
           "sourceMetadata": "https://lagen.nu/1949:105#K7P4"
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "comparisonUrl": "https://lagen.nu/1949:105/konsolidering/2014:1370?diff=2010%3A1409",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/14/141370.PDF"
     },
     {
       "id": "tf-2014:1360",
@@ -35026,7 +35366,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2014:1360",
+      "lawUrl": "https://lagen.nu/1949:105#L2014:1360",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2014:1360",
       "sfsMetadataUrl": "https://lagen.nu/2014:1360",
       "metadata": {
@@ -35110,7 +35450,8 @@
       ],
       "proposalIds": [
         "riksdag:h101ku17"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/14/141360.PDF"
     },
     {
       "id": "ygl-2014:1359",
@@ -35165,7 +35506,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2014:1359",
+      "lawUrl": "https://lagen.nu/1991:1469#L2014:1359",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2014:1359",
       "sfsMetadataUrl": "https://lagen.nu/2014:1359",
       "metadata": {
@@ -35207,7 +35548,9 @@
       ],
       "proposalIds": [
         "riksdag:h101ku17"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1991:1469/konsolidering/2014:1359?diff=2010%3A1410",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/14/141359.PDF"
     },
     {
       "id": "ygl-2010:1410",
@@ -35262,7 +35605,7 @@
           "resolutionError": "HTTPError: HTTP Error 404: Not Found"
         }
       ],
-      "lawUrl": "https://lagen.nu/2010:1410",
+      "lawUrl": "https://lagen.nu/1991:1469#L2010:1410",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2010:1410",
       "sfsMetadataUrl": "https://lagen.nu/2010:1410",
       "metadata": {
@@ -35319,7 +35662,9 @@
       "proposalIds": [
         "riksdag:gx01ku17",
         "riksdag:gx01ku19"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1991:1469/konsolidering/2010:1410?diff=1991%3A1469",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/10/101410.PDF"
     },
     {
       "id": "tf-2010:1409",
@@ -35374,7 +35719,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2010:1409",
+      "lawUrl": "https://lagen.nu/1949:105#L2010:1409",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1409",
       "sfsMetadataUrl": "https://lagen.nu/2010:1409",
       "metadata": {
@@ -35403,7 +35748,9 @@
       "proposalIds": [
         "riksdag:gx01ku17",
         "riksdag:gx01ku19"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1949:105/konsolidering/2010:1409?diff=2010%3A1355",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/10/101409.PDF"
     },
     {
       "id": "rf-2010:1408",
@@ -35466,7 +35813,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2010:1408",
+      "lawUrl": "https://lagen.nu/1974:152#L2010:1408",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2010:1408",
       "sfsMetadataUrl": "https://lagen.nu/2010:1408",
       "metadata": {
@@ -36446,7 +36793,9 @@
         "riksdag:gx01ku17",
         "riksdag:gx01ku18",
         "riksdag:gx01ku19"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1974:152/konsolidering/2010:1408?diff=2002%3A905",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/10/101408.PDF"
     },
     {
       "id": "ygl-2010:1356",
@@ -36501,7 +36850,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2010:1356",
+      "lawUrl": "https://lagen.nu/1991:1469#L2010:1356",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2010:1356",
       "sfsMetadataUrl": "https://lagen.nu/2010:1356",
       "metadata": {
@@ -36529,7 +36878,8 @@
       ],
       "proposalIds": [
         "riksdag:gx01ku34"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/10/101356.PDF"
     },
     {
       "id": "tf-2010:1355",
@@ -36584,7 +36934,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2010:1355",
+      "lawUrl": "https://lagen.nu/1949:105#L2010:1355",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1355",
       "sfsMetadataUrl": "https://lagen.nu/2010:1355",
       "metadata": {
@@ -36612,7 +36962,9 @@
       ],
       "proposalIds": [
         "riksdag:gx01ku34"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1949:105/konsolidering/2010:1355?diff=2010%3A1347",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/10/101355.PDF"
     },
     {
       "id": "ygl-2010:1349",
@@ -36667,7 +37019,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2010:1349",
+      "lawUrl": "https://lagen.nu/1991:1469#L2010:1349",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2010:1349",
       "sfsMetadataUrl": "https://lagen.nu/2010:1349",
       "metadata": {
@@ -36850,7 +37202,8 @@
       "proposalIds": [
         "riksdag:gx01ku18",
         "riksdag:gx01ku19"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/10/101349.PDF"
     },
     {
       "id": "tf-2010:1347",
@@ -36905,7 +37258,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2010:1347",
+      "lawUrl": "https://lagen.nu/1949:105#L2010:1347",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1347",
       "sfsMetadataUrl": "https://lagen.nu/2010:1347",
       "metadata": {
@@ -36962,7 +37315,9 @@
       "proposalIds": [
         "riksdag:gx01ku18",
         "riksdag:gx01ku19"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1949:105/konsolidering/2010:1347?diff=2010%3A1342",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/10/101347.PDF"
     },
     {
       "id": "tf-2010:1342",
@@ -37017,7 +37372,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2010:1342",
+      "lawUrl": "https://lagen.nu/1949:105#L2010:1342",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2010:1342",
       "sfsMetadataUrl": "https://lagen.nu/2010:1342",
       "metadata": {
@@ -37045,7 +37400,9 @@
       ],
       "proposalIds": [
         "riksdag:gx01ku23"
-      ]
+      ],
+      "comparisonUrl": "https://lagen.nu/1949:105/konsolidering/2010:1342?diff=2002%3A1049",
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/10/101342.PDF"
     },
     {
       "id": "rf-2002:905",
@@ -37084,7 +37441,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:905",
+      "lawUrl": "https://lagen.nu/1974:152#L2002:905",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:905",
       "sfsMetadataUrl": "https://lagen.nu/2002:905",
       "metadata": {
@@ -37112,7 +37469,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku25"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020905.PDF"
     },
     {
       "id": "tf-2002:1049",
@@ -37143,7 +37501,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:1049",
+      "lawUrl": "https://lagen.nu/1949:105#L2002:1049",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:1049",
       "sfsMetadataUrl": "https://lagen.nu/2002:1049",
       "metadata": {
@@ -37171,7 +37529,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku25"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/021049.PDF"
     },
     {
       "id": "ygl-2002:909",
@@ -37210,7 +37569,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:909",
+      "lawUrl": "https://lagen.nu/1991:1469#L2002:909",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2002:909",
       "sfsMetadataUrl": "https://lagen.nu/2002:909",
       "metadata": {
@@ -37422,7 +37781,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku21"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020909.PDF"
     },
     {
       "id": "tf-2002:908",
@@ -37461,7 +37821,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:908",
+      "lawUrl": "https://lagen.nu/1949:105#L2002:908",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:908",
       "sfsMetadataUrl": "https://lagen.nu/2002:908",
       "metadata": {
@@ -37531,7 +37891,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku21"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020908.PDF"
     },
     {
       "id": "tf-2002:907",
@@ -37570,7 +37931,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:907",
+      "lawUrl": "https://lagen.nu/1949:105#L2002:907",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:907",
       "sfsMetadataUrl": "https://lagen.nu/2002:907",
       "metadata": {
@@ -37642,7 +38003,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku17"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020907.PDF"
     },
     {
       "id": "rf-2002:904",
@@ -37673,7 +38035,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:904",
+      "lawUrl": "https://lagen.nu/1974:152#L2002:904",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:904",
       "sfsMetadataUrl": "https://lagen.nu/2002:904",
       "metadata": {
@@ -37699,7 +38061,8 @@
           "sourceMetadata": "https://lagen.nu/1974:152#K9P11"
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020904.PDF"
     },
     {
       "id": "rf-2002:903",
@@ -37738,7 +38101,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:903",
+      "lawUrl": "https://lagen.nu/1974:152#L2002:903",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:903",
       "sfsMetadataUrl": "https://lagen.nu/2002:903",
       "metadata": {
@@ -37864,7 +38227,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku18"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020903.PDF"
     },
     {
       "id": "rf-2002:902",
@@ -37895,7 +38259,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:902",
+      "lawUrl": "https://lagen.nu/1974:152#L2002:902",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2002:902",
       "sfsMetadataUrl": "https://lagen.nu/2002:902",
       "metadata": {
@@ -37923,7 +38287,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku13"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020902.PDF"
     },
     {
       "id": "tf-2002:810",
@@ -37962,7 +38327,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:810",
+      "lawUrl": "https://lagen.nu/1949:105#L2002:810",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:810",
       "sfsMetadataUrl": "https://lagen.nu/2002:810",
       "metadata": {
@@ -37990,7 +38355,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku28"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020810.PDF"
     },
     {
       "id": "tf-2002:801",
@@ -38029,7 +38395,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:801",
+      "lawUrl": "https://lagen.nu/1949:105#L2002:801",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:801",
       "sfsMetadataUrl": "https://lagen.nu/2002:801",
       "metadata": {
@@ -38055,7 +38421,8 @@
           "sourceMetadata": "https://lagen.nu/1949:105#K7P4"
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020801.PDF"
     },
     {
       "id": "tf-1998:1701",
@@ -38094,7 +38461,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1998:1701",
+      "lawUrl": "https://lagen.nu/1949:105#L1998:1701",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1998:1701",
       "sfsMetadataUrl": "https://lagen.nu/1998:1701",
       "metadata": {
@@ -38164,7 +38531,8 @@
       ],
       "proposalIds": [
         "riksdag:gl01ku20"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/98/981701.PDF"
     },
     {
       "id": "rf-1998:1700",
@@ -38203,7 +38571,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1998:1700",
+      "lawUrl": "https://lagen.nu/1974:152#L1998:1700",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1700",
       "sfsMetadataUrl": "https://lagen.nu/1998:1700",
       "metadata": {
@@ -38233,7 +38601,8 @@
       ],
       "proposalIds": [
         "riksdag:gl01ku20"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/98/981700.PDF"
     },
     {
       "id": "ygl-1998:1439",
@@ -38272,7 +38641,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1998:1439",
+      "lawUrl": "https://lagen.nu/1991:1469#L1998:1439",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/1998:1439",
       "sfsMetadataUrl": "https://lagen.nu/1998:1439",
       "metadata": {
@@ -38946,7 +39315,8 @@
       ],
       "proposalIds": [
         "riksdag:gl01ku19"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/98/981439.PDF"
     },
     {
       "id": "tf-1998:1438",
@@ -38985,7 +39355,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1998:1438",
+      "lawUrl": "https://lagen.nu/1949:105#L1998:1438",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1998:1438",
       "sfsMetadataUrl": "https://lagen.nu/1998:1438",
       "metadata": {
@@ -39239,7 +39609,8 @@
       ],
       "proposalIds": [
         "riksdag:gl01ku19"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/98/981438.PDF"
     },
     {
       "id": "rf-1998:1437",
@@ -39278,7 +39649,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1998:1437",
+      "lawUrl": "https://lagen.nu/1974:152#L1998:1437",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1437",
       "sfsMetadataUrl": "https://lagen.nu/1998:1437",
       "metadata": {
@@ -39320,7 +39691,8 @@
       ],
       "proposalIds": [
         "riksdag:gl01ku19"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/98/981437.PDF"
     },
     {
       "id": "rf-1998:1435",
@@ -39359,7 +39731,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1998:1435",
+      "lawUrl": "https://lagen.nu/1974:152#L1998:1435",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1435",
       "sfsMetadataUrl": "https://lagen.nu/1998:1435",
       "metadata": {
@@ -39387,7 +39759,8 @@
       ],
       "proposalIds": [
         "riksdag:gl01ku18"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/98/981435.PDF"
     },
     {
       "id": "rf-1998:1402",
@@ -39426,7 +39799,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1998:1402",
+      "lawUrl": "https://lagen.nu/1974:152#L1998:1402",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1998:1402",
       "sfsMetadataUrl": "https://lagen.nu/1998:1402",
       "metadata": {
@@ -39456,7 +39829,8 @@
       ],
       "proposalIds": [
         "riksdag:gl01ku15"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/98/981402.PDF"
     },
     {
       "id": "rf-1994:1483",
@@ -39479,7 +39853,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1483",
+      "lawUrl": "https://lagen.nu/1974:152#L1994:1483",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1483",
       "sfsMetadataUrl": "https://lagen.nu/1994:1483",
       "metadata": {
@@ -39546,7 +39920,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1481",
+      "lawUrl": "https://lagen.nu/1974:152#L1994:1481",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1481",
       "sfsMetadataUrl": "https://lagen.nu/1994:1481",
       "metadata": {
@@ -39611,7 +39985,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1480",
+      "lawUrl": "https://lagen.nu/1974:152#L1994:1480",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1480",
       "sfsMetadataUrl": "https://lagen.nu/1994:1480",
       "metadata": {
@@ -39692,7 +40066,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1477",
+      "lawUrl": "https://lagen.nu/1991:1469#L1994:1477",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/1994:1477",
       "sfsMetadataUrl": "https://lagen.nu/1994:1477",
       "metadata": {
@@ -39814,7 +40188,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1476",
+      "lawUrl": "https://lagen.nu/1949:105#L1994:1476",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1476",
       "sfsMetadataUrl": "https://lagen.nu/1994:1476",
       "metadata": {
@@ -39921,7 +40295,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1475",
+      "lawUrl": "https://lagen.nu/1949:105#L1994:1475",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1475",
       "sfsMetadataUrl": "https://lagen.nu/1994:1475",
       "metadata": {
@@ -40015,7 +40389,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1474",
+      "lawUrl": "https://lagen.nu/1949:105#L1994:1474",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1474",
       "sfsMetadataUrl": "https://lagen.nu/1994:1474",
       "metadata": {
@@ -40064,7 +40438,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1470",
+      "lawUrl": "https://lagen.nu/1974:152#L1994:1470",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1470",
       "sfsMetadataUrl": "https://lagen.nu/1994:1470",
       "metadata": {
@@ -40171,7 +40545,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1469",
+      "lawUrl": "https://lagen.nu/1974:152#L1994:1469",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1469",
       "sfsMetadataUrl": "https://lagen.nu/1994:1469",
       "metadata": {
@@ -40334,7 +40708,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1468",
+      "lawUrl": "https://lagen.nu/1974:152#L1994:1468",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1468",
       "sfsMetadataUrl": "https://lagen.nu/1994:1468",
       "metadata": {
@@ -40448,7 +40822,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1382",
+      "lawUrl": "https://lagen.nu/1949:105#L1994:1382",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1382",
       "sfsMetadataUrl": "https://lagen.nu/1994:1382",
       "metadata": {
@@ -40516,7 +40890,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1376",
+      "lawUrl": "https://lagen.nu/1949:105#L1994:1376",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1994:1376",
       "sfsMetadataUrl": "https://lagen.nu/1994:1376",
       "metadata": {
@@ -40597,7 +40971,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1994:1375",
+      "lawUrl": "https://lagen.nu/1974:152#L1994:1375",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1994:1375",
       "sfsMetadataUrl": "https://lagen.nu/1994:1375",
       "metadata": {
@@ -40678,7 +41052,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1991:1503",
+      "lawUrl": "https://lagen.nu/1974:152#L1991:1503",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1503",
       "sfsMetadataUrl": "https://lagen.nu/1991:1503",
       "metadata": {
@@ -40743,7 +41117,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1991:1502",
+      "lawUrl": "https://lagen.nu/1974:152#L1991:1502",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1502",
       "sfsMetadataUrl": "https://lagen.nu/1991:1502",
       "metadata": {
@@ -40802,7 +41176,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1991:1501",
+      "lawUrl": "https://lagen.nu/1974:152#L1991:1501",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1501",
       "sfsMetadataUrl": "https://lagen.nu/1991:1501",
       "metadata": {
@@ -40925,7 +41299,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1991:1500",
+      "lawUrl": "https://lagen.nu/1949:105#L1991:1500",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1991:1500",
       "sfsMetadataUrl": "https://lagen.nu/1991:1500",
       "metadata": {
@@ -41020,7 +41394,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1991:1471",
+      "lawUrl": "https://lagen.nu/1974:152#L1991:1471",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1991:1471",
       "sfsMetadataUrl": "https://lagen.nu/1991:1471",
       "metadata": {
@@ -41115,7 +41489,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1991:1470",
+      "lawUrl": "https://lagen.nu/1949:105#L1991:1470",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1991:1470",
       "sfsMetadataUrl": "https://lagen.nu/1991:1470",
       "metadata": {
@@ -41312,7 +41686,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1448",
+      "lawUrl": "https://lagen.nu/1949:105#L1988:1448",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1988:1448",
       "sfsMetadataUrl": "https://lagen.nu/1988:1448",
       "metadata": {
@@ -41620,7 +41994,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1447",
+      "lawUrl": "https://lagen.nu/1949:105#L1988:1447",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1988:1447",
       "sfsMetadataUrl": "https://lagen.nu/1988:1447",
       "metadata": {
@@ -41687,7 +42061,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1444",
+      "lawUrl": "https://lagen.nu/1974:152#L1988:1444",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1444",
       "sfsMetadataUrl": "https://lagen.nu/1988:1444",
       "metadata": {
@@ -41812,7 +42186,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1443",
+      "lawUrl": "https://lagen.nu/1974:152#L1988:1443",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1443",
       "sfsMetadataUrl": "https://lagen.nu/1988:1443",
       "metadata": {
@@ -41950,7 +42324,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1442",
+      "lawUrl": "https://lagen.nu/1974:152#L1988:1442",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1442",
       "sfsMetadataUrl": "https://lagen.nu/1988:1442",
       "metadata": {
@@ -42017,7 +42391,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1441",
+      "lawUrl": "https://lagen.nu/1974:152#L1988:1441",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1441",
       "sfsMetadataUrl": "https://lagen.nu/1988:1441",
       "metadata": {
@@ -42082,7 +42456,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1440",
+      "lawUrl": "https://lagen.nu/1974:152#L1988:1440",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1440",
       "sfsMetadataUrl": "https://lagen.nu/1988:1440",
       "metadata": {
@@ -42149,7 +42523,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1439",
+      "lawUrl": "https://lagen.nu/1974:152#L1988:1439",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1439",
       "sfsMetadataUrl": "https://lagen.nu/1988:1439",
       "metadata": {
@@ -42258,7 +42632,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1438",
+      "lawUrl": "https://lagen.nu/1974:152#L1988:1438",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1438",
       "sfsMetadataUrl": "https://lagen.nu/1988:1438",
       "metadata": {
@@ -42401,7 +42775,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1988:1437",
+      "lawUrl": "https://lagen.nu/1974:152#L1988:1437",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1988:1437",
       "sfsMetadataUrl": "https://lagen.nu/1988:1437",
       "metadata": {
@@ -42468,7 +42842,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1985:866",
+      "lawUrl": "https://lagen.nu/1974:152#L1985:866",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:866",
       "sfsMetadataUrl": "https://lagen.nu/1985:866",
       "metadata": {
@@ -42536,7 +42910,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1985:865",
+      "lawUrl": "https://lagen.nu/1974:152#L1985:865",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:865",
       "sfsMetadataUrl": "https://lagen.nu/1985:865",
       "metadata": {
@@ -42604,7 +42978,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1985:864",
+      "lawUrl": "https://lagen.nu/1974:152#L1985:864",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:864",
       "sfsMetadataUrl": "https://lagen.nu/1985:864",
       "metadata": {
@@ -42670,7 +43044,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1985:863",
+      "lawUrl": "https://lagen.nu/1974:152#L1985:863",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:863",
       "sfsMetadataUrl": "https://lagen.nu/1985:863",
       "metadata": {
@@ -42730,7 +43104,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1985:862",
+      "lawUrl": "https://lagen.nu/1974:152#L1985:862",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1985:862",
       "sfsMetadataUrl": "https://lagen.nu/1985:862",
       "metadata": {
@@ -42769,7 +43143,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/2015:151",
+      "lawUrl": "https://lagen.nu/1949:105#L2015:151",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2015:151",
       "sfsMetadataUrl": "https://lagen.nu/2015:151",
       "metadata": {
@@ -42793,7 +43167,8 @@
           "sourceMetadata": null
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/15/150151.PDF"
     },
     {
       "id": "ygl-2015:150",
@@ -42806,7 +43181,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/2015:150",
+      "lawUrl": "https://lagen.nu/1991:1469#L2015:150",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2015:150",
       "sfsMetadataUrl": "https://lagen.nu/2015:150",
       "metadata": {
@@ -42830,7 +43205,8 @@
           "sourceMetadata": null
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/15/150150.PDF"
     },
     {
       "id": "tf-2011:509",
@@ -42843,7 +43219,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/2011:509",
+      "lawUrl": "https://lagen.nu/1949:105#L2011:509",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2011:509",
       "sfsMetadataUrl": "https://lagen.nu/2011:509",
       "metadata": {
@@ -42867,7 +43243,8 @@
           "sourceMetadata": null
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/11/110509.PDF"
     },
     {
       "id": "ygl-2011:508",
@@ -42880,7 +43257,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/2011:508",
+      "lawUrl": "https://lagen.nu/1991:1469#L2011:508",
       "versionUrl": "https://lagen.nu/1991:1469/konsolidering/2011:508",
       "sfsMetadataUrl": "https://lagen.nu/2011:508",
       "metadata": {
@@ -42904,7 +43281,8 @@
           "sourceMetadata": null
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/11/110508.PDF"
     },
     {
       "id": "rf-2011:109",
@@ -42917,7 +43295,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/2011:109",
+      "lawUrl": "https://lagen.nu/1974:152#L2011:109",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2011:109",
       "sfsMetadataUrl": "https://lagen.nu/2011:109",
       "metadata": {
@@ -42941,7 +43319,8 @@
           "sourceMetadata": null
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/11/110109.PDF"
     },
     {
       "id": "rf-2003:593",
@@ -42954,7 +43333,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/2003:593",
+      "lawUrl": "https://lagen.nu/1974:152#L2003:593",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/2003:593",
       "sfsMetadataUrl": "https://lagen.nu/2003:593",
       "metadata": {
@@ -42978,7 +43357,8 @@
           "sourceMetadata": null
         }
       ],
-      "proposalIds": []
+      "proposalIds": [],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/03/030593.PDF"
     },
     {
       "id": "tf-2002:906",
@@ -43017,7 +43397,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/2002:906",
+      "lawUrl": "https://lagen.nu/1949:105#L2002:906",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/2002:906",
       "sfsMetadataUrl": "https://lagen.nu/2002:906",
       "metadata": {
@@ -43045,7 +43425,8 @@
       ],
       "proposalIds": [
         "riksdag:gp01ku21"
-      ]
+      ],
+      "printedVersionUrl": "https://rkrattsdb.gov.se/SFSdoc/02/020906.PDF"
     },
     {
       "id": "tf-1982:941",
@@ -43084,7 +43465,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1982:941",
+      "lawUrl": "https://lagen.nu/1949:105#L1982:941",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1982:941",
       "sfsMetadataUrl": "https://lagen.nu/1982:941",
       "metadata": {
@@ -43151,7 +43532,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1982:940",
+      "lawUrl": "https://lagen.nu/1974:152#L1982:940",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1982:940",
       "sfsMetadataUrl": "https://lagen.nu/1982:940",
       "metadata": {
@@ -43244,7 +43625,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1982:939",
+      "lawUrl": "https://lagen.nu/1949:105#L1982:939",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1982:939",
       "sfsMetadataUrl": "https://lagen.nu/1982:939",
       "metadata": {
@@ -43339,7 +43720,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1982:938",
+      "lawUrl": "https://lagen.nu/1949:105#L1982:938",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1982:938",
       "sfsMetadataUrl": "https://lagen.nu/1982:938",
       "metadata": {
@@ -43434,7 +43815,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1982:937",
+      "lawUrl": "https://lagen.nu/1974:152#L1982:937",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1982:937",
       "sfsMetadataUrl": "https://lagen.nu/1982:937",
       "metadata": {
@@ -43499,7 +43880,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1979:936",
+      "lawUrl": "https://lagen.nu/1949:105#L1979:936",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1979:936",
       "sfsMetadataUrl": "https://lagen.nu/1979:936",
       "metadata": {
@@ -43566,7 +43947,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1979:935",
+      "lawUrl": "https://lagen.nu/1810:0926#L1979:935",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1979:935",
       "sfsMetadataUrl": "https://lagen.nu/1979:935",
       "metadata": {
@@ -43637,7 +44018,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1979:933",
+      "lawUrl": "https://lagen.nu/1974:152#L1979:933",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1979:933",
       "sfsMetadataUrl": "https://lagen.nu/1979:933",
       "metadata": {
@@ -43903,7 +44284,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1979:932",
+      "lawUrl": "https://lagen.nu/1974:152#L1979:932",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1979:932",
       "sfsMetadataUrl": "https://lagen.nu/1979:932",
       "metadata": {
@@ -43970,7 +44351,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1976:955",
+      "lawUrl": "https://lagen.nu/1949:105#L1976:955",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1976:955",
       "sfsMetadataUrl": "https://lagen.nu/1976:955",
       "metadata": {
@@ -44740,7 +45121,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1976:954",
+      "lawUrl": "https://lagen.nu/1949:105#L1976:954",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1976:954",
       "sfsMetadataUrl": "https://lagen.nu/1976:954",
       "metadata": {
@@ -44807,7 +45188,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1976:871",
+      "lawUrl": "https://lagen.nu/1974:152#L1976:871",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1976:871",
       "sfsMetadataUrl": "https://lagen.nu/1976:871",
       "metadata": {
@@ -45044,7 +45425,7 @@
           "kind": "riksdagsskrivelse"
         }
       ],
-      "lawUrl": "https://lagen.nu/1976:870",
+      "lawUrl": "https://lagen.nu/1974:152#L1976:870",
       "versionUrl": "https://lagen.nu/1974:152/konsolidering/1976:870",
       "sfsMetadataUrl": "https://lagen.nu/1976:870",
       "metadata": {
@@ -45094,7 +45475,7 @@
           "riksdagDocumentId": null
         }
       ],
-      "lawUrl": "https://lagen.nu/1974:67",
+      "lawUrl": "https://lagen.nu/1949:105#L1974:67",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1974:67",
       "sfsMetadataUrl": "https://lagen.nu/1974:67",
       "metadata": {
@@ -45142,7 +45523,7 @@
           "riksdagDocumentId": null
         }
       ],
-      "lawUrl": "https://lagen.nu/1974:66",
+      "lawUrl": "https://lagen.nu/1949:105#L1974:66",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1974:66",
       "sfsMetadataUrl": "https://lagen.nu/1974:66",
       "metadata": {
@@ -45237,7 +45618,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1974:308",
+      "lawUrl": "https://lagen.nu/1949:105#L1974:308",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1974:308",
       "sfsMetadataUrl": "https://lagen.nu/1974:308",
       "metadata": {
@@ -45274,7 +45655,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1974:307",
+      "lawUrl": "https://lagen.nu/1810:0926#L1974:307",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1974:307",
       "sfsMetadataUrl": "https://lagen.nu/1974:307",
       "metadata": {
@@ -45320,7 +45701,7 @@
           "riksdagDocumentId": null
         }
       ],
-      "lawUrl": "https://lagen.nu/1974:155",
+      "lawUrl": "https://lagen.nu/1949:105#L1974:155",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1974:155",
       "sfsMetadataUrl": "https://lagen.nu/1974:155",
       "metadata": {
@@ -45580,7 +45961,7 @@
           "riksdagDocumentId": null
         }
       ],
-      "lawUrl": "https://lagen.nu/1974:154",
+      "lawUrl": "https://lagen.nu/1810:0926#L1974:154",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1974:154",
       "sfsMetadataUrl": "https://lagen.nu/1974:154",
       "metadata": {
@@ -45628,7 +46009,7 @@
           "riksdagDocumentId": null
         }
       ],
-      "lawUrl": "https://lagen.nu/1971:30",
+      "lawUrl": "https://lagen.nu/1949:105#L1971:30",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1971:30",
       "sfsMetadataUrl": "https://lagen.nu/1971:30",
       "metadata": {
@@ -45683,7 +46064,7 @@
           "riksdagDocumentId": null
         }
       ],
-      "lawUrl": "https://lagen.nu/1971:29",
+      "lawUrl": "https://lagen.nu/1949:105#L1971:29",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1971:29",
       "sfsMetadataUrl": "https://lagen.nu/1971:29",
       "metadata": {
@@ -45750,7 +46131,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1971:273",
+      "lawUrl": "https://lagen.nu/1949:105#L1971:273",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1971:273",
       "sfsMetadataUrl": "https://lagen.nu/1971:273",
       "metadata": {
@@ -45796,7 +46177,7 @@
           "riksdagDocumentId": null
         }
       ],
-      "lawUrl": "https://lagen.nu/1971:27",
+      "lawUrl": "https://lagen.nu/1949:105#L1971:27",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1971:27",
       "sfsMetadataUrl": "https://lagen.nu/1971:27",
       "metadata": {
@@ -45891,7 +46272,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1965:818",
+      "lawUrl": "https://lagen.nu/1949:105#L1965:818",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1965:818",
       "sfsMetadataUrl": "https://lagen.nu/1965:818",
       "metadata": {
@@ -45928,7 +46309,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1965:817",
+      "lawUrl": "https://lagen.nu/1810:0926#L1965:817",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1965:817",
       "sfsMetadataUrl": "https://lagen.nu/1965:817",
       "metadata": {
@@ -45965,7 +46346,7 @@
       "description": "ändr. 7 kap 3, 4, 6, 8 §§",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1965:52",
+      "lawUrl": "https://lagen.nu/1949:105#L1965:52",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1965:52",
       "sfsMetadataUrl": "https://lagen.nu/1965:52",
       "metadata": {
@@ -46060,7 +46441,7 @@
       "description": "ändr. 2 §",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1965:45",
+      "lawUrl": "https://lagen.nu/1810:0926#L1965:45",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1965:45",
       "sfsMetadataUrl": "https://lagen.nu/1965:45",
       "metadata": {
@@ -46099,7 +46480,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1961:466",
+      "lawUrl": "https://lagen.nu/1949:105#L1961:466",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1961:466",
       "sfsMetadataUrl": "https://lagen.nu/1961:466",
       "metadata": {
@@ -46136,7 +46517,7 @@
       "description": "ändr. 1 kap 8 §",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1961:20",
+      "lawUrl": "https://lagen.nu/1949:105#L1961:20",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1961:20",
       "sfsMetadataUrl": "https://lagen.nu/1961:20",
       "metadata": {
@@ -46175,7 +46556,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1957:500",
+      "lawUrl": "https://lagen.nu/1949:105#L1957:500",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1957:500",
       "sfsMetadataUrl": "https://lagen.nu/1957:500",
       "metadata": {
@@ -46212,7 +46593,7 @@
       "description": "ändr. 1 kap 1 §",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1957:163",
+      "lawUrl": "https://lagen.nu/1949:105#L1957:163",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1957:163",
       "sfsMetadataUrl": "https://lagen.nu/1957:163",
       "metadata": {
@@ -46251,7 +46632,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1953:654",
+      "lawUrl": "https://lagen.nu/1949:105#L1953:654",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1953:654",
       "sfsMetadataUrl": "https://lagen.nu/1953:654",
       "metadata": {
@@ -46288,7 +46669,7 @@
       "description": "ändr. 12 kap 1 §",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1953:132",
+      "lawUrl": "https://lagen.nu/1949:105#L1953:132",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1953:132",
       "sfsMetadataUrl": "https://lagen.nu/1953:132",
       "metadata": {
@@ -46327,7 +46708,7 @@
       "description": "ändr. 7 kap 4 §",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1953:131",
+      "lawUrl": "https://lagen.nu/1949:105#L1953:131",
       "versionUrl": "https://lagen.nu/1949:105/konsolidering/1953:131",
       "sfsMetadataUrl": "https://lagen.nu/1953:131",
       "metadata": {
@@ -46366,7 +46747,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1949:579",
+      "lawUrl": "https://lagen.nu/1810:0926#L1949:579",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1949:579",
       "sfsMetadataUrl": "https://lagen.nu/1949:579",
       "metadata": {
@@ -46403,7 +46784,7 @@
       "description": "ändr. 2 §",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1949:110",
+      "lawUrl": "https://lagen.nu/1810:0926#L1949:110",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1949:110",
       "sfsMetadataUrl": "https://lagen.nu/1949:110",
       "metadata": {
@@ -46442,7 +46823,7 @@
       "description": "omtryck",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1937:728",
+      "lawUrl": "https://lagen.nu/1810:0926#L1937:728",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1937:728",
       "sfsMetadataUrl": "https://lagen.nu/1937:728",
       "metadata": {
@@ -46479,7 +46860,7 @@
       "description": "ändr. 5 §",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1937:40",
+      "lawUrl": "https://lagen.nu/1810:0926#L1937:40",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1937:40",
       "sfsMetadataUrl": "https://lagen.nu/1937:40",
       "metadata": {
@@ -46518,7 +46899,7 @@
       "description": "ändr. 6, 7 §§",
       "preparatoryWorks": [],
       "preparatoryWorkReferences": [],
-      "lawUrl": "https://lagen.nu/1921:21",
+      "lawUrl": "https://lagen.nu/1810:0926#L1921:21",
       "versionUrl": "https://lagen.nu/1810:0926/konsolidering/1921:21",
       "sfsMetadataUrl": "https://lagen.nu/1921:21",
       "metadata": {
@@ -46563,6 +46944,21 @@
         "documentId": "HD01KU32",
         "date": "2026-04-22",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU32",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2026-04-16",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2026-04-22",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2026-04-22",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -46604,6 +47000,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Förslaget innebär att det blir möjligt att i vanlig lag reglera vissa tillgänglighetskrav för att till exempel säkerställa tillgängligheten för personer med funktionsnedsättning. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nDet vilande förslaget om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen innebär att fler krav som avser tillgänglighet ska kunna ställas i vanlig lag på produkter och tjänster som omfattas av grundlagsskydd. Syftet med ändringarna är att säkerställa tillgängligheten för personer med funktionsnedsättning samt de krav som följer av medlemskapet i Europeiska unionen.\n\nDe föreslagna ändringarna innebär bland annat följande: \n\nUtrymmet utvidgas för att ställa krav på att införa och på ett visst sätt utforma produktinformation, exempelvis på en förpackning.\n\nDet ska bli möjligt att ställa tillgänglighetskrav som rör information, format och funktion på bland annat e-böcker och e-handelstjänster.\n\nSkyldighet för nätinnehavare att vidaresända tillgänglighetstjänster, som textning och tolkning, ska kunna gälla andra än public service-företagens program.\n\nLagändringarna föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller tryckfrihetsförordningen och yttrandefrihetsgrundlagen som båda är grundlagar, krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Förslaget innebär att det blir möjligt att i vanlig lag reglera vissa tillgänglighetskrav för att till exempel säkerställa tillgängligheten för personer med funktionsnedsättning. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Det vilande förslaget om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen innebär att fler krav som avser tillgänglighet ska kunna ställas i vanlig lag på produkter och tjänster som omfattas av grundlagsskydd. Syftet med ändringarna är att säkerställa tillgängligheten för personer med funktionsnedsättning samt de krav som följer av medlemskapet i Europeiska unionen.</p>\n<p>De föreslagna ändringarna innebär bland annat följande: </p>\n<ul>\n<li>Utrymmet utvidgas för att ställa krav på att införa och på ett visst sätt utforma produktinformation, exempelvis på en förpackning.</li>\n<li>Det ska bli möjligt att ställa tillgänglighetskrav som rör information, format och funktion på bland annat e-böcker och e-handelstjänster.</li>\n<li>Skyldighet för nätinnehavare att vidaresända tillgänglighetstjänster, som textning och tolkning, ska kunna gälla andra än public service-företagens program.</li>\n</ul>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller tryckfrihetsförordningen och yttrandefrihetsgrundlagen som båda är grundlagar, krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Grundlagsändringar om tillgänglighetskrav för vissa medier (KU7)",
         "documentId": "HE01KU7",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU7.json",
@@ -46693,6 +47090,21 @@
         "documentId": "HD01KU33",
         "date": "2026-04-22",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU33",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2026-04-16",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2026-04-22",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2026-04-22",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -46731,6 +47143,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till en grundlagsändring i tryckfrihetsförordningen. Ändringen handlar om att en digital upptagning som har tagits i beslag eller kopierats vid en husrannsakan inte ska anses vara en allmän handling. Förslaget är ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nDet vilande förslaget om ändring i tryckfrihetsfrihetsförordningen innebär att en upptagning för automatiserad behandling som har tagits i beslag eller kopierats vid en husrannsakan, bland annat i en brottsutredande verksamhet, inte ska anses vara en allmän handling. Detsamma gäller en sådan upptagning som har kommit in till en myndighet till följd av att myndigheten har tagit över ansvaret för den beslagtagna informationsbäraren eller kopian från husrannsakan. \n\nOm en upptagning tillförs en utredning av brott eller brottslig verksamhet eller annan verksamhet hos myndigheten ska den dock även fortsättningsvis utgöra en allmän handling.\n\nLagändringen föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller en ändring i tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till en grundlagsändring i tryckfrihetsförordningen. Ändringen handlar om att en digital upptagning som har tagits i beslag eller kopierats vid en husrannsakan inte ska anses vara en allmän handling. Förslaget är ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Det vilande förslaget om ändring i tryckfrihetsfrihetsförordningen innebär att en upptagning för automatiserad behandling som har tagits i beslag eller kopierats vid en husrannsakan, bland annat i en brottsutredande verksamhet, inte ska anses vara en allmän handling. Detsamma gäller en sådan upptagning som har kommit in till en myndighet till följd av att myndigheten har tagit över ansvaret för den beslagtagna informationsbäraren eller kopian från husrannsakan. </p>\n<p>Om en upptagning tillförs en utredning av brott eller brottslig verksamhet eller annan verksamhet hos myndigheten ska den dock även fortsättningsvis utgöra en allmän handling.</p>\n<p>Lagändringen föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller en ändring i tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Digitala upptagningar som inhämtas genom beslag och kopiering vid husrannsakan ska inte anses vara allmänna handlingar (KU8)",
         "documentId": "HE01KU8",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU8.json",
@@ -46820,6 +47233,21 @@
         "documentId": "HD01KU34",
         "date": "2026-05-20",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU34",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2026-05-07",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2026-05-20",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2026-05-20",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -46895,6 +47323,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Konstitutionsutskottet (KU) föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen. Förslaget handlar bland annat om att abort ska bli en grundlagsskyddad fri- och rättighet. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. Det vilande förslaget om ändringar i regeringsformen innebär att\n\nrätten till abort införs i regeringsformen som en ny grundläggande fri- och rättighet\n\ndet ska bli möjligt att genom lag ta det svenska medborgarskapet ifrån en person som har dubbla medborgarskap och som har fått medborgarskapet på felaktiga grunder eller som har dömts för brott som allvarligt skadar Sveriges vitala intressen\n\nföreningsfriheten, det vill säga friheten att bland annat starta föreningar, ska kunna begränsas genom lag när det gäller sammanslutningar som ägnar sig åt allvarlig brottslighet för ekonomisk vinning eller annan otillbörlig fördel.\n\nLagändringarna föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 20 maj 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Konstitutionsutskottet (KU) föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen. Förslaget handlar bland annat om att abort ska bli en grundlagsskyddad fri- och rättighet. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. Det vilande förslaget om ändringar i regeringsformen innebär att</p>\n<ul>\n<li>rätten till abort införs i regeringsformen som en ny grundläggande fri- och rättighet</li>\n<li>det ska bli möjligt att genom lag ta det svenska medborgarskapet ifrån en person som har dubbla medborgarskap och som har fått medborgarskapet på felaktiga grunder eller som har dömts för brott som allvarligt skadar Sveriges vitala intressen</li>\n<li>föreningsfriheten, det vill säga friheten att bland annat starta föreningar, ska kunna begränsas genom lag när det gäller sammanslutningar som ägnar sig åt allvarlig brottslighet för ekonomisk vinning eller annan otillbörlig fördel.</li>\n</ul>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 20 maj 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval. </p>",
         "title": "Ja till grundlagsändringar om abort, medborgarskap och föreningsfrihet (KU9)",
         "documentId": "HE01KU9",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU9.json",
@@ -46985,6 +47414,21 @@
         "documentId": "HD01KU8",
         "date": "2025-12-03",
         "documentUrl": "https://data.riksdagen.se/dokument/HD01KU8",
+        "parliamentaryProgress": {
+          "committee": {
+            "date": "2025-11-13",
+            "status": "completed",
+            "recommendation": "adopt"
+          },
+          "debate": {
+            "date": "2025-11-27",
+            "status": "completed"
+          },
+          "chamber": {
+            "date": "2025-12-03",
+            "status": "completed"
+          }
+        },
         "propositionReferences": [
           {
             "kind": "proposition",
@@ -47043,6 +47487,7 @@
       "finalDecision": null,
       "sourceText": {
         "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen och ändringar i riksdagsordningen. Förslaget handlar bland annat om att riksdagen och regeringen ska ges bättre förutsättningar att i krig och andra svåra kriser fullgöra sina uppgifter och fatta nödvändiga beslut på legal grund. \n\nFörslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. \n\nFörslaget innebär bland annat följande:\n\nRiksdagens möjligheter att sammanträda stärks.\n\nRiksdagens krigsdelegation behålls för krig och krigsfara, och reglerna om delegationen justeras. Bland annat får talmannen en roll som motsvarar den i riksdagen. Vidare ska en ledamot som blir statsråd inte längre kunna ingå i delegationen.\n\nDet införs nya bestämmelser om normgivning i allvarliga fredstida krissituationer. Regleringen innebär att riksdagen med kvalificerad majoritet ska kunna ge regeringen särskilda befogenheter att meddela föreskrifter om det behövs för att hantera krissituationen. Befogenheterna ska när som helst kunna återkallas av riksdagen.\n\nUtskottet föreslår också att riksdagen antar förslag till vissa lagtekniska och redaktionella ändringar i riksdagsordningen, samt en redaktionell ändring i offentlighets- och sekretesslagen. \n\nLagändringarna föreslås börja gälla den 1 januari 2027. Utskottets förslag till ändring i en huvudbestämmelse i riksdagsordningen föreslås börja gälla den 2 januari 2027.\n\nEftersom förslaget gäller regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringarna i riksdagsordningens huvudbestämmelser i det vilande förslaget. Det första beslutet om förslaget togs den 3 december 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen och ändringar i riksdagsordningen. Förslaget handlar bland annat om att riksdagen och regeringen ska ges bättre förutsättningar att i krig och andra svåra kriser fullgöra sina uppgifter och fatta nödvändiga beslut på legal grund. </p>\n<p>Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. </p>\n<p>Förslaget innebär bland annat följande:</p>\n<ul>\n<li>Riksdagens möjligheter att sammanträda stärks.</li>\n<li>Riksdagens krigsdelegation behålls för krig och krigsfara, och reglerna om delegationen justeras. Bland annat får talmannen en roll som motsvarar den i riksdagen. Vidare ska en ledamot som blir statsråd inte längre kunna ingå i delegationen.</li>\n<li>Det införs nya bestämmelser om normgivning i allvarliga fredstida krissituationer. Regleringen innebär att riksdagen med kvalificerad majoritet ska kunna ge regeringen särskilda befogenheter att meddela föreskrifter om det behövs för att hantera krissituationen. Befogenheterna ska när som helst kunna återkallas av riksdagen.</li>\n</ul>\n<p>Utskottet föreslår också att riksdagen antar förslag till vissa lagtekniska och redaktionella ändringar i riksdagsordningen, samt en redaktionell ändring i offentlighets- och sekretesslagen. </p>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027. Utskottets förslag till ändring i en huvudbestämmelse i riksdagsordningen föreslås börja gälla den 2 januari 2027.</p>\n<p>Eftersom förslaget gäller regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringarna i riksdagsordningens huvudbestämmelser i det vilande förslaget. Det första beslutet om förslaget togs den 3 december 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Stärkt konstitutionell beredskap vid krig och svåra kriser (KU6)",
         "documentId": "HE01KU6",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU6.json",
@@ -47490,6 +47935,58 @@
           "forarbeten": [
             "Bet. 2002/03:KU9",
             "Rskr. 2002/03:9"
+          ]
+        },
+        {
+          "version": "2010:1342",
+          "uri": "https://lagen.nu/1949:105/konsolidering/2010:1342",
+          "url": "/1949:105/konsolidering/2010:1342",
+          "ikraft": "2011-01-01",
+          "forarbeten": [
+            "Bet. 2009/10:KU23",
+            "Bet. 2010/11:KU6",
+            "Prop. 2009/10:58",
+            "Rskr. 2009/10:307",
+            "Rskr. 2010/11:28"
+          ]
+        },
+        {
+          "version": "2010:1347",
+          "uri": "https://lagen.nu/1949:105/konsolidering/2010:1347",
+          "url": "/1949:105/konsolidering/2010:1347",
+          "ikraft": "2011-01-01",
+          "forarbeten": [
+            "Bet. 2009/10:KU18",
+            "Bet. 2010/11:KU3",
+            "Prop. 2009/10:81",
+            "Rskr. 2009/10:303",
+            "Rskr. 2010/11:26"
+          ]
+        },
+        {
+          "version": "2010:1355",
+          "uri": "https://lagen.nu/1949:105/konsolidering/2010:1355",
+          "url": "/1949:105/konsolidering/2010:1355",
+          "ikraft": "2011-01-01",
+          "forarbeten": [
+            "Bet. 2009/10:KU34",
+            "Bet. 2010/11:KU5",
+            "Prop. 2009/10:70",
+            "Rskr. 2009/10:274",
+            "Rskr. 2010/11:27"
+          ]
+        },
+        {
+          "version": "2010:1409",
+          "uri": "https://lagen.nu/1949:105/konsolidering/2010:1409",
+          "url": "/1949:105/konsolidering/2010:1409",
+          "ikraft": "2011-01-01",
+          "forarbeten": [
+            "Bet. 2009/10:KU19",
+            "Bet. 2010/11:KU4",
+            "Prop. 2009/10:80",
+            "Rskr. 2009/10:304",
+            "Rskr. 2010/11:21"
           ]
         },
         {

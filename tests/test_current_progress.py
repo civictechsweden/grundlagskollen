@@ -76,6 +76,15 @@ class CurrentProgressTests(unittest.TestCase):
         self.assertIsNone(proposal["finalDecision"])
         self.assertEqual(proposal["firstDecision"]["documentId"], "UNFAMILIAR-FIRST")
 
+    def test_first_decision_retains_its_own_committee_and_debate_stages(self):
+        progress = {"committee": {"date": "2026-05-07", "status": "completed", "recommendation": "adopt"},
+                    "debate": {"date": "2026-05-20", "status": "completed"},
+                    "chamber": {"date": "2026-05-20", "status": "completed"}}
+        first = {**self.first(), "parliamentaryProgress": progress}
+        proposal = builder.proposal_record(first, self.extract(), 50)
+        self.assertEqual(proposal["firstDecision"]["parliamentaryProgress"], progress)
+        self.assertEqual(proposal["parliamentaryProgress"]["debate"]["status"], "planned")
+
     def test_completed_decision_needs_no_editorial_seed(self):
         first = self.first()
         final = self.extract(chamber_status="inträffat", chamber_date="2026-11-04")

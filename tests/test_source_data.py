@@ -7,6 +7,29 @@ from scripts import build_dataset as builder
 
 
 class SourceDataTests(unittest.TestCase):
+    def test_printed_versions_use_official_archives_within_their_coverage(self):
+        self.assertEqual(builder.printed_sfs_url("2022:1566"), "https://svenskforfattningssamling.se/doc/20221566.html")
+        self.assertEqual(builder.printed_sfs_url("2018:160"), "https://svenskforfattningssamling.se/doc/2018160.html")
+        self.assertEqual(builder.printed_sfs_url("2018:159"), "https://rkrattsdb.gov.se/SFSdoc/18/180159.PDF")
+        self.assertEqual(builder.printed_sfs_url("2002:905"), "https://rkrattsdb.gov.se/SFSdoc/02/020905.PDF")
+        self.assertEqual(builder.printed_sfs_url("1998:306"), "https://rkrattsdb.gov.se/SFSdoc/98/980306.PDF")
+        self.assertIsNone(builder.printed_sfs_url("1998:305"))
+        self.assertIsNone(builder.printed_sfs_url("1976:871"))
+        self.assertIsNone(builder.printed_sfs_url("invalid"))
+
+    def test_comparisons_fix_both_versions_and_use_numeric_sfs_order(self):
+        law_uri = "https://lagen.nu/1974:152"
+        versions = {sfs: {} for sfs in ["2022:1600", "2018:1903", "2022:1566"]}
+        self.assertEqual(builder.version_comparison_urls(law_uri, versions), {
+            "2022:1566": f"{law_uri}/konsolidering/2022:1566?diff=2018%3A1903",
+            "2022:1600": f"{law_uri}/konsolidering/2022:1600?diff=2022%3A1566",
+        })
+        self.assertEqual(builder.version_comparison_urls(law_uri, {"2022:10": {}, "2022:9": {}}), {
+            "2022:10": f"{law_uri}/konsolidering/2022:10?diff=2022%3A9",
+        })
+        self.assertEqual(builder.version_comparison_urls(law_uri, {}), {})
+        self.assertEqual(builder.version_comparison_urls(law_uri, {"2022:1600": {}}), {})
+
     def test_notices_use_source_wording_and_switch_after_chamber_decision(self):
         status = {"dokuppgift": {"uppgift": [
             {"kod": "notis", "text": "<p>Riksdagen sa ja.</p>", "namn": "Beslut i korthet"},
@@ -28,6 +51,14 @@ class SourceDataTests(unittest.TestCase):
         summary = builder.source_summary({}, source, "UNFAMILIAR", False)
         self.assertEqual(summary["text"], "Förslaget gäller regeringsformen.")
         self.assertEqual(summary["sourceField"], "Sammanfattning")
+
+    def test_source_html_retains_paragraphs_and_list_items(self):
+        markup = '<p>Förslaget innebär följande:</p><ul><li>Första punkten.</li><li>Andra punkten.</li></ul><p>Lagändringen träder i kraft.</p>'
+        status = {"dokuppgift": {"uppgift": {"kod": "notis", "text": markup}}}
+        summary = builder.source_summary(status, "", "SOURCE", True)
+        self.assertEqual(summary["html"], markup)
+        self.assertIn("Första punkten.", summary["text"])
+        self.assertNotIn("<li>", summary["text"])
 
     def test_missing_or_unbounded_summary_is_not_invented(self):
         self.assertIsNone(builder.source_summary({}, "No summary", "NEW", False))
