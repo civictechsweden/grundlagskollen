@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T09:45:08.314074+00:00",
+  "generatedAt": "2026-11-11T09:20:43.885617+00:00",
   "nodes": [
     {
       "id": "riksdag:c010ku15",
@@ -17748,6 +17748,14 @@
       "value": "2025/26:3"
     },
     {
+      "id": "riksdag:he0i16",
+      "type": "document",
+      "documentId": "HE0I16",
+      "title": "Onsdag den 11 november 2026",
+      "kind": "f-lista",
+      "date": null
+    },
+    {
       "id": "riksdag:he0j20261111",
       "type": "document",
       "documentId": "HE0J20261111",
@@ -34923,11 +34931,19 @@
     },
     {
       "from": "riksdag:he01ku6",
+      "to": "riksdag:he0i16",
+      "type": "structured_reference",
+      "relation": "föredragningslista",
+      "sourceDocumentId": "HE01KU6",
+      "evidence": "föredragningslista 2026/27:16 Onsdag den 11 november 2026"
+    },
+    {
+      "from": "riksdag:he01ku6",
       "to": "riksdag:he0j20261111",
       "type": "structured_reference",
       "relation": "talarlista",
       "sourceDocumentId": "HE01KU6",
-      "evidence": "talarlista 2026/27:0 Onsdag den 11 november 2026"
+      "evidence": "talarlista 2026/27:16 Onsdag den 11 november 2026"
     },
     {
       "from": "riksdag:he01ku6",
@@ -34979,11 +34995,19 @@
     },
     {
       "from": "riksdag:he01ku7",
+      "to": "riksdag:he0i16",
+      "type": "structured_reference",
+      "relation": "föredragningslista",
+      "sourceDocumentId": "HE01KU7",
+      "evidence": "föredragningslista 2026/27:16 Onsdag den 11 november 2026"
+    },
+    {
+      "from": "riksdag:he01ku7",
       "to": "riksdag:he0j20261111",
       "type": "structured_reference",
       "relation": "talarlista",
       "sourceDocumentId": "HE01KU7",
-      "evidence": "talarlista 2026/27:0 Onsdag den 11 november 2026"
+      "evidence": "talarlista 2026/27:16 Onsdag den 11 november 2026"
     },
     {
       "from": "riksdag:he01ku7",
@@ -35019,11 +35043,19 @@
     },
     {
       "from": "riksdag:he01ku8",
+      "to": "riksdag:he0i16",
+      "type": "structured_reference",
+      "relation": "föredragningslista",
+      "sourceDocumentId": "HE01KU8",
+      "evidence": "föredragningslista 2026/27:16 Onsdag den 11 november 2026"
+    },
+    {
+      "from": "riksdag:he01ku8",
       "to": "riksdag:he0j20261111",
       "type": "structured_reference",
       "relation": "talarlista",
       "sourceDocumentId": "HE01KU8",
-      "evidence": "talarlista 2026/27:0 Onsdag den 11 november 2026"
+      "evidence": "talarlista 2026/27:16 Onsdag den 11 november 2026"
     },
     {
       "from": "riksdag:he01ku8",
@@ -35059,11 +35091,19 @@
     },
     {
       "from": "riksdag:he01ku9",
+      "to": "riksdag:he0i16",
+      "type": "structured_reference",
+      "relation": "föredragningslista",
+      "sourceDocumentId": "HE01KU9",
+      "evidence": "föredragningslista 2026/27:16 Onsdag den 11 november 2026"
+    },
+    {
+      "from": "riksdag:he01ku9",
       "to": "riksdag:he0j20261111",
       "type": "structured_reference",
       "relation": "talarlista",
       "sourceDocumentId": "HE01KU9",
-      "evidence": "talarlista 2026/27:0 Onsdag den 11 november 2026"
+      "evidence": "talarlista 2026/27:16 Onsdag den 11 november 2026"
     },
     {
       "from": "riksdag:he01ku9",

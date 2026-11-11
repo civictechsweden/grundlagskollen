@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T09:45:11.839948+00:00",
+  "generatedAt": "2026-11-11T09:20:48.547215+00:00",
   "documents": [
     {
       "documentId": "C010KU15",
@@ -83312,12 +83312,24 @@
           "ref_dok_dokumentnamn": "Proposition"
         },
         {
+          "referenstyp": "föredragningslista",
+          "uppgift": "föredragningslista 2026/27:16 Onsdag den 11 november 2026",
+          "ref_dok_id": "HE0I16",
+          "ref_dok_typ": "f-lista",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Onsdag den 11 november 2026",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Kammarens föredragningslista"
+        },
+        {
           "referenstyp": "talarlista",
-          "uppgift": "talarlista 2026/27:0 Onsdag den 11 november 2026",
+          "uppgift": "talarlista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0J20261111",
           "ref_dok_typ": "t-lista",
           "ref_dok_rm": "2026/27",
-          "ref_dok_bet": "0",
+          "ref_dok_bet": "16",
           "ref_dok_titel": "Onsdag den 11 november 2026",
           "ref_dok_subtitel": "",
           "ref_dok_subtyp": "",
@@ -83412,7 +83424,7 @@
           "code": "B",
           "name": "Bordläggning",
           "date": "2026-11-10",
-          "status": "planerat"
+          "status": "inträffat"
         },
         {
           "code": "BEH",
@@ -83504,12 +83516,24 @@
       ],
       "structuredReferences": [
         {
+          "referenstyp": "föredragningslista",
+          "uppgift": "föredragningslista 2026/27:16 Onsdag den 11 november 2026",
+          "ref_dok_id": "HE0I16",
+          "ref_dok_typ": "f-lista",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Onsdag den 11 november 2026",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Kammarens föredragningslista"
+        },
+        {
           "referenstyp": "talarlista",
-          "uppgift": "talarlista 2026/27:0 Onsdag den 11 november 2026",
+          "uppgift": "talarlista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0J20261111",
           "ref_dok_typ": "t-lista",
           "ref_dok_rm": "2026/27",
-          "ref_dok_bet": "0",
+          "ref_dok_bet": "16",
           "ref_dok_titel": "Onsdag den 11 november 2026",
           "ref_dok_subtitel": "",
           "ref_dok_subtyp": "",
@@ -83578,7 +83602,7 @@
           "code": "B",
           "name": "Bordläggning",
           "date": "2026-11-10",
-          "status": "planerat"
+          "status": "inträffat"
         },
         {
           "code": "BEH",
@@ -83666,12 +83690,24 @@
       ],
       "structuredReferences": [
         {
+          "referenstyp": "föredragningslista",
+          "uppgift": "föredragningslista 2026/27:16 Onsdag den 11 november 2026",
+          "ref_dok_id": "HE0I16",
+          "ref_dok_typ": "f-lista",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Onsdag den 11 november 2026",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Kammarens föredragningslista"
+        },
+        {
           "referenstyp": "talarlista",
-          "uppgift": "talarlista 2026/27:0 Onsdag den 11 november 2026",
+          "uppgift": "talarlista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0J20261111",
           "ref_dok_typ": "t-lista",
           "ref_dok_rm": "2026/27",
-          "ref_dok_bet": "0",
+          "ref_dok_bet": "16",
           "ref_dok_titel": "Onsdag den 11 november 2026",
           "ref_dok_subtitel": "",
           "ref_dok_subtyp": "",
@@ -83740,7 +83776,7 @@
           "code": "B",
           "name": "Bordläggning",
           "date": "2026-11-10",
-          "status": "planerat"
+          "status": "inträffat"
         },
         {
           "code": "BEH",
@@ -83828,12 +83864,24 @@
       ],
       "structuredReferences": [
         {
+          "referenstyp": "föredragningslista",
+          "uppgift": "föredragningslista 2026/27:16 Onsdag den 11 november 2026",
+          "ref_dok_id": "HE0I16",
+          "ref_dok_typ": "f-lista",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Onsdag den 11 november 2026",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Kammarens föredragningslista"
+        },
+        {
           "referenstyp": "talarlista",
-          "uppgift": "talarlista 2026/27:0 Onsdag den 11 november 2026",
+          "uppgift": "talarlista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0J20261111",
           "ref_dok_typ": "t-lista",
           "ref_dok_rm": "2026/27",
-          "ref_dok_bet": "0",
+          "ref_dok_bet": "16",
           "ref_dok_titel": "Onsdag den 11 november 2026",
           "ref_dok_subtitel": "",
           "ref_dok_subtyp": "",
@@ -83908,7 +83956,7 @@
           "code": "B",
           "name": "Bordläggning",
           "date": "2026-11-10",
-          "status": "planerat"
+          "status": "inträffat"
         },
         {
           "code": "BEH",
