@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:20:43.885617+00:00",
+  "generatedAt": "2026-11-12T09:46:32.511953+00:00",
   "nodes": [
     {
       "id": "riksdag:c010ku15",
@@ -7567,7 +7567,7 @@
       "documentId": "HE01KU6",
       "title": "Stärkt konstitutionell beredskap (vilande grundlagsförslag m.m.)",
       "kind": "bet",
-      "date": null
+      "date": "2026-11-11"
     },
     {
       "id": "riksdag:he01ku7",
@@ -7575,7 +7575,7 @@
       "documentId": "HE01KU7",
       "title": "Tillgänglighetskrav för vissa medier (vilande grundlagsförslag)",
       "kind": "bet",
-      "date": null
+      "date": "2026-11-11"
     },
     {
       "id": "riksdag:he01ku8",
@@ -7583,7 +7583,7 @@
       "documentId": "HE01KU8",
       "title": "Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan (vilande grundlagsförslag)",
       "kind": "bet",
-      "date": null
+      "date": "2026-11-11"
     },
     {
       "id": "riksdag:he01ku9",
@@ -7591,7 +7591,7 @@
       "documentId": "HE01KU9",
       "title": "En grundlagsskyddad aborträtt samt utökade möjligheter att begränsa föreningsfriheten och rätten till medborgarskap (vilande grundlagsförslag)",
       "kind": "bet",
-      "date": null
+      "date": "2026-11-11"
     },
     {
       "id": "citation:proposition:1968:92",
@@ -17748,6 +17748,14 @@
       "value": "2025/26:3"
     },
     {
+      "id": "riksdag:hec320261111ku6",
+      "type": "document",
+      "documentId": "HEC320261111KU6",
+      "title": "Beslut: Stärkt konstitutionell beredskap (vilande grundlagsförslag m.m.)",
+      "kind": "kammakt",
+      "date": null
+    },
+    {
       "id": "riksdag:he0i16",
       "type": "document",
       "documentId": "HE0I16",
@@ -17756,11 +17764,35 @@
       "date": null
     },
     {
+      "id": "riksdag:he0916",
+      "type": "document",
+      "documentId": "HE0916",
+      "title": "Protokoll 2026/27:16 Onsdagen den 11 november",
+      "kind": "prot",
+      "date": null
+    },
+    {
+      "id": "riksdag:he0k11",
+      "type": "document",
+      "documentId": "HE0K11",
+      "title": "Riksdagsskrivelse 2026/27:11",
+      "kind": "rskr",
+      "date": null
+    },
+    {
       "id": "riksdag:he0j20261111",
       "type": "document",
       "documentId": "HE0J20261111",
       "title": "Onsdag den 11 november 2026",
       "kind": "t-lista",
+      "date": null
+    },
+    {
+      "id": "riksdag:hec5ddfozeacwfouhckgtt",
+      "type": "document",
+      "documentId": "HEC5DDFOZEACWFOUHCKGTT",
+      "title": "Teckenspråkstolkat beslut: Stärkt konstitutionell beredskap vid krig och svåra kriser ",
+      "kind": "kammakt",
       "date": null
     },
     {
@@ -17782,16 +17814,88 @@
       "value": "2025/26:366"
     },
     {
+      "id": "riksdag:hec320261111ku7",
+      "type": "document",
+      "documentId": "HEC320261111KU7",
+      "title": "Beslut: Tillgänglighetskrav för vissa medier (vilande grundlagsförslag)",
+      "kind": "kammakt",
+      "date": null
+    },
+    {
+      "id": "riksdag:he0k12",
+      "type": "document",
+      "documentId": "HE0K12",
+      "title": "Riksdagsskrivelse 2026/27:12",
+      "kind": "rskr",
+      "date": null
+    },
+    {
+      "id": "riksdag:hec5xomkodfjuezfqmuwtt",
+      "type": "document",
+      "documentId": "HEC5XOMKODFJUEZFQMUWTT",
+      "title": "Teckenspråkstolkat beslut: Grundlagsändringar om tillgänglighetskrav för vissa medier",
+      "kind": "kammakt",
+      "date": null
+    },
+    {
       "id": "citation:riksdagsskrivelse:2025/26:213",
       "type": "citation",
       "kind": "riksdagsskrivelse",
       "value": "2025/26:213"
     },
     {
+      "id": "riksdag:hec320261111ku8",
+      "type": "document",
+      "documentId": "HEC320261111KU8",
+      "title": "Beslut: Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan (vilande grundlagsförslag)",
+      "kind": "kammakt",
+      "date": null
+    },
+    {
+      "id": "riksdag:he0k13",
+      "type": "document",
+      "documentId": "HE0K13",
+      "title": "Riksdagsskrivelse 2026/27:13",
+      "kind": "rskr",
+      "date": null
+    },
+    {
+      "id": "riksdag:hec5hfawqrnjjpzibotptt",
+      "type": "document",
+      "documentId": "HEC5HFAWQRNJJPZIBOTPTT",
+      "title": "Teckenspråkstolkat beslut: Digitala upptagningar som inhämtas genom beslag och kopiering vid husrannsakan ska inte anses vara allmänna handlingar",
+      "kind": "kammakt",
+      "date": null
+    },
+    {
       "id": "citation:riksdagsskrivelse:2025/26:214",
       "type": "citation",
       "kind": "riksdagsskrivelse",
       "value": "2025/26:214"
+    },
+    {
+      "id": "riksdag:hec320261111ku9",
+      "type": "document",
+      "documentId": "HEC320261111KU9",
+      "title": "Beslut: En grundlagsskyddad aborträtt samt utökade möjligheter att begränsa föreningsfriheten och rätten till medborgarskap (vilande grundlagsförslag)",
+      "kind": "kammakt",
+      "date": null
+    },
+    {
+      "id": "riksdag:he0k14",
+      "type": "document",
+      "documentId": "HE0K14",
+      "title": "Riksdagsskrivelse 2026/27:14",
+      "kind": "rskr",
+      "date": null
+    },
+    {
+      "id": "riksdag:hec5uxgbbjulrsnfjcectt",
+      "type": "document",
+      "documentId": "HEC5UXGBBJULRSNFJCECTT",
+      "title": "Teckenspråkstolkat beslut: Ja till grundlagsändringar om abort, medborgarskap och föreningsfrihet",
+      "kind": "kammakt",
+      "date": null
     },
     {
       "id": "citation:riksdagsskrivelse:2025/26:266",
@@ -34931,6 +35035,14 @@
     },
     {
       "from": "riksdag:he01ku6",
+      "to": "riksdag:hec320261111ku6",
+      "type": "structured_reference",
+      "relation": "beslut_id",
+      "sourceDocumentId": "HE01KU6",
+      "evidence": "Beslut 2026/27:KU6"
+    },
+    {
+      "from": "riksdag:he01ku6",
       "to": "riksdag:he0i16",
       "type": "structured_reference",
       "relation": "föredragningslista",
@@ -34939,11 +35051,43 @@
     },
     {
       "from": "riksdag:he01ku6",
+      "to": "riksdag:he0916",
+      "type": "structured_reference",
+      "relation": "protokollbeslut",
+      "sourceDocumentId": "HE01KU6",
+      "evidence": "2026-11-11"
+    },
+    {
+      "from": "riksdag:he01ku6",
+      "to": "riksdag:he0916",
+      "type": "structured_reference",
+      "relation": "protokolldebatt",
+      "sourceDocumentId": "HE01KU6",
+      "evidence": "2026-11-11"
+    },
+    {
+      "from": "riksdag:he01ku6",
+      "to": "riksdag:he0k11",
+      "type": "structured_reference",
+      "relation": "rskr",
+      "sourceDocumentId": "HE01KU6",
+      "evidence": ""
+    },
+    {
+      "from": "riksdag:he01ku6",
       "to": "riksdag:he0j20261111",
       "type": "structured_reference",
       "relation": "talarlista",
       "sourceDocumentId": "HE01KU6",
       "evidence": "talarlista 2026/27:16 Onsdag den 11 november 2026"
+    },
+    {
+      "from": "riksdag:he01ku6",
+      "to": "riksdag:hec5ddfozeacwfouhckgtt",
+      "type": "structured_reference",
+      "relation": "teckenspråk",
+      "sourceDocumentId": "HE01KU6",
+      "evidence": "Teckenspråkstolkat beslut: 2026/27:KU6"
     },
     {
       "from": "riksdag:he01ku6",
@@ -34995,6 +35139,14 @@
     },
     {
       "from": "riksdag:he01ku7",
+      "to": "riksdag:hec320261111ku7",
+      "type": "structured_reference",
+      "relation": "beslut_id",
+      "sourceDocumentId": "HE01KU7",
+      "evidence": "Beslut 2026/27:KU7"
+    },
+    {
+      "from": "riksdag:he01ku7",
       "to": "riksdag:he0i16",
       "type": "structured_reference",
       "relation": "föredragningslista",
@@ -35003,11 +35155,35 @@
     },
     {
       "from": "riksdag:he01ku7",
+      "to": "riksdag:he0916",
+      "type": "structured_reference",
+      "relation": "protokollbeslut",
+      "sourceDocumentId": "HE01KU7",
+      "evidence": "2026-11-11"
+    },
+    {
+      "from": "riksdag:he01ku7",
+      "to": "riksdag:he0k12",
+      "type": "structured_reference",
+      "relation": "rskr",
+      "sourceDocumentId": "HE01KU7",
+      "evidence": ""
+    },
+    {
+      "from": "riksdag:he01ku7",
       "to": "riksdag:he0j20261111",
       "type": "structured_reference",
       "relation": "talarlista",
       "sourceDocumentId": "HE01KU7",
       "evidence": "talarlista 2026/27:16 Onsdag den 11 november 2026"
+    },
+    {
+      "from": "riksdag:he01ku7",
+      "to": "riksdag:hec5xomkodfjuezfqmuwtt",
+      "type": "structured_reference",
+      "relation": "teckenspråk",
+      "sourceDocumentId": "HE01KU7",
+      "evidence": "Teckenspråkstolkat beslut: 2026/27:KU7"
     },
     {
       "from": "riksdag:he01ku7",
@@ -35043,6 +35219,14 @@
     },
     {
       "from": "riksdag:he01ku8",
+      "to": "riksdag:hec320261111ku8",
+      "type": "structured_reference",
+      "relation": "beslut_id",
+      "sourceDocumentId": "HE01KU8",
+      "evidence": "Beslut 2026/27:KU8"
+    },
+    {
+      "from": "riksdag:he01ku8",
       "to": "riksdag:he0i16",
       "type": "structured_reference",
       "relation": "föredragningslista",
@@ -35051,11 +35235,35 @@
     },
     {
       "from": "riksdag:he01ku8",
+      "to": "riksdag:he0916",
+      "type": "structured_reference",
+      "relation": "protokollbeslut",
+      "sourceDocumentId": "HE01KU8",
+      "evidence": "2026-11-11"
+    },
+    {
+      "from": "riksdag:he01ku8",
+      "to": "riksdag:he0k13",
+      "type": "structured_reference",
+      "relation": "rskr",
+      "sourceDocumentId": "HE01KU8",
+      "evidence": ""
+    },
+    {
+      "from": "riksdag:he01ku8",
       "to": "riksdag:he0j20261111",
       "type": "structured_reference",
       "relation": "talarlista",
       "sourceDocumentId": "HE01KU8",
       "evidence": "talarlista 2026/27:16 Onsdag den 11 november 2026"
+    },
+    {
+      "from": "riksdag:he01ku8",
+      "to": "riksdag:hec5hfawqrnjjpzibotptt",
+      "type": "structured_reference",
+      "relation": "teckenspråk",
+      "sourceDocumentId": "HE01KU8",
+      "evidence": "Teckenspråkstolkat beslut: 2026/27:KU8"
     },
     {
       "from": "riksdag:he01ku8",
@@ -35091,6 +35299,14 @@
     },
     {
       "from": "riksdag:he01ku9",
+      "to": "riksdag:hec320261111ku9",
+      "type": "structured_reference",
+      "relation": "beslut_id",
+      "sourceDocumentId": "HE01KU9",
+      "evidence": "Beslut 2026/27:KU9"
+    },
+    {
+      "from": "riksdag:he01ku9",
       "to": "riksdag:he0i16",
       "type": "structured_reference",
       "relation": "föredragningslista",
@@ -35099,11 +35315,43 @@
     },
     {
       "from": "riksdag:he01ku9",
+      "to": "riksdag:he0916",
+      "type": "structured_reference",
+      "relation": "protokollbeslut",
+      "sourceDocumentId": "HE01KU9",
+      "evidence": "2026-11-11"
+    },
+    {
+      "from": "riksdag:he01ku9",
+      "to": "riksdag:he0916",
+      "type": "structured_reference",
+      "relation": "protokolldebatt",
+      "sourceDocumentId": "HE01KU9",
+      "evidence": "2026-11-11"
+    },
+    {
+      "from": "riksdag:he01ku9",
+      "to": "riksdag:he0k14",
+      "type": "structured_reference",
+      "relation": "rskr",
+      "sourceDocumentId": "HE01KU9",
+      "evidence": ""
+    },
+    {
+      "from": "riksdag:he01ku9",
       "to": "riksdag:he0j20261111",
       "type": "structured_reference",
       "relation": "talarlista",
       "sourceDocumentId": "HE01KU9",
       "evidence": "talarlista 2026/27:16 Onsdag den 11 november 2026"
+    },
+    {
+      "from": "riksdag:he01ku9",
+      "to": "riksdag:hec5uxgbbjulrsnfjcectt",
+      "type": "structured_reference",
+      "relation": "teckenspråk",
+      "sourceDocumentId": "HE01KU9",
+      "evidence": "Teckenspråkstolkat beslut: 2026/27:KU9"
     },
     {
       "from": "riksdag:he01ku9",

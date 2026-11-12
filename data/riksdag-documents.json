@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:20:48.547215+00:00",
+  "generatedAt": "2026-11-12T09:46:36.303565+00:00",
   "documents": [
     {
       "documentId": "C010KU15",
@@ -83251,9 +83251,9 @@
       "designation": "KU6",
       "title": "Stärkt konstitutionell beredskap (vilande grundlagsförslag m.m.)",
       "publishedDate": "2026-11-05",
-      "decisionDate": null,
-      "decisionCompleted": false,
-      "plannedDecisionDate": "2026-11-11",
+      "decisionDate": "2026-11-11",
+      "decisionCompleted": true,
+      "plannedDecisionDate": null,
       "parliamentaryProgress": {
         "committee": {
           "date": "2026-11-05",
@@ -83262,21 +83262,21 @@
         },
         "debate": {
           "date": "2026-11-11",
-          "status": "planned"
+          "status": "completed"
         },
         "chamber": {
           "date": "2026-11-11",
-          "status": "planned"
+          "status": "completed"
         }
       },
       "sourceText": {
-        "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen och ändringar i riksdagsordningen. Förslaget handlar bland annat om att riksdagen och regeringen ska ges bättre förutsättningar att i krig och andra svåra kriser fullgöra sina uppgifter och fatta nödvändiga beslut på legal grund. \n\nFörslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. \n\nFörslaget innebär bland annat följande:\n\nRiksdagens möjligheter att sammanträda stärks.\n\nRiksdagens krigsdelegation behålls för krig och krigsfara, och reglerna om delegationen justeras. Bland annat får talmannen en roll som motsvarar den i riksdagen. Vidare ska en ledamot som blir statsråd inte längre kunna ingå i delegationen.\n\nDet införs nya bestämmelser om normgivning i allvarliga fredstida krissituationer. Regleringen innebär att riksdagen med kvalificerad majoritet ska kunna ge regeringen särskilda befogenheter att meddela föreskrifter om det behövs för att hantera krissituationen. Befogenheterna ska när som helst kunna återkallas av riksdagen.\n\nUtskottet föreslår också att riksdagen antar förslag till vissa lagtekniska och redaktionella ändringar i riksdagsordningen, samt en redaktionell ändring i offentlighets- och sekretesslagen. \n\nLagändringarna föreslås börja gälla den 1 januari 2027. Utskottets förslag till ändring i en huvudbestämmelse i riksdagsordningen föreslås börja gälla den 2 januari 2027.\n\nEftersom förslaget gäller regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringarna i riksdagsordningens huvudbestämmelser i det vilande förslaget. Det första beslutet om förslaget togs den 3 december 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
-        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen och ändringar i riksdagsordningen. Förslaget handlar bland annat om att riksdagen och regeringen ska ges bättre förutsättningar att i krig och andra svåra kriser fullgöra sina uppgifter och fatta nödvändiga beslut på legal grund. </p>\n<p>Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. </p>\n<p>Förslaget innebär bland annat följande:</p>\n<ul>\n<li>Riksdagens möjligheter att sammanträda stärks.</li>\n<li>Riksdagens krigsdelegation behålls för krig och krigsfara, och reglerna om delegationen justeras. Bland annat får talmannen en roll som motsvarar den i riksdagen. Vidare ska en ledamot som blir statsråd inte längre kunna ingå i delegationen.</li>\n<li>Det införs nya bestämmelser om normgivning i allvarliga fredstida krissituationer. Regleringen innebär att riksdagen med kvalificerad majoritet ska kunna ge regeringen särskilda befogenheter att meddela föreskrifter om det behövs för att hantera krissituationen. Befogenheterna ska när som helst kunna återkallas av riksdagen.</li>\n</ul>\n<p>Utskottet föreslår också att riksdagen antar förslag till vissa lagtekniska och redaktionella ändringar i riksdagsordningen, samt en redaktionell ändring i offentlighets- och sekretesslagen. </p>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027. Utskottets förslag till ändring i en huvudbestämmelse i riksdagsordningen föreslås börja gälla den 2 januari 2027.</p>\n<p>Eftersom förslaget gäller regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringarna i riksdagsordningens huvudbestämmelser i det vilande förslaget. Det första beslutet om förslaget togs den 3 december 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
+        "text": "Riksdagen sa ja till grundlagsändringar i regeringsformen och ändringar i riksdagsordningen. Ändringarna handlar bland annat om att riksdagen och regeringen ska ges bättre förutsättningar att i krig och andra svåra kriser fullgöra sina uppgifter och fatta nödvändiga beslut på legal grund. \n\nBeslutet gäller ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. \n\nÄndringarna innebär bland annat följande:\n\nRiksdagens möjligheter att sammanträda stärks.\n\nRiksdagens krigsdelegation behålls för krig och krigsfara, och reglerna om delegationen justeras. Bland annat får talmannen en roll som motsvarar den i riksdagen. Vidare ska en ledamot som blir statsråd inte längre kunna ingå i delegationen.\n\nDet införs nya bestämmelser om normgivning i allvarliga fredstida krissituationer. Regleringen innebär att riksdagen med kvalificerad majoritet ska kunna ge regeringen särskilda befogenheter att meddela föreskrifter om det behövs för att hantera krissituationen. Befogenheterna ska när som helst kunna återkallas av riksdagen.\n\nRiksdagen antar också förslag till vissa lagtekniska och redaktionella ändringar i riksdagsordningen, samt en redaktionell ändring i offentlighets- och sekretesslagen. \n\nLagändringarna börjar gälla den 1 januari 2027. En ändring i en huvudbestämmelse i riksdagsordningen börjar gälla den 2 januari 2027.\n\nEftersom beslutet gäller regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringarna i riksdagsordningens huvudbestämmelser i det vilande förslaget. Det första beslutet om förslaget togs den 3 december 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Riksdagen sa ja till grundlagsändringar i regeringsformen och ändringar i riksdagsordningen. Ändringarna handlar bland annat om att riksdagen och regeringen ska ges bättre förutsättningar att i krig och andra svåra kriser fullgöra sina uppgifter och fatta nödvändiga beslut på legal grund. </p>\n<p>Beslutet gäller ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. </p>\n<p>Ändringarna innebär bland annat följande:</p>\n<ul>\n<li>Riksdagens möjligheter att sammanträda stärks.</li>\n<li>Riksdagens krigsdelegation behålls för krig och krigsfara, och reglerna om delegationen justeras. Bland annat får talmannen en roll som motsvarar den i riksdagen. Vidare ska en ledamot som blir statsråd inte längre kunna ingå i delegationen.</li>\n<li>Det införs nya bestämmelser om normgivning i allvarliga fredstida krissituationer. Regleringen innebär att riksdagen med kvalificerad majoritet ska kunna ge regeringen särskilda befogenheter att meddela föreskrifter om det behövs för att hantera krissituationen. Befogenheterna ska när som helst kunna återkallas av riksdagen.</li>\n</ul>\n<p>Riksdagen antar också förslag till vissa lagtekniska och redaktionella ändringar i riksdagsordningen, samt en redaktionell ändring i offentlighets- och sekretesslagen. </p>\n<p>Lagändringarna börjar gälla den 1 januari 2027. En ändring i en huvudbestämmelse i riksdagsordningen börjar gälla den 2 januari 2027.</p>\n<p>Eftersom beslutet gäller regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Samma regler gäller i detta fall ändringarna i riksdagsordningens huvudbestämmelser i det vilande förslaget. Det första beslutet om förslaget togs den 3 december 2025 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Stärkt konstitutionell beredskap vid krig och svåra kriser (KU6)",
         "documentId": "HE01KU6",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU6.json",
-        "sourceField": "dokumentstatus.dokuppgift.uppgift[kod=utsknotis].text",
-        "kind": "committee_notice"
+        "sourceField": "dokumentstatus.dokuppgift.uppgift[kod=notis].text",
+        "kind": "decision_notice"
       },
       "firstDecisionLinks": [
         {
@@ -83312,6 +83312,18 @@
           "ref_dok_dokumentnamn": "Proposition"
         },
         {
+          "referenstyp": "beslut_id",
+          "uppgift": "Beslut 2026/27:KU6",
+          "ref_dok_id": "HEC320261111KU6",
+          "ref_dok_typ": "kammakt",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "KU6",
+          "ref_dok_titel": "Beslut: Stärkt konstitutionell beredskap (vilande grundlagsförslag m.m.)",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "vo",
+          "ref_dok_dokumentnamn": "Votering"
+        },
+        {
           "referenstyp": "föredragningslista",
           "uppgift": "föredragningslista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0I16",
@@ -83324,6 +83336,42 @@
           "ref_dok_dokumentnamn": "Kammarens föredragningslista"
         },
         {
+          "referenstyp": "protokollbeslut",
+          "uppgift": "2026-11-11",
+          "ref_dok_id": "HE0916",
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Protokoll 2026/27:16 Onsdagen den 11 november",
+          "ref_dok_subtitel": "Stärkt konstitutionell beredskap (vilande grundlagsförslag m.m.)",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Protokoll"
+        },
+        {
+          "referenstyp": "protokolldebatt",
+          "uppgift": "2026-11-11",
+          "ref_dok_id": "HE0916",
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Protokoll 2026/27:16 Onsdagen den 11 november",
+          "ref_dok_subtitel": "Stärkt konstitutionell beredskap (vilande grundlagsförslag m.m.)",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Protokoll"
+        },
+        {
+          "referenstyp": "rskr",
+          "uppgift": "",
+          "ref_dok_id": "HE0K11",
+          "ref_dok_typ": "rskr",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "11",
+          "ref_dok_titel": "Riksdagsskrivelse 2026/27:11",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "rskr",
+          "ref_dok_dokumentnamn": "Riksdagsskrivelse"
+        },
+        {
           "referenstyp": "talarlista",
           "uppgift": "talarlista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0J20261111",
@@ -83334,6 +83382,18 @@
           "ref_dok_subtitel": "",
           "ref_dok_subtyp": "",
           "ref_dok_dokumentnamn": "Talarlista"
+        },
+        {
+          "referenstyp": "teckenspråk",
+          "uppgift": "Teckenspråkstolkat beslut: 2026/27:KU6",
+          "ref_dok_id": "HEC5DDFOZEACWFOUHCKGtt",
+          "ref_dok_typ": "kammakt",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "KU6",
+          "ref_dok_titel": "Teckenspråkstolkat beslut: Stärkt konstitutionell beredskap vid krig och svåra kriser ",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "vo",
+          "ref_dok_dokumentnamn": "Votering"
         }
       ],
       "citations": [
@@ -83430,13 +83490,13 @@
           "code": "BEH",
           "name": "Behandling",
           "date": "2026-11-11",
-          "status": "planerat"
+          "status": "inträffat"
         },
         {
           "code": "BES",
           "name": "Beslut",
           "date": "2026-11-11",
-          "status": "planerat"
+          "status": "inträffat"
         }
       ],
       "textLength": 18647,
@@ -83452,7 +83512,7 @@
           "jlighet att införa begränsningar utan något aktiveringsbeslut från riksdagen eller stöd i lag, och det förhållandet att det vilande förslaget endast kan antas eller förkastas i sin helhet, anser jag att det vilande förslaget bör förkastas. Bilaga 1 Förteckning över behandlade förslag Vilande förslag Den 3 december 2025 beslutade riksdagen att som vilande an…"
         ],
         "rejectedBeforeFirstSignals": [],
-        "outcome": "unresolved"
+        "outcome": "adopted"
       },
       "evidence": [
         "Utskottets förslag till riksdagsbeslut 1. Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i regeringsformen och lag om ändring i riksdagsordningen i de delar det avser huvudbestämmelser och rubriker före huvud­bestämmelser. Reservation (MP) 2. Ändringar",
@@ -83467,9 +83527,9 @@
       "designation": "KU7",
       "title": "Tillgänglighetskrav för vissa medier (vilande grundlagsförslag)",
       "publishedDate": "2026-11-05",
-      "decisionDate": null,
-      "decisionCompleted": false,
-      "plannedDecisionDate": "2026-11-11",
+      "decisionDate": "2026-11-11",
+      "decisionCompleted": true,
+      "plannedDecisionDate": null,
       "parliamentaryProgress": {
         "committee": {
           "date": "2026-11-05",
@@ -83478,21 +83538,21 @@
         },
         "debate": {
           "date": "2026-11-11",
-          "status": "planned"
+          "status": "completed"
         },
         "chamber": {
           "date": "2026-11-11",
-          "status": "planned"
+          "status": "completed"
         }
       },
       "sourceText": {
-        "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Förslaget innebär att det blir möjligt att i vanlig lag reglera vissa tillgänglighetskrav för att till exempel säkerställa tillgängligheten för personer med funktionsnedsättning. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nDet vilande förslaget om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen innebär att fler krav som avser tillgänglighet ska kunna ställas i vanlig lag på produkter och tjänster som omfattas av grundlagsskydd. Syftet med ändringarna är att säkerställa tillgängligheten för personer med funktionsnedsättning samt de krav som följer av medlemskapet i Europeiska unionen.\n\nDe föreslagna ändringarna innebär bland annat följande: \n\nUtrymmet utvidgas för att ställa krav på att införa och på ett visst sätt utforma produktinformation, exempelvis på en förpackning.\n\nDet ska bli möjligt att ställa tillgänglighetskrav som rör information, format och funktion på bland annat e-böcker och e-handelstjänster.\n\nSkyldighet för nätinnehavare att vidaresända tillgänglighetstjänster, som textning och tolkning, ska kunna gälla andra än public service-företagens program.\n\nLagändringarna föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller tryckfrihetsförordningen och yttrandefrihetsgrundlagen som båda är grundlagar, krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
-        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till grundlagsändringar i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Förslaget innebär att det blir möjligt att i vanlig lag reglera vissa tillgänglighetskrav för att till exempel säkerställa tillgängligheten för personer med funktionsnedsättning. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Det vilande förslaget om ändring i tryckfrihetsförordningen och yttrandefrihetsgrundlagen innebär att fler krav som avser tillgänglighet ska kunna ställas i vanlig lag på produkter och tjänster som omfattas av grundlagsskydd. Syftet med ändringarna är att säkerställa tillgängligheten för personer med funktionsnedsättning samt de krav som följer av medlemskapet i Europeiska unionen.</p>\n<p>De föreslagna ändringarna innebär bland annat följande: </p>\n<ul>\n<li>Utrymmet utvidgas för att ställa krav på att införa och på ett visst sätt utforma produktinformation, exempelvis på en förpackning.</li>\n<li>Det ska bli möjligt att ställa tillgänglighetskrav som rör information, format och funktion på bland annat e-böcker och e-handelstjänster.</li>\n<li>Skyldighet för nätinnehavare att vidaresända tillgänglighetstjänster, som textning och tolkning, ska kunna gälla andra än public service-företagens program.</li>\n</ul>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller tryckfrihetsförordningen och yttrandefrihetsgrundlagen som båda är grundlagar, krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
+        "text": "Riksdagen sa ja till grundlagsändringar i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Ändringarna innebär att det blir möjligt att i vanlig lag reglera vissa tillgänglighetskrav för att till exempel säkerställa tillgängligheten för personer med funktionsnedsättning. Beslutet är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nÄndringarna i tryckfrihetsförordningen och yttrandefrihetsgrundlagen innebär att fler krav som avser tillgänglighet ska kunna ställas i vanlig lag på produkter och tjänster som omfattas av grundlagsskydd. Syftet med ändringarna är att säkerställa tillgängligheten för personer med funktionsnedsättning samt de krav som följer av medlemskapet i Europeiska unionen.\n\nÄndringarna innebär bland annat följande: \n\nUtrymmet utvidgas för att ställa krav på att införa och på ett visst sätt utforma produktinformation, exempelvis på en förpackning.\n\nDet ska bli möjligt att ställa tillgänglighetskrav som rör information, format och funktion på bland annat e-böcker och e-handelstjänster.\n\nSkyldighet för nätinnehavare att vidaresända tillgänglighetstjänster, som textning och tolkning, ska kunna gälla andra än public service-företagens program.\n\nLagändringarna börjar gälla den 1 januari 2027.\n\nEftersom beslutet gäller tryckfrihetsförordningen och yttrandefrihetsgrundlagen som båda är grundlagar, krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Riksdagen sa ja till grundlagsändringar i tryckfrihetsförordningen och yttrandefrihetsgrundlagen. Ändringarna innebär att det blir möjligt att i vanlig lag reglera vissa tillgänglighetskrav för att till exempel säkerställa tillgängligheten för personer med funktionsnedsättning. Beslutet är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Ändringarna i tryckfrihetsförordningen och yttrandefrihetsgrundlagen innebär att fler krav som avser tillgänglighet ska kunna ställas i vanlig lag på produkter och tjänster som omfattas av grundlagsskydd. Syftet med ändringarna är att säkerställa tillgängligheten för personer med funktionsnedsättning samt de krav som följer av medlemskapet i Europeiska unionen.</p>\n<p>Ändringarna innebär bland annat följande: </p>\n<ul>\n<li>Utrymmet utvidgas för att ställa krav på att införa och på ett visst sätt utforma produktinformation, exempelvis på en förpackning.</li>\n<li>Det ska bli möjligt att ställa tillgänglighetskrav som rör information, format och funktion på bland annat e-böcker och e-handelstjänster.</li>\n<li>Skyldighet för nätinnehavare att vidaresända tillgänglighetstjänster, som textning och tolkning, ska kunna gälla andra än public service-företagens program.</li>\n</ul>\n<p>Lagändringarna börjar gälla den 1 januari 2027.</p>\n<p>Eftersom beslutet gäller tryckfrihetsförordningen och yttrandefrihetsgrundlagen som båda är grundlagar, krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Grundlagsändringar om tillgänglighetskrav för vissa medier (KU7)",
         "documentId": "HE01KU7",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU7.json",
-        "sourceField": "dokumentstatus.dokuppgift.uppgift[kod=utsknotis].text",
-        "kind": "committee_notice"
+        "sourceField": "dokumentstatus.dokuppgift.uppgift[kod=notis].text",
+        "kind": "decision_notice"
       },
       "firstDecisionLinks": [
         {
@@ -83516,6 +83576,18 @@
       ],
       "structuredReferences": [
         {
+          "referenstyp": "beslut_id",
+          "uppgift": "Beslut 2026/27:KU7",
+          "ref_dok_id": "HEC320261111KU7",
+          "ref_dok_typ": "kammakt",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "KU7",
+          "ref_dok_titel": "Beslut: Tillgänglighetskrav för vissa medier (vilande grundlagsförslag)",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "vo",
+          "ref_dok_dokumentnamn": "Votering"
+        },
+        {
           "referenstyp": "föredragningslista",
           "uppgift": "föredragningslista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0I16",
@@ -83528,6 +83600,30 @@
           "ref_dok_dokumentnamn": "Kammarens föredragningslista"
         },
         {
+          "referenstyp": "protokollbeslut",
+          "uppgift": "2026-11-11",
+          "ref_dok_id": "HE0916",
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Protokoll 2026/27:16 Onsdagen den 11 november",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Protokoll"
+        },
+        {
+          "referenstyp": "rskr",
+          "uppgift": "",
+          "ref_dok_id": "HE0K12",
+          "ref_dok_typ": "rskr",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "12",
+          "ref_dok_titel": "Riksdagsskrivelse 2026/27:12",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "rskr",
+          "ref_dok_dokumentnamn": "Riksdagsskrivelse"
+        },
+        {
           "referenstyp": "talarlista",
           "uppgift": "talarlista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0J20261111",
@@ -83538,6 +83634,18 @@
           "ref_dok_subtitel": "",
           "ref_dok_subtyp": "",
           "ref_dok_dokumentnamn": "Talarlista"
+        },
+        {
+          "referenstyp": "teckenspråk",
+          "uppgift": "Teckenspråkstolkat beslut: 2026/27:KU7",
+          "ref_dok_id": "HEC5XOMKODFJUEZFQMUWtt",
+          "ref_dok_typ": "kammakt",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "KU7",
+          "ref_dok_titel": "Teckenspråkstolkat beslut: Grundlagsändringar om tillgänglighetskrav för vissa medier",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "vo",
+          "ref_dok_dokumentnamn": "Votering"
         }
       ],
       "citations": [
@@ -83608,13 +83716,13 @@
           "code": "BEH",
           "name": "Behandling",
           "date": "2026-11-11",
-          "status": "planerat"
+          "status": "inträffat"
         },
         {
           "code": "BES",
           "name": "Beslut",
           "date": "2026-11-11",
-          "status": "planerat"
+          "status": "inträffat"
         }
       ],
       "textLength": 5989,
@@ -83628,7 +83736,7 @@
         ],
         "finalRejectSignals": [],
         "rejectedBeforeFirstSignals": [],
-        "outcome": "unresolved"
+        "outcome": "adopted"
       },
       "evidence": [
         "Utskottets förslag till riksdagsbeslut Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i tryckfrihetsförordningen och lag om ändring i yttrandefrihetsgrundlagen. Stockholm den 5 november 2026 På konstitutionsutskottets vägnar Oscar Sjöstedt Följande"
@@ -83642,9 +83750,9 @@
       "designation": "KU8",
       "title": "Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan (vilande grundlagsförslag)",
       "publishedDate": "2026-11-05",
-      "decisionDate": null,
-      "decisionCompleted": false,
-      "plannedDecisionDate": "2026-11-11",
+      "decisionDate": "2026-11-11",
+      "decisionCompleted": true,
+      "plannedDecisionDate": null,
       "parliamentaryProgress": {
         "committee": {
           "date": "2026-11-05",
@@ -83653,21 +83761,21 @@
         },
         "debate": {
           "date": "2026-11-11",
-          "status": "planned"
+          "status": "completed"
         },
         "chamber": {
           "date": "2026-11-11",
-          "status": "planned"
+          "status": "completed"
         }
       },
       "sourceText": {
-        "text": "Konstitutionsutskottet föreslår att riksdagen säger ja till en grundlagsändring i tryckfrihetsförordningen. Ändringen handlar om att en digital upptagning som har tagits i beslag eller kopierats vid en husrannsakan inte ska anses vara en allmän handling. Förslaget är ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nDet vilande förslaget om ändring i tryckfrihetsfrihetsförordningen innebär att en upptagning för automatiserad behandling som har tagits i beslag eller kopierats vid en husrannsakan, bland annat i en brottsutredande verksamhet, inte ska anses vara en allmän handling. Detsamma gäller en sådan upptagning som har kommit in till en myndighet till följd av att myndigheten har tagit över ansvaret för den beslagtagna informationsbäraren eller kopian från husrannsakan. \n\nOm en upptagning tillförs en utredning av brott eller brottslig verksamhet eller annan verksamhet hos myndigheten ska den dock även fortsättningsvis utgöra en allmän handling.\n\nLagändringen föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller en ändring i tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
-        "html": "<p>Konstitutionsutskottet föreslår att riksdagen säger ja till en grundlagsändring i tryckfrihetsförordningen. Ändringen handlar om att en digital upptagning som har tagits i beslag eller kopierats vid en husrannsakan inte ska anses vara en allmän handling. Förslaget är ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Det vilande förslaget om ändring i tryckfrihetsfrihetsförordningen innebär att en upptagning för automatiserad behandling som har tagits i beslag eller kopierats vid en husrannsakan, bland annat i en brottsutredande verksamhet, inte ska anses vara en allmän handling. Detsamma gäller en sådan upptagning som har kommit in till en myndighet till följd av att myndigheten har tagit över ansvaret för den beslagtagna informationsbäraren eller kopian från husrannsakan. </p>\n<p>Om en upptagning tillförs en utredning av brott eller brottslig verksamhet eller annan verksamhet hos myndigheten ska den dock även fortsättningsvis utgöra en allmän handling.</p>\n<p>Lagändringen föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller en ändring i tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
+        "text": "Riksdagen sa ja till en grundlagsändring i tryckfrihetsförordningen. Ändringen handlar om att en digital upptagning som har tagits i beslag eller kopierats vid en husrannsakan inte ska anses vara en allmän handling. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.\n\nÄndringen i tryckfrihetsfrihetsförordningen innebär att en upptagning för automatiserad behandling som har tagits i beslag eller kopierats vid en husrannsakan, bland annat i en brottsutredande verksamhet, inte ska anses vara en allmän handling. Detsamma gäller en sådan upptagning som har kommit in till en myndighet till följd av att myndigheten har tagit över ansvaret för den beslagtagna informationsbäraren eller kopian från husrannsakan. \n\nOm en upptagning tillförs en utredning av brott eller brottslig verksamhet eller annan verksamhet hos myndigheten ska den dock även fortsättningsvis utgöra en allmän handling.\n\nLagändringen börjar gälla den 1 januari 2027.\n\nEftersom beslutet gäller en ändring i tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Riksdagen sa ja till en grundlagsändring i tryckfrihetsförordningen. Ändringen handlar om att en digital upptagning som har tagits i beslag eller kopierats vid en husrannsakan inte ska anses vara en allmän handling. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket betyder att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle.</p>\n<p>Ändringen i tryckfrihetsfrihetsförordningen innebär att en upptagning för automatiserad behandling som har tagits i beslag eller kopierats vid en husrannsakan, bland annat i en brottsutredande verksamhet, inte ska anses vara en allmän handling. Detsamma gäller en sådan upptagning som har kommit in till en myndighet till följd av att myndigheten har tagit över ansvaret för den beslagtagna informationsbäraren eller kopian från husrannsakan. </p>\n<p>Om en upptagning tillförs en utredning av brott eller brottslig verksamhet eller annan verksamhet hos myndigheten ska den dock även fortsättningsvis utgöra en allmän handling.</p>\n<p>Lagändringen börjar gälla den 1 januari 2027.</p>\n<p>Eftersom beslutet gäller en ändring i tryckfrihetsförordningen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 22 april 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Digitala upptagningar som inhämtas genom beslag och kopiering vid husrannsakan ska inte anses vara allmänna handlingar (KU8)",
         "documentId": "HE01KU8",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU8.json",
-        "sourceField": "dokumentstatus.dokuppgift.uppgift[kod=utsknotis].text",
-        "kind": "committee_notice"
+        "sourceField": "dokumentstatus.dokuppgift.uppgift[kod=notis].text",
+        "kind": "decision_notice"
       },
       "firstDecisionLinks": [
         {
@@ -83690,6 +83798,18 @@
       ],
       "structuredReferences": [
         {
+          "referenstyp": "beslut_id",
+          "uppgift": "Beslut 2026/27:KU8",
+          "ref_dok_id": "HEC320261111KU8",
+          "ref_dok_typ": "kammakt",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "KU8",
+          "ref_dok_titel": "Beslut: Insyn i handlingar som inhämtas genom beslag och kopiering vid husrannsakan (vilande grundlagsförslag)",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "vo",
+          "ref_dok_dokumentnamn": "Votering"
+        },
+        {
           "referenstyp": "föredragningslista",
           "uppgift": "föredragningslista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0I16",
@@ -83702,6 +83822,30 @@
           "ref_dok_dokumentnamn": "Kammarens föredragningslista"
         },
         {
+          "referenstyp": "protokollbeslut",
+          "uppgift": "2026-11-11",
+          "ref_dok_id": "HE0916",
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Protokoll 2026/27:16 Onsdagen den 11 november",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Protokoll"
+        },
+        {
+          "referenstyp": "rskr",
+          "uppgift": "",
+          "ref_dok_id": "HE0K13",
+          "ref_dok_typ": "rskr",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "13",
+          "ref_dok_titel": "Riksdagsskrivelse 2026/27:13",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "rskr",
+          "ref_dok_dokumentnamn": "Riksdagsskrivelse"
+        },
+        {
           "referenstyp": "talarlista",
           "uppgift": "talarlista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0J20261111",
@@ -83712,6 +83856,18 @@
           "ref_dok_subtitel": "",
           "ref_dok_subtyp": "",
           "ref_dok_dokumentnamn": "Talarlista"
+        },
+        {
+          "referenstyp": "teckenspråk",
+          "uppgift": "Teckenspråkstolkat beslut: 2026/27:KU8",
+          "ref_dok_id": "HEC5HFAWQRNJJPZIBOTPtt",
+          "ref_dok_typ": "kammakt",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "KU8",
+          "ref_dok_titel": "Teckenspråkstolkat beslut: Digitala upptagningar som inhämtas genom beslag och kopiering vid husrannsakan ska inte anses vara allmänna handlingar",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "vo",
+          "ref_dok_dokumentnamn": "Votering"
         }
       ],
       "citations": [
@@ -83782,13 +83938,13 @@
           "code": "BEH",
           "name": "Behandling",
           "date": "2026-11-11",
-          "status": "planerat"
+          "status": "inträffat"
         },
         {
           "code": "BES",
           "name": "Beslut",
           "date": "2026-11-11",
-          "status": "planerat"
+          "status": "inträffat"
         }
       ],
       "textLength": 5873,
@@ -83802,7 +83958,7 @@
         ],
         "finalRejectSignals": [],
         "rejectedBeforeFirstSignals": [],
-        "outcome": "unresolved"
+        "outcome": "adopted"
       },
       "evidence": [
         "Utskottets förslag till riksdagsbeslut Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i tryckfrihetsförordningen. Stockholm den 5 november 2026 På konstitutionsutskottets vägnar Oscar Sjöstedt Följande ledamöter har deltagit i beslutet: Oscar Sjöst"
@@ -83816,9 +83972,9 @@
       "designation": "KU9",
       "title": "En grundlagsskyddad aborträtt samt utökade möjligheter att begränsa föreningsfriheten och rätten till medborgarskap (vilande grundlagsförslag)",
       "publishedDate": "2026-11-05",
-      "decisionDate": null,
-      "decisionCompleted": false,
-      "plannedDecisionDate": "2026-11-11",
+      "decisionDate": "2026-11-11",
+      "decisionCompleted": true,
+      "plannedDecisionDate": null,
       "parliamentaryProgress": {
         "committee": {
           "date": "2026-11-05",
@@ -83827,21 +83983,21 @@
         },
         "debate": {
           "date": "2026-11-11",
-          "status": "planned"
+          "status": "completed"
         },
         "chamber": {
           "date": "2026-11-11",
-          "status": "planned"
+          "status": "completed"
         }
       },
       "sourceText": {
-        "text": "Konstitutionsutskottet (KU) föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen. Förslaget handlar bland annat om att abort ska bli en grundlagsskyddad fri- och rättighet. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. Det vilande förslaget om ändringar i regeringsformen innebär att\n\nrätten till abort införs i regeringsformen som en ny grundläggande fri- och rättighet\n\ndet ska bli möjligt att genom lag ta det svenska medborgarskapet ifrån en person som har dubbla medborgarskap och som har fått medborgarskapet på felaktiga grunder eller som har dömts för brott som allvarligt skadar Sveriges vitala intressen\n\nföreningsfriheten, det vill säga friheten att bland annat starta föreningar, ska kunna begränsas genom lag när det gäller sammanslutningar som ägnar sig åt allvarlig brottslighet för ekonomisk vinning eller annan otillbörlig fördel.\n\nLagändringarna föreslås börja gälla den 1 januari 2027.\n\nEftersom förslaget gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 20 maj 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
-        "html": "<p>Konstitutionsutskottet (KU) föreslår att riksdagen säger ja till grundlagsändringar i regeringsformen. Förslaget handlar bland annat om att abort ska bli en grundlagsskyddad fri- och rättighet. Förslaget är ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. Det vilande förslaget om ändringar i regeringsformen innebär att</p>\n<ul>\n<li>rätten till abort införs i regeringsformen som en ny grundläggande fri- och rättighet</li>\n<li>det ska bli möjligt att genom lag ta det svenska medborgarskapet ifrån en person som har dubbla medborgarskap och som har fått medborgarskapet på felaktiga grunder eller som har dömts för brott som allvarligt skadar Sveriges vitala intressen</li>\n<li>föreningsfriheten, det vill säga friheten att bland annat starta föreningar, ska kunna begränsas genom lag när det gäller sammanslutningar som ägnar sig åt allvarlig brottslighet för ekonomisk vinning eller annan otillbörlig fördel.</li>\n</ul>\n<p>Lagändringarna föreslås börja gälla den 1 januari 2027.</p>\n<p>Eftersom förslaget gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 20 maj 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval. </p>",
+        "text": "Riksdagen sa ja till grundlagsändringar i regeringsformen som bland annat handlar om att abort ska bli en grundlagsskyddad fri- och rättighet. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. Det vilande förslaget om ändringar i regeringsformen innebär att\n\nrätten till abort införs i regeringsformen som en ny grundläggande fri- och rättighet\n\ndet ska bli möjligt att genom lag ta det svenska medborgarskapet ifrån en person som har dubbla medborgarskap och som har fått medborgarskapet på felaktiga grunder eller som har dömts för brott som allvarligt skadar Sveriges vitala intressen\n\nföreningsfriheten, det vill säga friheten att bland annat starta föreningar, ska kunna begränsas genom lag när det gäller sammanslutningar som ägnar sig åt allvarlig brottslighet för ekonomisk vinning eller annan otillbörlig fördel.\n\nLagändringarna börjar gälla den 1 januari 2027.\n\nEftersom beslutet gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 20 maj 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.",
+        "html": "<p>Riksdagen sa ja till grundlagsändringar i regeringsformen som bland annat handlar om att abort ska bli en grundlagsskyddad fri- och rättighet. Beslutet gäller ett så kallat vilande grundlagsförslag, vilket innebär att riksdagen har tagit ett beslut i frågan vid ett tidigare tillfälle. Det vilande förslaget om ändringar i regeringsformen innebär att</p>\n<ul>\n<li>rätten till abort införs i regeringsformen som en ny grundläggande fri- och rättighet</li>\n<li>det ska bli möjligt att genom lag ta det svenska medborgarskapet ifrån en person som har dubbla medborgarskap och som har fått medborgarskapet på felaktiga grunder eller som har dömts för brott som allvarligt skadar Sveriges vitala intressen</li>\n<li>föreningsfriheten, det vill säga friheten att bland annat starta föreningar, ska kunna begränsas genom lag när det gäller sammanslutningar som ägnar sig åt allvarlig brottslighet för ekonomisk vinning eller annan otillbörlig fördel.</li>\n</ul>\n<p>Lagändringarna börjar gälla den 1 januari 2027.</p>\n<p>Eftersom beslutet gäller ändringar i regeringsformen som är en grundlag krävs att riksdagen röstar likadant två gånger om förslaget och att det hålls ett riksdagsval mellan omröstningarna. Det första beslutet om förslaget togs den 20 maj 2026 och då röstade riksdagen ja. Därefter har det varit ett riksdagsval.</p>",
         "title": "Ja till grundlagsändringar om abort, medborgarskap och föreningsfrihet (KU9)",
         "documentId": "HE01KU9",
         "sourceUrl": "https://data.riksdagen.se/dokument/HE01KU9.json",
-        "sourceField": "dokumentstatus.dokuppgift.uppgift[kod=utsknotis].text",
-        "kind": "committee_notice"
+        "sourceField": "dokumentstatus.dokuppgift.uppgift[kod=notis].text",
+        "kind": "decision_notice"
       },
       "firstDecisionLinks": [
         {
@@ -83864,6 +84020,18 @@
       ],
       "structuredReferences": [
         {
+          "referenstyp": "beslut_id",
+          "uppgift": "Beslut 2026/27:KU9",
+          "ref_dok_id": "HEC320261111KU9",
+          "ref_dok_typ": "kammakt",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "KU9",
+          "ref_dok_titel": "Beslut: En grundlagsskyddad aborträtt samt utökade möjligheter att begränsa föreningsfriheten och rätten till medborgarskap (vilande grundlagsförslag)",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "vo",
+          "ref_dok_dokumentnamn": "Votering"
+        },
+        {
           "referenstyp": "föredragningslista",
           "uppgift": "föredragningslista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0I16",
@@ -83876,6 +84044,42 @@
           "ref_dok_dokumentnamn": "Kammarens föredragningslista"
         },
         {
+          "referenstyp": "protokollbeslut",
+          "uppgift": "2026-11-11",
+          "ref_dok_id": "HE0916",
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Protokoll 2026/27:16 Onsdagen den 11 november",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Protokoll"
+        },
+        {
+          "referenstyp": "protokolldebatt",
+          "uppgift": "2026-11-11",
+          "ref_dok_id": "HE0916",
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_titel": "Protokoll 2026/27:16 Onsdagen den 11 november",
+          "ref_dok_subtitel": "En grundlagsskyddad aborträtt samt utökade möjligheter att begränsa föreningsfriheten och rätten till medborgarskap (vilande grundlagsförslag)",
+          "ref_dok_subtyp": "",
+          "ref_dok_dokumentnamn": "Protokoll"
+        },
+        {
+          "referenstyp": "rskr",
+          "uppgift": "",
+          "ref_dok_id": "HE0K14",
+          "ref_dok_typ": "rskr",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "14",
+          "ref_dok_titel": "Riksdagsskrivelse 2026/27:14",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "rskr",
+          "ref_dok_dokumentnamn": "Riksdagsskrivelse"
+        },
+        {
           "referenstyp": "talarlista",
           "uppgift": "talarlista 2026/27:16 Onsdag den 11 november 2026",
           "ref_dok_id": "HE0J20261111",
@@ -83886,6 +84090,18 @@
           "ref_dok_subtitel": "",
           "ref_dok_subtyp": "",
           "ref_dok_dokumentnamn": "Talarlista"
+        },
+        {
+          "referenstyp": "teckenspråk",
+          "uppgift": "Teckenspråkstolkat beslut: 2026/27:KU9",
+          "ref_dok_id": "HEC5UXGBBJULRSNFJCECtt",
+          "ref_dok_typ": "kammakt",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "KU9",
+          "ref_dok_titel": "Teckenspråkstolkat beslut: Ja till grundlagsändringar om abort, medborgarskap och föreningsfrihet",
+          "ref_dok_subtitel": "",
+          "ref_dok_subtyp": "vo",
+          "ref_dok_dokumentnamn": "Votering"
         }
       ],
       "citations": [
@@ -83962,13 +84178,13 @@
           "code": "BEH",
           "name": "Behandling",
           "date": "2026-11-11",
-          "status": "planerat"
+          "status": "inträffat"
         },
         {
           "code": "BES",
           "name": "Beslut",
           "date": "2026-11-11",
-          "status": "planerat"
+          "status": "inträffat"
         }
       ],
       "textLength": 17446,
@@ -83984,7 +84200,7 @@
           "Förslag till riksdagsbeslut Vi anser att förslaget till riksdagsbeslut borde ha följande lydelse: Riksdagen förkastar det vilande förslaget i bilaga 2 till lag om ändring i regeringsformen. Ställningstagande Vi anser att det vilande förslaget bör förkastas. Vi utvecklar våra skäl för detta i våra särskilda yttranden 2 respektive 4. Särskilda yttranden 1. Vi…"
         ],
         "rejectedBeforeFirstSignals": [],
-        "outcome": "unresolved"
+        "outcome": "adopted"
       },
       "evidence": [
         "Utskottets förslag till riksdagsbeslut Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i regeringsformen. Reservation (V, MP) Stockholm den 5 november 2026 På konstitutionsutskottets vägnar Oscar Sjöstedt Följande ledamöter har deltagit i beslutet:",

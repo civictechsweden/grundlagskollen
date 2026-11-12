@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-11T09:20:48.547215+00:00",
+  "generatedAt": "2026-11-12T09:46:36.303565+00:00",
   "documents": [
     {
       "documentId": "C010KU15",
@@ -14784,7 +14784,26 @@
         "Utskottets förslag till riksdagsbeslut 1. Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i regeringsformen och lag om ändring i riksdagsordningen i de delar det avser huvudbestämmelser och rubriker före huvud­bestämmelser. Reservation (MP) 2. Ändringar",
         "jlighet att införa begränsningar utan något aktiveringsbeslut från riksdagen eller stöd i lag, och det förhållandet att det vilande förslaget endast kan antas eller förkastas i sin helhet, anser jag att det vilande förslaget bör förkastas. Bilaga 1 Förteckning över behandlade förslag Vilande förslag Den 3 december 2025 beslutade riksdagen att som vilande an…"
       ],
-      "structuredReferences": []
+      "structuredReferences": [
+        {
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_id": "HE0916"
+        },
+        {
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_id": "HE0916"
+        },
+        {
+          "ref_dok_typ": "rskr",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "11",
+          "ref_dok_id": "HE0K11"
+        }
+      ]
     },
     {
       "documentId": "HE01KU7",
@@ -14797,7 +14816,20 @@
       "evidence": [
         "Utskottets förslag till riksdagsbeslut Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i tryckfrihetsförordningen och lag om ändring i yttrandefrihetsgrundlagen. Stockholm den 5 november 2026 På konstitutionsutskottets vägnar Oscar Sjöstedt Följande"
       ],
-      "structuredReferences": []
+      "structuredReferences": [
+        {
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_id": "HE0916"
+        },
+        {
+          "ref_dok_typ": "rskr",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "12",
+          "ref_dok_id": "HE0K12"
+        }
+      ]
     },
     {
       "documentId": "HE01KU8",
@@ -14809,7 +14841,20 @@
       "evidence": [
         "Utskottets förslag till riksdagsbeslut Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i tryckfrihetsförordningen. Stockholm den 5 november 2026 På konstitutionsutskottets vägnar Oscar Sjöstedt Följande ledamöter har deltagit i beslutet: Oscar Sjöst"
       ],
-      "structuredReferences": []
+      "structuredReferences": [
+        {
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_id": "HE0916"
+        },
+        {
+          "ref_dok_typ": "rskr",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "13",
+          "ref_dok_id": "HE0K13"
+        }
+      ]
     },
     {
       "documentId": "HE01KU9",
@@ -14822,7 +14867,26 @@
         "Utskottets förslag till riksdagsbeslut Vilande förslag Riksdagen antar slutligt det vilande förslaget i bilaga 2 till lag om ändring i regeringsformen. Reservation (V, MP) Stockholm den 5 november 2026 På konstitutionsutskottets vägnar Oscar Sjöstedt Följande ledamöter har deltagit i beslutet:",
         "Förslag till riksdagsbeslut Vi anser att förslaget till riksdagsbeslut borde ha följande lydelse: Riksdagen förkastar det vilande förslaget i bilaga 2 till lag om ändring i regeringsformen. Ställningstagande Vi anser att det vilande förslaget bör förkastas. Vi utvecklar våra skäl för detta i våra särskilda yttranden 2 respektive 4. Särskilda yttranden 1. Vi…"
       ],
-      "structuredReferences": []
+      "structuredReferences": [
+        {
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_id": "HE0916"
+        },
+        {
+          "ref_dok_typ": "prot",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "16",
+          "ref_dok_id": "HE0916"
+        },
+        {
+          "ref_dok_typ": "rskr",
+          "ref_dok_rm": "2026/27",
+          "ref_dok_bet": "14",
+          "ref_dok_id": "HE0K14"
+        }
+      ]
     }
   ]
 }

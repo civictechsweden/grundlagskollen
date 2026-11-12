@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-11T09:20:49.086838+00:00",
+  "generatedAt": "2026-11-12T09:46:36.930040+00:00",
   "metrics": {
-    "total_pending_proposals": 149,
-    "finally_adopted": 107,
+    "total_pending_proposals": 145,
+    "finally_adopted": 111,
     "finally_rejected": 1,
     "unresolved": 145,
     "matched_to_sfs": 83,
-    "adopted_without_sfs_match": 42,
+    "adopted_without_sfs_match": 46,
     "orphan_sfs": 38,
     "rejected_with_sfs": 0,
     "chronology_errors": 1,
@@ -1415,7 +1415,7 @@
           "expected": null
         },
         {
-          "name": "HE01KU6 planned vote is not final",
+          "name": "HE01KU6 completed chamber event retained",
           "passed": true,
           "actual": null,
           "expected": null
@@ -1433,7 +1433,7 @@
           "expected": null
         },
         {
-          "name": "HE01KU7 planned vote is not final",
+          "name": "HE01KU7 completed chamber event retained",
           "passed": true,
           "actual": null,
           "expected": null
@@ -1451,7 +1451,7 @@
           "expected": null
         },
         {
-          "name": "HE01KU8 planned vote is not final",
+          "name": "HE01KU8 completed chamber event retained",
           "passed": true,
           "actual": null,
           "expected": null
@@ -1469,7 +1469,7 @@
           "expected": null
         },
         {
-          "name": "HE01KU9 planned vote is not final",
+          "name": "HE01KU9 completed chamber event retained",
           "passed": true,
           "actual": null,
           "expected": null
@@ -1680,9 +1680,9 @@
     ],
     "twoWayValidation": {
       "riksdagToSfs": {
-        "adopted": 107,
+        "adopted": 111,
         "matched": 65,
-        "withoutMatch": 42
+        "withoutMatch": 46
       },
       "firstDecisionSfsConfirmation": 57,
       "sfsToRiksdag": {
