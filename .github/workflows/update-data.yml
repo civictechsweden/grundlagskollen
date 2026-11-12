@@ -2,7 +2,8 @@ name: Update legal data
 
 on:
   schedule:
-    - cron: '17 2 * * *'
+    - cron: '17 22 * * *'
+      timezone: 'Europe/Stockholm'
     - cron: '37 3 * * 0'
   workflow_dispatch:
 
