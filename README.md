@@ -4,7 +4,7 @@
 
 A Swedish website for following changes to Sweden's constitutional laws: pending proposals, committee recommendations, parliamentary decisions, elections and published amendments. Each case has a timeline linking back to its sources.
 
-The website is static. A Python pipeline builds its data from public APIs, and GitHub Actions refreshes current parliamentary developments daily and the full historical dataset weekly. Code changes and successful data updates automatically deploy to GitHub Pages. Displayed summaries are Riksdag's own text.
+The website is static. A Python pipeline builds its data from public APIs, and GitHub Actions refreshes current parliamentary developments daily. Full historical rebuilds are run locally when needed. Code changes and successful data updates automatically deploy to GitHub Pages. Displayed summaries are Riksdag's own text.
 
 ## Run locally
 
