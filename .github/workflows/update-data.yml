@@ -17,31 +17,34 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: astral-sh/setup-uv@v6
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10.3.3
         with:
-          version: "latest"
-      - run: uv run --locked --python 3.12 scripts/refresh_current.py
-      - run: uv run --locked --python 3.12 -m unittest discover -s tests
-      - run: uv run --locked --python 3.12 scripts/validate_recent.py
-      - run: uv run --locked --python 3.12 scripts/benchmark_data.py
-      - uses: actions/setup-node@v4
+          enable-cache: true
+          prune-cache: true
+      - name: Set up Python
+        run: uv python install
+      - run: uv run --locked scripts/refresh_current.py
+      - run: uv run --locked -m unittest discover -s tests
+      - run: uv run --locked scripts/validate_recent.py
+      - run: uv run --locked scripts/benchmark_data.py
+      - uses: actions/setup-node@v7
         with:
-          node-version: '22'
+          node-version-file: '.nvmrc'
           cache: npm
           cache-dependency-path: frontend/package-lock.json
       - run: npm ci
         working-directory: frontend
       - run: npm run build
         working-directory: frontend
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: grundlagskollen-site
           path: frontend/dist
       - name: Commit changed snapshot
         run: |
-          git config user.name "grundlagskollen-bot"
-          git config user.email "actions@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data DATA_BENCHMARK.md VERSIONING_REPORT.md frontend/public/versions frontend/public/DATA_BENCHMARK.md frontend/public/VERSIONING_REPORT.md
           git diff --cached --quiet || git commit -m "chore: update legal data"
           git push
