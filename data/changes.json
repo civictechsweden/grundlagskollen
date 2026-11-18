@@ -1,16 +1,16 @@
 {
-  "generatedAt": "2026-11-17T03:57:12.685303+00:00",
-  "currentRefreshedAt": "2026-11-17T03:57:09.429044+00:00",
+  "generatedAt": "2026-11-18T02:56:44.532817+00:00",
+  "currentRefreshedAt": "2026-11-18T02:56:40.697000+00:00",
   "historicalSnapshotAt": "2026-08-30T10:37:00.502047+00:00",
   "refreshScope": {
-    "parliamentaryFrom": "2026-11-09",
+    "parliamentaryFrom": "2026-11-10",
     "documentsRechecked": 32,
     "note": "Current parliamentary reports refreshed; historical SFS and version catalog retained."
   },
   "fetchMetrics": {
     "networkRequests": 66,
     "cacheHits": 0,
-    "bytesDownloaded": 9741971
+    "bytesDownloaded": 9741969
   },
   "scope": {
     "parliamentaryFrom": "1867-01-01",
