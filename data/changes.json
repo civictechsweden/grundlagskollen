@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-11-18T02:56:44.532817+00:00",
-  "currentRefreshedAt": "2026-11-18T02:56:40.697000+00:00",
+  "generatedAt": "2026-11-19T02:37:27.348204+00:00",
+  "currentRefreshedAt": "2026-11-19T02:37:23.464466+00:00",
   "historicalSnapshotAt": "2026-08-30T10:37:00.502047+00:00",
   "refreshScope": {
-    "parliamentaryFrom": "2026-11-10",
+    "parliamentaryFrom": "2026-11-11",
     "documentsRechecked": 32,
     "note": "Current parliamentary reports refreshed; historical SFS and version catalog retained."
   },
